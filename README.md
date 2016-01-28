@@ -29,29 +29,29 @@ TODO:
 
 #### Butterknife
 * Butterknife (GUI injection) https://github.com/JakeWharton/butterknife + https://jakewharton.github.io/butterknife/
-* (Butterknife vs Android Annotations)[htps://stackoverflow.com/questions/21279668/butterknife-vs-androidannotations
-* (How Butterknife actually works)[http://lgvalle.xyz/2015/05/04/butterknife/]
-* (Knork: простейшая альтернатива ButterKnife в 160 строк кода)[http://habrahabr.ru/post/230857/]
+* Butterknife vs Android Annotations htps://stackoverflow.com/questions/21279668/butterknife-vs-androidannotations
+* How Butterknife actually works http://lgvalle.xyz/2015/05/04/butterknife/
+* Knork: простейшая альтернатива ButterKnife в 160 строк кода http://habrahabr.ru/post/230857/
 
 ### Network
 * API Debugging - Runscope https://www.runscope.com/pricing-and-plans
 
 #### Retrofit
-* (Retrofit)[http://square.github.io/retrofit/]
-* (Consuming APIs with Retrofit)[https://guides.codepath.com/android/Consuming-APIs-with-Retrofit]
-* (Retrofit — Getting Started and Create an Android Client)[https://futurestud.io/blog/retrofit-getting-started-and-android-client]
-* (FutureStud's book about Retrofit (they also have one on Picasso)) [https://futurestud.io/books]
+* Retrofit)[http://square.github.io/retrofit/
+* Consuming APIs with Retrofit https://guides.codepath.com/android/Consuming-APIs-with-Retrofit
+* Retrofit — Getting Started and Create an Android Client https://futurestud.io/blog/retrofit-getting-started-and-android-client
+* FutureStud's book about Retrofit (they also have one on Picasso) https://futurestud.io/books
 
 
 ### Analytics systems
 * Flurry - no comments
-* (Count.ly)[https://count.ly/compare/] Opensource + cloud service, opensource client
-* (Amplitude)[https://amplitude.com/pricing] Costs...a lot lot. big free plan, revenue verification
-* (Mixpanel)[https://mixpanel.com/free/] Timed events, visual events editor, user tracker, A/B test support
-* (Devtodev)[http://megamozg.ru/company/devtodev/blog/18664/]
-* (Facebook Mobile Analytics)[https://vc.ru/p/facebook-mobile-analytics]
-* (AWS Mobile Analytics)[https://aws.amazon.com/ru/mobileanalytics/faqs/]
-* (UXCam)[https://uxcam.com/] video recording,heatmaps,etc
+* Count.ly https://count.ly/compare/ Opensource + cloud service, opensource client
+* Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
+* Mixpanel https://mixpanel.com/free/ Timed events, visual events editor, user tracker, A/B test support
+* Devtodev http://megamozg.ru/company/devtodev/blog/18664/
+* Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
+* AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
+* UXCam https://uxcam.com/ video recording,heatmaps,etc
 
 #### Google Universal Analytics
 * что есть measurment protocol в universal analytics внятное описание http://spark.ru/startup/adstein/blog/8762/otslezhivanie-offlajn-konversij-cherez-google-analytics?from=zp

@@ -1,5 +1,13 @@
 # My link collection about various development issues
 
+## Various
+* badges for projects http://shields.io/
+
+## iOS
+### Circle CI
+* https://circleci.com/docs/ios
+
+
 ## Android
 
 ### Data binding
@@ -79,14 +87,28 @@ TODO:
 #### Travis CI
 * com.android.ddmlib.ShellCommandUnresponsiveException  - http://stackoverflow.com/questions/32952413/gradle-commands-fail-on-api-23-google-api-emulator-image-armeabi-v7a bug in Android, one of workarounds https://code.google.com/p/android/issues/detail?id=189764&q=label%3APriority-Medium&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars also put lower android emulator version
 * issue with design support library https://github.com/codepath/android_guides/wiki/Setting-up-Travis-CI 
+* https://blog.cyplo.net/2015/10/25/android-integration-test-timeouts/
 * Google APIs http://stackoverflow.com/questions/28949722/android-tests-fail-on-travis-with-shellcommandunresponsiveexception/28949723#28949723
 * Code coverage testing - https://github.com/ParsePlatform/Parse-SDK-Android + https://github.com/codecov/example-android/blob/master/.travis.yml
-* see my me https://github.com/intari/MergeAdapterDemo
+* see my  https://github.com/intari/MergeAdapterDemo
 
+
+#### Circle CI
+* 1 free builder even for private repositories
+* Looks like (per https://code.google.com/p/android/issues/detail?id=104305 ) they have patched gradle for timeouts
+* Continuous Integration on Android: Why we ditched Jenkins for Circle CI https://infinum.co/the-capsized-eight/articles/continuous-integration-on-android-why-we-ditched-jenkins-for-circle-ci
+* Sample Circle CI + Espresso project https://discuss.circleci.com/t/a-sample-android-espresso-project/1212 https://github.com/circleci/EspressoSample
+* Circle CI Dummy Android app https://github.com/circleci/circle-dummy-android
+* What to do if timeout - https://stackoverflow.com/questions/33499046/android-project-automation-test-in-circleci-build-failed-with-an-exception (or read Espresso sample)
 
 ### JIRA Clients
 * https://play.google.com/store/apps/details?id=jira.soap&amp;hl=en
 * https://play.google.com/store/apps/details?id=com.mobilitystream.android.jiraconnectpro
+
+### Play Store Autosubmission
+## Gradle https://github.com/Triple-T/gradle-play-publisher (example from https://circleci.com/docs/android )
+## Jenkins https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin
+
 
 ### Android bootstrapers
 #### Android Bootstrap
@@ -98,6 +120,11 @@ TODO:
 * Account Manager
 * GSON
 * ...
+
 #### Android Kickstartr
 * http://androidkickstartr.com/
 
+## Системные дела
+* Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
+* ssh: Вытаскиваем для себя чужой порт из-за NAT https://habrahabr.ru/post/249515/
+* 

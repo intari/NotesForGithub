@@ -80,9 +80,27 @@ TODO:
 * http://stablekernel.com/blog/unit-testing-continuous-delivery-for-android-part-3/
 
 ### Testing
-* (The evolution journey of Android GUI testing Cucumber — Espresso — Page Object Pattern)[https://medium.com/@neoranga55/the-evolution-journey-of-android-gui-testing-f65005f7ced8]
-* (Roboletric,Espresso,JaCoCo,etc)[http://habrahabr.ru/company/rambler-co/blog/266837/]
-* (Wait for it...a deep dive into Espresso's Idling Resources)[http://dev.jimdo.com/2014/05/09/wait-for-it-a-deep-dive-into-espresso-s-idling-resources/]
+* The evolution journey of Android GUI testing Cucumber — Espresso — Page Object Pattern)[https://medium.com/@neoranga55/the-evolution-journey-of-android-gui-testing-f65005f7ced8
+* Roboletric,Espresso,JaCoCo,etc http://habrahabr.ru/company/rambler-co/blog/266837/
+* Wait for it...a deep dive into Espresso's Idling Resources http://dev.jimdo.com/2014/05/09/wait-for-it-a-deep-dive-into-espresso-s-idling-resources/
+* Заметки по тестированию, в том числе про mockito и Robotium https://www.bignerdranch.com/blog/testing-the-android-way/
+* Working with Robolectric and Robotium in Android Studio and Gradle https://benwilcock.wordpress.com/2015/01/20/working-with-robolectric-and-robotium-in-android-studio-and-gradle/ + https://github.com/benwilcock/android-alltest-gradle-sample
+* Different ways of testing exceptions in Java and JUnit http://blog.goyello.com/2015/10/01/different-ways-of-testing-exceptions-in-java-and-junit/
+
+#### mockito
+* Описание mockito http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html
+* http://monkeyisland.pl/2008/04/26/asking-and-telling/
+* Unit tests with Mockito - Tutorial http://www.vogella.com/tutorials/Mockito/article.html
+* https://corner.squareup.com/2012/10/mockito-android.html
+
+#### Roboletric
+* Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric 
+* вообще https://github.com/codepath/android_guides полезный репозиторий
+* How to test options menu with Robolectric https://stackoverflow.com/questions/21856053/how-to-test-menu-in-android-with-robolectric
+* Driving activity lifecycle http://robolectric.org/activity-lifecycle/
+* Using qualified resources http://robolectric.org/using-qualifiers/
+* Unit Testing Android Activity with Robolectric http://roboguicetutorials.blogspot.com/2014/10/unit-testing-android-activity-with-robolectric.html
+
 
 #### Travis CI
 * com.android.ddmlib.ShellCommandUnresponsiveException  - http://stackoverflow.com/questions/32952413/gradle-commands-fail-on-api-23-google-api-emulator-image-armeabi-v7a bug in Android, one of workarounds https://code.google.com/p/android/issues/detail?id=189764&q=label%3APriority-Medium&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars also put lower android emulator version
@@ -94,8 +112,8 @@ TODO:
 
 
 #### Circle CI
-* 1 free builder even for private repositories
-* Looks like (per https://code.google.com/p/android/issues/detail?id=104305 ) they have patched gradle for timeouts
+* 1 free builder even for private repositories (4 for OpenSource repositories). Github-only, no Bitbucket (per https://circleci.com/docs/faq )
+* Looks like (per https://code.google.com/p/android/issues/detail?id=104305 ) they thought about android timeout issues...
 * Continuous Integration on Android: Why we ditched Jenkins for Circle CI https://infinum.co/the-capsized-eight/articles/continuous-integration-on-android-why-we-ditched-jenkins-for-circle-ci
 * Sample Circle CI + Espresso project https://discuss.circleci.com/t/a-sample-android-espresso-project/1212 https://github.com/circleci/EspressoSample
 * Circle CI Dummy Android app https://github.com/circleci/circle-dummy-android
@@ -106,8 +124,8 @@ TODO:
 * https://play.google.com/store/apps/details?id=com.mobilitystream.android.jiraconnectpro
 
 ### Play Store Autosubmission
-## Gradle https://github.com/Triple-T/gradle-play-publisher (example from https://circleci.com/docs/android )
-## Jenkins https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin
+* Gradle https://github.com/Triple-T/gradle-play-publisher (example from https://circleci.com/docs/android )
+* Jenkins https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin
 
 
 ### Android bootstrapers

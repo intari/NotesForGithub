@@ -100,6 +100,9 @@ TODO:
 * Driving activity lifecycle http://robolectric.org/activity-lifecycle/
 * Using qualified resources http://robolectric.org/using-qualifiers/
 * Unit Testing Android Activity with Robolectric http://roboguicetutorials.blogspot.com/2014/10/unit-testing-android-activity-with-robolectric.html
+* TDD with Robolectric https://colabug.gitbooks.io/intro-to-android/content/tdd_with_robolectric/README.html
+* Robolectric + Espresso examples https://github.com/robolectric/deckard (именно гибридный вариант - когда то одно то другое)
+* Perform Clicks in Android Robolectric Unit Test http://timnew.me/blog/2014/10/27/perform-clicks-in-android-robolectric-unit-test/
 
 
 #### Travis CI

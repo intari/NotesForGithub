@@ -1,8 +1,8 @@
-# My link collection about various development issues
+# Набор пусть частично полезных ссылок по разработке
 
 ## Various
 * badges for projects http://shields.io/
-
+* недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
 
 
 ## Android 
@@ -46,6 +46,8 @@ TODO:
 * LeakCanary: Detect all memory leaks! https://corner.squareup.com/2015/05/leak-canary.html  https://github.com/square/leakcanary
 * TinyDancer - FPS measurement library https://github.com/brianPlummer/TinyDancer
 
+### Coordinator Layout
+* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
 
 ### Network
 

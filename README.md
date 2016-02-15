@@ -55,7 +55,7 @@ TODO:
 * Retrofit)[http://square.github.io/retrofit/
 * Consuming APIs with Retrofit https://guides.codepath.com/android/Consuming-APIs-with-Retrofit
 * Retrofit — Getting Started and Create an Android Client https://futurestud.io/blog/retrofit-getting-started-and-android-client
-* FutureStud's book about Retrofit (they also have one on Picasso) https://futurestud.io/books
+* FutureStud's book about Retrofit (they also have one on Picasso) https://futurestud.io/books + https://futurestud.io/blog/retrofit-series-round-up
 
 #### API Emulation
 * Fake the backend while you develop the frontend http://jsonstub.com/
@@ -204,8 +204,10 @@ TODO:
 * Управляем зависимостями в iOS-приложениях правильно: Модульность Typhoon https://habrahabr.ru/company/rambler-co/blog/261537/
 
 
-
 ## Системные дела
 * Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
 * ssh: Вытаскиваем для себя чужой порт из-за NAT https://habrahabr.ru/post/249515/
-* 
+
+## Перехват трафика для отладки
+* Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
+* Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12 

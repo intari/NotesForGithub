@@ -1,4 +1,4 @@
-# Набор пусть частично полезных ссылок по разработке
+# Набор моих пусть частично полезных ссылок по разработке
 
 ## Various
 * badges for projects http://shields.io/
@@ -194,6 +194,7 @@ TODO:
 ## iOS
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
 * AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling
+* простой шаблон синглтона https://gist.github.com/intari/e62ccd4c60eb36eabc82 (через GCD dispatch_once)
 
 ### Beta Testflight
 * как это все вообще делается http://www.raywenderlich.com/101790/ios-beta-testing-with-testflight-tutorial
@@ -203,6 +204,17 @@ TODO:
 ### CloudKit
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/
 * More detailed intro - iOS 8 By tutorials, Chapters 15 & 16
+
+### RestKit
+* https://github.com/RestKit/RestKit
+* http://www.raywenderlich.com/58682/introduction-restkit-tutorial
+* https://github.com/RestKit/RKGist/blob/master/TUTORIAL.md
+
+### Websocket library for iOS
+* Например SocketRocket https://corner.squareup.com/2012/02/socketrocket-websockets.html
+* Еще туториал по SocketRocket https://habrahabr.ru/post/214579/
+* вообще с вебсокетами можно с http://www.elabs.se/blog/66-using-websockets-in-native-ios-and-android-apps начинать (и для Android - тоже)
+* если на OS X эта несчастная демка руби-сервера из строки выше не ставится читаем все из https://stackoverflow.com/questions/8389301/os-x-rails-failed-to-build-gem-native-extension (есть например xcode-select)...
 
 
 ### Circle CI
@@ -216,6 +228,7 @@ TODO:
 
 
 
+
 ## Системные дела
 * Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
 * ssh: Вытаскиваем для себя чужой порт из-за NAT https://habrahabr.ru/post/249515/
@@ -223,3 +236,9 @@ TODO:
 ## Перехват трафика для отладки
 * Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
 * Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12 
+
+## NodeJS,etc
+* 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
+
+### Realtime app framework с nodejs server
+* http://socket.io/

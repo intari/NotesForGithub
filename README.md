@@ -240,5 +240,14 @@ TODO:
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
 
+## mBaaS
+постепенно сюда переносить
+* Top 5 Parse Alternatives http://www.raywenderlich.com/126098/top-5-parse-alternatives
+
+### Parse Server Hosting заявленные
+* http://yourparse.com/
+* http://parsehosting.net/
+
+
 ### Realtime app framework с nodejs server
 * http://socket.io/

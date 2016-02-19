@@ -1,10 +1,5 @@
 # Набор моих пусть частично полезных ссылок по разработке
 
-## Various
-* badges for projects http://shields.io/
-* недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
-
-
 ## Android 
 
 ### Data binding
@@ -240,14 +235,63 @@ TODO:
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
 
+## Big Data и поисковые технологии
+
+### Apache Spark/Hadoop
+* знакомство с Apache Spark https://habrahabr.ru/company/piter/blog/276675/ - замена Hadoop более удобная и быстрая
+* анализ логов с помощью Hadoop и Python http://habrahabr.ru/company/dca/blog/267107/ - по сути пример реализации DMP
+
+### Scikit,etc 
+* как узнать год выпуска песни по набору характеристик https://habrahabr.ru/post/264193/
+* введение в машинное обучение со Scikit learn http://habrahabr.ru/post/264241/
+
+### Apache Lucene/Nutch/YaCy/Поисковые технологии вообще
+* Материал по работе с Apache Lucene и созданию простейшего нечёткого поиска https://habrahabr.ru/post/277509/
+* Реализация поискового движка с ранжированием (простым) на python http://habrahabr.ru/post/263823/ и http://habrahabr.ru/post/263913/ и http://habrahabr.ru/post/263983/
+
+
+
 ## mBaaS
 постепенно сюда переносить
+* Parse Alternatives https://github.com/relatedcode/ParseAlternatives
 * Top 5 Parse Alternatives http://www.raywenderlich.com/126098/top-5-parse-alternatives
 
 ### Parse Server Hosting заявленные
 * http://yourparse.com/
 * http://parsehosting.net/
 
-
 ### Realtime app framework с nodejs server
 * http://socket.io/
+
+## GameDev
+* процедурная генерация случайных игровых подземелий https://habrahabr.ru/post/275727/
+
+## Code generation
+* http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL
+* http://habrahabr.ru/post/254831/ генерация кода во время исполнения или пишем свой JIT-компилятор…базовые вещи как это все работает и простой пример. и ссылка на «совершенный код» - главу про динамическую генерацию кода для обработки изображений
+* описание .NET Native http://habrahabr.ru/company/microsoft/blog/265889/
+* Про Getting Started with LLVM Core Libraries https://www.goodreads.com/book/show/23381764 также не забываем и про примеры с Kaleidoscope / комменты про llst.org
+* http://www.dabeaz.com/ply/ - базовый аналог lex+yacc с кучей примеров на python
+* Python ANTLR target https://github.com/antlr/antlr4-python2
+
+
+## Базы данных
+* как работает РСУБД http://habrahabr.ru/company/mailru/blog/266811/
+* Postgres NoSQL лучше, чем MongoDB? http://habrahabr.ru/post/272735/
+* проектирование документ-ориентированного API на Postgres http://habrahabr.ru/users/the_unbridled_goose/topics/
+  
+## Web Dev  
+### ASP.NET 
+* серия уроков ASP.NET MVC http://habrahabr.ru/post/175999/
+* пишем приложения для ASP.NET vNext на Mac http://habrahabr.ru/post/243483/  
+
+### Flask
+*  Мега-учебник Flask http://habrahabr.ru/post/193242/
+   
+    
+## Various
+* badges for projects http://shields.io/
+* недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
+* Что нам стоит сайт распарсить. Основы webdriver API http://habrahabr.ru/post/272105/
+* stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
+

@@ -177,6 +177,15 @@ TODO:
 #### Android Kickstartr
 * http://androidkickstartr.com/
 
+### rxJava
+* введение в RxJava http://habrahabr.ru/post/269417/
+* грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
+* грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
+* грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
+* Rx ключевые типы http://habrahabr.ru/post/270023/
+* rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
+* как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
+
 
 ### Android/Various
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
@@ -184,6 +193,8 @@ TODO:
 * TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/
 * Варианты сжатия текстур на Android https://habrahabr.ru/company/intel/blog/276089/
 * Кому жить, а кому умереть: приоритеты процессов в Android https://habrahabr.ru/post/276381/
+* Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
+* Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 
 
 ## iOS
@@ -265,12 +276,16 @@ TODO:
 
 ## GameDev
 * процедурная генерация случайных игровых подземелий https://habrahabr.ru/post/275727/
+* процедурно-генерируемые карты мира на unity C#, часть 4(на 1-3 там ссылки внутри) https://habrahabr.ru/post/276551/
+
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL
 * http://habrahabr.ru/post/254831/ генерация кода во время исполнения или пишем свой JIT-компилятор…базовые вещи как это все работает и простой пример. и ссылка на «совершенный код» - главу про динамическую генерацию кода для обработки изображений
 * описание .NET Native http://habrahabr.ru/company/microsoft/blog/265889/
 * Про Getting Started with LLVM Core Libraries https://www.goodreads.com/book/show/23381764 также не забываем и про примеры с Kaleidoscope / комменты про llst.org
+* исследования с LLVM http://habrahabr.ru/company/abbyy/blog/265871/ - пример как исследования проводить и как clang cо своим проходом использовать
+* CLang API: начало http://habrahabr.ru/post/148508/ правда статья 2012 года
 * http://www.dabeaz.com/ply/ - базовый аналог lex+yacc с кучей примеров на python
 * Python ANTLR target https://github.com/antlr/antlr4-python2
 
@@ -281,6 +296,12 @@ TODO:
 * проектирование документ-ориентированного API на Postgres http://habrahabr.ru/users/the_unbridled_goose/topics/
   
 ## Web Dev  
+
+### Extensions
+* Chrome Extension in 15 seconds http://extensionizr.com/ https://github.com/altryne/extensionizr
+* создаем свое расширение для Google Chrome http://habrahabr.ru/post/198652/
+
+
 ### ASP.NET 
 * серия уроков ASP.NET MVC http://habrahabr.ru/post/175999/
 * пишем приложения для ASP.NET vNext на Mac http://habrahabr.ru/post/243483/  

@@ -185,6 +185,7 @@ TODO:
 * Rx ключевые типы http://habrahabr.ru/post/270023/
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
+* блог Advanced Rx http://akarnokd.blogspot.com/
 
 
 ### Android/Various
@@ -193,6 +194,7 @@ TODO:
 * TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/
 * Варианты сжатия текстур на Android https://habrahabr.ru/company/intel/blog/276089/
 * Кому жить, а кому умереть: приоритеты процессов в Android https://habrahabr.ru/post/276381/
+* Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 
@@ -203,7 +205,7 @@ TODO:
 * как за 7 дней превратится из сервер сайд в клиент-сайд разработчика https://habrahabr.ru/company/mailru/blog/277495/ (также смотрим полезные для начинающего iOS-разработчика ссылки)
 * простой шаблон синглтона https://gist.github.com/intari/e62ccd4c60eb36eabc82 (через GCD dispatch_once)
 * жизненный цикл UIViewController’а https://habrahabr.ru/post/129557/ читать даже тем кто уверен что знает, есть некоторые...тонкости. недостаток - даже Storyboards не учтены
-
+* Преодолеваем скрытые опасности KVO в Objective C https://habrahabr.ru/company/eastbanctech/blog/202884/
 
 
 ### Beta Testflight
@@ -225,6 +227,9 @@ TODO:
 * Еще туториал по SocketRocket https://habrahabr.ru/post/214579/
 * вообще с вебсокетами можно с http://www.elabs.se/blog/66-using-websockets-in-native-ios-and-android-apps начинать (и для Android - тоже)
 * если на OS X эта несчастная демка руби-сервера из строки выше не ставится читаем все из https://stackoverflow.com/questions/8389301/os-x-rails-failed-to-build-gem-native-extension (есть например xcode-select)...
+* Получаем данные по websocket используя swift и заполняем UITableView (сервер node.js)  https://habrahabr.ru/post/277635/  - см также комменты
+* Библиотека для WebSocket на Swift https://github.com/daltoniam/Starscream и ее аналог на Objective-C https://github.com/acmacalister/jetfire - поддержка VoIP Sockets, Self-signed SSL, SSL pinning, возможность блоки использовать если нужно и других удобностей
+ 
 
 
 ### Circle CI
@@ -288,6 +293,7 @@ TODO:
 * http://habrahabr.ru/post/254831/ генерация кода во время исполнения или пишем свой JIT-компилятор…базовые вещи как это все работает и простой пример. и ссылка на «совершенный код» - главу про динамическую генерацию кода для обработки изображений
 * описание .NET Native http://habrahabr.ru/company/microsoft/blog/265889/
 * Про Getting Started with LLVM Core Libraries https://www.goodreads.com/book/show/23381764 также не забываем и про примеры с Kaleidoscope / комменты про llst.org
+* LLVM: компилятор своими руками. Введение https://habrahabr.ru/post/277717/
 * исследования с LLVM http://habrahabr.ru/company/abbyy/blog/265871/ - пример как исследования проводить и как clang cо своим проходом использовать
 * CLang API: начало http://habrahabr.ru/post/148508/ правда статья 2012 года
 * http://www.dabeaz.com/ply/ - базовый аналог lex+yacc с кучей примеров на python

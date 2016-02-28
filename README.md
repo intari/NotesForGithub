@@ -206,6 +206,7 @@ TODO:
 * простой шаблон синглтона https://gist.github.com/intari/e62ccd4c60eb36eabc82 (через GCD dispatch_once)
 * жизненный цикл UIViewController’а https://habrahabr.ru/post/129557/ читать даже тем кто уверен что знает, есть некоторые...тонкости. недостаток - даже Storyboards не учтены
 * Преодолеваем скрытые опасности KVO в Objective C https://habrahabr.ru/company/eastbanctech/blog/202884/
+* Обзор библиотеки для скачки/кэширования/обработки картинок, Swift http://www.raywenderlich.com/118361/what-is-nuke
 
 
 ### Beta Testflight
@@ -275,6 +276,7 @@ TODO:
 постепенно сюда переносить
 * Parse Alternatives https://github.com/relatedcode/ParseAlternatives
 * Top 5 Parse Alternatives http://www.raywenderlich.com/126098/top-5-parse-alternatives
+* альтернативы parse https://habrahabr.ru/post/277979/
 
 ### Parse Server Hosting заявленные
 * http://yourparse.com/

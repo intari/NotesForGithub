@@ -77,7 +77,7 @@ TODO:
 * как еще можно использовать именно с физическим миром http://nicomiceli.com/tracking-your-home-with-google-analytics/ (sleep patterns,amount of time door opens,еще можно то что у меня в в трекере страниц было)
 * еще http://www.optimizesmart.com/understanding-universal-analytics-measurement-protocol/
 * замечание - а почему бы так не использовать ту же amplitude analytics?api то есть же вроде - https://amplitude.com/docs/api/http - и стиль как у гугла…одна из причин чем лучще гугл - а тем что И мобильный API И MeasurementProtocol И Web. у Ampltude web…ну формально есть https://cloud.mantano.com/book/list?sort=created&order=desc - но вот всякие детали… и то что на тесте - не запустилось...
-*оно - бесплатное. в отличии от Amplitude….и имеет лимиты https://developers.google.com/analytics/devguides/collection/other/limits-quotas а 500 hits per session может стать проблемой.
+* оно - бесплатное. в отличии от Amplitude….и имеет лимиты https://developers.google.com/analytics/devguides/collection/other/limits-quotas а 500 hits per session может стать проблемой.
 
 ### Интересные (чем то) рекламные системы
 * Appodeal - медиатор http://megamozg.ru/post/15272/ aka http://appodeal.ru/
@@ -178,6 +178,7 @@ TODO:
 * http://androidkickstartr.com/
 
 ### rxJava
+* лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
 * введение в RxJava http://habrahabr.ru/post/269417/
 * грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
@@ -207,12 +208,19 @@ TODO:
 * жизненный цикл UIViewController’а https://habrahabr.ru/post/129557/ читать даже тем кто уверен что знает, есть некоторые...тонкости. недостаток - даже Storyboards не учтены
 * Преодолеваем скрытые опасности KVO в Objective C https://habrahabr.ru/company/eastbanctech/blog/202884/
 * Обзор библиотеки для скачки/кэширования/обработки картинок, Swift http://www.raywenderlich.com/118361/what-is-nuke
+* библиотека для удобной работы с Keychain https://github.com/ObjColumnist/MCSMKeychainItem
 
 
 ### Beta Testflight
 * как это все вообще делается http://www.raywenderlich.com/101790/ios-beta-testing-with-testflight-tutorial
 * если виснет на Authenticating with iTunes Store то может помочь https://stackoverflow.com/questions/18971710/application-loader-stuck-at-the-stage-of-authenticating-with-the-itunes-store
 * ITMS-90096 - если все точно сделано (и файл - Default-568@2x.png) то читаем https://stackoverflow.com/questions/28830013/your-binary-is-not-optimized-for-iphone-5-itms-90096-when-submitting
+
+### вспомогательные средства отладки GUI
+* платный Reveal http://revealapp.com/ 
+* платный Spark Inspector http://sparkinspector.com/ , умеет и Notification Center мониторить, умеет подключатся прямо в процессе работы (к симулятору правда, к устройствам надо framework)
+* Debug view hierarchy кнопочка в XCode начиная с XCode 6 ( смотрим https://stackoverflow.com/questions/5150186/how-do-i-inspect-the-view-hierarchy-in-ios/ ) , в отличии от Reveal - не умеет менять данные и вообще менее...удобна 
+* опенсорсный https://github.com/glock45/iOS-Hierarchy-Viewer (заодно и для CoreData), работает через браузер
 
 ### CloudKit
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/

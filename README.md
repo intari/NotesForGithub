@@ -198,7 +198,7 @@ TODO:
 * Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
-
+* Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
 
 ## iOS
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
@@ -209,6 +209,9 @@ TODO:
 * Преодолеваем скрытые опасности KVO в Objective C https://habrahabr.ru/company/eastbanctech/blog/202884/
 * Обзор библиотеки для скачки/кэширования/обработки картинок, Swift http://www.raywenderlich.com/118361/what-is-nuke
 * библиотека для удобной работы с Keychain https://github.com/ObjColumnist/MCSMKeychainItem
+* библиотека для работы с JSON сразу обьектами (чтобы не руками) https://github.com/hkellaway/Gloss + http://harlankellaway.com/Gloss/
+* пример работы с Goodreads API с OAUTH на Swift https://www.goodreads.com/topic/show/18044457-ios-swift-example?comment=148726023#comment_148726023 https://github.com/danielbmarques/GROAuthExample
+
 
 
 ### Beta Testflight
@@ -335,4 +338,8 @@ TODO:
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
 * Что нам стоит сайт распарсить. Основы webdriver API http://habrahabr.ru/post/272105/
 * stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
+
+### Вспомогательные средства для создания мессенджеров
+* https://layer.com/features
+* q-municate от quickblox
 

@@ -199,6 +199,7 @@ TODO:
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
+* VIPER для Android https://habrahabr.ru/company/rambler-co/blog/277003/
 
 ## iOS
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
@@ -211,7 +212,8 @@ TODO:
 * библиотека для удобной работы с Keychain https://github.com/ObjColumnist/MCSMKeychainItem
 * библиотека для работы с JSON сразу обьектами (чтобы не руками) https://github.com/hkellaway/Gloss + http://harlankellaway.com/Gloss/
 * пример работы с Goodreads API с OAUTH на Swift https://www.goodreads.com/topic/show/18044457-ios-swift-example?comment=148726023#comment_148726023 https://github.com/danielbmarques/GROAuthExample
-
+* генерация иконок http://makeappicon.com/ и там же какие надо размеры для iOS9/Android. поддерживает и iOS и Android
+* делалка локализованных скриншотов для iTunes Connect http://shotbot.io/ - обещана
 
 
 ### Beta Testflight
@@ -241,11 +243,14 @@ TODO:
 * если на OS X эта несчастная демка руби-сервера из строки выше не ставится читаем все из https://stackoverflow.com/questions/8389301/os-x-rails-failed-to-build-gem-native-extension (есть например xcode-select)...
 * Получаем данные по websocket используя swift и заполняем UITableView (сервер node.js)  https://habrahabr.ru/post/277635/  - см также комменты
 * Библиотека для WebSocket на Swift https://github.com/daltoniam/Starscream и ее аналог на Objective-C https://github.com/acmacalister/jetfire - поддержка VoIP Sockets, Self-signed SSL, SSL pinning, возможность блоки использовать если нужно и других удобностей
- 
-
 
 ### Circle CI
 * https://circleci.com/docs/ios
+ 
+### VIPER
+* ссылки по VIPER от Rambler https://github.com/rambler-ios/The-Book-of-VIPER
+* что есть VIPER https://github.com/rambler-ios/The-Book-of-VIPER/blob/master/IntroductionToVIPER.md
+* кодогенератор для iOS-разработки от Rambler (с поддержкой VIPER) https://habrahabr.ru/company/rambler-co/blog/276275/
 
 ### Typhoon
 * Управляем зависимостями в iOS-приложениях правильно: Знакомство с Typhoon https://habrahabr.ru/company/rambler-co/blog/258325/
@@ -288,10 +293,19 @@ TODO:
 * Parse Alternatives https://github.com/relatedcode/ParseAlternatives
 * Top 5 Parse Alternatives http://www.raywenderlich.com/126098/top-5-parse-alternatives
 * альтернативы parse https://habrahabr.ru/post/277979/
+* Parse Server Guide https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide включая советы по тому где хостить 
+* Что с Dashboard делать - а есть уже - parse server dashboard http://blog.parse.com/announcements/introducing-the-parse-server-dashboard/
 
-### Parse Server Hosting заявленные
+
+### Parse Server Hosting 
 * http://yourparse.com/
 * http://parsehosting.net/
+* как поставить на GAE+MongoLab https://medium.com/google-cloud/deploying-parse-server-to-google-app-engine-6bc0b7451d50#.bzan9x91a
+
+
+### MongoDB hosting
+* ObjectRocket https://objectrocket.com/parse 
+* MongoLab/mLab https://mlab.com/plans/pricing/
 
 ### Realtime app framework с nodejs server
 * http://socket.io/

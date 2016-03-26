@@ -214,6 +214,66 @@ TODO:
 * пример работы с Goodreads API с OAUTH на Swift https://www.goodreads.com/topic/show/18044457-ios-swift-example?comment=148726023#comment_148726023 https://github.com/danielbmarques/GROAuthExample
 * генерация иконок http://makeappicon.com/ и там же какие надо размеры для iOS9/Android. поддерживает и iOS и Android
 * делалка локализованных скриншотов для iTunes Connect http://shotbot.io/ - обещана
+* 27 интересных библиотек для iOS https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.elevhjnzb
+* Magical Record - упрощение работы с CoreData https://github.com/magicalpanda/MagicalRecord
+* iRate - еще один компонент для запроса рейтинга в сторе https://github.com/nicklockwood/iRate
+* Стриминг iOS приложений (и некоторых Андроид), платно https://appetize.io (реально симуляторные сборки используют)
+* еще как (в том числе) средство прототипирования - http://www.pixate.com/ 
+
+
+### In-app purchases
+* In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
+* IAP Helper https://github.com/saturngod/IAPHelper для обычных
+* MKStoreKit - странный он какой то
+* RMStore 
+
+### GUI
+* показ специальных картинок для пустых UITableView / UICollectionView https://github.com/dzenbot/DZNEmptyDataSet
+* простой компонент календаря https://github.com/jivesoftware/PDTSimpleCalendar
+* GPUImage - обработка видео и фото https://github.com/BradLarson/GPUImage
+* Flat colors for iOS https://github.com/ViccAlexander/Chameleon
+* главный кусок чата из Slack for iOS (с текстовым окном крутым и так далее) https://github.com/slackhq/SlackTextViewController
+* Data-driven table view https://github.com/romaonthego/RETableViewManager
+* PermissionScope - типа универсальный способ показа и проверки доступа https://github.com/nickoneill/PermissionScope
+* SVProgressHUD https://github.com/SVProgressHUD/SVProgressHUD анимация загрузки
+* FontAwesomeKit https://github.com/PrideChung/FontAwesomeKit
+* идеальные плавные uitableview http://habrahabr.ru/post/264817/ - там же и советы по по отпимизации графики вообще  и тому как на симулятор ловить проблемы с этим 
+* table view с дополнительными кнопками http://www.raywenderlich.com/62435/make-swipeable-table-view-cell-actions-without-going-nuts-scroll-views (просто удаление то просто сделать)
+* как бесконечный скролл UITableView
+* https://stackoverflow.com/questions/10404116/uitableview-infinite-scrolling - там и ручками пример и с SVPullToRefresh http://samvermette.com/314 - заодно это и реализация pullToRefresh нормальная
+* как продвинуто со шрифтами работать http://www.raizlabs.com/dev/2015/08/advanced-ios-typography/
+* создание пользовательской палитры в XCode https://www.natashatherobot.com/xcode-color-palette/
+
+
+    
+#### Чем нарезать GUI
+* Sketch (вместо фотошопа) http://habrahabr.ru/post/252063/ - OS X only. а еще см https://vc.ru/p/sketch - на тему чем оно лучще фотошопа
+* Droptimizer http://12rockets.com/droptimizer/ нарезка правильного арта по @3x
+* Slicy http://www.macrabbit.com/slicy/help/  - автонарезатор из фотошопа (но надо тегировать специальным образом). @3x не поддерживается пока.
+* PaintCode (если он нам подходит)
+* А еще есть Sketch-style IBAnimatable https://github.com/JakeLin/IBAnimatable/ - дизайн GUI ЦЕЛИКОМ в XCode…хмм
+
+ 
+ 
+#### Autolayout
+* Autolayout DSL https://github.com/SnapKit/SnapKit
+
+#### Appearance proxy,etc
+* как работать с Appearance proxy - http://nscookbook.com/2013/01/ios-programming-recipe-8-using-uiappearance-for-a-custom-look/  и http://nshipster.com/uiappearance/
+* официальная документация Apple https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/#//apple_ref/occ/intfcm/UIAppearance/appearanceWhenContainedIn:
+* CSS-style библиотека для Appearance https://github.com/robertwijas/UISS  - даже с поддержкой загрузки описаний с удаленного сервера
+* еще одна CSS-style библиотека для Appearance https://github.com/tombenner/nui - вроде почаще обновляется
+* UIAppearance for custom views еще статья http://petersteinberger.com/blog/2013/uiappearance-for-custom-views/
+* как быть если с UIAlertView это все не работает а хочется tintColor задать - а например https://stackoverflow.com/questions/32856892/how-to-change-uialertcontroller-button-text-colour-in-ios9
+
+
+
+#### Navigation Drawer (aka Slide-out)
+* как ручками такой контроллер сделать https://www.raywenderlich.com/32054/how-to-create-a-slide-out-navigation-like-facebook-and-path
+* https://habrahabr.ru/post/255209/ про SWRevealViewController с примерами красивыми, Storyboards умеет
+* https://github.com/SocialObjects-Software/AMSlideMenu еще вариант
+* https://github.com/aryaxt/iOS-Slide-Menu еще один простой вариант (TODO:а как там элементы то открываются? а со Storyboards как?)
+* https://github.com/pkluz/PKRevealController PKRevealController2 - еще вариант
 
 
 ### Beta Testflight
@@ -301,7 +361,7 @@ TODO:
 * http://yourparse.com/
 * http://parsehosting.net/
 * как поставить на GAE+MongoLab https://medium.com/google-cloud/deploying-parse-server-to-google-app-engine-6bc0b7451d50#.bzan9x91a
-
+* настройка с RocksDB https://github.com/ParsePlatform/parse-server/wiki/MongoRocks
 
 ### MongoDB hosting
 * ObjectRocket https://objectrocket.com/parse 
@@ -352,6 +412,9 @@ TODO:
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
 * Что нам стоит сайт распарсить. Основы webdriver API http://habrahabr.ru/post/272105/
 * stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
+* в тему "Заблуждения программистов о.." - Заблуждения программистов о телефонных номерах https://habrahabr.ru/post/279751/
+* бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
+
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

@@ -200,6 +200,7 @@ TODO:
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
 * VIPER для Android https://habrahabr.ru/company/rambler-co/blog/277003/
+* ScribeJava - простая OAUTH - библиотека https://habrahabr.ru/company/hh/blog/278957/ + SunScribe - расширение
 
 ## iOS
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
@@ -218,8 +219,13 @@ TODO:
 * Magical Record - упрощение работы с CoreData https://github.com/magicalpanda/MagicalRecord
 * iRate - еще один компонент для запроса рейтинга в сторе https://github.com/nicklockwood/iRate
 * Стриминг iOS приложений (и некоторых Андроид), платно https://appetize.io (реально симуляторные сборки используют)
-* еще как (в том числе) средство прототипирования - http://www.pixate.com/ 
-
+* еще как (в том числе) средство прототипирования - http://www.pixate.com/  - куплено гуглом
+* продвинутая расшаривалка https://github.com/ShareKit/ShareKit
+* старый способ как сделать instance properties для категорий http://oleb.net/blog/2011/05/faking-ivars-in-objc-categories-with-associative-references/
+* как лучще NSError'ы свои описывать https://agilewarrior.wordpress.com/2016/03/24/nice-pattern-for-defining-nserror-constants/
+* как правильно и зачем перегружать isEqual http://nshipster.com/equality/
+* кастомные клавиатуры https://habrahabr.ru/post/235917/
+* как method swizzling делать http://nshipster.com/method-swizzling/
 
 ### In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
@@ -228,6 +234,9 @@ TODO:
 * RMStore 
 
 ### GUI
+* жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
+* еще последовательность старта view и view controller https://stackoverflow.com/questions/5107604/can-somebody-explain-the-process-of-a-uiviewcontroller-birth-which-method-follo
+* Xcode Live Rendering https://habrahabr.ru/post/239257/
 * показ специальных картинок для пустых UITableView / UICollectionView https://github.com/dzenbot/DZNEmptyDataSet
 * простой компонент календаря https://github.com/jivesoftware/PDTSimpleCalendar
 * GPUImage - обработка видео и фото https://github.com/BradLarson/GPUImage
@@ -239,10 +248,14 @@ TODO:
 * FontAwesomeKit https://github.com/PrideChung/FontAwesomeKit
 * идеальные плавные uitableview http://habrahabr.ru/post/264817/ - там же и советы по по отпимизации графики вообще  и тому как на симулятор ловить проблемы с этим 
 * table view с дополнительными кнопками http://www.raywenderlich.com/62435/make-swipeable-table-view-cell-actions-without-going-nuts-scroll-views (просто удаление то просто сделать)
-* как бесконечный скролл UITableView
-* https://stackoverflow.com/questions/10404116/uitableview-infinite-scrolling - там и ручками пример и с SVPullToRefresh http://samvermette.com/314 - заодно это и реализация pullToRefresh нормальная
+* как бесконечный скролл UITableView https://stackoverflow.com/questions/10404116/uitableview-infinite-scrolling - там и ручками пример и с SVPullToRefresh http://samvermette.com/314 - заодно это и реализация pullToRefresh нормальная
 * как продвинуто со шрифтами работать http://www.raizlabs.com/dev/2015/08/advanced-ios-typography/
 * создание пользовательской палитры в XCode https://www.natashatherobot.com/xcode-color-palette/
+* как сделать Action Sheet как в Apple Music - смотрим https://stackoverflow.com/questions/31521741/how-did-apple-do-their-action-sheet-like-this   https://stackoverflow.com/questions/31310259/groups-or-separator-in-uialertcontroller-as-in-new-music-app - на https://github.com/JonasGessner/JGActionSheet намекают
+* Popover controller кастомный - пример https://github.com/nicolaschengdev/WYPopoverController
+* IBInspectable/IBDesignable http://nshipster.com/ibinspectable-ibdesignable/
+* CustomViewKit https://github.com/yume190/CustomView
+* Custom AlertView https://github.com/Raizlabs/RaisinToast
 
 
     
@@ -257,12 +270,19 @@ TODO:
  
 #### Autolayout
 * Autolayout DSL https://github.com/SnapKit/SnapKit
+* KeepLayout https://github.com/Tricertops/KeepLayout - выглядит неплохо, умеет анимации
+* вообще возможно лучще PureLayout https://github.com/PureLayout/PureLayout - там почти 1:1 соответствие API  c Apple + смотрим https://github.com/PureLayout/PureLayout/wiki/Tips-and-Tricks
+* Сравнение PureLayout и остальных подходов https://github.com/PureLayout/PureLayout#purelayout-vs-the-rest
+
 
 #### Appearance proxy,etc
 * как работать с Appearance proxy - http://nscookbook.com/2013/01/ios-programming-recipe-8-using-uiappearance-for-a-custom-look/  и http://nshipster.com/uiappearance/
+* https://stackoverflow.com/questions/26460706/uialertcontroller-custom-font-size-color
 * официальная документация Apple https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/#//apple_ref/occ/intfcm/UIAppearance/appearanceWhenContainedIn:
+* Tutorial от Raywenderlich на эту тему https://www.raywenderlich.com/21703/user-interface-customization-in-ios-6
 * CSS-style библиотека для Appearance https://github.com/robertwijas/UISS  - даже с поддержкой загрузки описаний с удаленного сервера
-* еще одна CSS-style библиотека для Appearance https://github.com/tombenner/nui - вроде почаще обновляется
+* еще одна CSS-style библиотека для Appearance https://github.com/tombenner/nui - вроде почаще обновляется и умеет и с конкретными экземплярами работать
+* обзор существующих библиотек http://h4ckish.com/2015/12/31/how-to-style-your-ios-app-with-nui/
 * UIAppearance for custom views еще статья http://petersteinberger.com/blog/2013/uiappearance-for-custom-views/
 * как быть если с UIAlertView это все не работает а хочется tintColor задать - а например https://stackoverflow.com/questions/32856892/how-to-change-uialertcontroller-button-text-colour-in-ios9
 
@@ -318,6 +338,9 @@ TODO:
 * Управляем зависимостями в iOS-приложениях правильно: Typhoon Tips & Tricks https://habrahabr.ru/company/rambler-co/blog/264683/
 * Управляем зависимостями в iOS-приложениях правильно: Модульность Typhoon https://habrahabr.ru/company/rambler-co/blog/261537/
 
+### Плагины к Xcode
+* How To Create an Xcode Plugin: Part 1/3 https://www.raywenderlich.com/94020/creating-an-xcode-plugin-part-1
+* Xcode plugins http://nshipster.com/xcode-plugins/
 
 
 
@@ -407,6 +430,10 @@ TODO:
 *  Мега-учебник Flask http://habrahabr.ru/post/193242/
    
     
+## Системы сетевого логгирования 
+* Sentry http://getsentry.com - умеет NSError, вроде не умеет Android, странные группировки, вроде opensource
+* Rollbar http://rollbar.com 
+    
 ## Various
 * badges for projects http://shields.io/
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
@@ -414,7 +441,7 @@ TODO:
 * stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
 * в тему "Заблуждения программистов о.." - Заблуждения программистов о телефонных номерах https://habrahabr.ru/post/279751/
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
-
+* альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ 
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

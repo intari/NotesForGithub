@@ -439,11 +439,6 @@ TODO:
 ### Flask
 *  Мега-учебник Flask http://habrahabr.ru/post/193242/
    
-    
-## Системы сетевого логгирования 
-* Sentry http://getsentry.com - умеет NSError, вроде не умеет Android, странные группировки, вроде opensource
-* Rollbar http://rollbar.com 
-    
 ## Various
 * badges for projects http://shields.io/
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
@@ -455,6 +450,27 @@ TODO:
 * генерация случайных картинок с роботами https://robohash.org/
 * полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
 * шпаргалки для Java-программиста InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/ + общее оглавление
+
+### Вспомогательные средства для разработки
+#### Системы удаленного логгирования
+* Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
+* Sentry http://getsentry.com  Умеет NSError, вроде не умеет Android. Не умеет последовательно список событий вроде бы. Креши не умеет но вроде делают. Группировка по умолчанию странная. бесплатный - 250 событий day, а затем - за 9 долларов план с 9 событий в минуту. Opensource. и можно поставить себе.
+
+#### Аналитика (все и под андроид тоже живет)
+* Countly http://count.ly. есть cloud edition, есть opensource edition есть enterprise edition. красивые графики и все такое. APM - конфликтует с кучей всего 
+* Mixpanel http://mixpanel.com очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые и есть партнерский план. есть user analytics.
+* Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий
+
+#### Ловля крешей
+* Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
+* Crashlytics http://try.crashlytics.com crash reporting. бесплатно независимо от обьемов. умеет и NSLog'и с собой в крешлог включать.
+* Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS но р
+
+#### Патчи
+* Rollout https://rollout.io/ пока только iOS причем поддержку Swift только обещают. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику.
+
+
+
 
 
 ### Вспомогательные средства для создания мессенджеров

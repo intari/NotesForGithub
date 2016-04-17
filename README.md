@@ -179,7 +179,10 @@ TODO:
 
 ### rxJava
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
-* введение в RxJava http://habrahabr.ru/post/269417/
+* введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
+* rx. ключевые типы http://habrahabr.ru/post/270023/
+* rx. Жизненный цикл подписки http://habrahabr.ru/post/270975/
+* rxJava создание последовательности https://habrahabr.ru/post/281633/
 * грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
 * грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
@@ -226,12 +229,16 @@ TODO:
 * как правильно и зачем перегружать isEqual http://nshipster.com/equality/
 * кастомные клавиатуры https://habrahabr.ru/post/235917/
 * как method swizzling делать http://nshipster.com/method-swizzling/
+* готовый фильтр Блума под iOS https://github.com/rgerard/ios-bloom-filter 
 
 ### In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
 * IAP Helper https://github.com/saturngod/IAPHelper для обычных
 * MKStoreKit - странный он какой то
 * RMStore 
+
+### ReactiveCocoa
+* шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
 
 ### GUI
 * жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
@@ -256,6 +263,8 @@ TODO:
 * IBInspectable/IBDesignable http://nshipster.com/ibinspectable-ibdesignable/
 * CustomViewKit https://github.com/yume190/CustomView
 * Custom AlertView https://github.com/Raizlabs/RaisinToast
+* расширенный выбор картинки в зависимости от набора/ориентации https://github.com/kevindelord/UIImage-Autoresize
+
 
 
     
@@ -310,6 +319,7 @@ TODO:
 ### CloudKit
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/
 * More detailed intro - iOS 8 By tutorials, Chapters 15 & 16
+* БД с готовой синхронизацией с CloudKit https://github.com/yapstudios/YapDatabase/wiki/YapDatabaseCloudKit
 
 ### RestKit
 * https://github.com/RestKit/RestKit
@@ -442,6 +452,10 @@ TODO:
 * в тему "Заблуждения программистов о.." - Заблуждения программистов о телефонных номерах https://habrahabr.ru/post/279751/
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
 * альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ 
+* генерация случайных картинок с роботами https://robohash.org/
+* полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
+* шпаргалки для Java-программиста InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/ + общее оглавление
+
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

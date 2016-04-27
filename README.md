@@ -52,24 +52,6 @@ TODO:
 * Retrofit — Getting Started and Create an Android Client https://futurestud.io/blog/retrofit-getting-started-and-android-client
 * FutureStud's book about Retrofit (they also have one on Picasso) https://futurestud.io/books + https://futurestud.io/blog/retrofit-series-round-up
 
-#### API Emulation
-* Fake the backend while you develop the frontend http://jsonstub.com/
-* Server Mock from https://apiary.io/
-
-#### API Debugging 
-* Runscope https://www.runscope.com/pricing-and-plans
-
-
-### Analytics systems
-* Flurry - no comments
-* Count.ly https://count.ly/compare/ Opensource + cloud service, opensource client
-* Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
-* Mixpanel https://mixpanel.com/free/ Timed events, visual events editor, user tracker, A/B test support
-* Devtodev http://megamozg.ru/company/devtodev/blog/18664/
-* Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
-* AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
-* UXCam https://uxcam.com/ video recording,heatmaps,etc
-
 #### Google Universal Analytics
 * что есть measurment protocol в universal analytics внятное описание http://spark.ru/startup/adstein/blog/8762/otslezhivanie-offlajn-konversij-cherez-google-analytics?from=zp
 * нужно для кроссплатформенной интеграции в том числе и с оффлайном, построено на том что ид клиента уникальный
@@ -178,6 +160,8 @@ TODO:
 * http://androidkickstartr.com/
 
 ### rxJava
+* вступление в реактивное программирование которое вы пропустили https://habrahabr.ru/post/279715/
+* также см про rxSwift/ReactiveCocoa про iOS
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
 * введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
 * rx. ключевые типы http://habrahabr.ru/post/270023/
@@ -190,6 +174,9 @@ TODO:
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
 * блог Advanced Rx http://akarnokd.blogspot.com/
+* пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
+* сама RxPermissions https://github.com/tbruyelle/RxPermissions
+* rxBinding https://github.com/tbruyelle/RxPermissions превращание event'ов в Observables
 
 
 ### Android/Various
@@ -204,6 +191,11 @@ TODO:
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
 * VIPER для Android https://habrahabr.ru/company/rambler-co/blog/277003/
 * ScribeJava - простая OAUTH - библиотека https://habrahabr.ru/company/hh/blog/278957/ + SunScribe - расширение
+* быстрое создание красивой About page https://github.com/medyo/android-about-page
+* Кюветы Android, часть 1: SDK https://habrahabr.ru/post/279811/
+* Кюветы Android, часть 2: SDK & Libs https://habrahabr.ru/post/280190/
+* Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
+
 
 ## iOS
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
@@ -230,6 +222,13 @@ TODO:
 * кастомные клавиатуры https://habrahabr.ru/post/235917/
 * как method swizzling делать http://nshipster.com/method-swizzling/
 * готовый фильтр Блума под iOS https://github.com/rgerard/ios-bloom-filter 
+* типа красивый способ сделать синглтон https://habrahabr.ru/post/282169/ обертки,все такое - правда если оно вообще надо
+* как создать Static Framework под iOS https://habrahabr.ru/post/280286/
+* как сделать это в Swift https://thatthinginswift.com/ - много интересного
+* dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
+* замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
+
+
 
 ### In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
@@ -264,7 +263,9 @@ TODO:
 * CustomViewKit https://github.com/yume190/CustomView
 * Custom AlertView https://github.com/Raizlabs/RaisinToast
 * расширенный выбор картинки в зависимости от набора/ориентации https://github.com/kevindelord/UIImage-Autoresize
-
+* как сделать свою кнопку на ячейке таблицы...не одну https://habrahabr.ru/post/261905/
+* custom tabbar https://github.com/winslowdibona/TabDrawer
+* https://thatthinginswift.com/upgrade-tableview-loading-state/ как сделать Table View с Loading state не завязывая все на один гигатский класс, Swift
 
 
     
@@ -448,27 +449,44 @@ TODO:
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
 * альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ 
 * генерация случайных картинок с роботами https://robohash.org/
+* шпаргалки для Java-программиста: коллекции в Java, стандартные и не очень https://habrahabr.ru/company/luxoft/blog/256877/
 * полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
-* шпаргалки для Java-программиста InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/ + общее оглавление
+* типовые задачи: обход Map, подсчет количества вхождений в подстроку https://habrahabr.ru/company/luxoft/blog/278313/
+* шпаргалки для Java-программиста: InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/
+* шпаргалки для Java-программиста: библиотеки для парсинга JSON https://habrahabr.ru/company/luxoft/blog/280782/ + общее оглавление
+
 
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования
 * Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
 * Sentry http://getsentry.com  Умеет NSError, вроде не умеет Android. Не умеет последовательно список событий вроде бы. Креши не умеет но вроде делают. Группировка по умолчанию странная. бесплатный - 250 событий day, а затем - за 9 долларов план с 9 событий в минуту. Opensource. и можно поставить себе.
 
-#### Аналитика (все и под андроид тоже живет)
+#### Аналитика (все и под Android тоже живет)
 * Countly http://count.ly. есть cloud edition, есть opensource edition есть enterprise edition. красивые графики и все такое. APM - конфликтует с кучей всего 
-* Mixpanel http://mixpanel.com очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые и есть партнерский план. есть user analytics.
-* Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий
+* Mixpanel http://mixpanel.com/free Timed events, visual events editor, user tracker, A/B test support. очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые и есть партнерский план. есть user analytics.
+* Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
+* Devtodev http://megamozg.ru/company/devtodev/blog/18664/
+* Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
+* AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
 
 #### Ловля крешей
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
 * Crashlytics http://try.crashlytics.com crash reporting. бесплатно независимо от обьемов. умеет и NSLog'и с собой в крешлог включать.
-* Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS но р
+* Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS.
 
 #### Патчи
 * Rollout https://rollout.io/ пока только iOS причем поддержку Swift только обещают. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику.
 
+#### Видеозапись
+* Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
+* UXCam https://uxcam.com/ video recording,heatmaps,etc
+
+#### API Emulation
+* Fake the backend while you develop the frontend http://jsonstub.com/
+* Server Mock from https://apiary.io/
+
+#### API Debugging 
+* Runscope https://www.runscope.com/pricing-and-plans
 
 
 

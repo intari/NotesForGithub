@@ -177,6 +177,8 @@ TODO:
 * пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
 * сама RxPermissions https://github.com/tbruyelle/RxPermissions
 * rxBinding https://github.com/tbruyelle/RxPermissions превращание event'ов в Observables
+* The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
+
 
 
 ### Android/Various
@@ -195,6 +197,9 @@ TODO:
 * Кюветы Android, часть 1: SDK https://habrahabr.ru/post/279811/
 * Кюветы Android, часть 2: SDK & Libs https://habrahabr.ru/post/280190/
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
+* Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
+* Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
+
 
 
 ## iOS
@@ -227,7 +232,7 @@ TODO:
 * как сделать это в Swift https://thatthinginswift.com/ - много интересного
 * dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
-
+* Пишем VoIP iOS чат на CORE AUDIO для конкурса VK Mobile Challenge https://habrahabr.ru/post/279517/
 
 
 ### In-app purchases
@@ -389,6 +394,7 @@ TODO:
 * альтернативы parse https://habrahabr.ru/post/277979/
 * Parse Server Guide https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide включая советы по тому где хостить 
 * Что с Dashboard делать - а есть уже - parse server dashboard http://blog.parse.com/announcements/introducing-the-parse-server-dashboard/
+* https://www.raywenderlich.com/128313/parse-server-tutorial migration
 
 
 ### Parse Server Hosting 
@@ -400,6 +406,8 @@ TODO:
 ### MongoDB hosting
 * ObjectRocket https://objectrocket.com/parse 
 * MongoLab/mLab https://mlab.com/plans/pricing/
+* Хостинг MongoDB, Postgres,etc https://www.compose.io/pricing/ 
+
 
 ### Realtime app framework с nodejs server
 * http://socket.io/
@@ -425,6 +433,7 @@ TODO:
 * как работает РСУБД http://habrahabr.ru/company/mailru/blog/266811/
 * Postgres NoSQL лучше, чем MongoDB? http://habrahabr.ru/post/272735/
 * проектирование документ-ориентированного API на Postgres http://habrahabr.ru/users/the_unbridled_goose/topics/
+* вообще по Postgres читаем например https://habrahabr.ru/users/rdruzyagin/topics/  
   
 ## Web Dev  
 
@@ -443,7 +452,8 @@ TODO:
 ## Various
 * badges for projects http://shields.io/
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
-* Что нам стоит сайт распарсить. Основы webdriver API http://habrahabr.ru/post/272105/
+* Как парсить сайты - jsoup https://jsoup.org/  https://stackoverflow.com/questions/9071568/parse-web-site-html-with-java
+* Что нам стоит сайт распарсить. Основы webdriver API http://habrahabr.ru/post/272105/ это если мало прошлого варианта
 * stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
 * в тему "Заблуждения программистов о.." - Заблуждения программистов о телефонных номерах https://habrahabr.ru/post/279751/
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
@@ -454,6 +464,7 @@ TODO:
 * типовые задачи: обход Map, подсчет количества вхождений в подстроку https://habrahabr.ru/company/luxoft/blog/278313/
 * шпаргалки для Java-программиста: InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/
 * шпаргалки для Java-программиста: библиотеки для парсинга JSON https://habrahabr.ru/company/luxoft/blog/280782/ + общее оглавление
+* расширения Stream API java 8 https://habrahabr.ru/post/262139/
 
 
 ### Вспомогательные средства для разработки

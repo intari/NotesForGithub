@@ -132,8 +132,11 @@ TODO:
 
 
 ### JIRA Clients
-* https://play.google.com/store/apps/details?id=jira.soap&amp;hl=en
 * https://play.google.com/store/apps/details?id=com.mobilitystream.android.jiraconnectpro
+* https://play.google.com/store/apps/details?id=com.strintec.jiramini
+* https://play.google.com/store/apps/details?id=com.tempo.tempoapp
+* возможно https://play.google.com/store/apps/details?id=jira.soap&amp;hl=en
+
 
 ### Play Store Autosubmission
 * Gradle https://github.com/Triple-T/gradle-play-publisher (example from https://circleci.com/docs/android )
@@ -180,7 +183,6 @@ TODO:
 * The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
 
 
-
 ### Android/Various
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
 * Kata: Robolectric Integration http://coreylatislaw.com/kata-robolectric-integration/
@@ -199,7 +201,9 @@ TODO:
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
-
+* Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
+* Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
+* Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
 
 
 ## iOS
@@ -229,20 +233,29 @@ TODO:
 * готовый фильтр Блума под iOS https://github.com/rgerard/ios-bloom-filter 
 * типа красивый способ сделать синглтон https://habrahabr.ru/post/282169/ обертки,все такое - правда если оно вообще надо
 * как создать Static Framework под iOS https://habrahabr.ru/post/280286/
-* как сделать это в Swift https://thatthinginswift.com/ - много интересного
-* dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
-* замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * Пишем VoIP iOS чат на CORE AUDIO для конкурса VK Mobile Challenge https://habrahabr.ru/post/279517/
+* рассылка iOS Dev Weekly с полезными ссылками для разработчиков https://iosdevweekly.com
+* имитация Remote Notifications для симулятора https://github.com/acoomans/SimulatorRemoteNotifications (старый старый проект)
+* полезные утилиты и так далее для разработчика под iOS https://habrahabr.ru/post/283576/
 
 
 ### In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
 * IAP Helper https://github.com/saturngod/IAPHelper для обычных
 * MKStoreKit - странный он какой то
-* RMStore 
+* RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcone (из-за OpenSSL)
+
+
+### Swift
+* как сделать это в Swift https://thatthinginswift.com/ - много интересного
+* dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
+* замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
+* почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
+* Testing in Swift https://spin.atomicobject.com/2016/05/02/testing-swift-code/
 
 ### ReactiveCocoa
 * шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
+* rxSwift работа с GUI https://habrahabr.ru/post/283128/ 
 
 ### GUI
 * жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
@@ -324,8 +337,13 @@ TODO:
 
 ### CloudKit
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/
+* Еще одно https://yalantis.com/blog/work-cloudkit/
+* CloudKit: The fastest route to implementing the auto-synchronizing app you've been working on? https://www.bignerdranch.com/blog/cloudkit-the-fastest-route-to-implementing-the-auto-synchronizing-app-youve-been-working-on/
 * More detailed intro - iOS 8 By tutorials, Chapters 15 & 16
 * БД с готовой синхронизацией с CloudKit https://github.com/yapstudios/YapDatabase/wiki/YapDatabaseCloudKit
+* Swift 2.0 фреймворк для поддержки по сути CoreData через CloudKit https://github.com/nofelmahmood/Seam
+* Как (правильно) сделать Tiny data/All devices на CloudKit http://initwithfunk.com/blog/2015/06/26/as-i-learn-cloudkit-part-0/
+
 
 ### RestKit
 * https://github.com/RestKit/RestKit
@@ -472,8 +490,10 @@ TODO:
 * Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
 * Sentry http://getsentry.com  Умеет NSError, вроде не умеет Android. Не умеет последовательно список событий вроде бы. Креши не умеет но вроде делают. Группировка по умолчанию странная. бесплатный - 250 событий day, а затем - за 9 долларов план с 9 событий в минуту. Opensource. и можно поставить себе.
 
-#### Аналитика (все и под Android тоже живет)
+#### Аналитика (все и под Android/iOS тоже живет)
 * Countly http://count.ly. есть cloud edition, есть opensource edition есть enterprise edition. красивые графики и все такое. APM - конфликтует с кучей всего 
+** установка OpenSource-версии на DigitalOcean https://medium.com/@countly/how-to-install-upgrade-and-backup-countly-on-a-digital-ocean-droplet-a-step-by-step-guide-8dde2764e407
+** совсем однокликовый инсталлер Countly на DigitalOcean http://do.count.ly/install 
 * Mixpanel http://mixpanel.com/free Timed events, visual events editor, user tracker, A/B test support. очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые и есть партнерский план. есть user analytics.
 * Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
 * Devtodev http://megamozg.ru/company/devtodev/blog/18664/

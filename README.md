@@ -167,6 +167,7 @@ TODO:
 * также см про rxSwift/ReactiveCocoa про iOS
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
 * введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
+* Реактивный двигатель для вашего Android-приложения https://www.youtube.com/watch?v=Eatfi4am0HU&feature=youtu.be&ab_channel=Mobius
 * rx. ключевые типы http://habrahabr.ru/post/270023/
 * rx. Жизненный цикл подписки http://habrahabr.ru/post/270975/
 * rxJava создание последовательности https://habrahabr.ru/post/281633/
@@ -204,9 +205,12 @@ TODO:
 * Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
 * Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
 * Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
-
+* что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
+* landing pages http://www.applandr.com/
+* аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
 
 ## iOS
+* Сертификация в Apple Developer Center простым и понятным языком https://habrahabr.ru/post/280626/ для чайников или если последовательность забыта
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
 * AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling - про тулкит от Facebook для ускорения процесса
 * как за 7 дней превратится из сервер сайд в клиент-сайд разработчика https://habrahabr.ru/company/mailru/blog/277495/ (также смотрим полезные для начинающего iOS-разработчика ссылки)
@@ -237,6 +241,9 @@ TODO:
 * рассылка iOS Dev Weekly с полезными ссылками для разработчиков https://iosdevweekly.com
 * имитация Remote Notifications для симулятора https://github.com/acoomans/SimulatorRemoteNotifications (старый старый проект)
 * полезные утилиты и так далее для разработчика под iOS https://habrahabr.ru/post/283576/
+* Creating and distributing iOS Frameworks https://www.raywenderlich.com/126365/ios-frameworks-tutorial  (включая работу с CocoaPods и включая подключение Pod'ов с github url)
+* Поддержка Siri в своем приложении https://habrahabr.ru/post/303316/
+
 
 
 ### In-app purchases
@@ -253,7 +260,8 @@ TODO:
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
 * Testing in Swift https://spin.atomicobject.com/2016/05/02/testing-swift-code/
 
-### ReactiveCocoa
+### ReactiveCocoa/rXXX
+* введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
 * шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
 * rxSwift работа с GUI https://habrahabr.ru/post/283128/ 
 
@@ -284,6 +292,7 @@ TODO:
 * как сделать свою кнопку на ячейке таблицы...не одну https://habrahabr.ru/post/261905/
 * custom tabbar https://github.com/winslowdibona/TabDrawer
 * https://thatthinginswift.com/upgrade-tableview-loading-state/ как сделать Table View с Loading state не завязывая все на один гигатский класс, Swift
+* как использовать XLIFF https://habrahabr.ru/company/redmadrobot/blog/302682/ (также в комментах - как тестировать под другой локалью)
 
 
     
@@ -504,6 +513,18 @@ TODO:
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
 * Crashlytics http://try.crashlytics.com crash reporting. бесплатно независимо от обьемов. умеет и NSLog'и с собой в крешлог включать.
 * Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS.
+* Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
+
+#### CI
+* Buddybuild пока бесплатный
+* Bitrise https://www.bitrise.io/
+* Travis CI (для OpenSource либо платный)
+* https://greenhouseci.com/
+* Circle CI
+* упрощенно и ручками - fastlane
+* вообще смотрим https://github.com/ligurio/Continuous-Integration-services/blob/master/continuous-integration-services-list.md
+* подьем CI iOS своими руками https://habrahabr.ru/company/livetyping/blog/302642/
+
 
 #### Патчи
 * Rollout https://rollout.io/ пока только iOS причем поддержку Swift только обещают. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику.

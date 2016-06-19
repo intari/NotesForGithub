@@ -259,6 +259,7 @@ TODO:
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
 * Testing in Swift https://spin.atomicobject.com/2016/05/02/testing-swift-code/
+* Core Data + Swift для самых маленьких: необходимый минимум (часть 1) https://habrahabr.ru/post/303512/
 
 ### ReactiveCocoa/rXXX
 * введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/

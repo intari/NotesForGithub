@@ -41,9 +41,6 @@ TODO:
 * LeakCanary: Detect all memory leaks! https://corner.squareup.com/2015/05/leak-canary.html  https://github.com/square/leakcanary
 * TinyDancer - FPS measurement library https://github.com/brianPlummer/TinyDancer
 
-### Coordinator Layout
-* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
-
 ### Network
 
 #### Retrofit
@@ -166,6 +163,8 @@ TODO:
 * вступление в реактивное программирование которое вы пропустили https://habrahabr.ru/post/279715/
 * также см про rxSwift/ReactiveCocoa про iOS
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
+* Notes on Reactive Programming Part I: The Reactive Landscape https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape
+* Notes on Reactive Programming Part II: Writing Some Code https://spring.io/blog/2016/06/13/notes-on-reactive-programming-part-ii-writing-some-code
 * введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
 * Реактивный двигатель для вашего Android-приложения https://www.youtube.com/watch?v=Eatfi4am0HU&feature=youtu.be&ab_channel=Mobius
 * rx. ключевые типы http://habrahabr.ru/post/270023/
@@ -174,6 +173,7 @@ TODO:
 * грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
 * грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
+* грокаем RxJava часть 4: Реактивный Android https://habrahabr.ru/post/265997/
 * Rx ключевые типы http://habrahabr.ru/post/270023/
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
@@ -182,6 +182,8 @@ TODO:
 * сама RxPermissions https://github.com/tbruyelle/RxPermissions
 * rxBinding https://github.com/tbruyelle/RxPermissions превращание event'ов в Observables
 * The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
+* Multicasting in rxJava http://blog.danlew.net/2016/06/13/multicasting-in-rxjava/
+* Shake Detector для Android на RxJava https://habrahabr.ru/company/badoo/blog/304488/
 
 
 ### Android/Various
@@ -201,15 +203,29 @@ TODO:
 * Кюветы Android, часть 2: SDK & Libs https://habrahabr.ru/post/280190/
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
+* Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
 * Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
 * Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
+* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
 * что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
+* https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
 * landing pages http://www.applandr.com/
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
+* Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
+* 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
+* Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
+* Deep Linking на Android https://developer.android.com/training/app-indexing/deep-linking.html
+* По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
 
-## iOS
+### Android TV
+* Портирование Android-приложения под Android TV и Nexus Player https://habrahabr.ru/company/intel/blog/251323/
+* Device Lab от Google: Android TV https://habrahabr.ru/article/302492/
+* NVIDIA Shield и Plex - как пример возможностей https://www.plex.tv/blog/nvidia-shield-you-complete-us/
+
+
+## iOS 
 * Сертификация в Apple Developer Center простым и понятным языком https://habrahabr.ru/post/280626/ для чайников или если последовательность забыта
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
 * AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling - про тулкит от Facebook для ускорения процесса
@@ -243,6 +259,13 @@ TODO:
 * полезные утилиты и так далее для разработчика под iOS https://habrahabr.ru/post/283576/
 * Creating and distributing iOS Frameworks https://www.raywenderlich.com/126365/ios-frameworks-tutorial  (включая работу с CocoaPods и включая подключение Pod'ов с github url)
 * Поддержка Siri в своем приложении https://habrahabr.ru/post/303316/
+* Document provider tutorial https://www.raywenderlich.com/131668/document-provider-tutorial 
+* Генерамба — кодогенератор для iOS разработки https://habrahabr.ru/company/rambler-co/blog/276275/ (для VIPER в том числе) 
+* The Book of VIPER https://github.com/rambler-ios/The-Book-of-VIPER
+
+
+# OS X 
+* Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
 
 
 
@@ -259,7 +282,10 @@ TODO:
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
 * Testing in Swift https://spin.atomicobject.com/2016/05/02/testing-swift-code/
+* What's New in Swift 3 https://www.raywenderlich.com/135655/whats-new-swift-3 
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 1) https://habrahabr.ru/post/303512/
+* Core Data + Swift для самых маленьких: необходимый минимум (часть 2) https://habrahabr.ru/post/303798/
+* Core Data + Swift для самых маленьких: необходимый минимум (часть 3) https://habrahabr.ru/post/304586/
 
 ### ReactiveCocoa/rXXX
 * введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
@@ -294,7 +320,8 @@ TODO:
 * custom tabbar https://github.com/winslowdibona/TabDrawer
 * https://thatthinginswift.com/upgrade-tableview-loading-state/ как сделать Table View с Loading state не завязывая все на один гигатский класс, Swift
 * как использовать XLIFF https://habrahabr.ru/company/redmadrobot/blog/302682/ (также в комментах - как тестировать под другой локалью)
-
+* Model-View-Controller (MVC) in iOS: A Modern Approach https://www.raywenderlich.com/132662/mvc-in-ios-a-modern-approach
+* Self-sizing Table View Cells https://www.raywenderlich.com/129059/self-sizing-table-view-cells
 
     
 #### Чем нарезать GUI
@@ -354,6 +381,12 @@ TODO:
 * Swift 2.0 фреймворк для поддержки по сути CoreData через CloudKit https://github.com/nofelmahmood/Seam
 * Как (правильно) сделать Tiny data/All devices на CloudKit http://initwithfunk.com/blog/2015/06/26/as-i-learn-cloudkit-part-0/
 
+### CoreData-с-синхронизацинй
+* А еще можно просто Ensembles использовать хотя бы бесплатный - http://www.ensembles.io/ спасибо http://mjtsai.com/blog/2016/06/17/the-deprecation-of-icloud-core-data/
+** https://stackoverflow.com/questions/30675541/ensembles-in-ios-swift
+** https://github.com/drewmccormack/ensembles/tree/master/Examples/Simple%20Sync
+** https://github.com/drewmccormack/ensembles - можно с него начать
+
 
 ### RestKit
 * https://github.com/RestKit/RestKit
@@ -396,6 +429,7 @@ TODO:
 * Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
 * Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12 
 
+
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
 
@@ -423,6 +457,7 @@ TODO:
 * Parse Server Guide https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide включая советы по тому где хостить 
 * Что с Dashboard делать - а есть уже - parse server dashboard http://blog.parse.com/announcements/introducing-the-parse-server-dashboard/
 * https://www.raywenderlich.com/128313/parse-server-tutorial migration
+* Российская Scorocode https://habrahabr.ru/company/scorocode/blog/303954/ 
 
 
 ### Parse Server Hosting 
@@ -430,6 +465,8 @@ TODO:
 * http://parsehosting.net/
 * как поставить на GAE+MongoLab https://medium.com/google-cloud/deploying-parse-server-to-google-app-engine-6bc0b7451d50#.bzan9x91a
 * настройка с RocksDB https://github.com/ParsePlatform/parse-server/wiki/MongoRocks
+* Back4App
+
 
 ### MongoDB hosting
 * ObjectRocket https://objectrocket.com/parse 
@@ -462,6 +499,9 @@ TODO:
 * Postgres NoSQL лучше, чем MongoDB? http://habrahabr.ru/post/272735/
 * проектирование документ-ориентированного API на Postgres http://habrahabr.ru/users/the_unbridled_goose/topics/
 * вообще по Postgres читаем например https://habrahabr.ru/users/rdruzyagin/topics/  
+* Работа с геолокациями в режиме highload https://habrahabr.ru/post/228023/
+* Аудит таблиц с пространственными объектами в PostGIS/PostgreSQL https://habrahabr.ru/post/137161/
+
   
 ## Web Dev  
 
@@ -493,7 +533,9 @@ TODO:
 * шпаргалки для Java-программиста: InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/
 * шпаргалки для Java-программиста: библиотеки для парсинга JSON https://habrahabr.ru/company/luxoft/blog/280782/ + общее оглавление
 * расширения Stream API java 8 https://habrahabr.ru/post/262139/
-
+* сборка гибридного приложения под Android https://habrahabr.ru/post/277729/
+* PDF в России - стандарт или не стандарт? https://habrahabr.ru/company/abbyy/blog/105006/
+* PDF с точки зрения программиста https://habrahabr.ru/company/abbyy/blog/108459/
 
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования
@@ -509,6 +551,7 @@ TODO:
 * Devtodev http://megamozg.ru/company/devtodev/blog/18664/
 * Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
+* также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
 
 #### Ловля крешей
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise

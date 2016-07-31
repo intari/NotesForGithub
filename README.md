@@ -15,6 +15,7 @@ TODO:
 * https://github.com/radzio/android-data-binding-recyclerview
 * Android Data Binding in RecyclerView http://habrahabr.ru/company/dataart/blog/267735/
 * Data binding example with SearchView/RecyclerView https://github.com/ashdavies/data-binding
+* Android и Data Binding: обработка действий https://habrahabr.ru/post/305916/
 
 ### (Custom) Annotation processors
 * Annotation Processor to create arguments for android fragments without using reflections http://hannesdorfmann.com/android/fragmentargs/
@@ -218,6 +219,28 @@ TODO:
 * Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
 * Deep Linking на Android https://developer.android.com/training/app-indexing/deep-linking.html
 * По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
+* CWAC-NetSecurity - порт Network Security Configuration из Android N https://commonsware.com/blog/2016/07/11/backporting-android-n-network-security-configuration.html (подразумевается использование OkHttp3)
+* Android Layouts - a new worlds - Google I/O 2016 https://www.youtube.com/watch?v=sO9aX87hq9c&ab_channel=AndroidDevelopers
+* Android application architecture: Get ready for the next billion! https://www.youtube.com/watch?v=70WqJxymPr8
+* Google I/O 2016 Live Blog http://www.anandtech.com/show/10332/google-io-2016-live-blog
+* Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
+* свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
+
+### Picture-in-Picture
+Да, это есть на Android и давно было. И более общий функционал есть
+* какие нужны permissions - «draw over other apps»  aka android.permission.SYSTEM_ALERT_WINDOW
+* как сделать - а читаем https://stackoverflow.com/questions/10266959/having-application-running-above-other-app
+
+#### Примеры
+* https://play.google.com/store/apps/details?id=gpc.myweb.hinet.net.PopupVideo просто видео с popup'ами
+* штатно поддерживает BSPlayer http://android.mobile-review.com/articles/40661/   https://play.google.com/store/apps/details?id=com.bsplayer.bspandroid.free&hl=ru - включается долгим тапом по Back
+* https://play.google.com/store/apps/details?id=sgw.seegoatworks.android.app.floattube
+* https://play.google.com/store/apps/details?id=ms.dev.luaplayer_va
+* Awesome Pop-up video - с XPosed может очень многое но можно и без
+* Facebook - используется не для видио а для показа когда кто-то что-то прилслал
+
+
+
 
 ### Android TV
 * Портирование Android-приложения под Android TV и Nexus Player https://habrahabr.ru/company/intel/blog/251323/
@@ -227,7 +250,9 @@ TODO:
 
 ## iOS 
 * Сертификация в Apple Developer Center простым и понятным языком https://habrahabr.ru/post/280626/ для чайников или если последовательность забыта
+* Оформление как Российской организации (или ИП! так можно!) в Apple Developer Program https://habrahabr.ru/company/scorocode/blog/305990/
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
+* Multithreading using NSOperation - хорошее описание включая например паузу https://izeeshan.wordpress.com/2014/08/17/multi-threading-using-nsoperation/
 * AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling - про тулкит от Facebook для ускорения процесса
 * как за 7 дней превратится из сервер сайд в клиент-сайд разработчика https://habrahabr.ru/company/mailru/blog/277495/ (также смотрим полезные для начинающего iOS-разработчика ссылки)
 * простой шаблон синглтона https://gist.github.com/intari/e62ccd4c60eb36eabc82 (через GCD dispatch_once)
@@ -262,12 +287,12 @@ TODO:
 * Document provider tutorial https://www.raywenderlich.com/131668/document-provider-tutorial 
 * Генерамба — кодогенератор для iOS разработки https://habrahabr.ru/company/rambler-co/blog/276275/ (для VIPER в том числе) 
 * The Book of VIPER https://github.com/rambler-ios/The-Book-of-VIPER
-
+* Блоки и target-action включая примеры как прописать использование блоков для кнопок например https://habrahabr.ru/post/276599/
+* Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
+* Как писать видео QuickTime Player'ом с iOS device http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
-
-
 
 ### In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
@@ -288,9 +313,11 @@ TODO:
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 3) https://habrahabr.ru/post/304586/
 
 ### ReactiveCocoa/rXXX
+* RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/
 * введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
 * шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
 * rxSwift работа с GUI https://habrahabr.ru/post/283128/ 
+* Тестируем реактивность — как писать unit-тесты для RxSwift tutorial https://habrahabr.ru/post/304866/
 
 ### GUI
 * жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
@@ -312,7 +339,7 @@ TODO:
 * создание пользовательской палитры в XCode https://www.natashatherobot.com/xcode-color-palette/
 * как сделать Action Sheet как в Apple Music - смотрим https://stackoverflow.com/questions/31521741/how-did-apple-do-their-action-sheet-like-this   https://stackoverflow.com/questions/31310259/groups-or-separator-in-uialertcontroller-as-in-new-music-app - на https://github.com/JonasGessner/JGActionSheet намекают
 * Popover controller кастомный - пример https://github.com/nicolaschengdev/WYPopoverController
-* IBInspectable/IBDesignable http://nshipster.com/ibinspectable-ibdesignable/
+* IBInspectable/IBDesignable http://nshipster.com/ibinspectable-ibdesignable/ - если проблемы то значит собрали статикой и либо use_frameworks либо исходники в текст
 * CustomViewKit https://github.com/yume190/CustomView
 * Custom AlertView https://github.com/Raizlabs/RaisinToast
 * расширенный выбор картинки в зависимости от набора/ориентации https://github.com/kevindelord/UIImage-Autoresize
@@ -322,7 +349,44 @@ TODO:
 * как использовать XLIFF https://habrahabr.ru/company/redmadrobot/blog/302682/ (также в комментах - как тестировать под другой локалью)
 * Model-View-Controller (MVC) in iOS: A Modern Approach https://www.raywenderlich.com/132662/mvc-in-ios-a-modern-approach
 * Self-sizing Table View Cells https://www.raywenderlich.com/129059/self-sizing-table-view-cells
+* Если хочется UILabel с анимацией текста если он не влезает https://github.com/cbpowell/MarqueeLabel - заодно это пример на IB_DESIGNABLE
+* Если хочется замену UILabel с наворотами https://github.com/TTTAttributedLabel/TTTAttributedLabel - заодно это пример на IB_DESIGNABLE
+* Пробуем XCode Live Rendering https://habrahabr.ru/post/239257/
+* как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
+* как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
 
+#### Swift
+* https://thatthinginswift.com/
+* https://www.hackingwithswift.com/
+* https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html
+* доступ к Swift-коду из ObjC если оно "само" не получается http://stackoverflow.com/a/27251979/1063214
+* Obj-C categories & Swift https://stackoverflow.com/questions/24064627/whats-the-proper-way-to-use-an-objective-c-category-within-swift
+* Obj-C blocks & Swift https://stackoverflow.com/questions/27367768/how-to-write-this-objective-c-block-in-swift-syntax?rq=1
+* CocoaPods & Swift https://www.raywenderlich.com/97014/use-cocoapods-with-swift - в том числе - зачем нужна use_frameworks! - а нужна она потому что стандартная библиотека Swift НЕ часть iOS
+
+
+#### ObjC непонятки
+* http://goshdarnblocksyntax.com/
+
+#### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
+* О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
+* О блоках и их использовании в Objective-C часть 2-ая https://habrahabr.ru/post/120869/
+* О блоках и их использовании в Objective-C часть 3-ая https://habrahabr.ru/post/121958/
+* Objective-C: как работают блоки https://habrahabr.ru/post/271255/ - в том числе про милые команды вроде clang -rewrite-objc -ObjC main.m -o out.cpp
+
+#### Cocoapods если не в других местах
+* Сеть - более качественная замена AFNetworking https://github.com/Alamofire/Alamofire
+* обфускация важных констант https://github.com/pjebs/Obfuscator-iOS
+* обфускация бинарников https://github.com/Polidea/ios-class-guard
+
+
+#### Тесты
+* Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/
+* Практический применение Unit-тестирования под iOS https://habrahabr.ru/post/262945/
+     
+     
+        
+     
     
 #### Чем нарезать GUI
 * Sketch (вместо фотошопа) http://habrahabr.ru/post/252063/ - OS X only. а еще см https://vc.ru/p/sketch - на тему чем оно лучще фотошопа
@@ -331,14 +395,19 @@ TODO:
 * PaintCode (если он нам подходит)
 * А еще есть Sketch-style IBAnimatable https://github.com/JakeLin/IBAnimatable/ - дизайн GUI ЦЕЛИКОМ в XCode…хмм
 
+#### AppStore tools,etc
+* простая и удобная запись видео с симулятора с аннотациями и так далее http://www.jaml.co.uk/simcap.html 
+* тоже самое бесплатно но чуть сложнее - https://stackoverflow.com/questions/26523622/how-can-i-run-record-an-ios-app-in-the-xcode-6-ios-simulator
  
  
 #### Autolayout
+* Auto Layout Tutorial in iOS 9 Part 1: Getting Started https://www.raywenderlich.com/115440/auto-layout-tutorial-in-ios-9-part-1-getting-started-2
+* Auto Layout Tutorial in iOS 9 Part 2: Constraints https://www.raywenderlich.com/115444/auto-layout-tutorial-in-ios-9-part-2-constraints
 * Autolayout DSL https://github.com/SnapKit/SnapKit
 * KeepLayout https://github.com/Tricertops/KeepLayout - выглядит неплохо, умеет анимации
 * вообще возможно лучще PureLayout https://github.com/PureLayout/PureLayout - там почти 1:1 соответствие API  c Apple + смотрим https://github.com/PureLayout/PureLayout/wiki/Tips-and-Tricks
 * Сравнение PureLayout и остальных подходов https://github.com/PureLayout/PureLayout#purelayout-vs-the-rest
-
+* Advanced AutoLayout https://www.objc.io/issues/3-views/advanced-auto-layout-toolbox/
 
 #### Appearance proxy,etc
 * как работать с Appearance proxy - http://nscookbook.com/2013/01/ios-programming-recipe-8-using-uiappearance-for-a-custom-look/  и http://nshipster.com/uiappearance/
@@ -372,7 +441,7 @@ TODO:
 * Debug view hierarchy кнопочка в XCode начиная с XCode 6 ( смотрим https://stackoverflow.com/questions/5150186/how-do-i-inspect-the-view-hierarchy-in-ios/ ) , в отличии от Reveal - не умеет менять данные и вообще менее...удобна 
 * опенсорсный https://github.com/glock45/iOS-Hierarchy-Viewer (заодно и для CoreData), работает через браузер
 
-### CloudKit
+### CloudKit и CoreData-с-синхронизацией
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/
 * Еще одно https://yalantis.com/blog/work-cloudkit/
 * CloudKit: The fastest route to implementing the auto-synchronizing app you've been working on? https://www.bignerdranch.com/blog/cloudkit-the-fastest-route-to-implementing-the-auto-synchronizing-app-youve-been-working-on/
@@ -380,12 +449,11 @@ TODO:
 * БД с готовой синхронизацией с CloudKit https://github.com/yapstudios/YapDatabase/wiki/YapDatabaseCloudKit
 * Swift 2.0 фреймворк для поддержки по сути CoreData через CloudKit https://github.com/nofelmahmood/Seam
 * Как (правильно) сделать Tiny data/All devices на CloudKit http://initwithfunk.com/blog/2015/06/26/as-i-learn-cloudkit-part-0/
-
-### CoreData-с-синхронизацинй
 * А еще можно просто Ensembles использовать хотя бы бесплатный - http://www.ensembles.io/ спасибо http://mjtsai.com/blog/2016/06/17/the-deprecation-of-icloud-core-data/
 ** https://stackoverflow.com/questions/30675541/ensembles-in-ios-swift
 ** https://github.com/drewmccormack/ensembles/tree/master/Examples/Simple%20Sync
 ** https://github.com/drewmccormack/ensembles - можно с него начать
+
 
 
 ### RestKit
@@ -465,14 +533,22 @@ TODO:
 * http://parsehosting.net/
 * как поставить на GAE+MongoLab https://medium.com/google-cloud/deploying-parse-server-to-google-app-engine-6bc0b7451d50#.bzan9x91a
 * настройка с RocksDB https://github.com/ParsePlatform/parse-server/wiki/MongoRocks
-* Back4App
+* Back4App https://www.back4app.com/pricing/ большой план для разработчиков
+* https://www.sashido.io/#Pricing pay-as-you-go и минимум - 5 usd/месяц. база - 1 Gb, дополнительно - 16US$/gb. Social login тоже прямо заявлен только а зачем он нужен? free private github repo for each app. блин - там waitlist. они НЕ готовы
+* https://bitnami.com/stack/parse - Download Your Own + Cloud
+* http://parse-hosting.oursky.com/ 20 USD/месяц, billed annually
+* и Heroku и помним что есть интеграция Parse и Heroku http://blog.parse.com/announcements/introducing-heroku-parse/
+* https://www.nodechef.com/pricing - - очень интересное решение.
+* digitalocean - ссылку на туториалы по настройке даже не привожу - они у них на сайте есть. и можно по ним настроится
+* смотрим также https://github.com/ParsePlatform/parse-server/wiki
 
 
 ### MongoDB hosting
 * ObjectRocket https://objectrocket.com/parse 
 * MongoLab/mLab https://mlab.com/plans/pricing/
 * Хостинг MongoDB, Postgres,etc https://www.compose.io/pricing/ 
-
+* Еще хостинг MongoDB https://scalegrid.io/pricing.html
+* Cравнение двух предыдущих от Scalegrid https://scalegrid.io/mongodb/hosting-comparison.html
 
 ### Realtime app framework с nodejs server
 * http://socket.io/

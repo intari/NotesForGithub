@@ -185,6 +185,7 @@ TODO:
 * The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
 * Multicasting in rxJava http://blog.danlew.net/2016/06/13/multicasting-in-rxjava/
 * Shake Detector для Android на RxJava https://habrahabr.ru/company/badoo/blog/304488/
+* Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 
 
 ### Android/Various
@@ -525,22 +526,48 @@ TODO:
 * Parse Server Guide https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide включая советы по тому где хостить 
 * Что с Dashboard делать - а есть уже - parse server dashboard http://blog.parse.com/announcements/introducing-the-parse-server-dashboard/
 * https://www.raywenderlich.com/128313/parse-server-tutorial migration
-* Российская Scorocode https://habrahabr.ru/company/scorocode/blog/303954/ 
+* Российская Scorocode https://habrahabr.ru/company/scorocode/blog/303954/ https://vc.ru/p/app-creation-time
 
 
 ### Parse Server Hosting 
+* https://www.nodechef.com/pricing - самый на мой взгляд нормальный пока
 * http://yourparse.com/
 * http://parsehosting.net/
 * как поставить на GAE+MongoLab https://medium.com/google-cloud/deploying-parse-server-to-google-app-engine-6bc0b7451d50#.bzan9x91a
 * настройка с RocksDB https://github.com/ParsePlatform/parse-server/wiki/MongoRocks
-* Back4App https://www.back4app.com/pricing/ большой план для разработчиков
+* Back4App https://www.back4app.com/pricing/ большой план для разработчиков. лимиты по количеству запросов в месяц всегда
 * https://www.sashido.io/#Pricing pay-as-you-go и минимум - 5 usd/месяц. база - 1 Gb, дополнительно - 16US$/gb. Social login тоже прямо заявлен только а зачем он нужен? free private github repo for each app. блин - там waitlist. они НЕ готовы
-* https://bitnami.com/stack/parse - Download Your Own + Cloud
 * http://parse-hosting.oursky.com/ 20 USD/месяц, billed annually
+* https://www.backand.com/parse-alternative/
 * и Heroku и помним что есть интеграция Parse и Heroku http://blog.parse.com/announcements/introducing-heroku-parse/
-* https://www.nodechef.com/pricing - - очень интересное решение.
-* digitalocean - ссылку на туториалы по настройке даже не привожу - они у них на сайте есть. и можно по ним настроится
+* DigitalOcean как руками настроить : https://www.digitalocean.com/community/tutorials/how-to-run-parse-server-on-ubuntu-14-04 + https://www.digitalocean.com/community/tutorials/how-to-migrate-a-parse-app-to-parse-server-on-ubuntu-14-04
 * смотрим также https://github.com/ParsePlatform/parse-server/wiki
+
+#### NodeChef
+изначально - хостинг для приложений Meteor
+
+* цены https://nodechef.com/pricing - от 9 USD, искуственных лимитов на количество запросов - нет
+* deploy cloud coude - одной командой (как и deploy статики)
+* используют RocksDB Storage Engine в MongoDB.
+* автоматические бекапы MongoDB каждые 16 часов + можно подключится MongoChef'ом и самостоятельно сделать
+* автоматический SSL (Let's Encrypt используют, можно свои сертификаты)
+* есть US-East и EU-West локации.
+* Static asset hosting + реверс-прокси
+* Background Jobs есть (в отличии от некоторых конкурентов)
+* LiveQuery есть (на данный момент - при одном App Container)
+* Различные метрики как БД так и AppServer есть
+* шаблоны писем и страниц для e-mail verification, сброса пароля и так далее - можно настроить например чтобы было MyCoolAppName
+* ParseConfig поддерживается
+* Почту отправляют через MailGun / Sendgrid (пользователь должен указать API Key)
+* Выбор версии Parse Server при желании
+
+#### Недостатки
+* если кусок CloudCode упал - он просто упал. в логах чисто. надо обертывать в try/catch и писать в console.error
+* их гуглогруппу надо читать, настройки шаблонов почты...это было не очевидно
+* логи Cloud Code смотрятся ТОЛЬКО через App Logs (и в обратной сортировке). Через ту же Parse Dashboard - не видно вообще. транслировать 
+* деплой-тулза требует указания логина и пароля....каждый раз. или в командной строке.
+* не прописано внятно что для работы e-mail verification/сбросов пароля, указанный домен должен 1:1 совпадать с тем что в MailGun
+
 
 
 ### MongoDB hosting
@@ -666,4 +693,9 @@ TODO:
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features
 * q-municate от quickblox
+
+### custom apis,etc
+* https://market.mashape.com/
+* https://github.com/natanrolnik/NLRMashapeClient iOS-библиотека к ним
+
 

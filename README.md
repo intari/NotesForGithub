@@ -226,6 +226,12 @@ TODO:
 * Google I/O 2016 Live Blog http://www.anandtech.com/show/10332/google-io-2016-live-blog
 * Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
+* Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
+
+### Аудиовидео плееры / Android
+* https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
+* https://github.com/Bilibili/ijkplayer
+
 
 ### Picture-in-Picture
 Да, это есть на Android и давно было. И более общий функционал есть
@@ -384,9 +390,29 @@ TODO:
 #### Тесты
 * Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/
 * Практический применение Unit-тестирования под iOS https://habrahabr.ru/post/262945/
-     
-     
-        
+    
+#### Аудио-видео плееры / iOS
+* AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт
+* MobileVLCKit http://code.videolan.org/videolan/VLCKit.git 
+** http://www.feepk.net/2014/12/02/mobilevlckit-and-vlckit-part-1/ + http://www.feepk.net/2015/02/18/mobilevlckit-and-vlckit-part-2/
+** брать либо pod MobileVLC-prod - он 2.7.9
+** либо ручками собрать
+
+```Shell
+cd %DIR%
+git clone -v http://code.videolan.org/videolan/VLCKit.git
+cd VLCKit
+git fetch origin
+git branch -v -a посмотреть бранчи
+git checkout -b iOS-2.7 origin/iOS-2.7
+./buildMobileVLCKit.sh -f #  build for simulator and device
+```
+чтобы потом пересобрать - грохнуть MobileVLCKit/ImportedSources надо как минимум
+** лицензия: судя по том что делает pod install - достаточно 
+*** положить в папку рядом с MobileVLCKit.Framework файл лицензии
+*** выложить свои патчи к самому MobileVLCKit
+** как образец плеера - Dropin-Player - он под еще более либеральной лицензией
+;;         
      
     
 #### Чем нарезать GUI

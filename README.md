@@ -394,9 +394,9 @@ TODO:
 #### Аудио-видео плееры / iOS
 * AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт
 * MobileVLCKit http://code.videolan.org/videolan/VLCKit.git 
-** http://www.feepk.net/2014/12/02/mobilevlckit-and-vlckit-part-1/ + http://www.feepk.net/2015/02/18/mobilevlckit-and-vlckit-part-2/
-** брать либо pod MobileVLC-prod - он 2.7.9
-** либо ручками собрать
+	* http://www.feepk.net/2014/12/02/mobilevlckit-and-vlckit-part-1/ + http://www.feepk.net/2015/02/18/mobilevlckit-and-vlckit-part-2/
+	* брать либо pod MobileVLC-prod - он 2.7.9
+	* либо ручками собрать
 
 ```Shell
 cd %DIR%
@@ -408,11 +408,12 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ./buildMobileVLCKit.sh -f #  build for simulator and device
 ```
 чтобы потом пересобрать - грохнуть MobileVLCKit/ImportedSources надо как минимум
-** лицензия: судя по том что делает pod install - достаточно 
-*** положить в папку рядом с MobileVLCKit.Framework файл лицензии
-*** выложить свои патчи к самому MobileVLCKit
-** как образец плеера - Dropin-Player - он под еще более либеральной лицензией
-;;         
+
+	* лицензия: судя по том что делает pod install - достаточно 
+	* положить в папку рядом с MobileVLCKit.Framework файл лицензии
+	* выложить свои патчи к самому MobileVLCKit
+ 	* как образец плеера - Dropin-Player - он под еще более либеральной лицензией
+         
      
     
 #### Чем нарезать GUI

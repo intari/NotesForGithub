@@ -392,7 +392,8 @@ TODO:
 * Практический применение Unit-тестирования под iOS https://habrahabr.ru/post/262945/
     
 #### Аудио-видео плееры / iOS
-* AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт
+* AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт при сетевой загрузке.
+
 ##### MobileVLCKit
 MobileVLCKit http://code.videolan.org/videolan/VLCKit.git 
 * http://www.feepk.net/2014/12/02/mobilevlckit-and-vlckit-part-1/ + http://www.feepk.net/2015/02/18/mobilevlckit-and-vlckit-part-2/

@@ -227,6 +227,7 @@ TODO:
 * Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
+* Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
 
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
@@ -412,6 +413,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * лицензия: судя по том что делает pod install - достаточно  положить в папку рядом с MobileVLCKit.Framework файл лицензии и выложить свои патчи к самому MobileVLCKit
 * как образец плеера - Dropin-Player - он под еще более либеральной лицензией
          
+##### IJKPlayer ? 
+* https://github.com/Bilibili/ijkplayer  iOS (в будущем)/Android
+    
      
     
 #### Чем нарезать GUI
@@ -645,7 +649,11 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ### Flask
 *  Мега-учебник Flask http://habrahabr.ru/post/193242/
    
-## Various
+## Various (=растащить в будущем по разным местам)
+* Удачная модель ветвления для Git http://habrahabr.ru/post/106912/ - must read вообще то и в системах поддержано
+* Rebase Flow. Способ приготовления и его поддержка в GitHub, GitLab, BitBucket https://habrahabr.ru/company/at_consulting/blog/283326/
+* Wakatime http://wakatime.com и да - Chrome если надо  - поддерживается
+* Rescuetime http://rescuetime.com 
 * badges for projects http://shields.io/
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
 * Как парсить сайты - jsoup https://jsoup.org/  https://stackoverflow.com/questions/9071568/parse-web-site-html-with-java
@@ -653,7 +661,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * stock-картинки в том числе бесплатные stock.xchng сейчас они http://www.freeimages.com/
 * в тему "Заблуждения программистов о.." - Заблуждения программистов о телефонных номерах https://habrahabr.ru/post/279751/
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
-* альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ 
+* альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ (реально - Mailgun вполне себе)
 * генерация случайных картинок с роботами https://robohash.org/
 * шпаргалки для Java-программиста: коллекции в Java, стандартные и не очень https://habrahabr.ru/company/luxoft/blog/256877/
 * полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
@@ -664,6 +672,11 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * сборка гибридного приложения под Android https://habrahabr.ru/post/277729/
 * PDF в России - стандарт или не стандарт? https://habrahabr.ru/company/abbyy/blog/105006/
 * PDF с точки зрения программиста https://habrahabr.ru/company/abbyy/blog/108459/
+* Блог Алексея Шипилева по производительности Java https://shipilev.net/
+* как ПРАВИЛЬНО делать микробенчмарки в Java https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
+* эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/
+* обход certificate pinning на Android https://habrahabr.ru/post/307774/
+* Как думать на SQL? https://habrahabr.ru/post/305926/
 
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования
@@ -674,12 +687,13 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Countly http://count.ly. есть cloud edition, есть opensource edition есть enterprise edition. красивые графики и все такое. APM - конфликтует с кучей всего 
 ** установка OpenSource-версии на DigitalOcean https://medium.com/@countly/how-to-install-upgrade-and-backup-countly-on-a-digital-ocean-droplet-a-step-by-step-guide-8dde2764e407
 ** совсем однокликовый инсталлер Countly на DigitalOcean http://do.count.ly/install 
-* Mixpanel http://mixpanel.com/free Timed events, visual events editor, user tracker, A/B test support. очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые и есть партнерский план. есть user analytics.
+* Mixpanel http://mixpanel.com/free Timed events, visual events editor, user tracker, A/B test support. очень удобная, только надо немного разобратся. умеет автогенерить аналитику по переходам между view controllers на iOS.тарифы приемлимые (смотря для кого да) и есть партнерский план. есть user analytics. сам SDK - в исходниках.
 * Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
 * Devtodev http://megamozg.ru/company/devtodev/blog/18664/
 * Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
 * также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
+
 
 #### Ловля крешей
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
@@ -688,7 +702,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
 
 #### CI
-* Buddybuild пока бесплатный
+* Buddybuild бесплатный тариф есть но так - весьма платный
 * Bitrise https://www.bitrise.io/
 * Travis CI (для OpenSource либо платный)
 * https://greenhouseci.com/
@@ -696,7 +710,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * упрощенно и ручками - fastlane
 * вообще смотрим https://github.com/ligurio/Continuous-Integration-services/blob/master/continuous-integration-services-list.md
 * подьем CI iOS своими руками https://habrahabr.ru/company/livetyping/blog/302642/
-
+* Jenkins - hosted
+* Bamboo - hosted
 
 #### Патчи
 * Rollout https://rollout.io/ пока только iOS причем поддержку Swift только обещают. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику.

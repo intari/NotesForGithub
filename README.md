@@ -307,6 +307,9 @@ TODO:
 * Блоки и target-action включая примеры как прописать использование блоков для кнопок например https://habrahabr.ru/post/276599/
 * Как писать видео QuickTime Player'ом с iOS device http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/
 * визуальный редактор NSPredicate'ов https://github.com/arvindhsukumar/PredicateEditor  - iOS9, Swift-only
+* Сколько приложению стоит одновременно держать сетевых коннектов http://blog.mugunthkumar.com/articles/mobile-apps-and-number-of-concurrent-connections/ 
+* Avoiding Common Networking Mistakes от Apple https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/CommonPitfalls/CommonPitfalls.html
+
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
@@ -602,6 +605,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * ParseConfig поддерживается
 * Почту отправляют через MailGun / Sendgrid (пользователь должен указать API Key)
 * Выбор версии Parse Server при желании
+* база где то 12 USD/Gb/Месяц после первого Gb
 
 #### Недостатки
 * если кусок CloudCode упал - он просто упал. в логах чисто. надо обертывать в try/catch и писать в console.error
@@ -610,6 +614,20 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * деплой-тулза требует указания логина и пароля....каждый раз. или в командной строке.
 * не прописано внятно что для работы e-mail verification/сбросов пароля, указанный домен должен 1:1 совпадать с тем что в MailGun
 
+#### SashiDo
+* интеграция с github а не своя деплоилка как у NodeChef https://blog.sashido.io/how-to-set-up-cloud-code-on-sashido/
+* 4.95 USD/месяц минимум за приложение. но есть лимиты на запросы (превышение - платно). 
+* Второй и дальше гигабайты базы - по 16 USD/Gb/месяц
+* Логи в панельке таки есть
+* Advanced Cloud Code - там и custom express.js apps https://blog.sashido.io/our-big-things-to-announce/ - хотя сильно новое?
+* база видно что двухузловая
+* есть в том их примере на github как все локально запускать и чтобы после заливки тоже жило
+
+#### Недостатки
+* за custom domain вроде как в саппорт
+* LiveQuery - ?
+* background jobs нет. обещали к сентябрю 2016
+* про бекапы пока не слышно. может и есть но не заявлено как получить доступ к 
 
 
 ### MongoDB hosting

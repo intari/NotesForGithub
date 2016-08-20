@@ -481,6 +481,47 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * если виснет на Authenticating with iTunes Store то может помочь https://stackoverflow.com/questions/18971710/application-loader-stuck-at-the-stage-of-authenticating-with-the-itunes-store
 * ITMS-90096 - если все точно сделано (и файл - Default-568@2x.png) то читаем https://stackoverflow.com/questions/28830013/your-binary-is-not-optimized-for-iphone-5-itms-90096-when-submitting
 
+### Как сделать submit в AppStore если клиент имеет Individual account
+#### Ситуация
+* у нас есть свой Individual-аккаунт
+* у клиента Individual account, пароль от аккаунта он давать не хочет. Company account тоже не хочет делать. 
+* Надо выложить приложение от имени клиента
+* Xcode 7
+
+#### Что делать
+* получаем у клиента доступ в iTunes Connect на новый Apple ID (не тот на котором у нас все) с правами Application Manager / Developer
+* просим клиента (или через удаленный доступ на его машине) создаем application record. можно и через Xcode
+* просим клиента (или через удаленный доступ на его машине)  его developer profile (да да я в курсе что можно руками все сертификаты и профили попросить но это дольше будет)
+* у себя при сборке ставим нужным provisioning profile (XC:…клиента)  а code signing - automatic (или iOS Developer клиента ).
+* Собирать для build-only device
+* Archive
+* Export с use local signing assets. экспортируется все подписанное distribution-сертификатом клиента если все правильно сделали. Если получаем ругань от XCode на этой стадии - удаляем Developer Profile клиента (сертификаты останутся) и перезапускаем XCode
+* заходим своим  новым Apple ID в Application Loader и выгружаем через него IPA. Он успешно загрузится
+* настраиваем своим новым Apple ID все что нужно в iTunes Connect
+
+####  на что обратить внимание
+* что у клиента получены все сертификаты (запросить если нет
+* что у клиента корректно настроен provisioning profile (если надо in-app, push и так далее). Если настраивали через XCode то это будет XC:…профиль
+* при отправке не забываем in-app'ы тоже добавить в список на отправку если они есть.
+
+#### что делать в случае проблем
+* если после установки Developer Profile клиента система просит пароль от его Apple ID…удаляем профиль (сертификаты и provisioning profile останутся)
+* после любых операций с профилями и малейших глюках - перезапуск XCode
+
+#### что видимо не будет работать
+* crash log’и от Apple не получить, те что через XCode
+
+####  полезные утилиты для iTunes Connect
+* генерация Privacy Policy http://generator.appprivacy.net/privacy/ если руками никак
+* скриншоты - https://shotbot.io/ (19,99 USD  one time)
+* автонарезалка иконок https://makeappicon.com/ios9icon
+
+#### полезная информация
+* App Store Review times http://appreviewtimes.com/ aka https://twitter.com/appreviewtimes ну и https://developer.apple.com/support/app-review/  - пока что - 1-2 дня включая выходные. Просят пополнять их базу
+* How to reproduce bugs reported against App Store submissions https://developer.apple.com/library/ios/qa/qa1764/_index.html
+
+
+
 ### вспомогательные средства отладки GUI
 * платный Reveal http://revealapp.com/ 
 * платный Spark Inspector http://sparkinspector.com/ , умеет и Notification Center мониторить, умеет подключатся прямо в процессе работы (к симулятору правда, к устройствам надо framework)

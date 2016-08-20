@@ -2,6 +2,8 @@
 
 ## Android 
 
+* Вообще Busy Coder's читаем сначала по всем пунктам
+
 ### Data binding
 TODO:
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -78,6 +80,9 @@ TODO:
 * Working with Robolectric and Robotium in Android Studio and Gradle https://benwilcock.wordpress.com/2015/01/20/working-with-robolectric-and-robotium-in-android-studio-and-gradle/ + https://github.com/benwilcock/android-alltest-gradle-sample
 * Different ways of testing exceptions in Java and JUnit http://blog.goyello.com/2015/10/01/different-ways-of-testing-exceptions-in-java-and-junit/
 * Why run unit tests on CI server https://programmers.stackexchange.com/questions/308515/whats-the-point-of-running-unit-tests-on-a-ci-server
+* Introduction to Automated Android Testing – Part 1 https://riggaroo.co.za/introduction-automated-android-testing/ обзор методов и средств тестирования
+* Introduction to Automated Android Testing – Part 2 – Setup https://riggaroo.co.za/automated-android-testing-part-2-setup/
+* Introduction to Android Testing – Part 3 https://riggaroo.co.za/introduction-android-testing-part3/ 
 
 
 #### mockito
@@ -162,6 +167,7 @@ TODO:
 
 ### rxJava
 * вступление в реактивное программирование которое вы пропустили https://habrahabr.ru/post/279715/
+* Howdy RxJava. https://medium.com/fuzz/howdy-rxjava-8f40fef88181#.q1uxtz8gd
 * также см про rxSwift/ReactiveCocoa про iOS
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
 * Notes on Reactive Programming Part I: The Reactive Landscape https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape
@@ -206,6 +212,9 @@ TODO:
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
 * Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
+* Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/
+* Dagger 2. Часть вторая. Custom scopes, Component dependencies, Subcomponents https://habrahabr.ru/post/279641/
+* Дружественное введение в Dagger 2 часть 2 https://habrahabr.ru/post/308040/
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
 * Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
@@ -285,7 +294,7 @@ TODO:
 * как method swizzling делать http://nshipster.com/method-swizzling/
 * готовый фильтр Блума под iOS https://github.com/rgerard/ios-bloom-filter 
 * типа красивый способ сделать синглтон https://habrahabr.ru/post/282169/ обертки,все такое - правда если оно вообще надо
-* как создать Static Framework под iOS https://habrahabr.ru/post/280286/
+* как создать Static Framework под iOS https://habrahabr.ru/post/280286/ 
 * Пишем VoIP iOS чат на CORE AUDIO для конкурса VK Mobile Challenge https://habrahabr.ru/post/279517/
 * рассылка iOS Dev Weekly с полезными ссылками для разработчиков https://iosdevweekly.com
 * имитация Remote Notifications для симулятора https://github.com/acoomans/SimulatorRemoteNotifications (старый старый проект)
@@ -296,8 +305,8 @@ TODO:
 * Генерамба — кодогенератор для iOS разработки https://habrahabr.ru/company/rambler-co/blog/276275/ (для VIPER в том числе) 
 * The Book of VIPER https://github.com/rambler-ios/The-Book-of-VIPER
 * Блоки и target-action включая примеры как прописать использование блоков для кнопок например https://habrahabr.ru/post/276599/
-* Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
 * Как писать видео QuickTime Player'ом с iOS device http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/
+* визуальный редактор NSPredicate'ов https://github.com/arvindhsukumar/PredicateEditor  - iOS9, Swift-only
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
@@ -319,6 +328,17 @@ TODO:
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 1) https://habrahabr.ru/post/303512/
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 2) https://habrahabr.ru/post/303798/
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 3) https://habrahabr.ru/post/304586/
+* https://thatthinginswift.com/
+* https://www.hackingwithswift.com/
+* https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html
+* доступ к Swift-коду из ObjC если оно "само" не получается http://stackoverflow.com/a/27251979/1063214
+* Obj-C categories & Swift https://stackoverflow.com/questions/24064627/whats-the-proper-way-to-use-an-objective-c-category-within-swift
+* Obj-C blocks & Swift https://stackoverflow.com/questions/27367768/how-to-write-this-objective-c-block-in-swift-syntax?rq=1
+* CocoaPods & Swift https://www.raywenderlich.com/97014/use-cocoapods-with-swift - в том числе - зачем нужна use_frameworks! - а нужна она потому что стандартная библиотека Swift НЕ часть iOS
+* В поисках чистой архитектуры (1-я часть) — Swift 3.0 https://habrahabr.ru/post/306206/   интересная статья заодно про VIPER-style
+* Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
+
+
 
 ### ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/
@@ -363,15 +383,6 @@ TODO:
 * как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
 * как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
 
-#### Swift
-* https://thatthinginswift.com/
-* https://www.hackingwithswift.com/
-* https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html
-* доступ к Swift-коду из ObjC если оно "само" не получается http://stackoverflow.com/a/27251979/1063214
-* Obj-C categories & Swift https://stackoverflow.com/questions/24064627/whats-the-proper-way-to-use-an-objective-c-category-within-swift
-* Obj-C blocks & Swift https://stackoverflow.com/questions/27367768/how-to-write-this-objective-c-block-in-swift-syntax?rq=1
-* CocoaPods & Swift https://www.raywenderlich.com/97014/use-cocoapods-with-swift - в том числе - зачем нужна use_frameworks! - а нужна она потому что стандартная библиотека Swift НЕ часть iOS
-
 
 #### ObjC непонятки
 * http://goshdarnblocksyntax.com/
@@ -386,7 +397,7 @@ TODO:
 * Сеть - более качественная замена AFNetworking https://github.com/Alamofire/Alamofire
 * обфускация важных констант https://github.com/pjebs/Obfuscator-iOS
 * обфускация бинарников https://github.com/Polidea/ios-class-guard
-
+* потереть все комменты https://github.com/igorbarinov/deployment-scrpits/tree/master/remove-comments
 
 #### Тесты
 * Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/
@@ -449,6 +460,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * обзор существующих библиотек http://h4ckish.com/2015/12/31/how-to-style-your-ios-app-with-nui/
 * UIAppearance for custom views еще статья http://petersteinberger.com/blog/2013/uiappearance-for-custom-views/
 * как быть если с UIAlertView это все не работает а хочется tintColor задать - а например https://stackoverflow.com/questions/32856892/how-to-change-uialertcontroller-button-text-colour-in-ios9
+* еще одна библиотека для стилизации https://github.com/146BC/StyleKit  Swift/Carthage  (хотя pod можно подключить)
+
 
 
 
@@ -677,6 +690,12 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/
 * обход certificate pinning на Android https://habrahabr.ru/post/307774/
 * Как думать на SQL? https://habrahabr.ru/post/305926/
+* В чем должен разбираться Frontend-разработчик https://habrahabr.ru/post/306716/
+* Git Rebase: руководство по использованию https://habrahabr.ru/post/161009/
+* Git rebase «по кнопке» https://habrahabr.ru/company/badoo/blog/193258/
+* Чем опасен rebase, или как получилось, что 2*3=5 https://habrahabr.ru/post/179123/
+
+
 
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования

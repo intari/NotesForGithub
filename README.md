@@ -238,6 +238,16 @@ TODO:
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
 
+### Support library
+#### Percent support library
+да, теперь это официально
+* Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
+* Официальное описание https://developer.android.com/tools/support-library/features.html?linkId=16439958#percent
+* Как использовать, часть 1 https://blog.stylingandroid.com/percent-part-1/
+* Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
+* Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
+
+
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
 * https://github.com/Bilibili/ijkplayer

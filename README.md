@@ -237,6 +237,9 @@ TODO:
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
+* Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
+* Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
+
 
 ### Support library
 #### Percent support library
@@ -247,6 +250,9 @@ TODO:
 * Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
 * Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
 
+#### Constraint layout
+* ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
+* Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
 
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
@@ -319,6 +325,7 @@ TODO:
 * визуальный редактор NSPredicate'ов https://github.com/arvindhsukumar/PredicateEditor  - iOS9, Swift-only
 * Сколько приложению стоит одновременно держать сетевых коннектов http://blog.mugunthkumar.com/articles/mobile-apps-and-number-of-concurrent-connections/ 
 * Avoiding Common Networking Mistakes от Apple https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/CommonPitfalls/CommonPitfalls.html
+* Рекордное время: как мы увеличили скорость запуска приложения Почты Mail.Ru на iOS https://habrahabr.ru/company/mailru/blog/307778/
 
 
 # OS X 
@@ -398,7 +405,7 @@ TODO:
 
 
 #### ObjC непонятки
-* http://goshdarnblocksyntax.com/
+* http://goshdarnblocksyntax.com/ How Do I Declare A Block in Objective-C? для тех кто проспал 
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
@@ -763,7 +770,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Git Rebase: руководство по использованию https://habrahabr.ru/post/161009/
 * Git rebase «по кнопке» https://habrahabr.ru/company/badoo/blog/193258/
 * Чем опасен rebase, или как получилось, что 2*3=5 https://habrahabr.ru/post/179123/
-
+* Crosswalk Project — замена Android WebView. Развитие проекта https://habrahabr.ru/post/308538/
 
 
 ### Вспомогательные средства для разработки
@@ -782,11 +789,15 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
 * также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
 
+##### откуда ставили приложение 
+* https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
+* MobileAppTracking.com
 
 #### Ловля крешей
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
 * Crashlytics http://try.crashlytics.com crash reporting. бесплатно независимо от обьемов. умеет и NSLog'и с собой в крешлог включать.
 * Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS.
+* Bugsnaq - https://bugsnag.com/pricing/ - 250 errors/day/7day retention - free. а дальше от 29US$/месяц
 * Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
 
 #### CI
@@ -821,6 +832,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features
 * q-municate от quickblox
+* NMessenger https://github.com/eBay/NMessenger A fast, lightweight messenger component built on AsyncDisplaykit and written in Swift
 
 ### custom apis,etc
 * https://market.mashape.com/

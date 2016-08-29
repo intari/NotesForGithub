@@ -239,6 +239,7 @@ TODO:
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
+* Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
 
 
 ### Support library
@@ -326,6 +327,7 @@ TODO:
 * Сколько приложению стоит одновременно держать сетевых коннектов http://blog.mugunthkumar.com/articles/mobile-apps-and-number-of-concurrent-connections/ 
 * Avoiding Common Networking Mistakes от Apple https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/CommonPitfalls/CommonPitfalls.html
 * Рекордное время: как мы увеличили скорость запуска приложения Почты Mail.Ru на iOS https://habrahabr.ru/company/mailru/blog/307778/
+* iOS 10: Notification content extension https://habrahabr.ru/company/redmadrobot/blog/306572/
 
 
 # OS X 
@@ -771,7 +773,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Git rebase «по кнопке» https://habrahabr.ru/company/badoo/blog/193258/
 * Чем опасен rebase, или как получилось, что 2*3=5 https://habrahabr.ru/post/179123/
 * Crosswalk Project — замена Android WebView. Развитие проекта https://habrahabr.ru/post/308538/
-
+* helper https://github.com/adjust/AEPriceMatrix
+* AppStore Optimization https://habrahabr.ru/company/appodeal/blog/260179/
+* AppStore Optimization 2: Play Store https://habrahabr.ru/company/appodeal/blog/261277/
 
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования

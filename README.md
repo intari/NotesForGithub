@@ -777,6 +777,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * AppStore Optimization https://habrahabr.ru/company/appodeal/blog/260179/
 * AppStore Optimization 2: Play Store https://habrahabr.ru/company/appodeal/blog/261277/
 
+### Xperia specific
+* Xperia Home Badge API https://developer.sony.com/2016/06/23/xperia-home-badge-api-now-publicly-available/ - 'номера' как на iOS  - в Xperia Home
+
 ### Вспомогательные средства для разработки
 #### Системы удаленного логгирования
 * Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
@@ -792,6 +795,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
 * также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
+* полурекламная статья про Amplitude http://gopractice.ru/amplitude-analytics/
+* как настраивать мобильную аналитику http://gopractice.ru/mobile_analytics_implementation/
 
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
@@ -822,6 +827,17 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 #### Видеозапись
 * Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
 * UXCam https://uxcam.com/ video recording,heatmaps,etc
+
+
+#### Прототипирование
+* https://www.invisionapp.com/
+* http://www.pixate.com/ - есть локальное приложение
+* https://www.flinto.com/
+* https://mockingbot.com/ - есть локальное приложение
+* https://marvelapp.com/
+* Framer
+* http://www.creativebloq.com/web-design/top-10-prototyping-tools-2016-21619216
+* https://www.quora.com/What-are-the-best-rapid-prototyping-tools-for-iOS-apps
 
 #### API Emulation
 * Fake the backend while you develop the frontend http://jsonstub.com/

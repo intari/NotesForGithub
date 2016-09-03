@@ -328,7 +328,7 @@ TODO:
 * Avoiding Common Networking Mistakes от Apple https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/CommonPitfalls/CommonPitfalls.html
 * Рекордное время: как мы увеличили скорость запуска приложения Почты Mail.Ru на iOS https://habrahabr.ru/company/mailru/blog/307778/
 * iOS 10: Notification content extension https://habrahabr.ru/company/redmadrobot/blog/306572/
-
+* TUDelorean - игры с часами для тестов https://github.com/tuenti/TUDelorean - интересная штука для тестов зависящих от часов вещей (сделано через swizzling NSDate)
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?

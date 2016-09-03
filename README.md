@@ -677,17 +677,23 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 #### SashiDo
 * интеграция с github а не своя деплоилка как у NodeChef https://blog.sashido.io/how-to-set-up-cloud-code-on-sashido/
 * 4.95 USD/месяц минимум за приложение. но есть лимиты на запросы (превышение - платно). 
-* Второй и дальше гигабайты базы - по 16 USD/Gb/месяц
-* Логи в панельке таки есть
+* Второй и дальше гигабайты базы - по 16 USD/Gb/месяц.
+* размер БД показывают значительно меньше чем Nodechef (да, nodechef storage used показывает а не размер БД но все же). 
+* Логи в панельке таки есть. Только вот console.log - обещают в будущем. console.info/warn/error - работает. правда есть вопросы с паузами.
 * Advanced Cloud Code - там и custom express.js apps https://blog.sashido.io/our-big-things-to-announce/ - хотя сильно новое?
 * база видно что двухузловая
-* есть в том их примере на github как все локально запускать и чтобы после заливки тоже жило
+* есть в том их примере на github как все локально запускать и чтобы после заливки тоже жило..синхронизация - не ясно
+* сервис болгарский. живут на Amazon
+* поддержки process.ENV как у NodeChef - нет. Предлагается использовать Parse Config который https://parseplatform.github.io/docs/js/guide/#config
+
 
 #### Недостатки
 * за custom domain вроде как в саппорт
-* LiveQuery - ?
+* LiveQuery - обещано в этом году About the live queries: Yes we are planning to release them by the end of the year but first we will release Background Jobs and some other things like Scheduled Push Notifications, Backups and few more
 * background jobs нет. обещали к сентябрю 2016
-* про бекапы пока не слышно. может и есть но не заявлено как получить доступ к 
+* бекапов согласно https://www.sashido.io/policies.html нет, это забота кастомера. но общеают сделать
+* панель вполне может начать показывать ошибку CloudFront
+* адрес отправки автоматических почтовых сообщений настроить нельзя - будет noreply@sashido.io но автор - корректно пишется. Сообщения через Amazon SES идут.
 
 
 ### MongoDB hosting
@@ -801,6 +807,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
 * MobileAppTracking.com
+* Другие конкуренты + сколько стоит appsflyer - https://www.quora.com/Mobile-App-Marketing-How-much-does-AppsFlyer-cost
+
 
 #### Ловля крешей
 * Testfairy умеет(если dSYM не с прробелом), Rollbar умеет(если dSYM не с пробелом), Countly заявлено что умеет в Opensource  edition(минимум какой то) и в Enterprise
@@ -810,7 +818,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
 
 #### CI
-* Buddybuild бесплатный тариф есть но так - весьма платный
+* BuddyBuild бесплатный тариф есть но так - весьма платный. Ориентация похоже на распространение сборок тестерам а не CI
 * Bitrise https://www.bitrise.io/
 * Travis CI (для OpenSource либо платный)
 * https://greenhouseci.com/

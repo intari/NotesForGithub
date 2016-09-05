@@ -18,6 +18,10 @@ TODO:
 * Android Data Binding in RecyclerView http://habrahabr.ru/company/dataart/blog/267735/
 * Data binding example with SearchView/RecyclerView https://github.com/ashdavies/data-binding
 * Android и Data Binding: обработка действий https://habrahabr.ru/post/305916/
+* Android Data Binding for RecyclerView: flexible way https://habrahabr.ru/post/308872/
+
+### Annotations - начало
+* Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
 
 ### (Custom) Annotation processors
 * Annotation Processor to create arguments for android fragments without using reflections http://hannesdorfmann.com/android/fragmentargs/
@@ -192,7 +196,8 @@ TODO:
 * Multicasting in rxJava http://blog.danlew.net/2016/06/13/multicasting-in-rxjava/
 * Shake Detector для Android на RxJava https://habrahabr.ru/company/badoo/blog/304488/
 * Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
-
+* Несколько примеров практического использования RxJava https://habrahabr.ru/post/309154/
+* Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
 
 ### Android/Various
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
@@ -240,7 +245,10 @@ TODO:
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
-
+* Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
+* Security issues with Android Accessibility https://medium.com/@vedprakashrout/android-accessibility-75fdc5810025#.fr5wfba6g
+* 5 steps to creating frustration-free Android test devices https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8 - речь не про эмуляторы если что
+* Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 
 ### Support library
 #### Percent support library

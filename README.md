@@ -823,6 +823,15 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * полурекламная статья про Amplitude http://gopractice.ru/amplitude-analytics/
 * как настраивать мобильную аналитику http://gopractice.ru/mobile_analytics_implementation/
 
+##### Firebase
+это такой BaaS от гугла - там много что - и креши и testlab и аналог parse (без cloud clode)...
+* https://habrahabr.ru/company/google/blog/305308/
+* https://habrahabr.ru/post/277941/
+* https://habrahabr.ru/company/google/blog/305308/ По следам Google I/O 2016 — новый Firebase: интеграция с Android
+* https://habrahabr.ru/post/302002/ Push уведомления в Android с помощью Firebase Cloud Messaging для начинающих 
+* https://habrahabr.ru/post/303514/ Нюансы Firebase messaging для начинающих
+
+
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
 * MobileAppTracking.com

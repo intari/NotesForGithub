@@ -209,6 +209,7 @@ TODO:
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
+* библиотека для более удобной работы с permissions https://hotchemi.github.io/PermissionsDispatcher/
 * VIPER для Android https://habrahabr.ru/company/rambler-co/blog/277003/
 * ScribeJava - простая OAUTH - библиотека https://habrahabr.ru/company/hh/blog/278957/ + SunScribe - расширение
 * быстрое создание красивой About page https://github.com/medyo/android-about-page
@@ -249,6 +250,7 @@ TODO:
 * Security issues with Android Accessibility https://medium.com/@vedprakashrout/android-accessibility-75fdc5810025#.fr5wfba6g
 * 5 steps to creating frustration-free Android test devices https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8 - речь не про эмуляторы если что
 * Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
+* какие в идеале нужны тест-девайсы для андроид-разработчика https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8
 
 ### Support library
 #### Percent support library
@@ -337,6 +339,9 @@ TODO:
 * Рекордное время: как мы увеличили скорость запуска приложения Почты Mail.Ru на iOS https://habrahabr.ru/company/mailru/blog/307778/
 * iOS 10: Notification content extension https://habrahabr.ru/company/redmadrobot/blog/306572/
 * TUDelorean - игры с часами для тестов https://github.com/tuenti/TUDelorean - интересная штука для тестов зависящих от часов вещей (сделано через swizzling NSDate)
+* Currency request https://github.com/samkaufman/CurrencyRequest - для ситуаций когда в приложении курсы нужны
+* как поступает с валютами Fabric Answers https://docs.fabric.io/apple/answers/answers-events.html#currencies
+
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
@@ -412,16 +417,20 @@ TODO:
 * Пробуем XCode Live Rendering https://habrahabr.ru/post/239257/
 * как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
 * как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
+* распознавание лиц в iOS https://habrahabr.ru/post/309802/
 
 
 #### ObjC непонятки
 * http://goshdarnblocksyntax.com/ How Do I Declare A Block in Objective-C? для тех кто проспал 
+* про проблемы с KVO https://habrahabr.ru/company/eastbanctech/blog/202884/ и о некоторых трюках
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
 * О блоках и их использовании в Objective-C часть 2-ая https://habrahabr.ru/post/120869/
 * О блоках и их использовании в Objective-C часть 3-ая https://habrahabr.ru/post/121958/
 * Objective-C: как работают блоки https://habrahabr.ru/post/271255/ - в том числе про милые команды вроде clang -rewrite-objc -ObjC main.m -o out.cpp
+* вообще то Notifications...тоже блоки поддерживают и давно https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/index.html#//apple_ref/occ/instm/NSNotificationCenter/addObserverForName:object:queue:usingBlock:
+
 
 #### Cocoapods если не в других местах
 * Сеть - более качественная замена AFNetworking https://github.com/Alamofire/Alamofire
@@ -550,8 +559,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 
 
 ### вспомогательные средства отладки GUI
-* платный Reveal http://revealapp.com/ 
-* платный Spark Inspector http://sparkinspector.com/ , умеет и Notification Center мониторить, умеет подключатся прямо в процессе работы (к симулятору правда, к устройствам надо framework)
+* платный Reveal http://revealapp.com/ лицензия включает год обновлений, 59 USD
+* платный Spark Inspector http://sparkinspector.com/ 49.99USD , умеет и Notification Center мониторить, умеет подключатся прямо в процессе работы (к симулятору правда, к устройствам надо framework)
 * Debug view hierarchy кнопочка в XCode начиная с XCode 6 ( смотрим https://stackoverflow.com/questions/5150186/how-do-i-inspect-the-view-hierarchy-in-ios/ ) , в отличии от Reveal - не умеет менять данные и вообще менее...удобна 
 * опенсорсный https://github.com/glock45/iOS-Hierarchy-Viewer (заодно и для CoreData), работает через браузер
 
@@ -807,7 +816,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Amplitude https://amplitude.com/pricing Costs...a lot lot. big free plan, revenue verification
 * Devtodev http://megamozg.ru/company/devtodev/blog/18664/
 * Facebook Mobile Analytics https://vc.ru/p/facebook-mobile-analytics
+* Firebase Analytics https://firebase.google.com/docs/analytics/
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
+* https://calq.io/pricing - цена по юзерам
 * также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
 * полурекламная статья про Amplitude http://gopractice.ru/amplitude-analytics/
 * как настраивать мобильную аналитику http://gopractice.ru/mobile_analytics_implementation/

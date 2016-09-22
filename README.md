@@ -2,7 +2,7 @@
 
 ## Android 
 
-* Вообще Busy Coder's читаем сначала по всем пунктам
+* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год
 
 ### Data binding
 TODO:
@@ -200,6 +200,7 @@ TODO:
 * Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
 
 ### Android/Various
+* Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
 * Kata: Robolectric Integration http://coreylatislaw.com/kata-robolectric-integration/
 * TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/
@@ -474,11 +475,18 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Slicy http://www.macrabbit.com/slicy/help/  - автонарезатор из фотошопа (но надо тегировать специальным образом). @3x не поддерживается пока.
 * PaintCode (если он нам подходит)
 * А еще есть Sketch-style IBAnimatable https://github.com/JakeLin/IBAnimatable/ - дизайн GUI ЦЕЛИКОМ в XCode…хмм
+* Asset Catalog Creator из AppStore (у них же - Attributed String Creator / Date Format Creator)
+
+#### Иконки
+* набор халявных иконок https://icons8.com/free-ios-7-icons-in-vector/ (за нормальные размеры и форматы хотят 290 рублей в месяц) - и лучще брать версию НЕ из AppStore
+* нарезка иконок - https://itunes.apple.com/ru/app/assets-generator-plus/id1145438527?mt=12 например (для Android тоже умеет)
+* веб-нарезалка http://www.makeappicon.com - есть локальное приложение + они же авторы ShotBot - скриншотоделалкозагружалки
+
 
 #### AppStore tools,etc
 * простая и удобная запись видео с симулятора с аннотациями и так далее http://www.jaml.co.uk/simcap.html 
 * тоже самое бесплатно но чуть сложнее - https://stackoverflow.com/questions/26523622/how-can-i-run-record-an-ios-app-in-the-xcode-6-ios-simulator
- 
+* генератор скришотов для AppStore https://shotbot.io/ 
  
 #### Autolayout
 * Auto Layout Tutorial in iOS 9 Part 1: Getting Started https://www.raywenderlich.com/115440/auto-layout-tutorial-in-ios-9-part-1-getting-started-2
@@ -609,7 +617,10 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ### Плагины к Xcode
 * How To Create an Xcode Plugin: Part 1/3 https://www.raywenderlich.com/94020/creating-an-xcode-plugin-part-1
 * Xcode plugins http://nshipster.com/xcode-plugins/
+* что делать на Xcode 8? видимо https://wakatime.com/blog/25-xcode-8-will-disable-all-your-plugins 
 
+
+https://www.objc.io/issues/11-android/
 
 
 ## Системные дела
@@ -819,6 +830,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Firebase Analytics https://firebase.google.com/docs/analytics/
 * AWS Mobile Analytics https://aws.amazon.com/ru/mobileanalytics/faqs/
 * https://calq.io/pricing - цена по юзерам
+* https://www.appsee.com/pricing - аналитика с даже heatmaps, дорого (под 500 US$ в месяц)
 * также смотрим статью https://vc.ru/p/begin-app - там много советов в том числе по аналитике (а еще как трекер можно branch.io использовать)
 * полурекламная статья про Amplitude http://gopractice.ru/amplitude-analytics/
 * как настраивать мобильную аналитику http://gopractice.ru/mobile_analytics_implementation/
@@ -857,8 +869,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Jenkins - hosted
 * Bamboo - hosted
 
-#### Патчи
-* Rollout https://rollout.io/ пока только iOS причем поддержку Swift только обещают. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику.
+#### Патчи в рантайме
+* Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации.
+
 
 #### Видеозапись
 * Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
@@ -883,8 +896,6 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Runscope https://www.runscope.com/pricing-and-plans
 
 
-
-
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features
 * q-municate от quickblox
@@ -894,4 +905,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * https://market.mashape.com/
 * https://github.com/natanrolnik/NLRMashapeClient iOS-библиотека к ним
 
+## Разное
 
+### Docker
+* Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/

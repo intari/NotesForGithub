@@ -252,6 +252,10 @@ TODO:
 * 5 steps to creating frustration-free Android test devices https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8 - речь не про эмуляторы если что
 * Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 * какие в идеале нужны тест-девайсы для андроид-разработчика https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8
+* Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
+* Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
+* остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
+
 
 ### Support library
 #### Percent support library
@@ -815,6 +819,8 @@ https://www.objc.io/issues/11-android/
 * Xperia Home Badge API https://developer.sony.com/2016/06/23/xperia-home-badge-api-now-publicly-available/ - 'номера' как на iOS  - в Xperia Home
 
 ### Вспомогательные средства для разработки
+* Подводные камни при релизе игры в Google Play и App Store https://habrahabr.ru/company/niceplay_games/blog/302486/
+
 #### Системы удаленного логгирования
 * Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
 * Sentry http://getsentry.com  Умеет NSError, вроде не умеет Android. Не умеет последовательно список событий вроде бы. Креши не умеет но вроде делают. Группировка по умолчанию странная. бесплатный - 250 событий day, а затем - за 9 долларов план с 9 событий в минуту. Opensource. и можно поставить себе.

@@ -26,12 +26,12 @@ TODO:
 ### (Custom) Annotation processors
 * Annotation Processor to create arguments for android fragments without using reflections http://hannesdorfmann.com/android/fragmentargs/
 * Annotation Processor to create arguments for android fragments without using reflections github https://github.com/sockeqwe/fragmentargs/
-* Parseleable Please http://hannesdorfmann.com/android/ParcelablePlease/
+* Parseleable Please http://hannesdorfmann.com/android/ParcelablePlease/ хотя лучще плагин к Android Studio поставить для этих целей
 * Annotated Adapter http://hannesdorfmann.com/android/AnnotatedAdapter/ for ListViews/GridViews,etc
  
 
 ### Libraries and Apps by Jack Wharton,etc
-* Hugo - method call logger https://github.com/JakeWharton/hugo
+* Hugo - method call logger https://github.com/JakeWharton/hugo - тупит-с
 * Timber - autotagging logs https://github.com/JakeWharton/timber
 * SDK Manager plugin - autodownload SDK components https://github.com/JakeWharton/sdk-manager-plugin
 * Telecine - screen recording for Android https://github.com/JakeWharton/Telecine + https://play.google.com/store/apps/details?id=com.jakewharton.telecine
@@ -198,6 +198,13 @@ TODO:
 * Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 * Несколько примеров практического использования RxJava https://habrahabr.ru/post/309154/
 * Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
+* Укрощаем асинхронные процессы в Android с RxJava. Опыт Яндекса https://habrahabr.ru/company/yandex/blog/311084/
+
+### Многопоточность отдельно
+* с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
+* ну и обзорная статья от Luxoft по java.util.concurrent.* https://habrahabr.ru/company/luxoft/blog/157273/
+* нету dispatch_after - а смотрим https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executors.html - ScheduledExecutorService. ну и handler.postDelayed не отменяли
+* Instruments нет? ну хоть Method Tracing даже в Android Studio есть https://developer.android.com/studio/profile/am-methodtrace.html (есть и автономный)
 
 ### Android/Various
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
@@ -255,6 +262,10 @@ TODO:
 * Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
 * Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
 * остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
+* определение uninstall'а (кроме метода с GCM )  - https://github.com/sevenler/Uninstall_Statics - см https://stackoverflow.com/questions/6209730/is-it-possible-to-detect-android-app-uninstall
+* проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
+* аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player
+* панель как у Spirit Stream / Apple Music / Google Music https://github.com/umano/AndroidSlidingUpPanel
 
 
 ### Support library
@@ -336,6 +347,7 @@ TODO:
 * Document provider tutorial https://www.raywenderlich.com/131668/document-provider-tutorial 
 * Генерамба — кодогенератор для iOS разработки https://habrahabr.ru/company/rambler-co/blog/276275/ (для VIPER в том числе) 
 * The Book of VIPER https://github.com/rambler-ios/The-Book-of-VIPER
+* Rambler VIPER Book https://habrahabr.ru/company/rambler-co/blog/311248/
 * Блоки и target-action включая примеры как прописать использование блоков для кнопок например https://habrahabr.ru/post/276599/
 * Как писать видео QuickTime Player'ом с iOS device http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/
 * визуальный редактор NSPredicate'ов https://github.com/arvindhsukumar/PredicateEditor  - iOS9, Swift-only
@@ -485,7 +497,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * набор халявных иконок https://icons8.com/free-ios-7-icons-in-vector/ (за нормальные размеры и форматы хотят 290 рублей в месяц) - и лучще брать версию НЕ из AppStore
 * нарезка иконок - https://itunes.apple.com/ru/app/assets-generator-plus/id1145438527?mt=12 например (для Android тоже умеет)
 * веб-нарезалка http://www.makeappicon.com - есть локальное приложение + они же авторы ShotBot - скриншотоделалкозагружалки
-
+* коллекция от Google (iOS/Android, все уже нарезано) https://github.com/google/material-design-icons
 
 #### AppStore tools,etc
 * простая и удобная запись видео с симулятора с аннотациями и так далее http://www.jaml.co.uk/simcap.html 

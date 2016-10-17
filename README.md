@@ -196,9 +196,15 @@ TODO:
 * Multicasting in rxJava http://blog.danlew.net/2016/06/13/multicasting-in-rxjava/
 * Shake Detector для Android на RxJava https://habrahabr.ru/company/badoo/blog/304488/
 * Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
+* A reactive extension to generate URL previews. https://github.com/Schinizer/RxUnfurl
 * Несколько примеров практического использования RxJava https://habrahabr.ru/post/309154/
 * Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
+* RxJava meets Android Data Binding https://medium.com/tangoagency/rxjava-meets-android-data-binding-4ca5e1144107#.bbjnffvk5
+* Android animations powered by RxJava https://pspdfkit.com/blog/2016/android-animations-powered-by-rx-java/
 * Укрощаем асинхронные процессы в Android с RxJava. Опыт Яндекса https://habrahabr.ru/company/yandex/blog/311084/
+* также смотри в 'Кюветах' ниже 
+* логгер rx'овых observables/subscriptions https://github.com/android10/frodo
+* Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -248,6 +254,9 @@ TODO:
 * Android application architecture: Get ready for the next billion! https://www.youtube.com/watch?v=70WqJxymPr8
 * Google I/O 2016 Live Blog http://www.anandtech.com/show/10332/google-io-2016-live-blog
 * Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
+* полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
+* вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
+* поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
@@ -266,6 +275,31 @@ TODO:
 * проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
 * аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player
 * панель как у Spirit Stream / Apple Music / Google Music https://github.com/umano/AndroidSlidingUpPanel
+* RetroBase — аналог Retrofit для запросов к базам данных https://habrahabr.ru/post/311716/
+* Быстрая интеграция Google Chromecast в Android приложение https://habrahabr.ru/company/google/blog/310498/
+* валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
+* автоматическая валидация https://github.com/ragunathjawahar/android-saripaar
+* подробное описание что есть Parceleable со ссылками https://guides.codepath.com/android/using-parcelable 
+* Parceleable vs Serializable http://www.developerphil.com/parcelable-vs-serializable/
+* генератор content provider'а https://github.com/BoD/android-contentprovider-generator
+* Q:Что делать если девайс с Android 6+ постоянно дисконнектит (кабеля менять не помогает)? A:Попробовать на устройстве включить режим НЕ 'Зарядка' а 'Передача файлов'. И НЕ подключать больше одного девайса за раз.
+* Q: нотификация кэширует старые данные ! A:http://stackoverflow.com/questions/3140072/android-keeps-caching-my-intents-extras-how-to-declare-a-pending-intent-that-ke 
+
+### Java 
+#### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
+* http://stackoverflow.com/a/22546839/1063214 
+* http://stackoverflow.com/a/7596565/1063214
+* https://stackoverflow.com/questions/64036/how-do-you-make-a-deep-copy-of-an-object-in-java
+* http://javatechniques.com/blog/faster-deep-copies-of-java-objects/
+* https://github.com/kostaskougios/cloning - спецбиблиотека
+* https://github.com/EsotericSoftware/kryo - еще одна спецбиблиотека - еще и сериализацию умеет свою. а с Unsafe еще быстрее
+* https://android-arsenal.com/details/1/805 ? 
+
+
+#### Unsafe на Android - где ?
+* https://stackoverflow.com/questions/34702403/in-android-how-to-invoke-sun-misc-unsafe-methods-using-java-reflection
+* https://github.com/iamironz/unsafe
+* как руками и зачем - https://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
 
 
 ### Support library
@@ -435,6 +469,7 @@ TODO:
 * как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
 * как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
 * распознавание лиц в iOS https://habrahabr.ru/post/309802/
+* Xcode: наверное, лучший способ работы со сторибордами https://habrahabr.ru/post/312766/
 
 
 #### ObjC непонятки
@@ -512,6 +547,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * вообще возможно лучще PureLayout https://github.com/PureLayout/PureLayout - там почти 1:1 соответствие API  c Apple + смотрим https://github.com/PureLayout/PureLayout/wiki/Tips-and-Tricks
 * Сравнение PureLayout и остальных подходов https://github.com/PureLayout/PureLayout#purelayout-vs-the-rest
 * Advanced AutoLayout https://www.objc.io/issues/3-views/advanced-auto-layout-toolbox/
+* Основы Auto Layout — Концепция, строение, применение  https://habrahabr.ru/post/312782/
+
+
 
 #### Appearance proxy,etc
 * как работать с Appearance proxy - http://nscookbook.com/2013/01/ios-programming-recipe-8-using-uiappearance-for-a-custom-look/  и http://nshipster.com/uiappearance/

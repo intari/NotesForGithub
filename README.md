@@ -189,6 +189,7 @@ TODO:
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
 * блог Advanced Rx http://akarnokd.blogspot.com/
+* Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications http://shop.oreilly.com/product/0636920042228.do
 * пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
 * сама RxPermissions https://github.com/tbruyelle/RxPermissions
 * rxBinding https://github.com/tbruyelle/RxPermissions превращание event'ов в Observables
@@ -205,12 +206,47 @@ TODO:
 * также смотри в 'Кюветах' ниже 
 * логгер rx'овых observables/subscriptions https://github.com/android10/frodo
 * Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
+* Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/
+* Reactive Frustrations https://upday.github.io/blog/reactive_frustrations_1/ 
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
 * ну и обзорная статья от Luxoft по java.util.concurrent.* https://habrahabr.ru/company/luxoft/blog/157273/
 * нету dispatch_after - а смотрим https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executors.html - ScheduledExecutorService. ну и handler.postDelayed не отменяли
 * Instruments нет? ну хоть Method Tracing даже в Android Studio есть https://developer.android.com/studio/profile/am-methodtrace.html (есть и автономный)
+
+### Android/GUI
+* Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
+* Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
+* Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
+* остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
+* Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
+* полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
+* вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
+* поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
+* свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
+* Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
+* CannyViewAnimator: переключаем состояния красиво https://habrahabr.ru/company/livetyping/blog/309740/
+* валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
+* проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
+* аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player
+* панель как у Spirit Stream / Apple Music / Google Music https://github.com/umano/AndroidSlidingUpPanel
+* Особенности мультиоконного режима на Android-планшетах https://habrahabr.ru/company/livetyping/blog/315938/ - а вообще - Busy Coder's смотрим
+* Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
+* Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
+* Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
+* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
+* что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
+* https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
+* Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
+* Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
+* Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
+* решение проблемы с out-of-memory в animation drawable http://stackoverflow.com/questions/8692328/causing-outofmemoryerror-in-frame-by-frame-animation-in-android - ответ Stephen L http://stackoverflow.com/a/29784017/1063214 правда можно картинки уменьшить - сразу или позднее http://stackoverflow.com/a/36831876/1063214
+* удобный вариант нарезки картинок http://stackoverflow.com/questions/19196616/is-there-a-way-to-create-xxhdpi-xhdpi-hdpi-mdpi-and-ldpi-drawables-from-a-lar - Drawable Importer
+
+
+
+
 
 ### Android/Various
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
@@ -219,9 +255,6 @@ TODO:
 * TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/
 * Варианты сжатия текстур на Android https://habrahabr.ru/company/intel/blog/276089/
 * Кому жить, а кому умереть: приоритеты процессов в Android https://habrahabr.ru/post/276381/
-* Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
-* Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
-* Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
 * библиотека для более удобной работы с permissions https://hotchemi.github.io/PermissionsDispatcher/
 * VIPER для Android https://habrahabr.ru/company/rambler-co/blog/277003/
@@ -236,12 +269,6 @@ TODO:
 * Dagger 2. Часть вторая. Custom scopes, Component dependencies, Subcomponents https://habrahabr.ru/post/279641/
 * Дружественное введение в Dagger 2 часть 2 https://habrahabr.ru/post/308040/
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
-* Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
-* Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
-* Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
-* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
-* что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
-* https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
 * landing pages http://www.applandr.com/
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
 * Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
@@ -253,37 +280,34 @@ TODO:
 * Android Layouts - a new worlds - Google I/O 2016 https://www.youtube.com/watch?v=sO9aX87hq9c&ab_channel=AndroidDevelopers
 * Android application architecture: Get ready for the next billion! https://www.youtube.com/watch?v=70WqJxymPr8
 * Google I/O 2016 Live Blog http://www.anandtech.com/show/10332/google-io-2016-live-blog
-* Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
-* полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
-* вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
-* поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
-* свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
-* Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
 * Security issues with Android Accessibility https://medium.com/@vedprakashrout/android-accessibility-75fdc5810025#.fr5wfba6g
 * 5 steps to creating frustration-free Android test devices https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8 - речь не про эмуляторы если что
-* Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 * какие в идеале нужны тест-девайсы для андроид-разработчика https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8
-* Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
-* Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
-* остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
 * определение uninstall'а (кроме метода с GCM )  - https://github.com/sevenler/Uninstall_Statics - см https://stackoverflow.com/questions/6209730/is-it-possible-to-detect-android-app-uninstall
-* проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
-* аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player
-* панель как у Spirit Stream / Apple Music / Google Music https://github.com/umano/AndroidSlidingUpPanel
 * RetroBase — аналог Retrofit для запросов к базам данных https://habrahabr.ru/post/311716/
 * Быстрая интеграция Google Chromecast в Android приложение https://habrahabr.ru/company/google/blog/310498/
-* валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
 * автоматическая валидация https://github.com/ragunathjawahar/android-saripaar
 * подробное описание что есть Parceleable со ссылками https://guides.codepath.com/android/using-parcelable 
 * Parceleable vs Serializable http://www.developerphil.com/parcelable-vs-serializable/
 * генератор content provider'а https://github.com/BoD/android-contentprovider-generator
 * Q:Что делать если девайс с Android 6+ постоянно дисконнектит (кабеля менять не помогает)? A:Попробовать на устройстве включить режим НЕ 'Зарядка' а 'Передача файлов'. И НЕ подключать больше одного девайса за раз.
 * Q: нотификация кэширует старые данные ! A:http://stackoverflow.com/questions/3140072/android-keeps-caching-my-intents-extras-how-to-declare-a-pending-intent-that-ke 
+* Лёгкая интеграция tor в android приложение на примере клиента для рутрекера https://habrahabr.ru/post/313030/
+* Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
+* как блокировать рекламу (и далеко не только) на Samsung'ах https://habrahabr.ru/post/314116/ - можно например Doze Mode контролировать
+* ввод текста с автоформатированием https://habrahabr.ru/company/tcsbank/blog/312968/
+* Testing asynchronous RxJava code using Mockito https://medium.com/@fabioCollini/testing-asynchronous-rxjava-code-using-mockito-8ad831a16877#.v5s7f78a4
+* Введение в разработку приложений для Android TV https://habrahabr.ru/post/316260/
+* Hermitage — решение ваших проблем с хранением и обработкой изображений https://habrahabr.ru/company/livetyping/blog/310340/ - правда это веб-сервис
+* Share content - разные варианты и учет новых багофич Android https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents
+* Fingerprint API https://habrahabr.ru/company/e-Legion/blog/317706/
+* Как сделать полную копию iOS TabBar с backstack history во вкладках https://habrahabr.ru/post/317760/
+
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -303,6 +327,7 @@ TODO:
 
 
 ### Support library
+* Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
 #### Percent support library
 да, теперь это официально
 * Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
@@ -392,6 +417,11 @@ TODO:
 * TUDelorean - игры с часами для тестов https://github.com/tuenti/TUDelorean - интересная штука для тестов зависящих от часов вещей (сделано через swizzling NSDate)
 * Currency request https://github.com/samkaufman/CurrencyRequest - для ситуаций когда в приложении курсы нужны
 * как поступает с валютами Fabric Answers https://docs.fabric.io/apple/answers/answers-events.html#currencies
+* Разгоняем производительность iOS-приложений https://habrahabr.ru/company/edison/blog/315150/
+* Реализация интерфейса с выдвижной панелью в iOS приложении https://habrahabr.ru/company/everydaytools/blog/315406/
+* 27 open-source ништячков для iOS разработчика https://habrahabr.ru/company/edison/blog/314444/
+* Конвертор из xib в swift-код https://eject.herokuapp.com/ 
+* AfterEffects animations to iOS/Android https://github.com/facebookincubator/Keyframes
 
 
 # OS X 
@@ -423,6 +453,7 @@ TODO:
 * CocoaPods & Swift https://www.raywenderlich.com/97014/use-cocoapods-with-swift - в том числе - зачем нужна use_frameworks! - а нужна она потому что стандартная библиотека Swift НЕ часть iOS
 * В поисках чистой архитектуры (1-я часть) — Swift 3.0 https://habrahabr.ru/post/306206/   интересная статья заодно про VIPER-style
 * Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
+* что нового в Swift 3 https://habrahabr.ru/post/312942/
 
 
 
@@ -470,6 +501,7 @@ TODO:
 * как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
 * распознавание лиц в iOS https://habrahabr.ru/post/309802/
 * Xcode: наверное, лучший способ работы со сторибордами https://habrahabr.ru/post/312766/
+* Замена UICollectionView https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews 
 
 
 #### ObjC непонятки
@@ -864,6 +896,8 @@ https://www.objc.io/issues/11-android/
 * helper https://github.com/adjust/AEPriceMatrix
 * AppStore Optimization https://habrahabr.ru/company/appodeal/blog/260179/
 * AppStore Optimization 2: Play Store https://habrahabr.ru/company/appodeal/blog/261277/
+* Google Cloud Vision API‎. Будущее Computer Vision as a service настало?  https://habrahabr.ru/post/312714/
+
 
 ### Xperia specific
 * Xperia Home Badge API https://developer.sony.com/2016/06/23/xperia-home-badge-api-now-publicly-available/ - 'номера' как на iOS  - в Xperia Home

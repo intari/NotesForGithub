@@ -55,6 +55,7 @@ TODO:
 * Consuming APIs with Retrofit https://guides.codepath.com/android/Consuming-APIs-with-Retrofit
 * Retrofit — Getting Started and Create an Android Client https://futurestud.io/blog/retrofit-getting-started-and-android-client
 * FutureStud's book about Retrofit (they also have one on Picasso) https://futurestud.io/books + https://futurestud.io/blog/retrofit-series-round-up
+* Retrofit 2 введение https://habrahabr.ru/post/314028/
 
 #### Google Universal Analytics
 * что есть measurment protocol в universal analytics внятное описание http://spark.ru/startup/adstein/blog/8762/otslezhivanie-offlajn-konversij-cherez-google-analytics?from=zp
@@ -105,6 +106,7 @@ TODO:
 * TDD with Robolectric https://colabug.gitbooks.io/intro-to-android/content/tdd_with_robolectric/README.html
 * Robolectric + Espresso examples https://github.com/robolectric/deckard (именно гибридный вариант - когда то одно то другое)
 * Perform Clicks in Android Robolectric Unit Test http://timnew.me/blog/2014/10/27/perform-clicks-in-android-robolectric-unit-test/
+* Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/
 
 #### Jenkins / Android Emulator issues
 * https://devmaze.wordpress.com/2011/12/12/starting-and-stopping-android-emulators/
@@ -206,7 +208,7 @@ TODO:
 * также смотри в 'Кюветах' ниже 
 * логгер rx'овых observables/subscriptions https://github.com/android10/frodo
 * Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
-* Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/
+* Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/  + https://sohabr.net/habr/post/313304/
 * Reactive Frustrations https://upday.github.io/blog/reactive_frustrations_1/ 
 
 ### Многопоточность отдельно
@@ -307,7 +309,9 @@ TODO:
 * Share content - разные варианты и учет новых багофич Android https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents
 * Fingerprint API https://habrahabr.ru/company/e-Legion/blog/317706/
 * Как сделать полную копию iOS TabBar с backstack history во вкладках https://habrahabr.ru/post/317760/
-
+* Thinks to consider before running background tasks https://blog.yipl.com.np/things-to-consider-before-running-background-tasks-e71f00d2ad3a#.9pldi51hs
+* The Do’s and Don’ts of Writing Test cases in Android. https://blog.mindorks.com/the-dos-and-don-ts-of-writing-test-cases-in-android-70f1b5dab3e1#.4lvmhqjtr
+* Группировка нотификаций https://habrahabr.ru/company/pushall/blog/319794/
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -422,7 +426,8 @@ TODO:
 * 27 open-source ништячков для iOS разработчика https://habrahabr.ru/company/edison/blog/314444/
 * Конвертор из xib в swift-код https://eject.herokuapp.com/ 
 * AfterEffects animations to iOS/Android https://github.com/facebookincubator/Keyframes
-
+* Анимации в iOS для начинающих. Модели, классы от Core Animation, блоки https://habrahabr.ru/company/livetyping/blog/319592/
+* Многопоточность (concurrency) в Swift 3. GCD и Dispatch Queues https://habrahabr.ru/post/320152/
 
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?

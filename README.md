@@ -49,6 +49,9 @@ TODO:
 * TinyDancer - FPS measurement library https://github.com/brianPlummer/TinyDancer
 
 ### Network
+* Reducing your networking footprint with OkHttp, Etags and If-Modified-Since https://android.jlelse.eu/reducing-your-networking-footprint-with-okhttp-etags-and-if-modified-since-b598b8dd81a1#.q7tyqszec
+* Enable Android Nougat ‘Charles’ing SSL network https://android.jlelse.eu/android-nougat-charlesing-ssl-network-efa0951e66de
+* Unit testing API requests on Android https://android.jlelse.eu/unit-testing-api-requests-on-android-5efc4efe18df
 
 #### Retrofit
 * Retrofit)[http://square.github.io/retrofit/
@@ -214,7 +217,8 @@ TODO:
 * RxJava2 Demo 1- Facebook Live Video Emoticons Streams. https://blog.mindorks.com/rxjava2-demo-1-facebook-live-video-emoticons-streams-10f5211bc62#.5dxdav3rm
 * RxJava2 Demo2- Downloading songs/images using Android Download Manager. https://blog.mindorks.com/rxjava2-demo2-downloading-songs-in-android-2ebf91ac3a9a#.z3xbku2v1
 * RxJava + Fast Android Networking https://blog.mindorks.com/rxjava-fast-android-networking-6e3d90ee4387#.2bvl7jhpi
-
+* Multithreading with RxJava https://android.jlelse.eu/multithreading-with-rxjava-dadddc4f7a63#.72eeb6qcr
+* Насколько гибкими являются наши знания в области операторов Rx? https://habrahabr.ru/post/324106/
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -333,7 +337,7 @@ TODO:
 * Полезные андроид-библиотеки https://habrahabr.ru/company/everydaytools/blog/322390/ 
 * in-app OkHttp inspector https://github.com/jgilfelt/chuck
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
-
+* Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -1012,6 +1016,8 @@ https://www.objc.io/issues/11-android/
 #### API Debugging 
 * Runscope https://www.runscope.com/pricing-and-plans
 
+#### Разработка API
+* Swagger http://swagger.io/ - интеграцию с runscope да умеет
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

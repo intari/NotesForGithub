@@ -181,27 +181,27 @@ TODO:
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
 * Notes on Reactive Programming Part I: The Reactive Landscape https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape
 * Notes on Reactive Programming Part II: Writing Some Code https://spring.io/blog/2016/06/13/notes-on-reactive-programming-part-ii-writing-some-code
-* введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
 * Реактивный двигатель для вашего Android-приложения https://www.youtube.com/watch?v=Eatfi4am0HU&feature=youtu.be&ab_channel=Mobius
-* rx. ключевые типы http://habrahabr.ru/post/270023/
-* rx. Жизненный цикл подписки http://habrahabr.ru/post/270975/
-* rxJava создание последовательности https://habrahabr.ru/post/281633/
+* Введение в RxJava aka почему Rx http://habrahabr.ru/post/269417/
+* Введение в RxJava: Ключевые типы http://habrahabr.ru/post/270023/
+* Введение в RxJava: Жизненный цикл подписки http://habrahabr.ru/post/270975/
+* Введение в RxJava: Создание последовательности https://habrahabr.ru/post/281633/
+* репозиторий к ним https://github.com/bolein/Intro-To-RxJava
 * грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
 * грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
 * грокаем RxJava часть 4: Реактивный Android https://habrahabr.ru/post/265997/
-* Rx ключевые типы http://habrahabr.ru/post/270023/
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
+* Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 * блог Advanced Rx http://akarnokd.blogspot.com/
 * Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications http://shop.oreilly.com/product/0636920042228.do
 * пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
 * сама RxPermissions https://github.com/tbruyelle/RxPermissions
-* rxBinding https://github.com/tbruyelle/RxPermissions превращание event'ов в Observables
+* rxBinding https://github.com/JakeWharton/RxBinding превращание event'ов в Observables. Недостаток - rxJava 2 только только - https://github.com/JakeWharton/RxBinding/issues/281  и https://github.com/JakeWharton/RxBinding/blob/master/CHANGELOG.md
 * The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
 * Multicasting in rxJava http://blog.danlew.net/2016/06/13/multicasting-in-rxjava/
 * Shake Detector для Android на RxJava https://habrahabr.ru/company/badoo/blog/304488/
-* Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 * A reactive extension to generate URL previews. https://github.com/Schinizer/RxUnfurl
 * Несколько примеров практического использования RxJava https://habrahabr.ru/post/309154/
 * Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
@@ -209,7 +209,7 @@ TODO:
 * Android animations powered by RxJava https://pspdfkit.com/blog/2016/android-animations-powered-by-rx-java/
 * Укрощаем асинхронные процессы в Android с RxJava. Опыт Яндекса https://habrahabr.ru/company/yandex/blog/311084/
 * также смотри в 'Кюветах' ниже 
-* логгер rx'овых observables/subscriptions https://github.com/android10/frodo
+* логгер rx'овых observables/subscriptions https://github.com/android10/frodo - не поддерживается RxJava2
 * Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
 * Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/  + https://sohabr.net/habr/post/313304/
 * Reactive Frustrations https://upday.github.io/blog/reactive_frustrations_1/ 
@@ -219,6 +219,8 @@ TODO:
 * RxJava + Fast Android Networking https://blog.mindorks.com/rxjava-fast-android-networking-6e3d90ee4387#.2bvl7jhpi
 * Multithreading with RxJava https://android.jlelse.eu/multithreading-with-rxjava-dadddc4f7a63#.72eeb6qcr
 * Насколько гибкими являются наши знания в области операторов Rx? https://habrahabr.ru/post/324106/
+
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -267,6 +269,13 @@ TODO:
 * кастомный recycler-view с загрузкой в стиле fb https://github.com/sharish/ShimmerRecyclerView
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
 * material about https://github.com/jrvansuita/MaterialAbout
+
+### Android/Data Binding
+* No More findViewById https://medium.com/google-developers/no-more-findviewbyid-457457644885
+* Android Data Binding: Adding some variability - Making View IDs Unnecessary  https://medium.com/google-developers/android-data-binding-adding-some-variability-1fe001b3abcc
+* Android Data Binding: The Big Event https://medium.com/google-developers/android-data-binding-the-big-event-2697089dd0d7
+* Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
+* Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 
 
 ### Android/Various
@@ -369,6 +378,7 @@ TODO:
 #### Constraint layout
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
+* А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
 
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
@@ -484,7 +494,9 @@ TODO:
 * CocoaPods & Swift https://www.raywenderlich.com/97014/use-cocoapods-with-swift - в том числе - зачем нужна use_frameworks! - а нужна она потому что стандартная библиотека Swift НЕ часть iOS
 * В поисках чистой архитектуры (1-я часть) — Swift 3.0 https://habrahabr.ru/post/306206/   интересная статья заодно про VIPER-style
 * Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
-* что нового в Swift 3 https://habrahabr.ru/post/312942/
+* Что нового в Swift 3 https://habrahabr.ru/post/312942/
+* What's New in Swift 3.1 https://www.raywenderlich.com/156352/whats-new-in-swift-3-1 
+
 
 
 
@@ -590,6 +602,15 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * PaintCode (если он нам подходит)
 * А еще есть Sketch-style IBAnimatable https://github.com/JakeLin/IBAnimatable/ - дизайн GUI ЦЕЛИКОМ в XCode…хмм
 * Asset Catalog Creator из AppStore (у них же - Attributed String Creator / Date Format Creator)
+
+#### Sketch 
+* Почему UI-специалисты отказываются от Photoshop и переходят на Sketch https://vc.ru/p/sketch
+* Switch to Sketch. Часть 1 https://habrahabr.ru/post/226025/
+* Switch to Sketch. Часть 2 https://habrahabr.ru/post/226099/
+* Switch to Sketch. Часть 3 https://habrahabr.ru/post/226167/
+* Switch to Sketch. Часть 4 https://habrahabr.ru/post/226213/
+* 9 нелепых способов открыть .sketch-файл. И один ничего такой https://habrahabr.ru/post/321154/
+* 4 правила работы в Sketch над крупными проектами https://habrahabr.ru/post/320990/
 
 #### Иконки
 * набор халявных иконок https://icons8.com/free-ios-7-icons-in-vector/ (за нормальные размеры и форматы хотят 290 рублей в месяц) - и лучще брать версию НЕ из AppStore

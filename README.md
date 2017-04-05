@@ -380,6 +380,10 @@ TODO:
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
 * А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
 
+### вспомогательные средства отладки GUI (Android)
+* Facebook http://facebook.github.io/stetho/ 
+
+
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
 * https://github.com/Bilibili/ijkplayer
@@ -400,11 +404,11 @@ TODO:
 
 
 
-
 ### Android TV
 * Портирование Android-приложения под Android TV и Nexus Player https://habrahabr.ru/company/intel/blog/251323/
 * Device Lab от Google: Android TV https://habrahabr.ru/article/302492/
 * NVIDIA Shield и Plex - как пример возможностей https://www.plex.tv/blog/nvidia-shield-you-complete-us/
+
 
 
 ## iOS 
@@ -593,7 +597,6 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ##### IJKPlayer ? 
 * https://github.com/Bilibili/ijkplayer  iOS (в будущем)/Android
     
-     
     
 #### Чем нарезать GUI
 * Sketch (вместо фотошопа) http://habrahabr.ru/post/252063/ - OS X only. а еще см https://vc.ru/p/sketch - на тему чем оно лучще фотошопа
@@ -703,12 +706,12 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * How to reproduce bugs reported against App Store submissions https://developer.apple.com/library/ios/qa/qa1764/_index.html
 
 
-
-### вспомогательные средства отладки GUI
+### вспомогательные средства отладки GUI (iOS)
 * платный Reveal http://revealapp.com/ лицензия включает год обновлений, 59 USD
 * платный Spark Inspector http://sparkinspector.com/ 49.99USD , умеет и Notification Center мониторить, умеет подключатся прямо в процессе работы (к симулятору правда, к устройствам надо framework)
 * Debug view hierarchy кнопочка в XCode начиная с XCode 6 ( смотрим https://stackoverflow.com/questions/5150186/how-do-i-inspect-the-view-hierarchy-in-ios/ ) , в отличии от Reveal - не умеет менять данные и вообще менее...удобна 
 * опенсорсный https://github.com/glock45/iOS-Hierarchy-Viewer (заодно и для CoreData), работает через браузер
+
 
 ### CloudKit и CoreData-с-синхронизацией
 * Basic intro to CloudKit http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/
@@ -769,6 +772,14 @@ https://www.objc.io/issues/11-android/
 * Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
 * Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12 
 
+## Кросс-платформенные средства разработки
+### React native
+* React Native: Очередная «серебряная пуля» для кросплатформенной разработки? https://habrahabr.ru/company/jugru/blog/325628/
+* Исполнит ли React Native мечту программиста: единый код для web, android и ios? https://habrahabr.ru/company/Voximplant/blog/277169/
+* React Native — одного JS мало  https://habrahabr.ru/post/323214/
+* Так ли хорош React Native? https://habrahabr.ru/post/320034/
+* Создаем приложение на JavaScript с помощью React Native  https://habrahabr.ru/company/plarium/blog/303328/
+* Создание Android-приложения с помощью React Native https://habrahabr.ru/company/nixsolutions/blog/301734/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

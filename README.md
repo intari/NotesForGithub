@@ -5,12 +5,17 @@
 * Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год
 
 ### Data binding
-TODO:
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
 * https://blog.stylingandroid.com/data-binding-part-1/
 * https://blog.stylingandroid.com/data-binding-part-2/
 * https://blog.stylingandroid.com/data-binding-part-3/
 * https://blog.stylingandroid.com/data-binding-part-4/
+* No More findViewById https://medium.com/google-developers/no-more-findviewbyid-457457644885
+* Android Data Binding: Adding some variability - Making View IDs Unnecessary  https://medium.com/google-developers/android-data-binding-adding-some-variability-1fe001b3abcc
+* Android Data Binding: The Big Event https://medium.com/google-developers/android-data-binding-the-big-event-2697089dd0d7
+* Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
+* Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
+
 
 #### Data-binding & RecyclerView/ListView h
 * https://github.com/evant/binding-collection-adapter 
@@ -270,12 +275,6 @@ TODO:
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
 * material about https://github.com/jrvansuita/MaterialAbout
 
-### Android/Data Binding
-* No More findViewById https://medium.com/google-developers/no-more-findviewbyid-457457644885
-* Android Data Binding: Adding some variability - Making View IDs Unnecessary  https://medium.com/google-developers/android-data-binding-adding-some-variability-1fe001b3abcc
-* Android Data Binding: The Big Event https://medium.com/google-developers/android-data-binding-the-big-event-2697089dd0d7
-* Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
-* Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 
 
 ### Android/Various
@@ -1011,16 +1010,18 @@ https://www.objc.io/issues/11-android/
 * Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
 
 #### CI
-* BuddyBuild бесплатный тариф есть но так - весьма платный. Ориентация похоже на распространение сборок тестерам а не CI
-* Bitrise https://www.bitrise.io/
+* BuddyBuild весьма платный. Ориентация похоже на распространение сборок тестерам а не CI
+* Bitrise https://www.bitrise.io/ - есть бесплатный план (ограничение - 10 min/build, 200 builds/month), платный начинается от 50 USD/месяц (45+ min build, и анлимы). Документация хорошая. Куча интеграций. Не все работающие.
 * Travis CI (для OpenSource либо платный)
-* https://greenhouseci.com/
-* Circle CI
+* Nevercode https://nevercode.io/ (бывший GreenhouseCI) - есть бесплатный сильно обрезанный тариф а так - 49 usd/месяц (и отличаются по фичам). С интеграциями все очень плохо. с JIRA-нет.
+* Circle CI https://circleci.com/ - минимальный тариф для OS X - 39USD/месяц
 * упрощенно и ручками - fastlane
 * вообще смотрим https://github.com/ligurio/Continuous-Integration-services/blob/master/continuous-integration-services-list.md
 * подьем CI iOS своими руками https://habrahabr.ru/company/livetyping/blog/302642/
-* Jenkins - hosted
-* Bamboo - hosted
+* Jenkins - selfhosted
+* Bamboo - selfhosted
+* Buildkite - https://buildkite.com/ - 15 USD/month. агенты - сами ставим.
+
 
 #### Патчи в рантайме
 * Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации.

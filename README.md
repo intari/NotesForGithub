@@ -17,7 +17,7 @@
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 
 
-#### Data-binding & RecyclerView/ListView h
+#### Data-binding & RecyclerView/ListView 
 * https://github.com/evant/binding-collection-adapter 
 * https://github.com/radzio/android-data-binding-recyclerview
 * Android Data Binding in RecyclerView http://habrahabr.ru/company/dataart/blog/267735/
@@ -85,7 +85,7 @@
 * http://stablekernel.com/blog/continuous-delivery-android-part-2/
 * http://stablekernel.com/blog/unit-testing-continuous-delivery-for-android-part-3/
 
-### Testing
+### Android Testing
 * The evolution journey of Android GUI testing Cucumber — Espresso — Page Object Pattern https://medium.com/@neoranga55/the-evolution-journey-of-android-gui-testing-f65005f7ced8
 * Roboletric,Espresso,JaCoCo,etc http://habrahabr.ru/company/rambler-co/blog/266837/
 * Wait for it...a deep dive into Espresso's Idling Resources http://dev.jimdo.com/2014/05/09/wait-for-it-a-deep-dive-into-espresso-s-idling-resources/
@@ -96,6 +96,8 @@
 * Introduction to Automated Android Testing – Part 1 https://riggaroo.co.za/introduction-automated-android-testing/ обзор методов и средств тестирования
 * Introduction to Automated Android Testing – Part 2 – Setup https://riggaroo.co.za/automated-android-testing-part-2-setup/
 * Introduction to Android Testing – Part 3 https://riggaroo.co.za/introduction-android-testing-part3/ 
+* JaCoCo https://docs.gradle.org/current/userguide/jacoco_plugin.html
+* Измерение покрытия кода тестами в Android с помощью JaCoCo  https://habrahabr.ru/post/280374/
 
 
 #### mockito
@@ -116,11 +118,14 @@
 * Perform Clicks in Android Robolectric Unit Test http://timnew.me/blog/2014/10/27/perform-clicks-in-android-robolectric-unit-test/
 * Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/
 
+#### Jenkins
+* Jenkins and Android https://jenkins.io/solutions/android/
+* Continuous Integration для Android с использованием Jenkins + Gradle https://habrahabr.ru/post/205308/
+
 #### Jenkins / Android Emulator issues
 * https://devmaze.wordpress.com/2011/12/12/starting-and-stopping-android-emulators/
 * http://blog.daanraman.com/coding/automatically-detect-if-the-android-emulator-is-running/
-* wait-for-emulator.sh Reading Tracker'а 
-* постаратся ЛЮБОЙ ценой использовать x86-64/x86 эмулятор. да, даже в VMWare ESXi. Да, это МОЖНО сделать. Если железо держит Nested Virtualization (у меня к сожалению не держит) https://forum.ivorde.com/kvm-nested-in-vmware-esxi-5-5-enable-guest-hypervisor-vmx-svm-flags-without-vsphere-web-client-t19773.html
+* постаратся ЛЮБОЙ ценой использовать x86-64/x86 эмулятор. да, даже в VMWare ESXi. Да, это МОЖНО сделать. Если железо держит Nested Virtualization  https://forum.ivorde.com/kvm-nested-in-vmware-esxi-5-5-enable-guest-hypervisor-vmx-svm-flags-without-vsphere-web-client-t19773.html
 
 #### Genymotion 
 * Что с Play Services делать https://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
@@ -224,6 +229,8 @@
 * RxJava + Fast Android Networking https://blog.mindorks.com/rxjava-fast-android-networking-6e3d90ee4387#.2bvl7jhpi
 * Multithreading with RxJava https://android.jlelse.eu/multithreading-with-rxjava-dadddc4f7a63#.72eeb6qcr
 * Насколько гибкими являются наши знания в области операторов Rx? https://habrahabr.ru/post/324106/
+* Reactive Programming with RxBinding  https://overrideandroid.blogspot.com/2017/03/reactive-programming-with-rxbinding.html - именно пример на GUI но стиль конечно...без лямд некрасивый.
+* Making RxJava code tidier with doOnSubscribe and doFinally https://medium.com/@ValCanBuild/making-rxjava-code-tidier-with-doonsubscribe-and-dofinally-3748f223d32d
 
 
 
@@ -366,6 +373,8 @@
 
 ### Support library
 * Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
+* Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
+
 #### Percent support library
 да, теперь это официально
 * Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
@@ -548,7 +557,7 @@
 * распознавание лиц в iOS https://habrahabr.ru/post/309802/
 * Xcode: наверное, лучший способ работы со сторибордами https://habrahabr.ru/post/312766/
 * Замена UICollectionView https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews 
-
+* Замена UIStackView начиная с iOS7 https://github.com/oarrabi/OAStackView
 
 #### ObjC непонятки
 * http://goshdarnblocksyntax.com/ How Do I Declare A Block in Objective-C? для тех кто проспал 
@@ -568,9 +577,23 @@
 * обфускация бинарников https://github.com/Polidea/ios-class-guard
 * потереть все комменты https://github.com/igorbarinov/deployment-scrpits/tree/master/remove-comments
 
-#### Тесты
+#### iOS Testing
+##### iOS Unit Tests 
 * Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/
 * Практический применение Unit-тестирования под iOS https://habrahabr.ru/post/262945/
+* Разработка через тестирование в iOS https://habrahabr.ru/company/rambler-co/blog/263087/    
+* тесты им. Volkswagen https://github.com/cezheng/Volkswagen-Xcode
+
+##### iOS UI Testing
+* User interface testing https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html
+* THE BASICS OF XCUITEST AND USING XCODE UI TEST RECORDER http://bitbar.com/the-basics-of-xcuitest-and-using-xcode-ui-test-recorder/
+* UI Testing in Xcode 7, Part 1: UI Testing Gotchas https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/    
+* iOS Unit Testing and UI Testing Tutorial https://www.raywenderlich.com/150073/ios-unit-testing-and-ui-testing-tutorial
+* FBSnapshotTestCase https://github.com/facebook/ios-snapshot-test-case сверка скриншотов с GUI 
+* UI Testing Cheat Sheet https://github.com/joemasilotti/UI-Testing-Cheat-Sheet
+* A Guide to Xcode UI Test https://blog.metova.com/guide-xcode-ui-test/
+* UI Testing in Xcode 7 http://masilotti.com/ui-testing-xcode-7/
+
     
 #### Аудио-видео плееры / iOS
 * AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт при сетевой загрузке.
@@ -613,6 +636,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Switch to Sketch. Часть 4 https://habrahabr.ru/post/226213/
 * 9 нелепых способов открыть .sketch-файл. И один ничего такой https://habrahabr.ru/post/321154/
 * 4 правила работы в Sketch над крупными проектами https://habrahabr.ru/post/320990/
+* 10 things to keep in mind working with Sketch & Zeplin. Developers will thank you! https://medium.com/sketch-app-sources/10-things-to-keep-in-mind-working-with-sketch-zeplin-developers-will-thank-you-a80e84c00bc2
 
 #### Иконки
 * набор халявных иконок https://icons8.com/free-ios-7-icons-in-vector/ (за нормальные размеры и форматы хотят 290 рублей в месяц) - и лучще брать версию НЕ из AppStore
@@ -648,8 +672,6 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * UIAppearance for custom views еще статья http://petersteinberger.com/blog/2013/uiappearance-for-custom-views/
 * как быть если с UIAlertView это все не работает а хочется tintColor задать - а например https://stackoverflow.com/questions/32856892/how-to-change-uialertcontroller-button-text-colour-in-ios9
 * еще одна библиотека для стилизации https://github.com/146BC/StyleKit  Swift/Carthage  (хотя pod можно подключить)
-
-
 
 
 #### Navigation Drawer (aka Slide-out)
@@ -740,8 +762,6 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Получаем данные по websocket используя swift и заполняем UITableView (сервер node.js)  https://habrahabr.ru/post/277635/  - см также комменты
 * Библиотека для WebSocket на Swift https://github.com/daltoniam/Starscream и ее аналог на Objective-C https://github.com/acmacalister/jetfire - поддержка VoIP Sockets, Self-signed SSL, SSL pinning, возможность блоки использовать если нужно и других удобностей
 
-### Circle CI
-* https://circleci.com/docs/ios
  
 ### VIPER
 * ссылки по VIPER от Rambler https://github.com/rambler-ios/The-Book-of-VIPER
@@ -762,6 +782,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 
 https://www.objc.io/issues/11-android/
 
+### Полезные тулзы
+* FauxPas http://fauxpasapp.com/#highlights - Static Analyzer на стероидах и для всего приложения. Дорого.
 
 ## Системные дела
 * Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
@@ -769,7 +791,7 @@ https://www.objc.io/issues/11-android/
 
 ## Перехват трафика для отладки
 * Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
-* Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12 
+* Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12  (теперь он Proxie называется и обещают кучу фиксов)
 
 ## Кросс-платформенные средства разработки
 ### React native
@@ -947,7 +969,7 @@ https://www.objc.io/issues/11-android/
 * PDF с точки зрения программиста https://habrahabr.ru/company/abbyy/blog/108459/
 * Блог Алексея Шипилева по производительности Java https://shipilev.net/
 * как ПРАВИЛЬНО делать микробенчмарки в Java https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
-* эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/
+* эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/ 
 * обход certificate pinning на Android https://habrahabr.ru/post/307774/
 * Как думать на SQL? https://habrahabr.ru/post/305926/
 * В чем должен разбираться Frontend-разработчик https://habrahabr.ru/post/306716/
@@ -1013,8 +1035,8 @@ https://www.objc.io/issues/11-android/
 * BuddyBuild весьма платный. Ориентация похоже на распространение сборок тестерам а не CI
 * Bitrise https://www.bitrise.io/ - есть бесплатный план (ограничение - 10 min/build, 200 builds/month), платный начинается от 50 USD/месяц (45+ min build, и анлимы). Документация хорошая. Куча интеграций. Не все работающие.
 * Travis CI (для OpenSource либо платный)
-* Nevercode https://nevercode.io/ (бывший GreenhouseCI) - есть бесплатный сильно обрезанный тариф а так - 49 usd/месяц (и отличаются по фичам). С интеграциями все очень плохо. с JIRA-нет.
-* Circle CI https://circleci.com/ - минимальный тариф для OS X - 39USD/месяц
+* Nevercode https://nevercode.io/ (бывший GreenhouseCI) - есть бесплатный сильно обрезанный тариф (вопрос чем - feature branches?) а так - 49 usd/месяц (и отличаются по фичам). С интеграциями все очень плохо. с JIRA-нет.
+* Circle CI https://circleci.com/ - минимальный тариф для OS X - 39USD/месяц. но там 2x OS X concurrency / 500 max minutes month  а затем 0.08 usd/minute
 * упрощенно и ручками - fastlane
 * вообще смотрим https://github.com/ligurio/Continuous-Integration-services/blob/master/continuous-integration-services-list.md
 * подьем CI iOS своими руками https://habrahabr.ru/company/livetyping/blog/302642/
@@ -1024,13 +1046,17 @@ https://www.objc.io/issues/11-android/
 
 
 #### Патчи в рантайме
-* Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации.
+* Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации. Бесплатно если не использовать их javascript-based патчи.
 
 
 #### Видеозапись
 * Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
 * UXCam https://uxcam.com/ video recording,heatmaps,etc
 
+#### On-device cloud testing
+* Bitbar http://bitbar.com/testing/pricing/public-cloud/ - минимальный Solo plan for Indie Developers - 99 USD/month. 10 hours of device time. JIRA integration НЕТ (это на следующем)
+* AWS Device Farm (бывший AppThwack) - https://aws.amazon.com/ru/device-farm/  - 250 минут бесплатно, 0.17 USD/минута потом. Анлим - 250 USD за слот в месяц.
+* Google Firebase Test Lab - только Android
 
 #### Прототипирование
 * https://www.invisionapp.com/
@@ -1062,6 +1088,9 @@ https://www.objc.io/issues/11-android/
 * https://github.com/natanrolnik/NLRMashapeClient iOS-библиотека к ним
 
 ## Разное
+### Git и все такое - полезное
+* Невидимые друзья вашего github-репозитория https://habrahabr.ru/company/eastbanctech/blog/323760/ - но в основном - js
+
 
 ### Docker
 * Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/

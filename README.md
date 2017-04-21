@@ -285,6 +285,7 @@
 
 
 ### Android/Various
+* 50+ Ultimate Resources to Master Android Development https://blog.aritraroy.in/50-ultimate-resources-to-master-android-development-15165d6bc376
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
 * Kata: Robolectric Integration http://coreylatislaw.com/kata-robolectric-integration/

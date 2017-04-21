@@ -518,6 +518,7 @@
 * шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
 * rxSwift работа с GUI https://habrahabr.ru/post/283128/ 
 * Тестируем реактивность — как писать unit-тесты для RxSwift tutorial https://habrahabr.ru/post/304866/
+* Мое знакомство с ReactiveCocoa https://habrahabr.ru/post/317992/
 
 ### GUI
 * жизненный цикл UIViewController https://habrahabr.ru/post/129557/  

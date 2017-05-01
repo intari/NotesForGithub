@@ -196,17 +196,18 @@
 * Введение в RxJava: Ключевые типы http://habrahabr.ru/post/270023/
 * Введение в RxJava: Жизненный цикл подписки http://habrahabr.ru/post/270975/
 * Введение в RxJava: Создание последовательности https://habrahabr.ru/post/281633/
-* репозиторий к ним https://github.com/bolein/Intro-To-RxJava
-* грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
-* грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
-* грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
-* грокаем RxJava часть 4: Реактивный Android https://habrahabr.ru/post/265997/
+* Репозиторий к серии статей Введение в RxJava  https://github.com/bolein/Intro-To-RxJava
+* Грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
+* Грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
+* Грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
+* Грокаем RxJava часть 4: Реактивный Android https://habrahabr.ru/post/265997/
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
-* как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
+* Как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
+* Тестируемая RxJava https://www.slideshare.net/Rambler-Android/rxjava-69492729 + видезапись https://youtu.be/7W5NwpE5WpQ
 * Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 * блог Advanced Rx http://akarnokd.blogspot.com/
 * Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications http://shop.oreilly.com/product/0636920042228.do
-* пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
+* Пример зачем нужен Dagger и как работать с rxPermissions (Android API 23+) https://habrahabr.ru/post/282193/ 
 * сама RxPermissions https://github.com/tbruyelle/RxPermissions
 * rxBinding https://github.com/JakeWharton/RxBinding превращание event'ов в Observables. Недостаток - rxJava 2 только только - https://github.com/JakeWharton/RxBinding/issues/281  и https://github.com/JakeWharton/RxBinding/blob/master/CHANGELOG.md
 * The Art of Rx https://habrahabr.ru/company/jugru/blog/282784/
@@ -223,7 +224,7 @@
 * Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
 * Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/  + https://sohabr.net/habr/post/313304/
 * Reactive Frustrations https://upday.github.io/blog/reactive_frustrations_1/ 
-* async loading & caching - Store - https://github.com/NYTimes/Store
+* Async loading & caching - Store - https://github.com/NYTimes/Store
 * RxJava2 Demo 1- Facebook Live Video Emoticons Streams. https://blog.mindorks.com/rxjava2-demo-1-facebook-live-video-emoticons-streams-10f5211bc62#.5dxdav3rm
 * RxJava2 Demo2- Downloading songs/images using Android Download Manager. https://blog.mindorks.com/rxjava2-demo2-downloading-songs-in-android-2ebf91ac3a9a#.z3xbku2v1
 * RxJava + Fast Android Networking https://blog.mindorks.com/rxjava-fast-android-networking-6e3d90ee4387#.2bvl7jhpi
@@ -231,8 +232,13 @@
 * Насколько гибкими являются наши знания в области операторов Rx? https://habrahabr.ru/post/324106/
 * Reactive Programming with RxBinding  https://overrideandroid.blogspot.com/2017/03/reactive-programming-with-rxbinding.html - именно пример на GUI но стиль конечно...без лямд некрасивый.
 * Making RxJava code tidier with doOnSubscribe and doFinally https://medium.com/@ValCanBuild/making-rxjava-code-tidier-with-doonsubscribe-and-dofinally-3748f223d32d
-
-
+* RxJava + RxAndroid https://www.slideshare.net/noveogroup/rxjavarxandroid-lecture-20-rx-java 
+* Rx. Постигаем retryWhen и repeatWhen на примерах из Android разработки https://habrahabr.ru/post/326890/
+* Сравниваем Java 8, RxJava, Reactor https://habrahabr.ru/post/327460/
+* Operator Fusion Part 1 http://akarnokd.blogspot.com/2016/03/operator-fusion-part-1.html
+* Operator Fusion Part 2 http://akarnokd.blogspot.com/2016/04/operator-fusion-part-2-final.html
+* Testing asynchronous RxJava code using Mockito https://medium.com/@fabioCollini/testing-asynchronous-rxjava-code-using-mockito-8ad831a16877#.v5s7f78a4
+* Основы реактивного программирования под Android на практическом примере (rx1) https://habrahabr.ru/post/306746/
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -338,7 +344,6 @@
 * Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
 * как блокировать рекламу (и далеко не только) на Samsung'ах https://habrahabr.ru/post/314116/ - можно например Doze Mode контролировать
 * ввод текста с автоформатированием https://habrahabr.ru/company/tcsbank/blog/312968/
-* Testing asynchronous RxJava code using Mockito https://medium.com/@fabioCollini/testing-asynchronous-rxjava-code-using-mockito-8ad831a16877#.v5s7f78a4
 * Введение в разработку приложений для Android TV https://habrahabr.ru/post/316260/
 * Hermitage — решение ваших проблем с хранением и обработкой изображений https://habrahabr.ru/company/livetyping/blog/310340/ - правда это веб-сервис
 * Share content - разные варианты и учет новых багофич Android https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents
@@ -354,6 +359,10 @@
 * in-app OkHttp inspector https://github.com/jgilfelt/chuck
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
 * Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
+* How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube) https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.1o4cowy60
+* Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
+* Mirror: Easy Reflection for Java and Android https://medium.com/genymobile/mirror-easy-reflection-for-java-and-android-923f54b1f165
+* JRebel for Android сейчас бесплатный https://zeroturnaround.com/software/jrebel-for-android/free/ 
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -490,16 +499,18 @@
 
 ### Swift
 * как сделать это в Swift https://thatthinginswift.com/ - много интересного
+* https://www.hackingwithswift.com/
 * dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
+* Где брать учебник по Swift если хочется на русском и не перевод - https://habrahabr.ru/company/piter/blog/326052/ печатная и EPUB/PDF
+* Test-Driven iOS Development with Swift 3 (PackPub) https://www.goodreads.com/book/show/32902505
+* Swift против Objective-C: 10 причин почему будущее за Swift http://swiftbook.ru/blog/swift-vs-objective-c-10-reasons-the-future-favors-swift
 * Testing in Swift https://spin.atomicobject.com/2016/05/02/testing-swift-code/
 * What's New in Swift 3 https://www.raywenderlich.com/135655/whats-new-swift-3 
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 1) https://habrahabr.ru/post/303512/
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 2) https://habrahabr.ru/post/303798/
 * Core Data + Swift для самых маленьких: необходимый минимум (часть 3) https://habrahabr.ru/post/304586/
-* https://thatthinginswift.com/
-* https://www.hackingwithswift.com/
 * https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html
 * доступ к Swift-коду из ObjC если оно "само" не получается http://stackoverflow.com/a/27251979/1063214
 * Obj-C categories & Swift https://stackoverflow.com/questions/24064627/whats-the-proper-way-to-use-an-objective-c-category-within-swift
@@ -510,31 +521,29 @@
 * Что нового в Swift 3 https://habrahabr.ru/post/312942/
 * What's New in Swift 3.1 https://www.raywenderlich.com/156352/whats-new-in-swift-3-1 
 
-
-
-
 ### ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/
-* введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
-* шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
+* Введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
+* Шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
 * rxSwift работа с GUI https://habrahabr.ru/post/283128/ 
 * Тестируем реактивность — как писать unit-тесты для RxSwift tutorial https://habrahabr.ru/post/304866/
 * Мое знакомство с ReactiveCocoa https://habrahabr.ru/post/317992/
+* RxSwift: Reactive Programming with Swift https://www.goodreads.com/book/show/34791927
 
 ### GUI
-* жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
-* еще последовательность старта view и view controller https://stackoverflow.com/questions/5107604/can-somebody-explain-the-process-of-a-uiviewcontroller-birth-which-method-follo
+* Жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
+* Еще последовательность старта view и view controller https://stackoverflow.com/questions/5107604/can-somebody-explain-the-process-of-a-uiviewcontroller-birth-which-method-follo
 * Xcode Live Rendering https://habrahabr.ru/post/239257/
-* показ специальных картинок для пустых UITableView / UICollectionView https://github.com/dzenbot/DZNEmptyDataSet
-* простой компонент календаря https://github.com/jivesoftware/PDTSimpleCalendar
+* Показ специальных картинок для пустых UITableView / UICollectionView https://github.com/dzenbot/DZNEmptyDataSet
+* Простой компонент календаря https://github.com/jivesoftware/PDTSimpleCalendar
 * GPUImage - обработка видео и фото https://github.com/BradLarson/GPUImage
 * Flat colors for iOS https://github.com/ViccAlexander/Chameleon
-* главный кусок чата из Slack for iOS (с текстовым окном крутым и так далее) https://github.com/slackhq/SlackTextViewController
+* Главный кусок чата из Slack for iOS (с текстовым окном крутым и так далее) https://github.com/slackhq/SlackTextViewController
 * Data-driven table view https://github.com/romaonthego/RETableViewManager
 * PermissionScope - типа универсальный способ показа и проверки доступа https://github.com/nickoneill/PermissionScope
 * SVProgressHUD https://github.com/SVProgressHUD/SVProgressHUD анимация загрузки
 * FontAwesomeKit https://github.com/PrideChung/FontAwesomeKit
-* идеальные плавные uitableview http://habrahabr.ru/post/264817/ - там же и советы по по отпимизации графики вообще  и тому как на симулятор ловить проблемы с этим 
+* Идеальные плавные uitableview http://habrahabr.ru/post/264817/ - там же и советы по по отпимизации графики вообще  и тому как на симулятор ловить проблемы с этим 
 * table view с дополнительными кнопками http://www.raywenderlich.com/62435/make-swipeable-table-view-cell-actions-without-going-nuts-scroll-views (просто удаление то просто сделать)
 * как бесконечный скролл UITableView https://stackoverflow.com/questions/10404116/uitableview-infinite-scrolling - там и ручками пример и с SVPullToRefresh http://samvermette.com/314 - заодно это и реализация pullToRefresh нормальная
 * как продвинуто со шрифтами работать http://www.raizlabs.com/dev/2015/08/advanced-ios-typography/
@@ -554,23 +563,27 @@
 * Если хочется UILabel с анимацией текста если он не влезает https://github.com/cbpowell/MarqueeLabel - заодно это пример на IB_DESIGNABLE
 * Если хочется замену UILabel с наворотами https://github.com/TTTAttributedLabel/TTTAttributedLabel - заодно это пример на IB_DESIGNABLE
 * Пробуем XCode Live Rendering https://habrahabr.ru/post/239257/
-* как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
-* как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
-* распознавание лиц в iOS https://habrahabr.ru/post/309802/
+* Как сделать свой аналог UIAlertController с вводом текста читаем https://github.com/mattneub/custom-alert-view-iOS7 iOS8+/Swift
+* Как работать с клавиатурой http://macoscope.com/blog/working-with-keyboard-on-ios/ - а есть и просто https://github.com/FinalCAD/iOS-KeyboardManager и https://github.com/kam800/KBKeyboardObserver
+* Распознавание лиц в iOS https://habrahabr.ru/post/309802/
 * Xcode: наверное, лучший способ работы со сторибордами https://habrahabr.ru/post/312766/
 * Замена UICollectionView https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews 
 * Замена UIStackView начиная с iOS7 https://github.com/oarrabi/OAStackView
+* Motion Design Specs – How to Present Animations and Interactions to Developers http://uxmisfit.com/2017/04/23/motion-design-specs-how-to-present-animations-and-interactions-to-developers/
+* Как сделать тени на iOS http://onebigfunction.com/ios/2015/04/24/text-shadows-on-ios/ - прицип работы и сразу пример от автора на github https://github.com/hk0i/UIView-DropShadow/
+* Как нормально гамбургерное меню сделать https://habrahabr.ru/post/255209/ + комменты
+* Как нормальный SearchBar и поиск сделать - с учетом iOS8, navigation controller'ов и так далеее - https://guides.codepath.com/ios/Search-Bar-Guide
+* Переход на iOS8 Search Controller и вообще https://useyourloaf.com/blog/updating-to-the-ios-8-search-controller/
 
-#### ObjC непонятки
-* http://goshdarnblocksyntax.com/ How Do I Declare A Block in Objective-C? для тех кто проспал 
-* про проблемы с KVO https://habrahabr.ru/company/eastbanctech/blog/202884/ и о некоторых трюках
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
 * О блоках и их использовании в Objective-C часть 2-ая https://habrahabr.ru/post/120869/
 * О блоках и их использовании в Objective-C часть 3-ая https://habrahabr.ru/post/121958/
 * Objective-C: как работают блоки https://habrahabr.ru/post/271255/ - в том числе про милые команды вроде clang -rewrite-objc -ObjC main.m -o out.cpp
-* вообще то Notifications...тоже блоки поддерживают и давно https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/index.html#//apple_ref/occ/instm/NSNotificationCenter/addObserverForName:object:queue:usingBlock:
+* Вообще то Notifications...тоже блоки поддерживают и давно https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/index.html#//apple_ref/occ/instm/NSNotificationCenter/addObserverForName:object:queue:usingBlock:
+* http://goshdarnblocksyntax.com/ How Do I Declare A Block in Objective-C? для тех кто проспал 
+* Про проблемы с KVO https://habrahabr.ru/company/eastbanctech/blog/202884/ и о некоторых трюках
 
 
 #### Cocoapods если не в других местах
@@ -749,8 +762,6 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ** https://github.com/drewmccormack/ensembles/tree/master/Examples/Simple%20Sync
 ** https://github.com/drewmccormack/ensembles - можно с него начать
 
-
-
 ### RestKit
 * https://github.com/RestKit/RestKit
 * http://www.raywenderlich.com/58682/introduction-restkit-tutorial
@@ -795,7 +806,10 @@ https://www.objc.io/issues/11-android/
 * Charles Proxy кроссплатформенный https://www.charlesproxy.com/ 
 * Cellist https://itunes.apple.com/us/app/cellist-http-debugging-proxy/id897814548?mt=12  (теперь он Proxie называется и обещают кучу фиксов)
 
-## Кросс-платформенные средства разработки
+## Кросс-платформенные средства разработки и так далее
+* Прототипирование мобильного приложения: от идеи до рабочего экрана https://habrahabr.ru/company/mobile_dimension/blog/327452/
+* Invisionapp https://www.invisionapp.com/
+
 ### React native
 * React Native: Очередная «серебряная пуля» для кросплатформенной разработки? https://habrahabr.ru/company/jugru/blog/325628/
 * Исполнит ли React Native мечту программиста: единый код для web, android и ios? https://habrahabr.ru/company/Voximplant/blog/277169/
@@ -949,7 +963,7 @@ https://www.objc.io/issues/11-android/
 ## Various (=растащить в будущем по разным местам)
 * Удачная модель ветвления для Git http://habrahabr.ru/post/106912/ - must read вообще то и в системах поддержано
 * Rebase Flow. Способ приготовления и его поддержка в GitHub, GitLab, BitBucket https://habrahabr.ru/company/at_consulting/blog/283326/
-* Wakatime http://wakatime.com и да - Chrome если надо  - поддерживается
+* Wakatime http://wakatime.com и да - Chrome если надо  - поддерживается. XCode8 ТОЖЕ поддерживается. Пусть и грязным хаком но жить можно.
 * Rescuetime http://rescuetime.com 
 * badges for projects http://shields.io/
 * недо-RPG из проекта - http://getbadges.io - пример https://intari-readingtracker.getbadges.io/activity
@@ -1050,7 +1064,6 @@ https://www.objc.io/issues/11-android/
 #### Патчи в рантайме
 * Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации. Бесплатно если не использовать их javascript-based патчи.
 
-
 #### Видеозапись
 * Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
 * UXCam https://uxcam.com/ video recording,heatmaps,etc
@@ -1089,10 +1102,17 @@ https://www.objc.io/issues/11-android/
 * https://market.mashape.com/
 * https://github.com/natanrolnik/NLRMashapeClient iOS-библиотека к ним
 
+## Web-отдельно
+* За 5 минут сделать Single Page Application доступным для Google и Facebookhttps://habrahabr.ru/post/327612/ 
+
 ## Разное
+### Кросс-платорменные системы если нет другого раздела
+* Разработка WebRTC видеочата между iOS, Android и браузером https://habrahabr.ru/company/flashphoner/blog/325444/
 ### Git и все такое - полезное
 * Невидимые друзья вашего github-репозитория https://habrahabr.ru/company/eastbanctech/blog/323760/ - но в основном - js
 
+### System tools
+* Шпаргалка по работе с Tmux (терминальный мультиплексор) https://habrahabr.ru/post/327630/
 
 ### Docker
 * Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/

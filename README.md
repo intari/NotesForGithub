@@ -221,6 +221,7 @@
 * Укрощаем асинхронные процессы в Android с RxJava. Опыт Яндекса https://habrahabr.ru/company/yandex/blog/311084/
 * также смотри в 'Кюветах' ниже 
 * логгер rx'овых observables/subscriptions https://github.com/android10/frodo - не поддерживается RxJava2
+* frodo поддержка rxjava2 https://github.com/android10/frodo2 - WIP
 * Retrofit and RxJava, Android multi-threaded REST requests http://randomdotnext.com/retrofit-rxjava/
 * Batch loading с Retrofit и RxJava https://habrahabr.ru/post/313304/  + https://sohabr.net/habr/post/313304/
 * Reactive Frustrations https://upday.github.io/blog/reactive_frustrations_1/ 
@@ -239,6 +240,16 @@
 * Operator Fusion Part 2 http://akarnokd.blogspot.com/2016/04/operator-fusion-part-2-final.html
 * Testing asynchronous RxJava code using Mockito https://medium.com/@fabioCollini/testing-asynchronous-rxjava-code-using-mockito-8ad831a16877#.v5s7f78a4
 * Основы реактивного программирования под Android на практическом примере (rx1) https://habrahabr.ru/post/306746/
+* LCE: Modeling Data Loading in RxJava https://tech.instacart.com/lce-modeling-data-loading-in-rxjava-b798ac98d80
+* Исследуем RxJava 2 для Android https://habrahabr.ru/company/badoo/blog/328434/ - а заодно это введение в Rx и пояснение зачем оно вообще нужно и куча полезных примеров по RxJava2
+* Что нового в RxJava 2 https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0
+* Как операторы для RxJava2 писать https://github.com/ReactiveX/RxJava/wiki/Writing-operators-for-2.0
+* The Decision Tree of Observable Operators http://reactivex.io/documentation/operators.html#tree
+* A Complete Guide To Learn RxJava https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631 - набор ссылок 
+* RxLifecycle https://github.com/trello/RxLifecycle/tree/2.x Lifecycle handling APIs for Android apps using RxJava
+* Adds listening capabilities to Activities and Fragments https://github.com/trello/navi/tree/2.x - с поддержкой rx в том числе
+* Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -286,7 +297,22 @@
 * потенциальная трабла с MergeAdapter'ом от CommonsWare и его аналогами http://chalup.github.io/blog/2012/09/19/android-heterogeneous-adapters-gotcha/
 * кастомный recycler-view с загрузкой в стиле fb https://github.com/sharish/ShimmerRecyclerView
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
-* material about https://github.com/jrvansuita/MaterialAbout
+* Material about https://github.com/jrvansuita/MaterialAbout
+* Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
+* Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
+* React Native с колокольни Android-разработки https://habrahabr.ru/post/329380/
+* A utility library for Android to save objects in a Bundle without any boilerplate. https://github.com/evernote/android-state
+* Разбираемся с Conductor https://habrahabr.ru/post/329532/
+
+### Android/Dagger 2 - Dependency Injection 
+* Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
+* Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
+* Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/
+* Dagger 2. Часть вторая. Custom scopes, Component dependencies, Subcomponents https://habrahabr.ru/post/279641/
+* Дружественное введение в Dagger 2 часть 2 https://habrahabr.ru/post/308040/
+* A Complete Guide To Learn Dagger 2 https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c
+* intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
+* критически важные вещи для Dagger https://blog.mindorks.com/android-dagger2-critical-things-to-know-before-you-implement-275663aecc3e
 
 
 
@@ -306,11 +332,6 @@
 * Кюветы Android, часть 1: SDK https://habrahabr.ru/post/279811/
 * Кюветы Android, часть 2: SDK & Libs https://habrahabr.ru/post/280190/
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
-* Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
-* Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
-* Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/
-* Dagger 2. Часть вторая. Custom scopes, Component dependencies, Subcomponents https://habrahabr.ru/post/279641/
-* Дружественное введение в Dagger 2 часть 2 https://habrahabr.ru/post/308040/
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * landing pages http://www.applandr.com/
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
@@ -363,6 +384,18 @@
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
 * Mirror: Easy Reflection for Java and Android https://medium.com/genymobile/mirror-easy-reflection-for-java-and-android-923f54b1f165
 * JRebel for Android сейчас бесплатный https://zeroturnaround.com/software/jrebel-for-android/free/ 
+* на старом API как completablefuture иметь https://github.com/streamsupport/streamsupport  (ну или новую android studio....)
+* Top 5 Android libs May 2016 https://medium.cobeisfresh.com/top-5-android-libraries-may-2017-3988610b3ce6 и там же и iOS и не только май
+* Android Task and Back Stack Review https://blog.mindorks.com/android-task-and-back-stack-review-5017f2c18196
+* Android TensorFlow Machine Learning Example https://blog.mindorks.com/android-tensorflow-machine-learning-example-ff0e9b2654cc
+* AndroidPub - интересные статьи https://android.jlelse.eu/
+* Easy Job Scheduling with Android-Job https://android.jlelse.eu/easy-job-scheduling-with-android-job-4a2c020b9742
+* Dependency Injection, Annotations, and why Java is Better Than you Think it is https://www.objc.io/issues/11-android/dependency-injection-in-java/
+* Разработка менеджера паролей под Android https://habrahabr.ru/post/328708/
+* Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
+* Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
+* Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
+
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -379,7 +412,7 @@
 * https://stackoverflow.com/questions/34702403/in-android-how-to-invoke-sun-misc-unsafe-methods-using-java-reflection
 * https://github.com/iamironz/unsafe
 * как руками и зачем - https://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
-
+* 
 
 ### Support library
 * Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
@@ -397,6 +430,7 @@
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
 * А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
+* Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
 
 ### вспомогательные средства отладки GUI (Android)
 * Facebook http://facebook.github.io/stetho/ 
@@ -486,7 +520,8 @@
 * AfterEffects animations to iOS/Android https://github.com/facebookincubator/Keyframes
 * Анимации в iOS для начинающих. Модели, классы от Core Animation, блоки https://habrahabr.ru/company/livetyping/blog/319592/
 * Многопоточность (concurrency) в Swift 3. GCD и Dispatch Queues https://habrahabr.ru/post/320152/
-
+* Работа с геолокацией в iOS 24/7 https://habrahabr.ru/post/275769/ в том числе особенности iOS10
+* Паттерны ООП в примерах для iOS https://habrahabr.ru/post/202960/
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
 
@@ -574,7 +609,7 @@
 * Как нормально гамбургерное меню сделать https://habrahabr.ru/post/255209/ + комменты
 * Как нормальный SearchBar и поиск сделать - с учетом iOS8, navigation controller'ов и так далеее - https://guides.codepath.com/ios/Search-Bar-Guide
 * Переход на iOS8 Search Controller и вообще https://useyourloaf.com/blog/updating-to-the-ios-8-search-controller/
-
+* LayoutKit https://habrahabr.ru/post/328242/ по сути такая себе замена AutoLayout если его быстродействие - не устраивает
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
@@ -652,6 +687,8 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * 9 нелепых способов открыть .sketch-файл. И один ничего такой https://habrahabr.ru/post/321154/
 * 4 правила работы в Sketch над крупными проектами https://habrahabr.ru/post/320990/
 * 10 things to keep in mind working with Sketch & Zeplin. Developers will thank you! https://medium.com/sketch-app-sources/10-things-to-keep-in-mind-working-with-sketch-zeplin-developers-will-thank-you-a80e84c00bc2
+* Что умеет Zeplin для разработчика https://zeplin.io/features.html#developer
+
 
 #### Иконки
 * набор халявных иконок https://icons8.com/free-ios-7-icons-in-vector/ (за нормальные размеры и форматы хотят 290 рублей в месяц) - и лучще брать версию НЕ из AppStore
@@ -817,6 +854,8 @@ https://www.objc.io/issues/11-android/
 * Так ли хорош React Native? https://habrahabr.ru/post/320034/
 * Создаем приложение на JavaScript с помощью React Native  https://habrahabr.ru/company/plarium/blog/303328/
 * Создание Android-приложения с помощью React Native https://habrahabr.ru/company/nixsolutions/blog/301734/
+* Building Your First iOS App With JavaScript (Part 1) https://www.smashingmagazine.com/2016/04/the-beauty-of-react-native-building-your-first-ios-app-with-javascript-part-1/ - перевод начала https://habrahabr.ru/post/328752/
+* iOS Developer on React Native https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
@@ -921,9 +960,10 @@ https://www.objc.io/issues/11-android/
 * http://socket.io/
 
 ## GameDev
+тут далеко не все, потом добавлять буду
 * процедурная генерация случайных игровых подземелий https://habrahabr.ru/post/275727/
 * процедурно-генерируемые карты мира на unity C#, часть 4(на 1-3 там ссылки внутри) https://habrahabr.ru/post/276551/
-
+* Локализация инди-игр на Unity: скрытые расходы https://habrahabr.ru/company/alconost/blog/323450/ - ссылки на тулзы
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL
@@ -1032,7 +1072,7 @@ https://www.objc.io/issues/11-android/
 * https://habrahabr.ru/company/google/blog/305308/ По следам Google I/O 2016 — новый Firebase: интеграция с Android
 * https://habrahabr.ru/post/302002/ Push уведомления в Android с помощью Firebase Cloud Messaging для начинающих 
 * https://habrahabr.ru/post/303514/ Нюансы Firebase messaging для начинающих
-
+* https://medium.com/google-developer-experts/using-firebase-as-a-real-time-system-d360265aa678  Using Firebase as a Real Time System
 
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
@@ -1072,6 +1112,9 @@ https://www.objc.io/issues/11-android/
 * Bitbar http://bitbar.com/testing/pricing/public-cloud/ - минимальный Solo plan for Indie Developers - 99 USD/month. 10 hours of device time. JIRA integration НЕТ (это на следующем)
 * AWS Device Farm (бывший AppThwack) - https://aws.amazon.com/ru/device-farm/  - 250 минут бесплатно, 0.17 USD/минута потом. Анлим - 250 USD за слот в месяц.
 * Google Firebase Test Lab - только Android
+* Kobitron https://kobiton.com/ - минимальный план - 10/месяц(100 в год),100 минут в месяц. 1 concurrent device. 0.14 USD/минута превышение.
+** чем они ЛУЧЩЕ симуляторов - https://kobiton.com/features/ - там записи
+
 
 #### Прототипирование
 * https://www.invisionapp.com/

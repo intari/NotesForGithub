@@ -249,7 +249,7 @@
 * RxLifecycle https://github.com/trello/RxLifecycle/tree/2.x Lifecycle handling APIs for Android apps using RxJava
 * Adds listening capabilities to Activities and Fragments https://github.com/trello/navi/tree/2.x - с поддержкой rx в том числе
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
-
+* Reactive Android UI Programming with RxBinding https://news.realm.io/news/donn-felker-reactive-android-ui-programming-with-rxbinding/
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -264,6 +264,7 @@
 * остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
 * Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
 * полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
+* препарирование RecyclerView https://ziginsider.github.io/RecyclerView/
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
 * поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
@@ -338,6 +339,7 @@
 * Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
 * Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
+* Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
 * Deep Linking на Android https://developer.android.com/training/app-indexing/deep-linking.html
 * По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
 * CWAC-NetSecurity - порт Network Security Configuration из Android N https://commonsware.com/blog/2016/07/11/backporting-android-n-network-security-configuration.html (подразумевается использование OkHttp3)
@@ -522,6 +524,8 @@
 * Многопоточность (concurrency) в Swift 3. GCD и Dispatch Queues https://habrahabr.ru/post/320152/
 * Работа с геолокацией в iOS 24/7 https://habrahabr.ru/post/275769/ в том числе особенности iOS10
 * Паттерны ООП в примерах для iOS https://habrahabr.ru/post/202960/
+* QuickLook images for Custom Objects https://github.com/Patrick-Kladek/CocoaDebugKit 
+
 # OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
 
@@ -610,6 +614,10 @@
 * Как нормальный SearchBar и поиск сделать - с учетом iOS8, navigation controller'ов и так далеее - https://guides.codepath.com/ios/Search-Bar-Guide
 * Переход на iOS8 Search Controller и вообще https://useyourloaf.com/blog/updating-to-the-ios-8-search-controller/
 * LayoutKit https://habrahabr.ru/post/328242/ по сути такая себе замена AutoLayout если его быстродействие - не устраивает
+* MarkdownView for iOS https://github.com/keitaoouchi/MarkdownView
+* Going without the flow - exploring collection view layouts http://martiancraft.com/blog/2017/05/collection-view-layouts/
+* Реализация кастомного UI-элемента для выбора времени. Часть 1 https://habrahabr.ru/company/e-Legion/blog/326324/
+* Реализация кастомного UI-элемента для выбора времени. Часть 2 https://habrahabr.ru/company/e-Legion/blog/326388/
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

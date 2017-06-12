@@ -250,6 +250,9 @@
 * Adds listening capabilities to Activities and Fragments https://github.com/trello/navi/tree/2.x - с поддержкой rx в том числе
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
 * Reactive Android UI Programming with RxBinding https://news.realm.io/news/donn-felker-reactive-android-ui-programming-with-rxbinding/
+* Reactive selfies with Camera2 API on Android - Part 1 https://techblog.badoo.com/blog/2017/06/07/reactive-selfies-with-camera2-api-on-android-part-1/
+* Побеждаем Android Camera2 API с помощью RxJava2 (часть 1) https://habrahabr.ru/company/badoo/blog/330080/ (перевод прошлой)
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -337,6 +340,7 @@
 * landing pages http://www.applandr.com/
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
 * Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
+* Bookends - A UI widget for adding headers and footers to RecyclerView https://github.com/tumblr/Bookends
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
 * Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
 * Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
@@ -397,7 +401,12 @@
 * Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
 * Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
 * Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
+* Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 
+### Android Instant Apps
+* Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html
+* Официальное описание https://developer.android.com/topic/instant-apps/index.html
+* From Westinghouse to Android Instant apps, a BuzzFeed Journey https://tech.buzzfeed.com/from-westinghouse-to-android-instant-apps-60fbfaca4ebe
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -526,7 +535,12 @@
 * Паттерны ООП в примерах для iOS https://habrahabr.ru/post/202960/
 * QuickLook images for Custom Objects https://github.com/Patrick-Kladek/CocoaDebugKit 
 
-# OS X 
+## WWDC
+* The unofficial WWDC app for macOS https://github.com/insidegui/WWDC
+* Bulk session downloader https://github.com/ohoachuck/wwdc-downloader
+
+
+## OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
 
 ### In-app purchases

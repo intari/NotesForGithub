@@ -15,6 +15,7 @@
 * Android Data Binding: The Big Event https://medium.com/google-developers/android-data-binding-the-big-event-2697089dd0d7
 * Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
+* Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
 
 
 #### Data-binding & RecyclerView/ListView 
@@ -252,6 +253,7 @@
 * Reactive Android UI Programming with RxBinding https://news.realm.io/news/donn-felker-reactive-android-ui-programming-with-rxbinding/
 * Reactive selfies with Camera2 API on Android - Part 1 https://techblog.badoo.com/blog/2017/06/07/reactive-selfies-with-camera2-api-on-android-part-1/
 * Побеждаем Android Camera2 API с помощью RxJava2 (часть 1) https://habrahabr.ru/company/badoo/blog/330080/ (перевод прошлой)
+* Doing observable queries in Room with RxJava https://medium.com/google-developers/room-rxjava-acb0cd4f3757
 
 
 ### Многопоточность отдельно
@@ -284,6 +286,7 @@
 * Овладение Coordinator Layout http://habrahabr.ru/post/270121/
 * что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
 * https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
+* ConstraintLayout barriers https://constraintlayout.com/basics/barriers.html
 * Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
@@ -402,11 +405,14 @@
 * Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
 * Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
+* ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
+* Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
 
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html
 * Официальное описание https://developer.android.com/topic/instant-apps/index.html
 * From Westinghouse to Android Instant apps, a BuzzFeed Journey https://tech.buzzfeed.com/from-westinghouse-to-android-instant-apps-60fbfaca4ebe
+* Making the Domain Android App Instant http://tech.domain.com.au/2017/06/making-the-domain-android-app-instant-%E2%9A%A1
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

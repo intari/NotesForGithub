@@ -407,6 +407,8 @@
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
 * Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
+* Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/
+* Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
 
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html

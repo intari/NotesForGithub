@@ -517,7 +517,7 @@
 * имитация Remote Notifications для симулятора https://github.com/acoomans/SimulatorRemoteNotifications (старый старый проект)
 * полезные утилиты и так далее для разработчика под iOS https://habrahabr.ru/post/283576/
 * Creating and distributing iOS Frameworks https://www.raywenderlich.com/126365/ios-frameworks-tutorial  (включая работу с CocoaPods и включая подключение Pod'ов с github url)
-* Поддержка Siri в своем приложении https://habrahabr.ru/post/303316/
+* Поддержка Siri в своем приложении https://habrahabr.ru/post/303316/ 
 * Document provider tutorial https://www.raywenderlich.com/131668/document-provider-tutorial 
 * Генерамба — кодогенератор для iOS разработки https://habrahabr.ru/company/rambler-co/blog/276275/ (для VIPER в том числе) 
 * The Book of VIPER https://github.com/rambler-ios/The-Book-of-VIPER
@@ -542,6 +542,7 @@
 * Работа с геолокацией в iOS 24/7 https://habrahabr.ru/post/275769/ в том числе особенности iOS10
 * Паттерны ООП в примерах для iOS https://habrahabr.ru/post/202960/
 * QuickLook images for Custom Objects https://github.com/Patrick-Kladek/CocoaDebugKit 
+* Все «радости» CallKit или как мы делали определитель номера на iOS 10 https://habrahabr.ru/company/2gis/blog/323050/ - про проблемы реализации CallKit Extension
 
 ## WWDC
 * The unofficial WWDC app for macOS https://github.com/insidegui/WWDC
@@ -640,6 +641,7 @@
 * Going without the flow - exploring collection view layouts http://martiancraft.com/blog/2017/05/collection-view-layouts/
 * Реализация кастомного UI-элемента для выбора времени. Часть 1 https://habrahabr.ru/company/e-Legion/blog/326324/
 * Реализация кастомного UI-элемента для выбора времени. Часть 2 https://habrahabr.ru/company/e-Legion/blog/326388/
+* Yoga Tutorial: Using a Cross-Platform Layout Engine https://www.raywenderlich.com/161413/yoga-tutorial-using-cross-platform-layout-engine
 
 #### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

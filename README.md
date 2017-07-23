@@ -542,6 +542,7 @@
 * Работа с геолокацией в iOS 24/7 https://habrahabr.ru/post/275769/ в том числе особенности iOS10
 * Паттерны ООП в примерах для iOS https://habrahabr.ru/post/202960/
 * QuickLook images for Custom Objects https://github.com/Patrick-Kladek/CocoaDebugKit 
+* Определяем номера с помощью CallKit https://habrahabr.ru/company/touchinstinct/blog/333364/
 * Все «радости» CallKit или как мы делали определитель номера на iOS 10 https://habrahabr.ru/company/2gis/blog/323050/ - про проблемы реализации CallKit Extension
 
 ## WWDC
@@ -666,6 +667,7 @@
 * Разработка через тестирование в iOS https://habrahabr.ru/company/rambler-co/blog/263087/    
 * тесты им. Volkswagen https://github.com/cezheng/Volkswagen-Xcode
 
+
 ##### iOS UI Testing
 * User interface testing https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html
 * THE BASICS OF XCUITEST AND USING XCODE UI TEST RECORDER http://bitbar.com/the-basics-of-xcuitest-and-using-xcode-ui-test-recorder/
@@ -675,7 +677,8 @@
 * UI Testing Cheat Sheet https://github.com/joemasilotti/UI-Testing-Cheat-Sheet
 * A Guide to Xcode UI Test https://blog.metova.com/guide-xcode-ui-test/
 * UI Testing in Xcode 7 http://masilotti.com/ui-testing-xcode-7/
-
+* http://www.mokacoding.com/ в том числе и список рассылки и дополнения к тест-фреймворкам
+* Nimble https://github.com/Quick/Nimble более удобное расширение XCTest например есть https://github.com/Quick/Nimble#asynchronous-expectations - ..eventually
     
 #### Аудио-видео плееры / iOS
 * AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт при сетевой загрузке.
@@ -861,6 +864,9 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Xcode plugins http://nshipster.com/xcode-plugins/
 * что делать на Xcode 8? видимо https://wakatime.com/blog/25-xcode-8-will-disable-all-your-plugins 
 
+## Списки - iOS
+* Куда пойти, что читать, с кем общаться на профессиональные темы: дорожная карта для iOS-разработчика https://habrahabr.ru/company/avito/blog/333348/
+* https://iosdev.tools/ это и рассылка и список (тулзы для стора, сайт и так так далее)
 
 https://www.objc.io/issues/11-android/
 

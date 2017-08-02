@@ -1,8 +1,13 @@
 # Набор моих пусть частично полезных ссылок по разработке и не только, уровень...разный
 
+
+## Общее
+* Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
+
 ## Android 
 
-* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год
+* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год.
+
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -254,7 +259,8 @@
 * Reactive selfies with Camera2 API on Android - Part 1 https://techblog.badoo.com/blog/2017/06/07/reactive-selfies-with-camera2-api-on-android-part-1/
 * Побеждаем Android Camera2 API с помощью RxJava2 (часть 1) https://habrahabr.ru/company/badoo/blog/330080/ (перевод прошлой)
 * Doing observable queries in Room with RxJava https://medium.com/google-developers/room-rxjava-acb0cd4f3757
-
+* Retrofit with RxJava and Gson https://android.jlelse.eu/retrofit-with-rxjava-and-gson-49d7dad1c56e
+* RxJava Anatomy: What is RxJava, how RxJava is designed, and how RxJava works. https://blog.mindorks.com/rxjava-anatomy-what-is-rxjava-how-rxjava-is-designed-and-how-rxjava-works-d357b3aca586?gi=3f0369c4e714
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -263,6 +269,8 @@
 * Instruments нет? ну хоть Method Tracing даже в Android Studio есть https://developer.android.com/studio/profile/am-methodtrace.html (есть и автономный)
 
 ### Android/GUI
+* Litho: A declarative UI framework for Android https://fblitho.com/ - между прочим умеет layout в фоне! 
+
 * Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 * Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
 * Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
@@ -544,6 +552,11 @@
 * QuickLook images for Custom Objects https://github.com/Patrick-Kladek/CocoaDebugKit 
 * Определяем номера с помощью CallKit https://habrahabr.ru/company/touchinstinct/blog/333364/
 * Все «радости» CallKit или как мы делали определитель номера на iOS 10 https://habrahabr.ru/company/2gis/blog/323050/ - про проблемы реализации CallKit Extension
+* iOS Simulator on steroids: Tips & Tricks https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b
+* iOS 11, Privacy and Single Sign On https://medium.com/the-traveled-ios-developers-guide/ios-11-privacy-and-single-sign-on-6291687a2ccc
+* Boost Smooth Scrolling with iOS 10 Pre-Fetching API https://medium.com/capital-one-developers/boost-smooth-scrolling-with-ios-10-pre-fetching-api-818c25cd9c5d
+* Server notifications and enhanced receipts for subscriptions https://itunespartner.apple.com/en/apps/news/45333106
+* Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
 
 ## WWDC
 * The unofficial WWDC app for macOS https://github.com/insidegui/WWDC

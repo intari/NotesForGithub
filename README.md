@@ -1198,6 +1198,7 @@ https://www.objc.io/issues/11-android/
 
 ## Web-отдельно
 * За 5 минут сделать Single Page Application доступным для Google и Facebookhttps://habrahabr.ru/post/327612/ 
+* Руководство для начинающих по прогрессивным веб-приложениям и фронтенду https://habrahabr.ru/company/mailru/blog/334536/ 
 
 ## Разное
 ### Кросс-платорменные системы если нет другого раздела

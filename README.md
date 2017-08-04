@@ -1176,6 +1176,7 @@ https://www.objc.io/issues/11-android/
 * Framer
 * http://www.creativebloq.com/web-design/top-10-prototyping-tools-2016-21619216
 * https://www.quora.com/What-are-the-best-rapid-prototyping-tools-for-iOS-apps
+* https://flawlessapp.io/ - по сути плагин к симулятору
 
 #### API Emulation
 * Fake the backend while you develop the frontend http://jsonstub.com/

@@ -454,6 +454,7 @@
 * Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
 * Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
 
+
 #### Constraint layout
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
@@ -463,6 +464,9 @@
 ### вспомогательные средства отладки GUI (Android)
 * Facebook http://facebook.github.io/stetho/ 
 
+### Code generation tools
+* SQLDelight generates Java models from your SQL CREATE TABLE statements. These models give you a typesafe API to read & write the rows of your tables. It helps you to keep your SQL statements together, organized, and easy to access from Java. http://alexsimo.com/delightful-persistence-android/ aka https://github.com/square/sqldelight/blob/master/README.md
+* Google AutoValue http://ryanharter.com/blog/2016/03/22/autovalue/ https://medium.com/rocknnull/no-more-value-classes-boilerplate-the-power-of-autovalue-bbaf36cf8bbe  https://github.com/google/auto/blob/master/value/userguide/index.md https://docs.google.com/presentation/d/14u_h-lMn7f1rXE1nDiLX0azS3IkgjGl5uxp5jGJ75RE/edit#slide=id.g2a5e9c4a8_00
 
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например

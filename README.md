@@ -558,6 +558,7 @@
 * Boost Smooth Scrolling with iOS 10 Pre-Fetching API https://medium.com/capital-one-developers/boost-smooth-scrolling-with-ios-10-pre-fetching-api-818c25cd9c5d
 * Server notifications and enhanced receipts for subscriptions https://itunespartner.apple.com/en/apps/news/45333106
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
+* UISearchController Tutorial: Getting Started https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
 
 ## WWDC
 * The unofficial WWDC app for macOS https://github.com/insidegui/WWDC

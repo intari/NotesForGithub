@@ -467,6 +467,16 @@
 ### Code generation tools
 * SQLDelight generates Java models from your SQL CREATE TABLE statements. These models give you a typesafe API to read & write the rows of your tables. It helps you to keep your SQL statements together, organized, and easy to access from Java. http://alexsimo.com/delightful-persistence-android/ aka https://github.com/square/sqldelight/blob/master/README.md
 * Google AutoValue http://ryanharter.com/blog/2016/03/22/autovalue/ https://medium.com/rocknnull/no-more-value-classes-boilerplate-the-power-of-autovalue-bbaf36cf8bbe  https://github.com/google/auto/blob/master/value/userguide/index.md https://docs.google.com/presentation/d/14u_h-lMn7f1rXE1nDiLX0azS3IkgjGl5uxp5jGJ75RE/edit#slide=id.g2a5e9c4a8_00
+* про расширения AutoValue - например для Parceleable http://ryanharter.com/blog/2016/03/22/autovalue/
+* http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
+* http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
+
+#### Расширения AutoValue
+* Parcel https://github.com/rharter/auto-value-parcel
+* with-er https://github.com/gabrielittner/auto-value-with
+* cursor support https://github.com/gabrielittner/auto-value-cursor
+
+
 
 ### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например

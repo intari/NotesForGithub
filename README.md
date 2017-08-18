@@ -612,6 +612,7 @@
 * Kill your giant viewDidLoad in Swift и зачем так https://thatthinginswift.com/kill-your-viewdidload/
 * Что нового в Swift 3 https://habrahabr.ru/post/312942/
 * What's New in Swift 3.1 https://www.raywenderlich.com/156352/whats-new-in-swift-3-1 
+* Ultimate Guide to JSON Parsing With Swift 4 http://swiftjson.guide
 
 ### ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/

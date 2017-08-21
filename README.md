@@ -273,7 +273,6 @@
 
 ### Android/GUI
 * Litho: A declarative UI framework for Android https://fblitho.com/ - между прочим умеет layout в фоне! 
-
 * Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 * Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
 * Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
@@ -321,6 +320,7 @@
 * React Native с колокольни Android-разработки https://habrahabr.ru/post/329380/
 * A utility library for Android to save objects in a Bundle without any boilerplate. https://github.com/evernote/android-state
 * Разбираемся с Conductor https://habrahabr.ru/post/329532/
+* Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
 
 ### Android/Dagger 2 - Dependency Injection 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
@@ -421,6 +421,9 @@
 * Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/
 * Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
+* Android Debug Database https://github.com/amitshekhariitbhu/Android-Debug-Database - интерфейс для отладки БД
+* Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети
+
 
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html

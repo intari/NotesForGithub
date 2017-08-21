@@ -261,6 +261,9 @@
 * Doing observable queries in Room with RxJava https://medium.com/google-developers/room-rxjava-acb0cd4f3757
 * Retrofit with RxJava and Gson https://android.jlelse.eu/retrofit-with-rxjava-and-gson-49d7dad1c56e
 * RxJava Anatomy: What is RxJava, how RxJava is designed, and how RxJava works. https://blog.mindorks.com/rxjava-anatomy-what-is-rxjava-how-rxjava-is-designed-and-how-rxjava-works-d357b3aca586?gi=3f0369c4e714
+* SOLID Android analytics with RxJava2 https://proandroiddev.com/solid-android-analytics-with-rxjava2-6270ce8c26f9
+* Пагинация списков в Android с RxJava. Часть I https://habrahabr.ru/post/268991/ (rxJava1)
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -328,7 +331,7 @@
 * A Complete Guide To Learn Dagger 2 https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c
 * intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
 * критически важные вещи для Dagger https://blog.mindorks.com/android-dagger2-critical-things-to-know-before-you-implement-275663aecc3e
-
+* Dagger 2.11 & Android https://habrahabr.ru/post/335940/
 
 
 ### Android/Various
@@ -574,6 +577,7 @@
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
 * UISearchController Tutorial: Getting Started https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
 * iOS:Path to mastery for iOS Development https://trello.com/b/gvzEgkw4/ios-path-to-mastery-for-ios-development
+* Hotswapping Core ML models on the iPhone https://blog.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone
 
 ## WWDC
 * The unofficial WWDC app for macOS https://github.com/insidegui/WWDC

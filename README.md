@@ -396,8 +396,6 @@
 * Personal content indexing нормальный - именно - локально на устройстве без вебсерверов и без гугла https://firebase.google.com/docs/app-indexing/android/personal-content
 * Google VR SDK (для Cardboard и Daydream и похожих) https://geektimes.ru/company/dataart/blog/286242/
 * Приколы кастомных вьюх на андроиде https://habrahabr.ru/post/321890/
-* Полезные андроид-библиотеки https://habrahabr.ru/company/everydaytools/blog/322390/ 
-* in-app OkHttp inspector https://github.com/jgilfelt/chuck
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
 * Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
 * How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube) https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.1o4cowy60
@@ -414,15 +412,11 @@
 * Разработка менеджера паролей под Android https://habrahabr.ru/post/328708/
 * Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
 * Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
-* Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
-* Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
 * Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/
 * Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
-* Android Debug Database https://github.com/amitshekhariitbhu/Android-Debug-Database - интерфейс для отладки БД
-* Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 
 ### Android Instant Apps
@@ -430,6 +424,15 @@
 * Официальное описание https://developer.android.com/topic/instant-apps/index.html
 * From Westinghouse to Android Instant apps, a BuzzFeed Journey https://tech.buzzfeed.com/from-westinghouse-to-android-instant-apps-60fbfaca4ebe
 * Making the Domain Android App Instant http://tech.domain.com.au/2017/06/making-the-domain-android-app-instant-%E2%9A%A1
+
+### Debug/support tools
+* 30+ инструментов для профессиональной разработки приложений под Android https://habrahabr.ru/post/336020/
+* Полезные андроид-библиотеки https://habrahabr.ru/company/everydaytools/blog/322390/ 
+* Android Debug Database https://github.com/amitshekhariitbhu/Android-Debug-Database - интерфейс для отладки БД
+* Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
+* Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
+* in-app OkHttp inspector https://github.com/jgilfelt/chuck
+* Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
@@ -441,38 +444,9 @@
 * https://github.com/EsotericSoftware/kryo - еще одна спецбиблиотека - еще и сериализацию умеет свою. а с Unsafe еще быстрее
 * https://android-arsenal.com/details/1/805 ? 
 
-
-#### Unsafe на Android - где ?
-* https://stackoverflow.com/questions/34702403/in-android-how-to-invoke-sun-misc-unsafe-methods-using-java-reflection
-* https://github.com/iamironz/unsafe
-* как руками и зачем - https://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
-* 
-
-### Support library
-* Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
-* Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
-
-#### Percent support library
-да, теперь это официально
-* Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
-* Официальное описание https://developer.android.com/tools/support-library/features.html?linkId=16439958#percent
-* Как использовать, часть 1 https://blog.stylingandroid.com/percent-part-1/
-* Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
-* Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
-
-
-#### Constraint layout
-* ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
-* Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
-* А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
-* Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
-
-### вспомогательные средства отладки GUI (Android)
-* Facebook http://facebook.github.io/stetho/ 
-
 ### Code generation tools
 * SQLDelight generates Java models from your SQL CREATE TABLE statements. These models give you a typesafe API to read & write the rows of your tables. It helps you to keep your SQL statements together, organized, and easy to access from Java. http://alexsimo.com/delightful-persistence-android/ aka https://github.com/square/sqldelight/blob/master/README.md
-* Google AutoValue http://ryanharter.com/blog/2016/03/22/autovalue/ https://medium.com/rocknnull/no-more-value-classes-boilerplate-the-power-of-autovalue-bbaf36cf8bbe  https://github.com/google/auto/blob/master/value/userguide/index.md https://docs.google.com/presentation/d/14u_h-lMn7f1rXE1nDiLX0azS3IkgjGl5uxp5jGJ75RE/edit#slide=id.g2a5e9c4a8_00
+* Google AutoValue http://ryanharter.com/blog/2016/03/22/autovalue/ https://medium.com/rocknnull/no-more-value-classes-boilerplate-the-power-of-autovalue-bbaf36cf8bbe  https://github.com/google/auto/blob/master/value/userguide/index.md https://docs.google.com/presentation/d/14u_h-lMn7f1rXE1nDiLX0azS3IkgjGl5uxp5jGJ75RE/edit#slide=id.g2a5e9c4a8_00 (конкурент Lombok)
 * про расширения AutoValue - например для Parceleable http://ryanharter.com/blog/2016/03/22/autovalue/
 * http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
 * http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
@@ -482,6 +456,32 @@
 * with-er https://github.com/gabrielittner/auto-value-with
 * cursor support https://github.com/gabrielittner/auto-value-cursor
 
+#### Unsafe на Android - где ?
+* https://stackoverflow.com/questions/34702403/in-android-how-to-invoke-sun-misc-unsafe-methods-using-java-reflection
+* https://github.com/iamironz/unsafe
+* как руками и зачем - https://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
+
+
+### Support library
+* Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
+* Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
+
+#### Percent support library
+да, теперь это официально, устарела
+* Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
+* Официальное описание https://developer.android.com/tools/support-library/features.html?linkId=16439958#percent
+* Как использовать, часть 1 https://blog.stylingandroid.com/percent-part-1/
+* Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
+* Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
+
+#### Constraint layout
+* ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
+* Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
+* А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
+* Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
+
+### вспомогательные средства отладки GUI (Android)
+* Facebook http://facebook.github.io/stetho/ 
 
 
 ### Аудиовидео плееры / Android

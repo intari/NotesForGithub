@@ -783,7 +783,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Сравнение PureLayout и остальных подходов https://github.com/PureLayout/PureLayout#purelayout-vs-the-rest
 * Advanced AutoLayout https://www.objc.io/issues/3-views/advanced-auto-layout-toolbox/
 * Основы Auto Layout — Концепция, строение, применение  https://habrahabr.ru/post/312782/
-
+* Вообще и https://www.amazon.com/Auto-Layout-Demystified-Mobile-Programming-ebook/dp/B00G96VS7S/ имеет смысл почитать
 
 
 #### Appearance proxy,etc

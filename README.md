@@ -263,7 +263,8 @@
 * RxJava Anatomy: What is RxJava, how RxJava is designed, and how RxJava works. https://blog.mindorks.com/rxjava-anatomy-what-is-rxjava-how-rxjava-is-designed-and-how-rxjava-works-d357b3aca586?gi=3f0369c4e714
 * SOLID Android analytics with RxJava2 https://proandroiddev.com/solid-android-analytics-with-rxjava2-6270ce8c26f9
 * Пагинация списков в Android с RxJava. Часть I https://habrahabr.ru/post/268991/ (rxJava1)
-
+* A library to make StackTraces involving RxJava2 more meaningful (they will always point to your code!). https://github.com/akaita/RxJava2Debug
+* RxJava 2.x extra sources, operators and components and ports of many 1.x companion libraries. https://github.com/akarnokd/RxJava2Extensions
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?

@@ -419,6 +419,7 @@
 * Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
+* Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
 
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html

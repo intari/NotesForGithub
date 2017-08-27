@@ -435,6 +435,7 @@
 * Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
 * in-app OkHttp inspector https://github.com/jgilfelt/chuck
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
+* Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

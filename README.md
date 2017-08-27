@@ -1115,6 +1115,8 @@ https://www.objc.io/issues/11-android/
 * AppStore Optimization https://habrahabr.ru/company/appodeal/blog/260179/
 * AppStore Optimization 2: Play Store https://habrahabr.ru/company/appodeal/blog/261277/
 * Google Cloud Vision API‎. Будущее Computer Vision as a service настало?  https://habrahabr.ru/post/312714/
+* отладка regexp'ов https://www.debuggex.com/
+* форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
 
 
 ### Xperia specific

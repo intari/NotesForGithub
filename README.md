@@ -436,6 +436,7 @@
 * in-app OkHttp inspector https://github.com/jgilfelt/chuck
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
+* Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

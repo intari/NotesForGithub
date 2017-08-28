@@ -428,6 +428,14 @@
 * OpenGL Shading Language 3rd edition aka Orange Book https://www.amazon.com/OpenGL-Shading-Language-Randi-Rost-ebook/dp/B002HMJYC4/ 
 
 
+### Time/Android
+* Адаптированный backport JSR-310 https://github.com/JakeWharton/ThreeTenABP
+* Почему JodaTime не очень хорошо с памятью работает http://blog.danlew.net/2013/08/20/joda_time_s_memory_issue_in_android/ и что делать (а заодно - как файл таймзон грузить свой если надо)
+* Time for non-Time Lords – Part 1 https://blog.stylingandroid.com/time-for-non-time-lords-part-1/
+* Time for non-Time Lords – Part 2 https://blog.stylingandroid.com/time-for-non-time-lords-part-2/
+* Time for non-Time Lords – Part 3 https://blog.stylingandroid.com/time-for-non-time-lords-part-3/ 
+
+
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html
 * Официальное описание https://developer.android.com/topic/instant-apps/index.html

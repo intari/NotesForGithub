@@ -421,6 +421,13 @@
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
 
+
+### OpenGL ES,etc
+* OpenGL 2.0+ под Андроид https://4pda.ru/forum/index.php?showtopic=418429
+* OpenGL ES 2 for Android: A Quick-Start Guide https://www.amazon.com/OpenGL-Android-Quick-Start-Pragmatic-Programmers-ebook/dp/B00IDEVIK6/
+* OpenGL Shading Language 3rd edition aka Orange Book https://www.amazon.com/OpenGL-Shading-Language-Randi-Rost-ebook/dp/B002HMJYC4/ 
+
+
 ### Android Instant Apps
 * Пост в блоге Google что теперь - всем доступно https://android-developers.googleblog.com/2017/05/android-instant-apps-is-open-to-all.html
 * Официальное описание https://developer.android.com/topic/instant-apps/index.html
@@ -434,6 +441,7 @@
 * Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
 * Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
 * in-app OkHttp inspector https://github.com/jgilfelt/chuck
+* An OkHttp interceptor which pretty logs request and response data. https://github.com/ihsanbal/LoggingInterceptor
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins

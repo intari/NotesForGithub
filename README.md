@@ -30,6 +30,15 @@
 * Data binding example with SearchView/RecyclerView https://github.com/ashdavies/data-binding
 * Android и Data Binding: обработка действий https://habrahabr.ru/post/305916/
 * Android Data Binding for RecyclerView: flexible way https://habrahabr.ru/post/308872/
+* Вообще подробное описание самого RecyclerView с примерами - в Busy Coder's Guide от Mark L. Murphy 
+* кастомный recycler-view с загрузкой в стиле fb https://github.com/sharish/ShimmerRecyclerView
+* Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
+* Bookends - A UI widget for adding headers and footers to RecyclerView https://github.com/tumblr/Bookends
+* Хелперы для типовых задач с RecyclerView (reordering, swipe-to-dismiss,select/activate  ) https://github.com/ismoli/DynamicRecyclerView
+* Еще хелперы Advanced RecyclerView, умеет expandable https://github.com/h6ah4i/android-advancedrecyclerview
+* SuperRecyclerView https://github.com/Malinskiy/SuperRecyclerView тут RecyclerView на стероидах интересный (включая бесконечный скроллинг штатный)
+* Flexible Divider библиотека различных divider'ов для RecyclerView https://github.com/yqritc/RecyclerView-FlexibleDivider
+* ExpandableLayout https://github.com/SilenceDut/ExpandableLayout
 
 ### Annotations - начало
 * Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
@@ -313,7 +322,6 @@
 * Как Network Inspection из Stetho с Volley подружить http://ligol.github.io/blog/2015/05/05/discovering-and-using-stetho-with-some-network-library/
 * Как ExoPlayer с ним подружить https://medium.com/google-exoplayer/enabling-stetho-on-exoplayer-2-demo-application-126807a37cb3#.1s4y7q5p1
 * потенциальная трабла с MergeAdapter'ом от CommonsWare и его аналогами http://chalup.github.io/blog/2012/09/19/android-heterogeneous-adapters-gotcha/
-* кастомный recycler-view с загрузкой в стиле fb https://github.com/sharish/ShimmerRecyclerView
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
 * Material about https://github.com/jrvansuita/MaterialAbout
 * Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
@@ -355,8 +363,6 @@
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * landing pages http://www.applandr.com/
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
-* Android RecyclerView Tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial  для тех кто Busy Coder's не читал
-* Bookends - A UI widget for adding headers and footers to RecyclerView https://github.com/tumblr/Bookends
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
 * Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
 * Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
@@ -424,10 +430,15 @@
 
 
 ### OpenGL ES,etc
+* OpenGL ES 2.0 References Pages https://www.khronos.org/registry/OpenGL-Refpages/es2.0/
+* Описание от Google https://developer.android.com/guide/topics/graphics/opengl.html
 * OpenGL 2.0+ под Андроид https://4pda.ru/forum/index.php?showtopic=418429
 * OpenGL ES 2 for Android: A Quick-Start Guide https://www.amazon.com/OpenGL-Android-Quick-Start-Pragmatic-Programmers-ebook/dp/B00IDEVIK6/
 * OpenGL Shading Language 3rd edition aka Orange Book https://www.amazon.com/OpenGL-Shading-Language-Randi-Rost-ebook/dp/B002HMJYC4/ 
-
+* OpenGL ES Shading Language 1.00 https://www.khronos.org/registry/OpenGL/specs/es/2.0/GLSL_ES_Specification_1.00.pdf
+* OpenGL ES 2.0 Specification https://www.khronos.org/registry/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf
+* OpenGL ES 2.0 API Quick Reference Card https://www.khronos.org/opengles/sdk/docs/reference_cards/OpenGL-ES-2_0-Reference-card.pdf
+* OpenGL ES 3.0 API Quick Reference Card https://www.khronos.org/files/opengles3-quick-reference-card.pdf
 
 ### Time/Android
 * Адаптированный backport JSR-310 https://github.com/JakeWharton/ThreeTenABP

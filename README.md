@@ -39,6 +39,13 @@
 * SuperRecyclerView https://github.com/Malinskiy/SuperRecyclerView тут RecyclerView на стероидах интересный (включая бесконечный скроллинг штатный)
 * Flexible Divider библиотека различных divider'ов для RecyclerView https://github.com/yqritc/RecyclerView-FlexibleDivider
 * ExpandableLayout https://github.com/SilenceDut/ExpandableLayout
+* Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
+* полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
+* препарирование RecyclerView https://ziginsider.github.io/RecyclerView/
+* Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
+* Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
+* вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
+
 
 ### Annotations - начало
 * Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
@@ -286,13 +293,7 @@
 * Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
 * Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
 * остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
-* Android RecyclerView tutorial https://www.raywenderlich.com/126528/android-recyclerview-tutorial
-* полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
-* препарирование RecyclerView https://ziginsider.github.io/RecyclerView/
-* вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
-* поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
-* Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
 * CannyViewAnimator: переключаем состояния красиво https://habrahabr.ru/company/livetyping/blog/309740/
 * валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
 * проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
@@ -430,6 +431,7 @@
 ### Instance state,etc
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
+* поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
 * Библиотека IcePick https://github.com/frankiesardo/icepick
 * Android State https://github.com/evernote/android-state fork icepick от Evernote с допфичами некоторыми
 * JSON-to-POJO http://www.jsonschema2pojo.org/ - там же и на gradle plugin ссылка

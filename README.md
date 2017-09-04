@@ -263,7 +263,6 @@
 * A Complete Guide To Learn RxJava https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631 - набор ссылок 
 * RxLifecycle https://github.com/trello/RxLifecycle/tree/2.x Lifecycle handling APIs for Android apps using RxJava
 * Adds listening capabilities to Activities and Fragments https://github.com/trello/navi/tree/2.x - с поддержкой rx в том числе
-* Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
 * Reactive Android UI Programming with RxBinding https://news.realm.io/news/donn-felker-reactive-android-ui-programming-with-rxbinding/
 * Reactive selfies with Camera2 API on Android - Part 1 https://techblog.badoo.com/blog/2017/06/07/reactive-selfies-with-camera2-api-on-android-part-1/
 * Побеждаем Android Camera2 API с помощью RxJava2 (часть 1) https://habrahabr.ru/company/badoo/blog/330080/ (перевод прошлой)
@@ -375,7 +374,6 @@
 * Google I/O 2016 Live Blog http://www.anandtech.com/show/10332/google-io-2016-live-blog
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
-* Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
 * Security issues with Android Accessibility https://medium.com/@vedprakashrout/android-accessibility-75fdc5810025#.fr5wfba6g
@@ -428,6 +426,12 @@
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
+
+### Instance state,etc
+* Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
+* Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
+* Библиотека IcePick https://github.com/frankiesardo/icepick
+* Android State https://github.com/evernote/android-state fork icepick от Evernote с допфичами некоторыми
 
 
 ### OpenGL ES,etc

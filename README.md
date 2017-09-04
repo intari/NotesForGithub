@@ -344,6 +344,7 @@
 
 
 ### Android/Various
+* Шпаргалка или Must have для андроид разработчика https://habrahabr.ru/post/336956/
 * 50+ Ultimate Resources to Master Android Development https://blog.aritraroy.in/50-ultimate-resources-to-master-android-development-15165d6bc376
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
 * Android Dev 101: Things every beginner should know https://www.whatsthatlambda.com/android/android-dev-101-things-every-beginner-must-know совсем базовые вещи

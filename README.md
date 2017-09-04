@@ -432,7 +432,7 @@
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
 * Библиотека IcePick https://github.com/frankiesardo/icepick
 * Android State https://github.com/evernote/android-state fork icepick от Evernote с допфичами некоторыми
-
+* JSON-to-POJO http://www.jsonschema2pojo.org/ - там же и на gradle plugin ссылка
 
 ### OpenGL ES,etc
 * OpenGL ES 2.0 References Pages https://www.khronos.org/registry/OpenGL-Refpages/es2.0/

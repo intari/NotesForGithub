@@ -413,7 +413,6 @@
 * на старом API как completablefuture иметь https://github.com/streamsupport/streamsupport  (ну или новую android studio....)
 * Top 5 Android libs May 2016 https://medium.cobeisfresh.com/top-5-android-libraries-may-2017-3988610b3ce6 и там же и iOS и не только май
 * Android Task and Back Stack Review https://blog.mindorks.com/android-task-and-back-stack-review-5017f2c18196
-* Android TensorFlow Machine Learning Example https://blog.mindorks.com/android-tensorflow-machine-learning-example-ff0e9b2654cc
 * AndroidPub - интересные статьи https://android.jlelse.eu/
 * Easy Job Scheduling with Android-Job https://android.jlelse.eu/easy-job-scheduling-with-android-job-4a2c020b9742
 * Dependency Injection, Annotations, and why Java is Better Than you Think it is https://www.objc.io/issues/11-android/dependency-injection-in-java/
@@ -1280,3 +1279,20 @@ https://www.objc.io/issues/11-android/
 
 ### Docker
 * Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/
+
+###  Машинное обучение
+* Machine learning в простом проекте - поиск текстовых строк нечеткий http://habrahabr.ru/company/preply/blog/216729/ 
+* Автоматическое определение тональности текста (Sentiment Analysis) http://habrahabr.ru/post/263171/
+* Про книгу про машинное обучение на Python от Packet ttps://habrahabr.ru/company/piter/blog/282167/ 
+* Обучение с подкреплением для самых маленьких https://habrahabr.ru/post/308094/
+* Про TensorFlow GT: https://geektimes.ru/post/265516/
+* Про TensorFlow Habr: https://habrahabr.ru/post/270543/
+* FizzBuzz на TensorFlow https://habrahabr.ru/post/301536/
+* Hello, TensorFlow. Библиотека машинного обучения от Google https://habrahabr.ru/post/305578/
+* Еще пример нейронных сетей для анализа разведения мостов https://habrahabr.ru/post/306798/ и https://habrahabr.ru/post/307218/  
+* Android TensorFlow Machine Learning Example https://blog.mindorks.com/android-tensorflow-machine-learning-example-ff0e9b2654cc
+* Введение в машинное обучение с tensorflow https://habrahabr.ru/post/326650/
+* Как подружить Tensorflow и C++ https://habrahabr.ru/post/308002/
+* Открытый курс по машинному обучению https://habrahabr.ru/company/ods/blog/322076/ - вообще у них все посты…интересные - про Facebook Prophet например
+* Нейрокурятник - часть 0 https://habrahabr.ru/post/328138/
+* Про распознование хотдогов и создание нейросеток / ML https://habrahabr.ru/post/331740/ в минимальных условиях

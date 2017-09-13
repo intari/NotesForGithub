@@ -3,6 +3,7 @@
 
 ## Общее
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
+* Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
 
 ## Android 
 
@@ -615,10 +616,14 @@
 * iOS 11, Privacy and Single Sign On https://medium.com/the-traveled-ios-developers-guide/ios-11-privacy-and-single-sign-on-6291687a2ccc
 * Boost Smooth Scrolling with iOS 10 Pre-Fetching API https://medium.com/capital-one-developers/boost-smooth-scrolling-with-ios-10-pre-fetching-api-818c25cd9c5d
 * Server notifications and enhanced receipts for subscriptions https://itunespartner.apple.com/en/apps/news/45333106
-* Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
 * UISearchController Tutorial: Getting Started https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
 * iOS:Path to mastery for iOS Development https://trello.com/b/gvzEgkw4/ios-path-to-mastery-for-ios-development
 * Hotswapping Core ML models on the iPhone https://blog.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone
+
+## ARKit
+* Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
+* Когда размер имеет значение: создаем приложение-линейку с помощью ARKit https://habrahabr.ru/company/everydaytools/blog/337808/
+
 
 ## WWDC
 * The unofficial WWDC app for macOS https://github.com/insidegui/WWDC
@@ -628,14 +633,14 @@
 ## OS X 
 * Core Graphics on OS X Tutorial https://www.raywenderlich.com/128614/core-graphics-os-x-tutorial  а вообще...PaintCode?
 
-### In-app purchases
+## In-app purchases
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
 * IAP Helper https://github.com/saturngod/IAPHelper для обычных
 * MKStoreKit - странный он какой то
 * RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcone (из-за OpenSSL)
 
 
-### Swift
+## Swift
 * как сделать это в Swift https://thatthinginswift.com/ - много интересного
 * https://www.hackingwithswift.com/
 * dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
@@ -660,7 +665,7 @@
 * What's New in Swift 3.1 https://www.raywenderlich.com/156352/whats-new-in-swift-3-1 
 * Ultimate Guide to JSON Parsing With Swift 4 http://swiftjson.guide
 
-### ReactiveCocoa/rXXX
+## ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/
 * Введение реактива в архитектуру iOS-приложений https://habrahabr.ru/post/300962/
 * Шпаргалка по операторам rxSwift https://habrahabr.ru/post/281292/ 
@@ -669,7 +674,7 @@
 * Мое знакомство с ReactiveCocoa https://habrahabr.ru/post/317992/
 * RxSwift: Reactive Programming with Swift https://www.goodreads.com/book/show/34791927
 
-### GUI
+## GUI
 * Жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
 * Еще последовательность старта view и view controller https://stackoverflow.com/questions/5107604/can-somebody-explain-the-process-of-a-uiviewcontroller-birth-which-method-follo
 * Xcode Live Rendering https://habrahabr.ru/post/239257/
@@ -720,7 +725,7 @@
 * Реализация кастомного UI-элемента для выбора времени. Часть 2 https://habrahabr.ru/company/e-Legion/blog/326388/
 * Yoga Tutorial: Using a Cross-Platform Layout Engine https://www.raywenderlich.com/161413/yoga-tutorial-using-cross-platform-layout-engine
 
-#### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
+## Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
 * О блоках и их использовании в Objective-C часть 2-ая https://habrahabr.ru/post/120869/
 * О блоках и их использовании в Objective-C часть 3-ая https://habrahabr.ru/post/121958/
@@ -730,21 +735,21 @@
 * Про проблемы с KVO https://habrahabr.ru/company/eastbanctech/blog/202884/ и о некоторых трюках
 
 
-#### Cocoapods если не в других местах
+## Cocoapods если не в других местах
 * Сеть - более качественная замена AFNetworking https://github.com/Alamofire/Alamofire
 * обфускация важных констант https://github.com/pjebs/Obfuscator-iOS
 * обфускация бинарников https://github.com/Polidea/ios-class-guard
 * потереть все комменты https://github.com/igorbarinov/deployment-scrpits/tree/master/remove-comments
 
-#### iOS Testing
-##### iOS Unit Tests 
+## iOS Testing
+### iOS Unit Tests 
 * Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/
 * Практический применение Unit-тестирования под iOS https://habrahabr.ru/post/262945/
 * Разработка через тестирование в iOS https://habrahabr.ru/company/rambler-co/blog/263087/    
 * тесты им. Volkswagen https://github.com/cezheng/Volkswagen-Xcode
 
 
-##### iOS UI Testing
+### iOS UI Testing
 * User interface testing https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html
 * THE BASICS OF XCUITEST AND USING XCODE UI TEST RECORDER http://bitbar.com/the-basics-of-xcuitest-and-using-xcode-ui-test-recorder/
 * UI Testing in Xcode 7, Part 1: UI Testing Gotchas https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/    
@@ -756,10 +761,10 @@
 * http://www.mokacoding.com/ в том числе и список рассылки и дополнения к тест-фреймворкам
 * Nimble https://github.com/Quick/Nimble более удобное расширение XCTest например есть https://github.com/Quick/Nimble#asynchronous-expectations - ..eventually
     
-#### Аудио-видео плееры / iOS
+## Аудио-видео плееры / iOS
 * AVPlayer и компания системные конечно же. например PiP даже на iOS10 будет только с ними. Но требования по форматам, иногда долгий старт при сетевой загрузке.
 
-##### MobileVLCKit
+### MobileVLCKit
 MobileVLCKit http://code.videolan.org/videolan/VLCKit.git 
 * http://www.feepk.net/2014/12/02/mobilevlckit-and-vlckit-part-1/ + http://www.feepk.net/2015/02/18/mobilevlckit-and-vlckit-part-2/
 * брать либо pod MobileVLC-prod - он 2.7.9
@@ -777,11 +782,11 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * лицензия: судя по том что делает pod install - достаточно  положить в папку рядом с MobileVLCKit.Framework файл лицензии и выложить свои патчи к самому MobileVLCKit
 * как образец плеера - Dropin-Player - он под еще более либеральной лицензией
          
-##### IJKPlayer ? 
+### IJKPlayer ? 
 * https://github.com/Bilibili/ijkplayer  iOS (в будущем)/Android
     
     
-#### Чем нарезать GUI
+## Чем нарезать GUI
 * Sketch (вместо фотошопа) http://habrahabr.ru/post/252063/ - OS X only. а еще см https://vc.ru/p/sketch - на тему чем оно лучще фотошопа
 * Droptimizer http://12rockets.com/droptimizer/ нарезка правильного арта по @3x
 * Slicy http://www.macrabbit.com/slicy/help/  - автонарезатор из фотошопа (но надо тегировать специальным образом). @3x не поддерживается пока.

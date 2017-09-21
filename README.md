@@ -427,6 +427,7 @@
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
+* MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
 
 ### Instance state,etc
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

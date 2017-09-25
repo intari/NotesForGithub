@@ -430,6 +430,7 @@
 * MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
 * From design to Android, part 1 http://saulmm.github.io/from-design-to-android-part1
 * From design to Android, part 2 https://medium.com/@saulmm2/from-design-to-android-part-2-2a6c141547d9
+* Register: Better In App Billing Testing on Android https://open.nytimes.com/register-better-in-app-billing-testing-on-android-73af5fcc36dc
 
 
 ### Instance state,etc

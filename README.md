@@ -519,6 +519,7 @@
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
 * А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
 * Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
+* CONSTRAINTLAYOUT – GUIDELINES, BARRIERS, CHAINS AND GROUPS https://riggaroo.co.za/constraintlayout-guidelines-barriers-chains-groups/
 
 ### вспомогательные средства отладки GUI (Android)
 * Facebook http://facebook.github.io/stetho/ 

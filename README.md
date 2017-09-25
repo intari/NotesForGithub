@@ -428,6 +428,9 @@
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
 * MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
+* From design to Android, part 1 http://saulmm.github.io/from-design-to-android-part1
+* From design to Android, part 2 https://medium.com/@saulmm2/from-design-to-android-part-2-2a6c141547d9
+
 
 ### Instance state,etc
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

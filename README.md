@@ -431,7 +431,7 @@
 * From design to Android, part 1 http://saulmm.github.io/from-design-to-android-part1
 * From design to Android, part 2 https://medium.com/@saulmm2/from-design-to-android-part-2-2a6c141547d9
 * Register: Better In App Billing Testing on Android https://open.nytimes.com/register-better-in-app-billing-testing-on-android-73af5fcc36dc
-
+* Разные редкие API Android вроде Text Services, Play Services Vision, TimingLogger https://blog.autsoft.hu/discovering-the-android-api-part-1/
 
 ### Instance state,etc
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

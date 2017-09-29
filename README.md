@@ -834,6 +834,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 * Advanced AutoLayout https://www.objc.io/issues/3-views/advanced-auto-layout-toolbox/
 * Основы Auto Layout — Концепция, строение, применение  https://habrahabr.ru/post/312782/
 * Вообще и https://www.amazon.com/Auto-Layout-Demystified-Mobile-Programming-ebook/dp/B00G96VS7S/ имеет смысл почитать
+* Introducing AutoLayout for Sketch https://medium.com/sketch-app-sources/introducing-auto-layout-for-sketch-24e7b5d068f9
 
 
 #### Appearance proxy,etc

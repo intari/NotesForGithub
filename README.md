@@ -5,6 +5,24 @@
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
 * Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
 
+## Gradle
+* Gradle: A better way to build http://habrahabr.ru/post/107085/
+* Gradle User’s Guide http://www.gradle.org/docs/current/userguide/userguide.html
+* Gradle: Tasks are code http://habrahabr.ru/post/107558/
+* Почему Gradle ? http://habrahabr.ru/post/106717/
+* Боитесь ли вы Gradle так как боюсь его я? http://habrahabr.ru/post/230249/
+* Многомодульный Java-проект с Gradle. Шаг за шагом http://habrahabr.ru/post/225189/
+* Подробно о задачах Gradle http://habrahabr.ru/post/167227/
+* Gradle и решение задач автоматизации http://habrahabr.ru/post/192268/
+* полезности Gradle http://habrahabr.ru/company/redmadrobot/blog/271269/ 
+* Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
+* Using buildSrc for custom logic in Gradle builds https://zeroturnaround.com/rebellabs/using-buildsrc-for-custom-logic-in-gradle-builds/ 
+* Сколько Gradle кушает времени (получще --profile) https://github.com/passy/build-time-tracker-plugin
+* Пишем свой Gradle плагин для AnnotatedSql http://habrahabr.ru/post/202480/
+* Ввод паролей при сборке проектов с помощью Gradle http://habrahabr.ru/post/221741/
+* свои библиотеки хостить если не хочется разбираться - а например а https://jitpack.io/ - да - платно и хочет платный github lля приватных вещей (для oss - все бесплатно) https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+
+
 ## Android 
 
 * Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год.
@@ -419,7 +437,6 @@
 * Dependency Injection, Annotations, and why Java is Better Than you Think it is https://www.objc.io/issues/11-android/dependency-injection-in-java/
 * Разработка менеджера паролей под Android https://habrahabr.ru/post/328708/
 * Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
-* Make or break… with Gradle https://medium.com/contentsquare-engineering-blog/make-or-break-with-gradle-dac2e858868d
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
 * Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/

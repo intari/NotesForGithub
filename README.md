@@ -5,6 +5,9 @@
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
 * Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
 
+## Универсальные полезные библиотеки
+* MuPDF - PDF / EPUB / FB2 рендер. Portable. примеры Windows/iOS/Android. AGPL либо комерческая лицензия https://mupdf.com/
+
 ## Gradle
 * Gradle: A better way to build http://habrahabr.ru/post/107085/
 * Gradle User’s Guide http://www.gradle.org/docs/current/userguide/userguide.html
@@ -25,7 +28,7 @@
 
 ## Android 
 
-* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 45 USD в год.
+* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 20 USD / полгода за подписку. Тем более что там добавления есть - например отдельная книга по Android architecture compontents...
 
 
 ### Data binding
@@ -409,7 +412,6 @@
 * Q:Что делать если девайс с Android 6+ постоянно дисконнектит (кабеля менять не помогает)? A:Попробовать на устройстве включить режим НЕ 'Зарядка' а 'Передача файлов'. И НЕ подключать больше одного девайса за раз.
 * Q: нотификация кэширует старые данные ! A:http://stackoverflow.com/questions/3140072/android-keeps-caching-my-intents-extras-how-to-declare-a-pending-intent-that-ke 
 * Лёгкая интеграция tor в android приложение на примере клиента для рутрекера https://habrahabr.ru/post/313030/
-* Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
 * как блокировать рекламу (и далеко не только) на Samsung'ах https://habrahabr.ru/post/314116/ - можно например Doze Mode контролировать
 * ввод текста с автоформатированием https://habrahabr.ru/company/tcsbank/blog/312968/
 * Введение в разработку приложений для Android TV https://habrahabr.ru/post/316260/
@@ -458,10 +460,20 @@
 * Android State https://github.com/evernote/android-state fork icepick от Evernote с допфичами некоторыми
 * JSON-to-POJO http://www.jsonschema2pojo.org/ - там же и на gradle plugin ссылка
 
-### OpenGL ES,etc
+### Звук
+* Android и звук - как делать правильно https://habrahabr.ru/post/339416/
+* Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
+
+#### Аудиовидео плееры / Android
+* https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
+* https://github.com/Bilibili/ijkplayer
+
+
+
+### OpenGL ES и прочая 3D-графика
 * OpenGL ES 2.0 References Pages https://www.khronos.org/registry/OpenGL-Refpages/es2.0/
 * Описание от Google https://developer.android.com/guide/topics/graphics/opengl.html
-* OpenGL 2.0+ под Андроид https://4pda.ru/forum/index.php?showtopic=418429
+* OpenGL 2.0+ под Андроид https://4pda.ru/forum/index.php?showtopic=418429 удобная и понятная книжка в PDF по базовым вещам
 * OpenGL ES 2 for Android: A Quick-Start Guide https://www.amazon.com/OpenGL-Android-Quick-Start-Pragmatic-Programmers-ebook/dp/B00IDEVIK6/
 * OpenGL Shading Language 3rd edition aka Orange Book https://www.amazon.com/OpenGL-Shading-Language-Randi-Rost-ebook/dp/B002HMJYC4/ 
 * OpenGL ES Shading Language 1.00 https://www.khronos.org/registry/OpenGL/specs/es/2.0/GLSL_ES_Specification_1.00.pdf
@@ -545,11 +557,6 @@
 
 ### вспомогательные средства отладки GUI (Android)
 * Facebook http://facebook.github.io/stetho/ 
-
-
-### Аудиовидео плееры / Android
-* https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
-* https://github.com/Bilibili/ijkplayer
 
 
 ### Picture-in-Picture

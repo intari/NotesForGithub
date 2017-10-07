@@ -337,12 +337,6 @@
 * Sensey - библиотека для детекта жестов удобная http://nisrulz.github.io/sensey/
 * custom loading views https://github.com/nntuyen/mkloader 
 * custom alerts https://github.com/Tapadoo/Alerter
-* stetho от Facebook http://facebook.github.io/stetho/
-* Stetho: A new debugging platform for Android https://code.facebook.com/posts/393927910787513/stetho-a-new-debugging-platform-for-android/
-* Debugging with Stetho https://guides.codepath.com/android/Debugging-with-Stetho
-* Debugging Android Using Facebook Stetho Library - как Picasso с ним подружить https://robusttechhouse.com/debugging-android-using-facebook-stetho-library/
-* Как Network Inspection из Stetho с Volley подружить http://ligol.github.io/blog/2015/05/05/discovering-and-using-stetho-with-some-network-library/
-* Как ExoPlayer с ним подружить https://medium.com/google-exoplayer/enabling-stetho-on-exoplayer-2-demo-application-126807a37cb3#.1s4y7q5p1
 * потенциальная трабла с MergeAdapter'ом от CommonsWare и его аналогами http://chalup.github.io/blog/2012/09/19/android-heterogeneous-adapters-gotcha/
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
 * Material about https://github.com/jrvansuita/MaterialAbout
@@ -385,7 +379,6 @@
 * Кюветы Android, часть 3: SDK & rxJava https://habrahabr.ru/post/281312/ 
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * landing pages http://www.applandr.com/
-* аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
 * Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
 * Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
@@ -452,7 +445,7 @@
 * Register: Better In App Billing Testing on Android https://open.nytimes.com/register-better-in-app-billing-testing-on-android-73af5fcc36dc
 * Разные редкие API Android вроде Text Services, Play Services Vision, TimingLogger https://blog.autsoft.hu/discovering-the-android-api-part-1/
 
-### Instance state,etc
+### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
 * поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
@@ -463,6 +456,8 @@
 ### Звук
 * Android и звук - как делать правильно https://habrahabr.ru/post/339416/
 * Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
+* Как ExoPlayer со Stetho подружить https://medium.com/google-exoplayer/enabling-stetho-on-exoplayer-2-demo-application-126807a37cb3#.1s4y7q5p1
+* аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
 
 #### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
@@ -507,6 +502,14 @@
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
+
+#### Stetho от Facebook
+* Stetho от Facebook http://facebook.github.io/stetho/
+* Stetho: A new debugging platform for Android https://code.facebook.com/posts/393927910787513/stetho-a-new-debugging-platform-for-android/
+* Debugging with Stetho https://guides.codepath.com/android/Debugging-with-Stetho
+* Debugging Android Using Facebook Stetho Library - как Picasso с ним подружить https://robusttechhouse.com/debugging-android-using-facebook-stetho-library/
+* Как Network Inspection из Stetho с Volley подружить http://ligol.github.io/blog/2015/05/05/discovering-and-using-stetho-with-some-network-library/
+
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

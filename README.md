@@ -43,6 +43,7 @@
 * Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 * Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
+* Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 
 #### Data-binding & RecyclerView/ListView 
 * https://github.com/evant/binding-collection-adapter 

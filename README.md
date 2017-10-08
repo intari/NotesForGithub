@@ -23,7 +23,7 @@
 * Сколько Gradle кушает времени (получще --profile) https://github.com/passy/build-time-tracker-plugin
 * Пишем свой Gradle плагин для AnnotatedSql http://habrahabr.ru/post/202480/
 * Ввод паролей при сборке проектов с помощью Gradle http://habrahabr.ru/post/221741/
-* свои библиотеки хостить если не хочется разбираться - а например а https://jitpack.io/ - да - платно и хочет платный github lля приватных вещей (для oss - все бесплатно) https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+* свои библиотеки хостить если не хочется разбираться - а например  https://jitpack.io/ - да - платно и хочет платный github lля приватных вещей (для oss - все бесплатно) https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
 
 
 ## Android 
@@ -43,7 +43,6 @@
 * Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 * Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
-
 
 #### Data-binding & RecyclerView/ListView 
 * https://github.com/evant/binding-collection-adapter 
@@ -444,6 +443,10 @@
 * From design to Android, part 2 https://medium.com/@saulmm2/from-design-to-android-part-2-2a6c141547d9
 * Register: Better In App Billing Testing on Android https://open.nytimes.com/register-better-in-app-billing-testing-on-android-73af5fcc36dc
 * Разные редкие API Android вроде Text Services, Play Services Vision, TimingLogger https://blog.autsoft.hu/discovering-the-android-api-part-1/
+* Как подружить CustomView и клавиатуру https://habrahabr.ru/company/ncloudtech/blog/320788/
+* Create a custom keyboard on android https://code.tutsplus.com/tutorials/create-a-custom-keyboard-on-android--cms-22615
+* Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
+
 
 ### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

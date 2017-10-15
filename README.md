@@ -43,7 +43,6 @@
 * Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 * Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
-* Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 
 #### Data-binding & RecyclerView/ListView 
 * https://github.com/evant/binding-collection-adapter 
@@ -241,13 +240,15 @@
 * Введение в RxJava: Жизненный цикл подписки http://habrahabr.ru/post/270975/
 * Введение в RxJava: Создание последовательности https://habrahabr.ru/post/281633/
 * Репозиторий к серии статей Введение в RxJava  https://github.com/bolein/Intro-To-RxJava
+* RxJava + RxAndroid https://www.slideshare.net/noveogroup/rxjavarxandroid-lecture-20-rx-java краткое введение
+* To be reactive https://www.slideshare.net/MaximGorelikov/to-be-reactiverxjava
 * Грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * Грокаем RxJava часть 2 http://habrahabr.ru/post/265583/
 * Грокаем RxJava часть 3 http://habrahabr.ru/post/265727/
 * Грокаем RxJava часть 4: Реактивный Android https://habrahabr.ru/post/265997/
 * rx борьба с вызовами суровой действительности http://habrahabr.ru/post/267243/
 * Как код на RxJava тестировать https://fedepaol.github.io/blog/2015/09/13/testing-rxjava-observables-subscriptions/
-* Тестируемая RxJava https://www.slideshare.net/Rambler-Android/rxjava-69492729 + видезапись https://youtu.be/7W5NwpE5WpQ
+* Тестируемая RxJava https://www.slideshare.net/Rambler-Android/rxjava-69492729 примеры как RxJava код тестировать (с Mockito) - да, оно решаемо
 * Основы реактивного программирования под Android на практическом пример https://habrahabr.ru/post/306746/
 * блог Advanced Rx http://akarnokd.blogspot.com/
 * Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications http://shop.oreilly.com/product/0636920042228.do
@@ -302,6 +303,8 @@
 * Пагинация списков в Android с RxJava. Часть I https://habrahabr.ru/post/268991/ (rxJava1)
 * A library to make StackTraces involving RxJava2 more meaningful (they will always point to your code!). https://github.com/akaita/RxJava2Debug
 * RxJava 2.x extra sources, operators and components and ports of many 1.x companion libraries. https://github.com/akarnokd/RxJava2Extensions
+* Database with Room using RxJava https://medium.com/@alahammad/database-with-room-using-rxjava-764ee6124974
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -325,10 +328,6 @@
 * Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/
 * Краткое руководство по созданию навигации на основе фрагментов https://geektimes.ru/company/nixsolutions/blog/276362/ - вариант с одной активностью и кучей фрагментов
 * Анимация Floating Action Button в Android https://geektimes.ru/company/nixsolutions/blog/276128/
-* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
-* что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
-* https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
-* ConstraintLayout barriers https://constraintlayout.com/basics/barriers.html
 * Отзывчивое Android-приложение или 1001 способ загрузить картинку https://habrahabr.ru/company/eastbanctech/blog/192998/
 * Построение Android приложений шаг за шагом, часть первая https://habrahabr.ru/company/rambler-co/blog/275943/
 * Построение Android приложений шаг за шагом, часть вторая https://habrahabr.ru/company/rambler-co/blog/277343/
@@ -346,6 +345,8 @@
 * A utility library for Android to save objects in a Bundle without any boilerplate. https://github.com/evernote/android-state
 * Разбираемся с Conductor https://habrahabr.ru/post/329532/
 * Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
+* ScalingLayout - красивая layout с разверткой https://github.com/iammert/ScalingLayout
+
 
 ### Android/Dagger 2 - Dependency Injection 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
@@ -548,7 +549,7 @@
 * Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
 
 #### Percent support library
-да, теперь это официально, устарела
+да, теперь она официально устарела
 * Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
 * Официальное описание https://developer.android.com/tools/support-library/features.html?linkId=16439958#percent
 * Как использовать, часть 1 https://blog.stylingandroid.com/percent-part-1/
@@ -557,10 +558,17 @@
 
 #### Constraint layout
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
+* https://constraintlayout.github.io/ собрание описание что там и как
+* Овладение Coordinator Layout http://habrahabr.ru/post/270121/
+* что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
+* https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
+* ConstraintLayout barriers https://constraintlayout.com/basics/barriers.html
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
 * А вообще - соответствующую главу в последних версиях Busy Coder's Guide for Android читаем - очень удобно.
 * Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
 * CONSTRAINTLAYOUT – GUIDELINES, BARRIERS, CHAINS AND GROUPS https://riggaroo.co.za/constraintlayout-guidelines-barriers-chains-groups/
+* Guide to ConstraintLayout https://medium.com/@loutry/guide-to-constraintlayout-407cd87bc013
+
 
 ### вспомогательные средства отладки GUI (Android)
 * Facebook http://facebook.github.io/stetho/ 

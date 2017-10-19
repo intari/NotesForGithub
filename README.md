@@ -66,7 +66,7 @@
 * Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
 * Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
-
+* Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 
 ### Annotations - начало
 * Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
@@ -240,7 +240,7 @@
 * Введение в RxJava: Жизненный цикл подписки http://habrahabr.ru/post/270975/
 * Введение в RxJava: Создание последовательности https://habrahabr.ru/post/281633/
 * Репозиторий к серии статей Введение в RxJava  https://github.com/bolein/Intro-To-RxJava
-* RxJava + RxAndroid https://www.slideshare.net/noveogroup/rxjavarxandroid-lecture-20-rx-java краткое введение
+* RxJava + RxAndroid https://www.slideshare.net/noveogroup/rxjavarxandroid-lecture-20-rx-java краткое введение включая примеры
 * To be reactive https://www.slideshare.net/MaximGorelikov/to-be-reactiverxjava
 * Грокаем RxJava часть 1 http://habrahabr.ru/post/265269/ - крутая штука. но retrolambda очень желательно. паттерн наблюдатель на стероидах.
 * Грокаем RxJava часть 2 http://habrahabr.ru/post/265583/

@@ -68,6 +68,10 @@
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
 * Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 
+### Android Architecture Components
+* Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
+
+
 ### Annotations - начало
 * Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
 
@@ -448,6 +452,8 @@
 * Как подружить CustomView и клавиатуру https://habrahabr.ru/company/ncloudtech/blog/320788/
 * Create a custom keyboard on android https://code.tutsplus.com/tutorials/create-a-custom-keyboard-on-android--cms-22615
 * Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
+* Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
+* универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 
 
 ### Сохранение Instance state

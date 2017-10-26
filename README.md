@@ -351,6 +351,7 @@
 * Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
 * ScalingLayout - красивая layout с разверткой https://github.com/iammert/ScalingLayout
 * TextView и Spannable https://habrahabr.ru/company/tdb/blog/340232/
+* UI-пасьянс: делаем свой StackView в Android https://habrahabr.ru/company/efs/blog/340998/
 
 ### Android/Dagger 2 - Dependency Injection 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/

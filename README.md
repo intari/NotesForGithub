@@ -523,6 +523,21 @@
 * Как Network Inspection из Stetho с Volley подружить http://ligol.github.io/blog/2015/05/05/discovering-and-using-stetho-with-some-network-library/
 
 
+### Kotlin
+* Книги с https://kotlinlang.org/docs/books.html и вообще kotlinlang.org (и https://kotlinlang.ru/ )
+* https://github.com/antoniolg/Bandhook-Kotlin Bandhook-Kotlin A showcase music app for Android entirely written using Kotlin language + там 
+* Kotlin for Android (I): Introduction http://antonioleiva.com/kotlin-for-android-introduction/
+* Kotlin for Android (II): Create a new project http://antonioleiva.com/kotlin-android-create-project/
+* Kotlin for Android (III): Extension functions and default values https://antonioleiva.com/kotlin-android-extension-functions/
+* Kotlin for Android (IV): Custom Views and Android Extensions https://antonioleiva.com/kotlin-android-custom-views/
+* Почему следует полностью переходить на Kotlin https://habrahabr.ru/company/mailru/blog/329294/
+* Kotlin и стоимость разработки игры https://habrahabr.ru/post/331976/
+* Немного о Kotlin https://habrahabr.ru/post/277479/
+* Почему Kotlin - отстой https://habrahabr.ru/post/322256/
+* Kotlin для Android: Теперь официально https://habrahabr.ru/company/JetBrains/blog/329028/
+* Improve your tests with Kotlin in Android — (Pt.1) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-1-6d0b04017e80
+* Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd
+
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 

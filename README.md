@@ -537,6 +537,7 @@
 * Kotlin для Android: Теперь официально https://habrahabr.ru/company/JetBrains/blog/329028/
 * Improve your tests with Kotlin in Android — (Pt.1) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-1-6d0b04017e80
 * Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd
+* RxJava vs. Kotlin Coroutines, a quick look http://akarnokd.blogspot.com/2017/09/rxjava-vs-kotlin-coroutines-quick-look.html
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

@@ -425,6 +425,7 @@
 * Google VR SDK (для Cardboard и Daydream и похожих) https://geektimes.ru/company/dataart/blog/286242/
 * Приколы кастомных вьюх на андроиде https://habrahabr.ru/post/321890/
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+* Publishing Java / android / kotlin libraries on Jitpack https://medium.com/@erluxman/publishing-java-android-kotlin-libraries-on-jitpack-b33d0d26dc8a
 * Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
 * How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube) https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.1o4cowy60
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 

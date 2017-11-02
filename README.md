@@ -541,7 +541,8 @@
 * RxJava vs. Kotlin Coroutines, a quick look http://akarnokd.blogspot.com/2017/09/rxjava-vs-kotlin-coroutines-quick-look.html
 * Kotlin — combating non-null assertions (!!) https://medium.com/@igorwojda/kotlin-combating-non-null-assertions-5282d7b97205
 * KotterKnife - ButterKnife-style библиотека для Kotlin https://github.com/JakeWharton/kotterknife - хотя убедится что android extensions мало
-
+* Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
+* Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

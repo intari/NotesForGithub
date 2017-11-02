@@ -386,8 +386,6 @@
 * Ловим усталось с помощью Android Wear https://geektimes.ru/company/dataart/blog/272074/
 * landing pages http://www.applandr.com/
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
-* Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
-* Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
 * Deep Linking на Android https://developer.android.com/training/app-indexing/deep-linking.html
 * По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
 * CWAC-NetSecurity - порт Network Security Configuration из Android N https://commonsware.com/blog/2016/07/11/backporting-android-n-network-security-configuration.html (подразумевается использование OkHttp3)
@@ -531,6 +529,8 @@
 * Kotlin for Android (II): Create a new project http://antonioleiva.com/kotlin-android-create-project/
 * Kotlin for Android (III): Extension functions and default values https://antonioleiva.com/kotlin-android-extension-functions/
 * Kotlin for Android (IV): Custom Views and Android Extensions https://antonioleiva.com/kotlin-android-custom-views/
+* Краткий обзор Kotlin и сравнение с C# https://habrahabr.ru/post/281759/
+* Курс по Kotlin на Stepik.org https://habrahabr.ru/company/stepic/blog/328946/
 * Почему следует полностью переходить на Kotlin https://habrahabr.ru/company/mailru/blog/329294/
 * Kotlin и стоимость разработки игры https://habrahabr.ru/post/331976/
 * Немного о Kotlin https://habrahabr.ru/post/277479/
@@ -539,6 +539,7 @@
 * Improve your tests with Kotlin in Android — (Pt.1) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-1-6d0b04017e80
 * Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd
 * RxJava vs. Kotlin Coroutines, a quick look http://akarnokd.blogspot.com/2017/09/rxjava-vs-kotlin-coroutines-quick-look.html
+* Kotlin — combating non-null assertions (!!) https://medium.com/@igorwojda/kotlin-combating-non-null-assertions-5282d7b97205
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

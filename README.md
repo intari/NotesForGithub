@@ -544,6 +544,12 @@
 * Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 
+#### Kotlin serialization
+* Kotlin serialization https://github.com/Kotlin/kotlinx.serialization
+* Kotlin serialization reddit post https://www.reddit.com/r/androiddev/comments/72p908/kotlin_serialization_libraryplugin_v01_prototype/
+* Обсуждение на форуме Kotlinlang https://discuss.kotlinlang.org/t/kotlin-serialization/2063/40?u=w3bshark
+
+
 #### Kotlin Coroutines
 * https://kotlinlang.org/docs/reference/coroutines.html
 * Kotlin Coroutines https://github.com/Kotlin/kotlin-coroutines и см там ссылки

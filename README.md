@@ -544,6 +544,14 @@
 * Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 
+#### Kotlin Coroutines
+* https://kotlinlang.org/docs/reference/coroutines.html
+* Kotlin Coroutines https://github.com/Kotlin/kotlin-coroutines и см там ссылки
+* Kotlin Coroutines support library https://github.com/Kotlin/kotlinx.coroutines и там см ссылки
+* Guide to kotlinx.coroutines by example https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
+* Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md 
+* Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
+
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 

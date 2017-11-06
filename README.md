@@ -544,6 +544,7 @@
 * KotterKnife - ButterKnife-style библиотека для Kotlin https://github.com/JakeWharton/kotterknife - хотя убедится что android extensions мало
 * Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
+* Kotlin Style / Interop guides https://android.github.io/kotlin-guides/
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization
@@ -1393,3 +1394,6 @@ https://www.objc.io/issues/11-android/
 * Открытый курс по машинному обучению https://habrahabr.ru/company/ods/blog/322076/ - вообще у них все посты…интересные - про Facebook Prophet например
 * Нейрокурятник - часть 0 https://habrahabr.ru/post/328138/
 * Про распознование хотдогов и создание нейросеток / ML https://habrahabr.ru/post/331740/ в минимальных условиях
+* Tracking the Millenium Falcon with Tensorflow https://medium.freecodecamp.org/tracking-the-millenium-falcon-with-tensorflow-c8c86419225e
+* Don’t Miss Your Target: Object Detection with TensorFlow and Watson https://medium.com/ibm-watson/dont-miss-your-target-object-detection-with-tensorflow-and-watson-488e24226ef3
+* TensorFlow (GPU) Setup for Developers https://hackernoon.com/tensorflow-gpu-setup-for-developers-7371ec0f04de

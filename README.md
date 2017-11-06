@@ -812,6 +812,7 @@
 * Реализация кастомного UI-элемента для выбора времени. Часть 1 https://habrahabr.ru/company/e-Legion/blog/326324/
 * Реализация кастомного UI-элемента для выбора времени. Часть 2 https://habrahabr.ru/company/e-Legion/blog/326388/
 * Yoga Tutorial: Using a Cross-Platform Layout Engine https://www.raywenderlich.com/161413/yoga-tutorial-using-cross-platform-layout-engine
+* CardsLayout - типа карточки (на базе CollectionLayout) https://github.com/filletofish/CardsLayout
 
 ## Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

@@ -454,7 +454,7 @@
 * Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
 * универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
-
+* Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
 
 ### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

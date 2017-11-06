@@ -23,7 +23,10 @@
 * Сколько Gradle кушает времени (получще --profile) https://github.com/passy/build-time-tracker-plugin
 * Пишем свой Gradle плагин для AnnotatedSql http://habrahabr.ru/post/202480/
 * Ввод паролей при сборке проектов с помощью Gradle http://habrahabr.ru/post/221741/
-* свои библиотеки хостить если не хочется разбираться - а например  https://jitpack.io/ - да - платно и хочет платный github lля приватных вещей (для oss - все бесплатно) https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+* Свои библиотеки размещать если не хочется разбираться - а например  https://jitpack.io/ - да - платно и хочет платный github (или private repo на bitbucket)  для приватных вещей (для oss - все бесплатно) https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+* Если хочется свои библиотеки размещать и не проблема немного поработать руками + запрашивать разрешения то читаем - Публикация библиотеки в Maven Central / jCenter https://android-tools.ru/coding/kak-sozdat-svoyu-sobstvennuyu-biblioteku-android-cherez-jcenter-i-maven-central/
+* Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
+* Publishing Java / android / kotlin libraries on Jitpack https://medium.com/@erluxman/publishing-java-android-kotlin-libraries-on-jitpack-b33d0d26dc8a
 
 
 ## Android 
@@ -422,8 +425,6 @@
 * Personal content indexing нормальный - именно - локально на устройстве без вебсерверов и без гугла https://firebase.google.com/docs/app-indexing/android/personal-content
 * Google VR SDK (для Cardboard и Daydream и похожих) https://geektimes.ru/company/dataart/blog/286242/
 * Приколы кастомных вьюх на андроиде https://habrahabr.ru/post/321890/
-* Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
-* Publishing Java / android / kotlin libraries on Jitpack https://medium.com/@erluxman/publishing-java-android-kotlin-libraries-on-jitpack-b33d0d26dc8a
 * Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
 * How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube) https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.1o4cowy60
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 

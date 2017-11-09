@@ -545,6 +545,10 @@
 * Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin Style / Interop guides https://android.github.io/kotlin-guides/
+* Kotlin DSL: Теория и Практика https://habrahabr.ru/company/haulmont/blog/341402/
+* Послевкусие от Kotlin, часть 1 https://habrahabr.ru/post/331280/
+* Послевкусие от Kotlin, часть 2 https://habrahabr.ru/post/337002/
+* Послевкусие от Kotlin, часть 3. Корутины — делим процессорное время https://habrahabr.ru/post/339618/
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization

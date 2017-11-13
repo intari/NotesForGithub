@@ -1082,9 +1082,6 @@ https://www.objc.io/issues/11-android/
 * знакомство с Apache Spark https://habrahabr.ru/company/piter/blog/276675/ - замена Hadoop более удобная и быстрая
 * анализ логов с помощью Hadoop и Python http://habrahabr.ru/company/dca/blog/267107/ - по сути пример реализации DMP
 
-### Scikit,etc 
-* как узнать год выпуска песни по набору характеристик https://habrahabr.ru/post/264193/
-* введение в машинное обучение со Scikit learn http://habrahabr.ru/post/264241/
 
 ### Apache Lucene/Nutch/YaCy/Поисковые технологии вообще
 * Материал по работе с Apache Lucene и созданию простейшего нечёткого поиска https://habrahabr.ru/post/277509/
@@ -1371,8 +1368,13 @@ https://www.objc.io/issues/11-android/
 * Унифицированный язык стилей (про то, зачем CSS-in-JS надо) https://habrahabr.ru/company/mailru/blog/334704/
 
 ## Разное
+
+### WebAssembly
+* Знакомоство с WebAssembly https://habrahabr.ru/post/342180/ 
+
 ### Кросс-платорменные системы если нет другого раздела
 * Разработка WebRTC видеочата между iOS, Android и браузером https://habrahabr.ru/company/flashphoner/blog/325444/
+
 ### Git и все такое - полезное
 * Невидимые друзья вашего github-репозитория https://habrahabr.ru/company/eastbanctech/blog/323760/ - но в основном - js
 
@@ -1401,3 +1403,8 @@ https://www.objc.io/issues/11-android/
 * Tracking the Millenium Falcon with Tensorflow https://medium.freecodecamp.org/tracking-the-millenium-falcon-with-tensorflow-c8c86419225e
 * Don’t Miss Your Target: Object Detection with TensorFlow and Watson https://medium.com/ibm-watson/dont-miss-your-target-object-detection-with-tensorflow-and-watson-488e24226ef3
 * TensorFlow (GPU) Setup for Developers https://hackernoon.com/tensorflow-gpu-setup-for-developers-7371ec0f04de
+* Базовые принципы машинного обучения на примере линейной регрессии https://habrahabr.ru/company/ods/blog/322076/ и вообще блог этих товарищей интересный
+
+### Scikit,etc 
+* как узнать год выпуска песни по набору характеристик https://habrahabr.ru/post/264193/
+* введение в машинное обучение со Scikit learn http://habrahabr.ru/post/264241/

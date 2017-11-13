@@ -549,6 +549,7 @@
 * Послевкусие от Kotlin, часть 1 https://habrahabr.ru/post/331280/
 * Послевкусие от Kotlin, часть 2 https://habrahabr.ru/post/337002/
 * Послевкусие от Kotlin, часть 3. Корутины — делим процессорное время https://habrahabr.ru/post/339618/
+* Kotlin DSL to write Gradle scripts on Android: Step by step walkthrough https://antonioleiva.com/kotlin-dsl-gradle/
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization

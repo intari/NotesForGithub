@@ -456,6 +456,7 @@
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
 * универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
+* rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
 
 ### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

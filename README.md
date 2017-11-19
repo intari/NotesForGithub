@@ -1180,6 +1180,7 @@ https://www.objc.io/issues/11-android/
 * процедурная генерация случайных игровых подземелий https://habrahabr.ru/post/275727/
 * процедурно-генерируемые карты мира на unity C#, часть 4(на 1-3 там ссылки внутри) https://habrahabr.ru/post/276551/
 * Локализация инди-игр на Unity: скрытые расходы https://habrahabr.ru/company/alconost/blog/323450/ - ссылки на тулзы
+* UniRx — Rx для Unity3d https://habrahabr.ru/post/342660/
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL

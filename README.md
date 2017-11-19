@@ -1079,6 +1079,8 @@ https://www.objc.io/issues/11-android/
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
 * Объясняем современный (клиентский) JavaScript динозавру https://habrahabr.ru/company/mailru/blog/340922/
+* Используем async/await в nodejs уже сегодня https://habrahabr.ru/post/334772/ (простой способ избавиться от сallback hell)
+
 
 ## Big Data и поисковые технологии
 

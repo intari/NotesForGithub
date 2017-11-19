@@ -566,6 +566,7 @@
 * Guide to kotlinx.coroutines by example https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
 * Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md 
 * Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
+* Android Coroutine Recipes https://proandroiddev.com/android-coroutine-recipes-33467a4302e9
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

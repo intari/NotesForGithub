@@ -457,6 +457,8 @@
 * универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
 * rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
+* A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
+
 
 ### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

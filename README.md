@@ -1311,7 +1311,9 @@ https://www.objc.io/issues/11-android/
 * Crashlytics http://try.crashlytics.com crash reporting. бесплатно независимо от обьемов. умеет и NSLog'и с собой в крешлог включать.
 * Hockeyapp - куплен MS. что-то последние версии у меня совсем мышей не ловили на iOS.
 * Bugsnaq - https://bugsnag.com/pricing/ - 250 errors/day/7day retention - free. а дальше от 29US$/месяц
-* Buddybuild - в том числе и ловля крешей с видеозаписю (а вообще это CI-система + аналог старого testflight)
+* Buddybuild - в том числе и ловля крешей с видеозаписью (а вообще это CI-система + аналог старого testflight)
+* Instabug https://try.instabug.com/wenderlich?utm_source=wenderlich&utm_medium=email&utm_campaign=newsletter1&utm_content=fixbugs
+
 
 #### CI
 * BuddyBuild весьма платный. Ориентация похоже на распространение сборок тестерам а не CI

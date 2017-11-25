@@ -554,6 +554,7 @@
 * Послевкусие от Kotlin, часть 3. Корутины — делим процессорное время https://habrahabr.ru/post/339618/
 * Kotlin DSL to write Gradle scripts on Android: Step by step walkthrough https://antonioleiva.com/kotlin-dsl-gradle/
 * Anko layouts on Android. Should I forget about XMLs? https://antonioleiva.com/anko-layouts-android/
+* Generics в Kotlin vs. Generics в JAVA: cходства, различия, особенности https://habrahabr.ru/company/redmadrobot/blog/301174/
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization

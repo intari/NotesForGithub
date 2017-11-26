@@ -767,6 +767,7 @@
 * Best New Features in Swift 4 https://plausible.coop/blog/2017/09/13/best-new-features-in-swift-4
 * Ultimate Guide to JSON Parsing With Swift 4 http://swiftjson.guide
 * Open sourcing Swift code https://www.swiftbysundell.com/posts/open-sourcing-swift-code 
+* SwiftPlate: Easily generate cross platform Swift framework projects from the command line https://github.com/johnsundell/swiftplate
 
 ## ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/

@@ -766,6 +766,7 @@
 * What's New in Swift 3.1 https://www.raywenderlich.com/156352/whats-new-in-swift-3-1 
 * Best New Features in Swift 4 https://plausible.coop/blog/2017/09/13/best-new-features-in-swift-4
 * Ultimate Guide to JSON Parsing With Swift 4 http://swiftjson.guide
+* Open sourcing Swift code https://www.swiftbysundell.com/posts/open-sourcing-swift-code 
 
 ## ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/

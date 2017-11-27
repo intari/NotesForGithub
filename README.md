@@ -555,6 +555,7 @@
 * Kotlin DSL to write Gradle scripts on Android: Step by step walkthrough https://antonioleiva.com/kotlin-dsl-gradle/
 * Anko layouts on Android. Should I forget about XMLs? https://antonioleiva.com/anko-layouts-android/
 * Generics в Kotlin vs. Generics в JAVA: cходства, различия, особенности https://habrahabr.ru/company/redmadrobot/blog/301174/
+* Function references in Kotlin: use functions as lambdas everywhere https://antonioleiva.com/function-references-kotlin/ 
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization

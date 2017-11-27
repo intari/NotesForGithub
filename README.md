@@ -768,6 +768,7 @@
 * Ultimate Guide to JSON Parsing With Swift 4 http://swiftjson.guide
 * Open sourcing Swift code https://www.swiftbysundell.com/posts/open-sourcing-swift-code 
 * SwiftPlate: Easily generate cross platform Swift framework projects from the command line https://github.com/johnsundell/swiftplate
+* Building a better date/time library for Swift https://github.com/davedelong/Chronology
 
 ## ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/

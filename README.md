@@ -848,6 +848,10 @@
 * обфускация бинарников https://github.com/Polidea/ios-class-guard
 * потереть все комменты https://github.com/igorbarinov/deployment-scrpits/tree/master/remove-comments
 
+## MVP/MVC,etc в общем
+* View-state driven applications https://www.cocoawithlove.com/blog/view-state-driven-applications.html - что собственно должно быть в модели (и не находится в ней во многих приложениях)
+
+
 ## iOS Testing
 ### iOS Unit Tests 
 * Да начнется unit-тестирование (Objective-C) https://habrahabr.ru/post/258953/

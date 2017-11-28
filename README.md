@@ -560,6 +560,12 @@
 * Kotlin:Contexts & SharedPreferences https://blog.stylingandroid.com/kotlin-contexts-sharedpreferences
 
 
+### Kotlin Links collections
+* https://kotlin.link/
+* https://github.com/KotlinBy/awesome-kotlin (+ https://github.com/MarcinMoskala/awesome-kotlin )
+* https://github.com/mcxiaoke/awesome-kotlin 
+* https://github.com/byecode/awesome-kotlin-android
+
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization
 * Kotlin serialization reddit post https://www.reddit.com/r/androiddev/comments/72p908/kotlin_serialization_libraryplugin_v01_prototype/

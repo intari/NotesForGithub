@@ -556,6 +556,8 @@
 * Anko layouts on Android. Should I forget about XMLs? https://antonioleiva.com/anko-layouts-android/
 * Generics в Kotlin vs. Generics в JAVA: cходства, различия, особенности https://habrahabr.ru/company/redmadrobot/blog/301174/
 * Function references in Kotlin: use functions as lambdas everywhere https://antonioleiva.com/function-references-kotlin/ 
+* Kotlin:Contexts & SharedPreferences https://blog.stylingandroid.com/kotlin-contexts-sharedpreferences
+
 
 #### Kotlin serialization
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization
@@ -571,6 +573,9 @@
 * Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md 
 * Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
 * Android Coroutine Recipes https://proandroiddev.com/android-coroutine-recipes-33467a4302e9
+
+#### Kotlin Android Various
+* Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
 
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 

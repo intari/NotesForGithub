@@ -584,6 +584,12 @@
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
 
+#### Kotlin / Web
+* Modern Web Development with Kotlin https://leanpub.com/modern-web-development-with-kotlin 
+* How I built my first Kotlin-VertX-Hibernate stack https://kotlin.link/articles/How-I-built-my-first-Kotlin-VertX-Hibernate-stack.html
+* Пишем простой RESTful сервис на kotlin и spring boot https://habrahabr.ru/post/274997/
+* Наипростейший RESTful сервис на Kotlin и Spring boot (https://habrahabr.ru/post/343364/
+
 ### Java 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 

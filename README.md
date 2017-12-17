@@ -4,6 +4,7 @@
 ## Общее
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
 * Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
+* GraphQL — новый взгляд на API. Ч.1 https://habrahabr.ru/post/343872/
 
 ## Универсальные полезные библиотеки
 * MuPDF - PDF / EPUB / FB2 рендер. Portable. примеры Windows/iOS/Android. AGPL либо комерческая лицензия https://mupdf.com/
@@ -1408,10 +1409,15 @@ https://www.objc.io/issues/11-android/
 * Руководство для начинающих по прогрессивным веб-приложениям и фронтенду https://habrahabr.ru/company/mailru/blog/334536/ 
 * Унифицированный язык стилей (про то, зачем CSS-in-JS надо) https://habrahabr.ru/company/mailru/blog/334704/
 
-## Разное
+### CSS
+* CSS Grid: Учим CSS Grid за 5 минут https://habrahabr.ru/company/edison/blog/343614/
+* CSS Grid: Как быстро спроектировать сайт с помощью CSS Grid https://habrahabr.ru/company/edison/blog/343796/
+* CSS Grid: Делаем адаптивный HTML, добавляя одну строку в CSS https://habrahabr.ru/company/edison/blog/344878/
 
 ### WebAssembly
 * Знакомоство с WebAssembly https://habrahabr.ru/post/342180/ 
+
+## Разное
 
 ### Кросс-платорменные системы если нет другого раздела
 * Разработка WebRTC видеочата между iOS, Android и браузером https://habrahabr.ru/company/flashphoner/blog/325444/
@@ -1426,6 +1432,7 @@ https://www.objc.io/issues/11-android/
 * Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/
 
 ###  Машинное обучение
+* Почему бы не взять 'Введение в машинное обучение с помощью Python: Руководство для специалистов по работе с данными' Мюллер & Гвидо ?
 * Machine learning в простом проекте - поиск текстовых строк нечеткий http://habrahabr.ru/company/preply/blog/216729/ 
 * Автоматическое определение тональности текста (Sentiment Analysis) http://habrahabr.ru/post/263171/
 * Про книгу про машинное обучение на Python от Packet ttps://habrahabr.ru/company/piter/blog/282167/ 

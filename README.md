@@ -460,6 +460,7 @@
 * rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
 * Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
+* Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 
 
 ### Сохранение Instance state
@@ -740,6 +741,7 @@
 * UISearchController Tutorial: Getting Started https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
 * iOS:Path to mastery for iOS Development https://trello.com/b/gvzEgkw4/ios-path-to-mastery-for-ios-development
 * Hotswapping Core ML models on the iPhone https://blog.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone
+* Упрощение отладки БД в приложениях iOS https://github.com/y500/iOSDebugDatabase - по сути веб-интерфейс(!) для отладки
 
 ## ARKit
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/

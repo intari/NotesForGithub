@@ -1117,12 +1117,15 @@ https://www.objc.io/issues/11-android/
 * Архитектуры ReactNative, Xamarin, PhoneGap и Qt. Часть 2 https://habrahabr.ru/company/microsoft/blog/340122/
 * Почему вы все еще не пишете на React Native? https://anvilabs.co/blog/react-native-at-anvilabs/
 * http://reactnativedocs.ru/
-* React Native с колокольни Android-разработки https://habrahabr.ru/post/329380/
+* React Native с колокольни Android-разработки часть 1 https://habrahabr.ru/post/329380/
+* React Native с колокольни Android разработки часть 2 https://habrahabr.ru/post/333518/
 * React Native links https://github.com/jondot/awesome-react-native#other-platforms
 * ReactNative macOS https://github.com/ptmt/react-native-macos форк
 * React Native for Web (!) https://github.com/necolas/react-native-web
 * React Native Web Player https://github.com/dabbott/react-native-web-player
 * Ionic 2 vs React Native: сравнение фреймворков для создания корпоративных мобильных приложений https://habrahabr.ru/post/328960/
+* Expo https://expo.io/ имеет смысл тоже посмотреть если в сторону React'а смотрим
+* Быстрый старт на React Native https://habrahabr.ru/post/327668/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

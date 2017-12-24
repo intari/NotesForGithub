@@ -1119,6 +1119,7 @@ https://www.objc.io/issues/11-android/
 * http://reactnativedocs.ru/
 * React Native с колокольни Android-разработки часть 1 https://habrahabr.ru/post/329380/
 * React Native с колокольни Android разработки часть 2 https://habrahabr.ru/post/333518/
+* Руководство React Native — создаем приложение под iOS https://habrahabr.ru/post/328752/ + https://habrahabr.ru/post/328834/
 * React Native links https://github.com/jondot/awesome-react-native#other-platforms
 * ReactNative macOS https://github.com/ptmt/react-native-macos форк
 * React Native for Web (!) https://github.com/necolas/react-native-web

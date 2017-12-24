@@ -1104,7 +1104,7 @@ https://www.objc.io/issues/11-android/
 * Прототипирование мобильного приложения: от идеи до рабочего экрана https://habrahabr.ru/company/mobile_dimension/blog/327452/
 * Invisionapp https://www.invisionapp.com/
 
-### React Native
+### React / React Native / ReactVR / Redux
 * React Native: Очередная «серебряная пуля» для кросплатформенной разработки? https://habrahabr.ru/company/jugru/blog/325628/
 * Исполнит ли React Native мечту программиста: единый код для web, android и ios? https://habrahabr.ru/company/Voximplant/blog/277169/
 * React Native — одного JS мало  https://habrahabr.ru/post/323214/
@@ -1127,6 +1127,7 @@ https://www.objc.io/issues/11-android/
 * Expo https://expo.io/ имеет смысл тоже посмотреть если в сторону React'а смотрим
 * Быстрый старт на React Native https://habrahabr.ru/post/327668/
 * Руководство по работе с Redux https://habrahabr.ru/company/mailru/blog/303456/
+* Создание React VR-приложения, работающего в реальном времени https://habrahabr.ru/company/mailru/blog/331816/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

@@ -312,6 +312,7 @@
 * A library to make StackTraces involving RxJava2 more meaningful (they will always point to your code!). https://github.com/akaita/RxJava2Debug
 * RxJava 2.x extra sources, operators and components and ports of many 1.x companion libraries. https://github.com/akarnokd/RxJava2Extensions
 * Database with Room using RxJava https://medium.com/@alahammad/database-with-room-using-rxjava-764ee6124974
+* Реализация поиска с использованием RxJava https://habrahabr.ru/post/345278/
 
 
 ### Многопоточность отдельно

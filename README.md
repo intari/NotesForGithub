@@ -1121,6 +1121,7 @@ https://www.objc.io/issues/11-android/
 * React Native links https://github.com/jondot/awesome-react-native#other-platforms
 * ReactNative macOS https://github.com/ptmt/react-native-macos форк
 * React Native for Web (!) https://github.com/necolas/react-native-web
+* React Native Web Player https://github.com/dabbott/react-native-web-player
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

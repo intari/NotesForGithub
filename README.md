@@ -356,6 +356,8 @@
 * ScalingLayout - красивая layout с разверткой https://github.com/iammert/ScalingLayout
 * TextView и Spannable https://habrahabr.ru/company/tdb/blog/340232/
 * UI-пасьянс: делаем свой StackView в Android https://habrahabr.ru/company/efs/blog/340998/
+* Как Splash Screen на андроид делать правильно (и зачем он вообще нужен) https://habrahabr.ru/post/345380/
+
 
 ### Android/Dagger 2 - Dependency Injection 
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/

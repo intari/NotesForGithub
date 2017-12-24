@@ -1126,6 +1126,7 @@ https://www.objc.io/issues/11-android/
 * Ionic 2 vs React Native: сравнение фреймворков для создания корпоративных мобильных приложений https://habrahabr.ru/post/328960/
 * Expo https://expo.io/ имеет смысл тоже посмотреть если в сторону React'а смотрим
 * Быстрый старт на React Native https://habrahabr.ru/post/327668/
+* Руководство по работе с Redux https://habrahabr.ru/company/mailru/blog/303456/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

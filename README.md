@@ -350,7 +350,6 @@
 * Material about https://github.com/jrvansuita/MaterialAbout
 * Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
 * Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
-* React Native с колокольни Android-разработки https://habrahabr.ru/post/329380/
 * A utility library for Android to save objects in a Bundle without any boilerplate. https://github.com/evernote/android-state
 * Разбираемся с Conductor https://habrahabr.ru/post/329532/
 * Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
@@ -1105,7 +1104,7 @@ https://www.objc.io/issues/11-android/
 * Прототипирование мобильного приложения: от идеи до рабочего экрана https://habrahabr.ru/company/mobile_dimension/blog/327452/
 * Invisionapp https://www.invisionapp.com/
 
-### React native
+### React Native
 * React Native: Очередная «серебряная пуля» для кросплатформенной разработки? https://habrahabr.ru/company/jugru/blog/325628/
 * Исполнит ли React Native мечту программиста: единый код для web, android и ios? https://habrahabr.ru/company/Voximplant/blog/277169/
 * React Native — одного JS мало  https://habrahabr.ru/post/323214/
@@ -1118,6 +1117,9 @@ https://www.objc.io/issues/11-android/
 * Архитектуры ReactNative, Xamarin, PhoneGap и Qt. Часть 2 https://habrahabr.ru/company/microsoft/blog/340122/
 * Почему вы все еще не пишете на React Native? https://anvilabs.co/blog/react-native-at-anvilabs/
 * http://reactnativedocs.ru/
+* React Native с колокольни Android-разработки https://habrahabr.ru/post/329380/
+* React Native links https://github.com/jondot/awesome-react-native#other-platforms
+
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

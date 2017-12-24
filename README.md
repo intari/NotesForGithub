@@ -1109,8 +1109,12 @@ https://www.objc.io/issues/11-android/
 * Так ли хорош React Native? https://habrahabr.ru/post/320034/
 * Создаем приложение на JavaScript с помощью React Native  https://habrahabr.ru/company/plarium/blog/303328/
 * Создание Android-приложения с помощью React Native https://habrahabr.ru/company/nixsolutions/blog/301734/
-* Building Your First iOS App With JavaScript (Part 1) https://www.smashingmagazine.com/2016/04/the-beauty-of-react-native-building-your-first-ios-app-with-javascript-part-1/ - перевод начала https://habrahabr.ru/post/328752/
+* Building Your First iOS App With JavaScript (Part 1) https://www.smashingmagazine.com/2016/04/the-beauty-of-react-native-building-your-first-ios-app-with-javascript-part-1/ - перевод  https://habrahabr.ru/post/328752/ + https://habrahabr.ru/post/328834/
 * iOS Developer on React Native https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0
+* Архитектуры ReactNative, Xamarin, PhoneGap и Qt. Часть 1 https://habrahabr.ru/company/microsoft/blog/340116/
+* Архитектуры ReactNative, Xamarin, PhoneGap и Qt. Часть 2 https://habrahabr.ru/company/microsoft/blog/340122/
+* Почему вы все еще не пишете на React Native? https://anvilabs.co/blog/react-native-at-anvilabs/
+* http://reactnativedocs.ru/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

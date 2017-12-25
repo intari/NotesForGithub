@@ -596,6 +596,17 @@
 * Наипростейший RESTful сервис на Kotlin и Spring boot (https://habrahabr.ru/post/343364/
 
 ### Java 
+#### Общее (TODO:остальные 'общие' ссылки сюда)
+* шпаргалки для Java-программиста: коллекции в Java, стандартные и не очень https://habrahabr.ru/company/luxoft/blog/256877/
+* полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
+* типовые задачи: обход Map, подсчет количества вхождений в подстроку https://habrahabr.ru/company/luxoft/blog/278313/
+* шпаргалки для Java-программиста: InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/
+* шпаргалки для Java-программиста: библиотеки для парсинга JSON https://habrahabr.ru/company/luxoft/blog/280782/ + общее оглавление
+* расширения Stream API java 8 https://habrahabr.ru/post/262139/
+* Блог Алексея Шипилева по производительности Java https://shipilev.net/
+* как ПРАВИЛЬНО делать микробенчмарки в Java https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
+* Шпаргалки Java программиста 9: Java SE — Шпаргалка для собеседований и повторений https://habrahabr.ru/post/314386/
+
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 
 * http://stackoverflow.com/a/7596565/1063214
@@ -1293,17 +1304,9 @@ https://www.objc.io/issues/11-android/
 * бесплатные сайты с векторной графикой https://habrahabr.ru/company/ua-hosting/blog/278473/
 * альтернативы Mandrill (который сильно платным стал даже на минимальном плане) https://habrahabr.ru/post/280634/ (реально - Mailgun вполне себе)
 * генерация случайных картинок с роботами https://robohash.org/
-* шпаргалки для Java-программиста: коллекции в Java, стандартные и не очень https://habrahabr.ru/company/luxoft/blog/256877/
-* полезные ссылки для Java-программиста https://habrahabr.ru/company/luxoft/blog/280784/ aka https://github.com/Vedenin/useful-java-links / https://github.com/Vedenin/useful-java-links/tree/master/link-rus
-* типовые задачи: обход Map, подсчет количества вхождений в подстроку https://habrahabr.ru/company/luxoft/blog/278313/
-* шпаргалки для Java-программиста: InputStream в строку https://habrahabr.ru/company/luxoft/blog/278233/
-* шпаргалки для Java-программиста: библиотеки для парсинга JSON https://habrahabr.ru/company/luxoft/blog/280782/ + общее оглавление
-* расширения Stream API java 8 https://habrahabr.ru/post/262139/
 * сборка гибридного приложения под Android https://habrahabr.ru/post/277729/
 * PDF в России - стандарт или не стандарт? https://habrahabr.ru/company/abbyy/blog/105006/
 * PDF с точки зрения программиста https://habrahabr.ru/company/abbyy/blog/108459/
-* Блог Алексея Шипилева по производительности Java https://shipilev.net/
-* как ПРАВИЛЬНО делать микробенчмарки в Java https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
 * эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/ 
 * обход certificate pinning на Android https://habrahabr.ru/post/307774/
 * Как думать на SQL? https://habrahabr.ru/post/305926/

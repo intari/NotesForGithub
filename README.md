@@ -1131,6 +1131,9 @@ https://www.objc.io/issues/11-android/
 * Быстрый старт на React Native https://habrahabr.ru/post/327668/
 * Руководство по работе с Redux https://habrahabr.ru/company/mailru/blog/303456/
 * Создание React VR-приложения, работающего в реальном времени https://habrahabr.ru/company/mailru/blog/331816/
+* React или Vue? Выбираем библиотеку для фронтенд-разработки https://habrahabr.ru/company/ruvds/blog/323142/
+* В чём разница между React и Vue? https://habrahabr.ru/company/ruvds/blog/345488/
+
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

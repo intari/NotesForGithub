@@ -1442,6 +1442,7 @@ https://www.objc.io/issues/11-android/
 
 ### WebAssembly
 * Знакомоство с WebAssembly https://habrahabr.ru/post/342180/ 
+* Технопорно с WebAssembly https://habrahabr.ru/post/345450/
 
 ## Разное
 

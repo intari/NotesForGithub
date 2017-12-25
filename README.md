@@ -360,6 +360,7 @@
 
 
 ### Android/Dagger 2 - Dependency Injection 
+* Dagger для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
 * Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
 * Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/

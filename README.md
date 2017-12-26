@@ -606,6 +606,8 @@
 * Блог Алексея Шипилева по производительности Java https://shipilev.net/
 * как ПРАВИЛЬНО делать микробенчмарки в Java https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
 * Шпаргалки Java программиста 9: Java SE — Шпаргалка для собеседований и повторений https://habrahabr.ru/post/314386/
+* Шпаргалки Java программиста 10: Lombok https://habrahabr.ru/post/345520/
+* Вся серия Шпаргалки Java-программиста https://habrahabr.ru/users/vedenin1980/posts/
 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 

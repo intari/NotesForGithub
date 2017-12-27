@@ -313,7 +313,7 @@
 * RxJava 2.x extra sources, operators and components and ports of many 1.x companion libraries. https://github.com/akarnokd/RxJava2Extensions
 * Database with Room using RxJava https://medium.com/@alahammad/database-with-room-using-rxjava-764ee6124974
 * Реализация поиска с использованием RxJava https://habrahabr.ru/post/345278/
-
+* Automatically dispose RxJava 2 (/RxKotlin) streams on Android using Lifecycle events. https://github.com/kizitonwose/android-disposebag
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?

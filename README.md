@@ -1387,7 +1387,7 @@ https://www.objc.io/issues/11-android/
 * Jenkins - selfhosted
 * Bamboo - selfhosted
 * Buildkite - https://buildkite.com/ - 15 USD/month. агенты - сами ставим.
-
+* MS AppCenter - CI/крешлоги/бета-тестинг/аналитика+много_что https://appcenter.ms/  поддерживается вообще все включая React Native / Xamarin / UWP - HockeyApp купили для этого
 
 #### Патчи в рантайме
 * (накрылся) Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации. Бесплатно если не использовать их javascript-based патчи.

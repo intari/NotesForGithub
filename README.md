@@ -758,6 +758,7 @@
 * iOS:Path to mastery for iOS Development https://trello.com/b/gvzEgkw4/ios-path-to-mastery-for-ios-development
 * Hotswapping Core ML models on the iPhone https://blog.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone
 * Упрощение отладки БД в приложениях iOS https://github.com/y500/iOSDebugDatabase - по сути веб-интерфейс(!) для отладки
+* Знакомство с движком AVAudioEngine для работы со звуком на iOS https://habrahabr.ru/company/everydaytools/blog/345768/
 
 ## ARKit
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/

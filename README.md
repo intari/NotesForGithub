@@ -873,6 +873,7 @@
 * Избавление от Auto Layout https://habrahabr.ru/post/328242/
 * SwiftIcons набор https://www.swifticons.com/  - платный
 * https://github.com/SoySauceLab/CollectionKit - замена UICollectionView
+* In-app design review tool to inspect measurements, attributes, and animations https://github.com/willowtreeapps/Hyperion-iOS/ 
 
 ## Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

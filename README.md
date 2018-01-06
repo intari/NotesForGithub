@@ -1259,7 +1259,7 @@ https://www.objc.io/issues/11-android/
 * UniRx — Rx для Unity3d https://habrahabr.ru/post/342660/
 * How to Create a Tower Defense Game in Unity – Part 1 https://www.raywenderlich.com/168079/create-tower-defense-game-unity-part-1-2
 * How to Create a Tower Defense Game in Unity – Part 2 https://www.raywenderlich.com/168078/create-tower-defense-game-unity-part-2
-
+* арт - халявный и дешевый для 2D https://www.gameartguppy.com/  (а вообще старые по TGE еще наборы)
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL

@@ -1149,6 +1149,9 @@ https://www.objc.io/issues/11-android/
 * React или Vue? Выбираем библиотеку для фронтенд-разработки https://habrahabr.ru/company/ruvds/blog/323142/
 * В чём разница между React и Vue? https://habrahabr.ru/company/ruvds/blog/345488/
 * Укрощаем изоморфный и универсальный шаблон: серверный рендеринг на React-Redux https://medium.com/devschacht/peter-chang-break-down-isomorphic-and-universal-boilerplate-react-redux-server-rendering-8fd0ec4a8512
+* Горячая перезагрузка компонентов в React https://habrahabr.ru/post/346142/
+* Restate — или как превратить бревно Redux в дерево https://habrahabr.ru/post/346116/
+* 11 библиотек (наборов компонентов) для React, о которых стоит знать в 2018-м https://habrahabr.ru/company/ruvds/blog/346090/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

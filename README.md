@@ -370,7 +370,9 @@
 * intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
 * критически важные вещи для Dagger https://blog.mindorks.com/android-dagger2-critical-things-to-know-before-you-implement-275663aecc3e
 * Dagger 2.11 & Android https://habrahabr.ru/post/335940/
-
+* Dependency injection on Android: Dagger (Part 1) https://antonioleiva.com/dependency-injection-android-dagger-part-1/
+* Dagger: dependency injection on Android (Part 2) https://antonioleiva.com/dagger-android-part-2/
+* Dependency Injection in Android with Dagger 2 and Kotlin https://www.raywenderlich.com/171327/dependency-injection-android-dagger-2 
 
 ### Android/Various
 * Шпаргалка или Must have для андроид разработчика https://habrahabr.ru/post/336956/

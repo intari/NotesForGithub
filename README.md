@@ -1425,6 +1425,7 @@ https://www.objc.io/issues/11-android/
 * https://www.quora.com/What-are-the-best-rapid-prototyping-tools-for-iOS-apps
 * https://flawlessapp.io/ - по сути плагин к симулятору
 * Инструменты для прототипирования на Mac: сопоставительная характеристика https://habrahabr.ru/company/everydaytools/blog/333832/
+* Нейронная сеть, которая верстает сайты по картинке -:) https://vc.ru/31732-neyronnaya-set-kotoraya-verstaet-sayty-po-kartinke - может в будущем...
 
 #### API Emulation
 * Fake the backend while you develop the frontend http://jsonstub.com/

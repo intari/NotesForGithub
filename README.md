@@ -8,6 +8,10 @@
 
 ## Универсальные полезные библиотеки
 * MuPDF - PDF / EPUB / FB2 рендер. Portable. примеры Windows/iOS/Android. AGPL либо комерческая лицензия https://mupdf.com/
+* EPUB Parser + пример недо-читалки https://github.com/mertakdut/EpubParser . Apache License 2.0
+* FolioReader-Android is an ePub reader and parser framework written in Java. https://github.com/FolioReader/FolioReader-Android . BSD License
+* Readium https://github.com/readium/ и там смотрим. EPUB3, iOS/Android/Web, сложно достаточно.
+
 
 ## Gradle
 * Gradle: A better way to build http://habrahabr.ru/post/107085/
@@ -33,7 +37,7 @@
 ## Android 
 
 * Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 20 USD / полгода за подписку. Тем более что там добавления есть - например отдельная книга по Android architecture compontents...
-
+* Полезные книги для начинающего и не очень Android-разработчика https://habrahabr.ru/post/346412/
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -462,7 +466,6 @@
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
 * универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
-* rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
 * Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
@@ -1369,6 +1372,8 @@ https://www.objc.io/issues/11-android/
 * https://habrahabr.ru/post/302002/ Push уведомления в Android с помощью Firebase Cloud Messaging для начинающих 
 * https://habrahabr.ru/post/303514/ Нюансы Firebase messaging для начинающих
 * https://medium.com/google-developer-experts/using-firebase-as-a-real-time-system-d360265aa678  Using Firebase as a Real Time System
+* rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
+* https://habrahabr.ru/company/theron/blog/303436/ Theron как замена(?) Firebase
 
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 
@@ -1495,6 +1500,7 @@ https://www.objc.io/issues/11-android/
 * Don’t Miss Your Target: Object Detection with TensorFlow and Watson https://medium.com/ibm-watson/dont-miss-your-target-object-detection-with-tensorflow-and-watson-488e24226ef3
 * TensorFlow (GPU) Setup for Developers https://hackernoon.com/tensorflow-gpu-setup-for-developers-7371ec0f04de
 * Базовые принципы машинного обучения на примере линейной регрессии https://habrahabr.ru/company/ods/blog/322076/ и вообще блог этих товарищей интересный
+* Глубокое обучение от piter.com https://habrahabr.ru/company/piter/blog/346358/ (или на piter.com или в Play Books
 
 ### Scikit,etc 
 * как узнать год выпуска песни по набору характеристик https://habrahabr.ru/post/264193/

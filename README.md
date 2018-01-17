@@ -72,6 +72,7 @@
 * полезная либа для упрощения своего адаптера в RecyclerView https://github.com/mikepenz/FastAdapter - альтернатива - https://github.com/cymcsg/UltimateRecyclerView
 * препарирование RecyclerView https://ziginsider.github.io/RecyclerView/
 * Indroducing ExpandableRecyclerView https://robots.thoughtbot.com/introducing-expandablerecyclerview 
+* Shimmer RecyclerView https://github.com/sharish/ShimmerRecyclerView с мерцанием для показа загрузки
 * Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
 * Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
@@ -522,7 +523,7 @@
 * Android Debug Database https://github.com/amitshekhariitbhu/Android-Debug-Database - интерфейс для отладки БД
 * Introducing: Android DebugPort 2.0:A drop-in tool to connect to your app and execute both Java and SQL commands from the comfort of your computer’s terminal. https://medium.com/@JasonWyatt/introducing-android-debugport-2-0-88ec4ed4db94
 * Droid@Screen - удобная тулза для создания скрипшотов и просмотра картинок + тач http://droid-at-screen.org/
-* in-app OkHttp inspector https://github.com/jgilfelt/chuck
+* in-app OkHttp inspector https://github.com/jgilfelt/chuck 
 * An OkHttp interceptor which pretty logs request and response data. https://github.com/ihsanbal/LoggingInterceptor
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
@@ -879,6 +880,7 @@
 * SwiftIcons набор https://www.swifticons.com/  - платный
 * https://github.com/SoySauceLab/CollectionKit - замена UICollectionView
 * In-app design review tool to inspect measurements, attributes, and animations https://github.com/willowtreeapps/Hyperion-iOS/ 
+* Построение анимаций https://habrahabr.ru/company/touchinstinct/blog/346538/ Kite compositor (и Lottie)
 
 ## Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

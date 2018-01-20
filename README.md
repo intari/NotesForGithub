@@ -1,6 +1,12 @@
 # Набор моих пусть частично полезных ссылок по разработке и не только, уровень...разный
 
 
+## C/C++
+* http://ru.cppreference.com/ - перевод частичный описаний новых стандартов
+* The C++ Standard Library: A Tutorial and Reference by Nicolai M. Josuttis - описание стандартной библиотеки. Вторая редакция (2012 года) - C++11. Есть например в Google Play Books https://play.google.com/store/books/details/Nicolai_M_Josuttis_The_C_Standard_Library?id=9DEJKhasp7gC
+* The C++ Programming Language by Bjarne Stroustrup описание языка эталонное. 4-я редакция (2013 года) есть  например в Google Play Books https://play.google.com/store/books/details/Bjarne_Stroustrup_The_C_Programming_Language?id=PSUNAAAAQBAJ
+
+
 ## Общее
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
 * Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
@@ -433,12 +439,10 @@
 * Thinks to consider before running background tasks https://blog.yipl.com.np/things-to-consider-before-running-background-tasks-e71f00d2ad3a#.9pldi51hs
 * The Do’s and Don’ts of Writing Test cases in Android. https://blog.mindorks.com/the-dos-and-don-ts-of-writing-test-cases-in-android-70f1b5dab3e1#.4lvmhqjtr
 * Группировка нотификаций https://habrahabr.ru/company/pushall/blog/319794/
-* Personal content indexing нормальный - именно - локально на устройстве без вебсерверов и без гугла https://firebase.google.com/docs/app-indexing/android/personal-content
 * Google VR SDK (для Cardboard и Daydream и похожих) https://geektimes.ru/company/dataart/blog/286242/
 * Приколы кастомных вьюх на андроиде https://habrahabr.ru/post/321890/
 * Изучаем Retrofit 2 https://habrahabr.ru/post/314028/
 * How to set up a Continuous Integration server for Android development (Ubuntu + Jenkins + SonarQube) https://pamartinezandres.com/how-to-set-up-a-continuous-integration-server-for-android-development-ubuntu-jenkins-sonarqube-43c1ed6b08d3#.1o4cowy60
-* Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
 * Mirror: Easy Reflection for Java and Android https://medium.com/genymobile/mirror-easy-reflection-for-java-and-android-923f54b1f165
 * JRebel for Android сейчас бесплатный https://zeroturnaround.com/software/jrebel-for-android/free/ 
 * на старом API как completablefuture иметь https://github.com/streamsupport/streamsupport  (ну или новую android studio....)
@@ -452,7 +456,6 @@
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
 * Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/
-* Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
@@ -465,12 +468,19 @@
 * Create a custom keyboard on android https://code.tutsplus.com/tutorials/create-a-custom-keyboard-on-android--cms-22615
 * Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
-* универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
 * Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
+
+### Firebase
+* Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
+* универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
+* Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
+* Personal content indexing нормальный - именно - локально на устройстве без вебсерверов и без гугла https://firebase.google.com/docs/app-indexing/android/personal-content
+* Пара способов отправить уведомления на смартфон со своего сервера https://habrahabr.ru/post/345942/
+* Введение в Firebase: пишем простое социальное приложение на Swift (iOS) https://habrahabr.ru/post/277941/
 
 ### Сохранение Instance state
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/

@@ -98,7 +98,7 @@
  
 
 ### Libraries and Apps by Jack Wharton,etc
-* Hugo - method call logger https://github.com/JakeWharton/hugo - тупит-с
+* Hugo - method call logger https://github.com/JakeWharton/hugo - тупит-с (если тупит - пробуем https://jitpack.io/#Turbo87/hugo/1.2.2 https://github.com/JakeWharton/hugo/pull/124)
 * Timber - autotagging logs https://github.com/JakeWharton/timber
 * SDK Manager plugin - autodownload SDK components https://github.com/JakeWharton/sdk-manager-plugin
 * Telecine - screen recording for Android https://github.com/JakeWharton/Telecine + https://play.google.com/store/apps/details?id=com.jakewharton.telecine

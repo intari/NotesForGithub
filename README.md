@@ -473,6 +473,7 @@
 * Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
+* Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
 
 ### Firebase
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
@@ -601,6 +602,7 @@
 * Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md 
 * Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
 * Android Coroutine Recipes https://proandroiddev.com/android-coroutine-recipes-33467a4302e9
+* Simple asynchronous loading with Kotlin Coroutines https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -834,7 +836,7 @@
 * Мое знакомство с ReactiveCocoa https://habrahabr.ru/post/317992/
 * RxSwift: Reactive Programming with Swift https://www.goodreads.com/book/show/34791927
 
-## GUI
+## iOS GUI
 * Жизненный цикл UIViewController https://habrahabr.ru/post/129557/  
 * Еще последовательность старта view и view controller https://stackoverflow.com/questions/5107604/can-somebody-explain-the-process-of-a-uiviewcontroller-birth-which-method-follo
 * Xcode Live Rendering https://habrahabr.ru/post/239257/
@@ -1281,6 +1283,7 @@ https://www.objc.io/issues/11-android/
 * How to Create a Tower Defense Game in Unity – Part 1 https://www.raywenderlich.com/168079/create-tower-defense-game-unity-part-1-2
 * How to Create a Tower Defense Game in Unity – Part 2 https://www.raywenderlich.com/168078/create-tower-defense-game-unity-part-2
 * арт - халявный и дешевый для 2D https://www.gameartguppy.com/  (а вообще старые по TGE еще наборы)
+* Learn C++ by Creating Games with UE4. Есть на сайте PacktPub или в Google Play Books https://play.google.com/store/books/details/William_Sherif_Learning_C_by_Creating_Games_with_U?id=iq_NBgAAQBAJ
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL

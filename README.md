@@ -1173,6 +1173,8 @@ https://www.objc.io/issues/11-android/
 * Горячая перезагрузка компонентов в React https://habrahabr.ru/post/346142/
 * Restate — или как превратить бревно Redux в дерево https://habrahabr.ru/post/346116/
 * 11 библиотек (наборов компонентов) для React, о которых стоит знать в 2018-м https://habrahabr.ru/company/ruvds/blog/346090/
+* Как использовать все возможности мобильной ОС в React Native https://habrahabr.ru/company/epam_systems/blog/347346/
+* Частые трудности работы с React.js https://habrahabr.ru/post/347458/
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/

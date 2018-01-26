@@ -582,6 +582,11 @@
 * Kotlin:Contexts & SharedPreferences https://blog.stylingandroid.com/kotlin-contexts-sharedpreferences
 
 
+### Kodein (замена Dagger 2)
+* Официальная документация https://salomonbrys.github.io/Kodein/ 
+* Kodein — интересная альтернатива Dagger 2 для внедрения зависимостей в Kotlin https://habrahabr.ru/company/sberbank/blog/347208/
+* From Dagger2 to Kodein: A small experiment https://medium.com/@AllanHasegawa/from-dagger2-to-kodein-a-small-experiment-9800f8959eb4
+
 ### Kotlin Links collections
 * https://kotlin.link/
 * https://github.com/KotlinBy/awesome-kotlin (+ https://github.com/MarcinMoskala/awesome-kotlin )

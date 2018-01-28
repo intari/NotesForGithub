@@ -580,7 +580,9 @@
 * Generics в Kotlin vs. Generics в JAVA: cходства, различия, особенности https://habrahabr.ru/company/redmadrobot/blog/301174/
 * Function references in Kotlin: use functions as lambdas everywhere https://antonioleiva.com/function-references-kotlin/ 
 * Kotlin:Contexts & SharedPreferences https://blog.stylingandroid.com/kotlin-contexts-sharedpreferences
-
+* Arrow - functional programming in Kotlin http://arrow-kt.io/
+* Kapsule - минималистичная замена Kodein'у https://blog.gouline.net/kapsule-minimalist-dependency-injection-for-kotlin-ed3e344d60ed
+* KTX - расширения для LibGDX https://github.com/libktx/ktx
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 

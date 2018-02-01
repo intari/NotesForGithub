@@ -119,6 +119,7 @@
 * Reducing your networking footprint with OkHttp, Etags and If-Modified-Since https://android.jlelse.eu/reducing-your-networking-footprint-with-okhttp-etags-and-if-modified-since-b598b8dd81a1#.q7tyqszec
 * Enable Android Nougat ‘Charles’ing SSL network https://android.jlelse.eu/android-nougat-charlesing-ssl-network-efa0951e66de
 * Unit testing API requests on Android https://android.jlelse.eu/unit-testing-api-requests-on-android-5efc4efe18df
+* The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2
 
 #### Retrofit
 * Retrofit)[http://square.github.io/retrofit/
@@ -474,6 +475,8 @@
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
 * Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
+* Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
+
 
 ### Firebase
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
@@ -540,6 +543,7 @@
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
+* Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
 
 #### Stetho от Facebook
 * Stetho от Facebook http://facebook.github.io/stetho/
@@ -583,6 +587,8 @@
 * Arrow - functional programming in Kotlin http://arrow-kt.io/
 * Kapsule - минималистичная замена Kodein'у https://blog.gouline.net/kapsule-minimalist-dependency-injection-for-kotlin-ed3e344d60ed
 * KTX - расширения для LibGDX https://github.com/libktx/ktx
+* What's new - автоматический показ что нового при обновлении https://github.com/TonnyL/WhatsNew
+* RxKotlin: Login Screen https://android.jlelse.eu/rxkotlin-login-screen-7413ba6b5e4f
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 

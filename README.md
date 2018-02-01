@@ -161,6 +161,7 @@
 * Introduction to Android Testing – Part 3 https://riggaroo.co.za/introduction-android-testing-part3/ 
 * JaCoCo https://docs.gradle.org/current/userguide/jacoco_plugin.html
 * Измерение покрытия кода тестами в Android с помощью JaCoCo  https://habrahabr.ru/post/280374/
+* Также пример нормальных тестов не только для примитивных кусков кода   и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878
 
 
 #### mockito

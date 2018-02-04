@@ -517,6 +517,16 @@
 * OpenGL ES 2.0 Specification https://www.khronos.org/registry/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf
 * OpenGL ES 2.0 API Quick Reference Card https://www.khronos.org/opengles/sdk/docs/reference_cards/OpenGL-ES-2_0-Reference-card.pdf
 * OpenGL ES 3.0 API Quick Reference Card https://www.khronos.org/files/opengles3-quick-reference-card.pdf
+* А серьезно нужен именно 'голый' OpenGL? Возможно стоит LibGDX рассмотреть (она вполне просто интегрируется в 'обычное' андроид-приложение хотя вообще это для разработки игр библиотека)
+
+
+### Интересные примеры
+#### Building A Shazam Clone (Kotlin, TDD) by Elvis Chidera
+* Building a Shazam Clone Part 1 (Design) https://android.jlelse.eu/building-a-shazam-clone-part-1-building-android-apps-series-179c2580a094
+* Building a Shazam Clone Part 2 (Architecture & Code Structure) https://android.jlelse.eu/building-a-shazam-clone-part-2-building-android-apps-series-fc4a28d57b77
+* Building A Shazam Clone Part 3 (Project Setup) https://android.jlelse.eu/building-a-shazam-clone-part-3-project-setup-building-android-apps-series-41ece86febef
+* Building A Shazam Clone Part 4 (TDD with Kotlin)  https://android.jlelse.eu/building-a-shazam-clone-part-4-tdd-with-kotlin-building-android-apps-series-7007ce4e1b77
+* Building A Shazam Clone Part 5 (Discover Song Feature) https://android.jlelse.eu/building-a-shazam-clone-part-5-discover-song-feature-building-android-apps-series-a70f7c3a9795
 
 ### Time/Android
 * Адаптированный backport JSR-310 https://github.com/JakeWharton/ThreeTenABP

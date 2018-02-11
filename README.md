@@ -38,7 +38,7 @@
 * Если хочется свои библиотеки размещать и не проблема немного поработать руками + запрашивать разрешения то читаем - Публикация библиотеки в Maven Central / jCenter https://android-tools.ru/coding/kak-sozdat-svoyu-sobstvennuyu-biblioteku-android-cherez-jcenter-i-maven-central/
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
 * Publishing Java / android / kotlin libraries on Jitpack https://medium.com/@erluxman/publishing-java-android-kotlin-libraries-on-jitpack-b33d0d26dc8a
-
+* Developing Android Studio plugins with Gradle https://medium.com/groupon-eng/developing-android-studio-plugins-with-gradle-7597d8825d76
 
 ## Android 
 
@@ -82,6 +82,8 @@
 * Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
 * Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
+* Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
+
 
 ### Android Architecture Components
 * Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
@@ -327,6 +329,9 @@
 * Database with Room using RxJava https://medium.com/@alahammad/database-with-room-using-rxjava-764ee6124974
 * Реализация поиска с использованием RxJava https://habrahabr.ru/post/345278/
 * Automatically dispose RxJava 2 (/RxKotlin) streams on Android using Lifecycle events. https://github.com/kizitonwose/android-disposebag
+* How we migrated from RxJava1 to RxJava2 https://medium.com/lifesum-healthy-living-simplified/how-we-migrated-from-rxjava1-to-rxjava2-bcf0c9eb1a6f
+* RxJava - Flowables - What, when and how to use it? http://www.aanandshekharroy.com/articles/2018-01/rxjava-flowables
+* RxJava — Schedulers — What, when and how to use it? https://android.jlelse.eu/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -477,6 +482,7 @@
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
 * Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
 * Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
+* RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 
 
 ### Firebase
@@ -555,6 +561,7 @@
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
 * Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
+* Testing Android UI with Pleasure using espresso and nothing else  https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821
 
 #### Stetho от Facebook
 * Stetho от Facebook http://facebook.github.io/stetho/
@@ -600,6 +607,8 @@
 * KTX - расширения для LibGDX https://github.com/libktx/ktx
 * What's new - автоматический показ что нового при обновлении https://github.com/TonnyL/WhatsNew
 * RxKotlin: Login Screen https://android.jlelse.eu/rxkotlin-login-screen-7413ba6b5e4f
+* (Code) Sharing is caring - An Introduction to Kotlin Multiplatform Projects https://www.novoda.com/blog/introduction-to-kotlin-multiplatform/
+* Parcelable in Kotlin? Here comes Parcelize - автоматическая поддержка Parceleable для data class https://proandroiddev.com/parcelable-in-kotlin-here-comes-parcelize-b998d5a5fcac
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -1114,6 +1123,7 @@ git checkout -b iOS-2.7 origin/iOS-2.7
 ** https://stackoverflow.com/questions/30675541/ensembles-in-ios-swift
 ** https://github.com/drewmccormack/ensembles/tree/master/Examples/Simple%20Sync
 ** https://github.com/drewmccormack/ensembles - можно с него начать
+* Как устроен CloudKit http://www.vldb.org/pvldb/vol11/p540-shraer.pdf
 
 ### RestKit
 * https://github.com/RestKit/RestKit
@@ -1167,6 +1177,7 @@ https://www.objc.io/issues/11-android/
 * Invisionapp https://www.invisionapp.com/
 
 ### React / React Native / ReactVR / Redux
+* A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices. https://github.com/react-boilerplate/react-boilerplate
 * React Native: Очередная «серебряная пуля» для кросплатформенной разработки? https://habrahabr.ru/company/jugru/blog/325628/
 * Исполнит ли React Native мечту программиста: единый код для web, android и ios? https://habrahabr.ru/company/Voximplant/blog/277169/
 * React Native — одного JS мало  https://habrahabr.ru/post/323214/

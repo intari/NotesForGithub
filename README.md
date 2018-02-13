@@ -609,6 +609,7 @@
 * RxKotlin: Login Screen https://android.jlelse.eu/rxkotlin-login-screen-7413ba6b5e4f
 * (Code) Sharing is caring - An Introduction to Kotlin Multiplatform Projects https://www.novoda.com/blog/introduction-to-kotlin-multiplatform/
 * Parcelable in Kotlin? Here comes Parcelize - автоматическая поддержка Parceleable для data class https://proandroiddev.com/parcelable-in-kotlin-here-comes-parcelize-b998d5a5fcac
+* https://github.com/android/android-ktx https://android-developers.googleblog.com/2018/02/introducing-android-ktx-even-sweeter.html - Android Kotlin Extensions официальные
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -690,6 +691,7 @@
 ### Support library
 * Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
 * Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
+* Шаблон Navigation Drawer Activity http://developer.alexanderklimov.ru/android/navigation_drawer_activity.php Описание использования Navigation view для этих целей
 
 #### Percent support library
 да, теперь она официально устарела

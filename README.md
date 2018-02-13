@@ -589,7 +589,7 @@
 * Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd
 * RxJava vs. Kotlin Coroutines, a quick look http://akarnokd.blogspot.com/2017/09/rxjava-vs-kotlin-coroutines-quick-look.html
 * Kotlin — combating non-null assertions (!!) https://medium.com/@igorwojda/kotlin-combating-non-null-assertions-5282d7b97205
-* KotterKnife - ButterKnife-style библиотека для Kotlin https://github.com/JakeWharton/kotterknife - хотя убедится что android extensions мало
+* KotterKnife - ButterKnife-style библиотека для Kotlin https://github.com/JakeWharton/kotterknife - хотя стоит убедится что android extensions , anko и своих удобны велосипедов мало
 * Kotlin cheatsheet 1 https://gist.github.com/dodyg/5823184 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin cheatsheet 2 https://gist.github.com/dodyg/5616605 (fixed formatting + updates - https://gist.github.com/intari/f9d78c2460570c5db041b06459b24ba8 )
 * Kotlin Style / Interop guides https://android.github.io/kotlin-guides/
@@ -610,6 +610,7 @@
 * (Code) Sharing is caring - An Introduction to Kotlin Multiplatform Projects https://www.novoda.com/blog/introduction-to-kotlin-multiplatform/
 * Parcelable in Kotlin? Here comes Parcelize - автоматическая поддержка Parceleable для data class https://proandroiddev.com/parcelable-in-kotlin-here-comes-parcelize-b998d5a5fcac
 * https://github.com/android/android-ktx https://android-developers.googleblog.com/2018/02/introducing-android-ktx-even-sweeter.html - Android Kotlin Extensions официальные
+* https://habrahabr.ru/company/funcorp/blog/349014/ Изучаем KTX для Android
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 

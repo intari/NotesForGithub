@@ -560,8 +560,18 @@
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
+* Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/ зачем все же надо android-specific вещи тестировать и как (по сути - parceleable/strings/non-ui components?)
+* базовые вещи по Robolectric https://guides.codepath.com/android/unit-testing-with-robolectric
+* How to write Android unit tests using Robolectric https://android.jlelse.eu/how-to-write-android-unit-tests-using-robolectric-27341d530613
 * Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
 * Testing Android UI with Pleasure using espresso and nothing else  https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821
+* Robolectric / Kotlin 	http://www.prandroid.com/2017/09/robolectric-example-in-android.html 
+* Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric полезные советы
+* Android Testing with Kotlin https://fernandocejas.com/2017/02/03/android-testing-with-kotlin/
+** Unit tests обычные
+** Robolectric - integration tests
+** Espresso - acceptance tests
+
 
 #### Stetho от Facebook
 * Stetho от Facebook http://facebook.github.io/stetho/

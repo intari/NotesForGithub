@@ -163,14 +163,18 @@
 * Introduction to Android Testing – Part 3 https://riggaroo.co.za/introduction-android-testing-part3/ 
 * JaCoCo https://docs.gradle.org/current/userguide/jacoco_plugin.html
 * Измерение покрытия кода тестами в Android с помощью JaCoCo  https://habrahabr.ru/post/280374/
-* Также пример нормальных тестов не только для примитивных кусков кода   и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878
-
+* Также пример нормальных тестов не только для примитивных кусков кода  и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878
+* Android Testing with Kotlin https://fernandocejas.com/2017/02/03/android-testing-with-kotlin/
+** Unit tests обычные
+** Robolectric - integration tests
+** Espresso - acceptance tests
 
 #### mockito
 * Описание mockito http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html
 * http://monkeyisland.pl/2008/04/26/asking-and-telling/
 * Unit tests with Mockito - Tutorial http://www.vogella.com/tutorials/Mockito/article.html
 * https://corner.squareup.com/2012/10/mockito-android.html
+* Kotlin for android developers в последних главах
 
 #### Roboletric
 * Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric 
@@ -183,6 +187,15 @@
 * Robolectric + Espresso examples https://github.com/robolectric/deckard (именно гибридный вариант - когда то одно то другое)
 * Perform Clicks in Android Robolectric Unit Test http://timnew.me/blog/2014/10/27/perform-clicks-in-android-robolectric-unit-test/
 * Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/
+* Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
+* Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/ зачем все же надо android-specific вещи тестировать и как (по сути - parceleable/strings/non-ui components?)
+* базовые вещи по Robolectric https://guides.codepath.com/android/unit-testing-with-robolectric
+* How to write Android unit tests using Robolectric https://android.jlelse.eu/how-to-write-android-unit-tests-using-robolectric-27341d530613
+* Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
+* Testing Android UI with Pleasure using espresso and nothing else  https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821
+* Robolectric / Kotlin 	http://www.prandroid.com/2017/09/robolectric-example-in-android.html 
+* Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric полезные советы
+
 
 #### Jenkins
 * Jenkins and Android https://jenkins.io/solutions/android/
@@ -559,18 +572,6 @@
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
-* Почему Robolectric НЕ надо использовать и как - надо (но также комменты смотрим) https://www.philosophicalhacker.com/post/why-i-dont-use-roboletric/ 
-* Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/ зачем все же надо android-specific вещи тестировать и как (по сути - parceleable/strings/non-ui components?)
-* базовые вещи по Robolectric https://guides.codepath.com/android/unit-testing-with-robolectric
-* How to write Android unit tests using Robolectric https://android.jlelse.eu/how-to-write-android-unit-tests-using-robolectric-27341d530613
-* Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
-* Testing Android UI with Pleasure using espresso and nothing else  https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821
-* Robolectric / Kotlin 	http://www.prandroid.com/2017/09/robolectric-example-in-android.html 
-* Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric полезные советы
-* Android Testing with Kotlin https://fernandocejas.com/2017/02/03/android-testing-with-kotlin/
-** Unit tests обычные
-** Robolectric - integration tests
-** Espresso - acceptance tests
 
 
 #### Stetho от Facebook
@@ -621,6 +622,8 @@
 * Parcelable in Kotlin? Here comes Parcelize - автоматическая поддержка Parceleable для data class https://proandroiddev.com/parcelable-in-kotlin-here-comes-parcelize-b998d5a5fcac
 * https://github.com/android/android-ktx https://android-developers.googleblog.com/2018/02/introducing-android-ktx-even-sweeter.html - Android Kotlin Extensions официальные
 * https://habrahabr.ru/company/funcorp/blog/349014/ Изучаем KTX для Android
+* Confluence Kotlin plugin для рендеринга https://github.com/JetBrains/kotlin-confluence-plugin
+
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 

@@ -345,6 +345,7 @@
 * How we migrated from RxJava1 to RxJava2 https://medium.com/lifesum-healthy-living-simplified/how-we-migrated-from-rxjava1-to-rxjava2-bcf0c9eb1a6f
 * RxJava - Flowables - What, when and how to use it? http://www.aanandshekharroy.com/articles/2018-01/rxjava-flowables
 * RxJava — Schedulers — What, when and how to use it? https://android.jlelse.eu/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add
+* Error handling in RxJava/RxKotlin https://android.jlelse.eu/error-handling-in-rxjava-rxkotlin-e960300990e0
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
@@ -391,12 +392,15 @@
 
 
 ### Android/Dagger 2 - Dependency Injection 
+* Introduction to Dagger 2, Using Dependency Injection in Android: Part 1 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-1-223289c2a01b
+* Introduction to Dagger 2, Using Dependency Injection in Android: Part 2 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-2-b55857911bcd
 * Dagger для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
 * Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
 * Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/
 * Dagger 2. Часть вторая. Custom scopes, Component dependencies, Subcomponents https://habrahabr.ru/post/279641/
-* Дружественное введение в Dagger 2 часть 2 https://habrahabr.ru/post/308040/
+* Дружественное введение в Dagger 2. Часть 1 https://habrahabr.ru/post/307434/
+* Дружественное введение в Dagger 2. Часть 2 https://habrahabr.ru/post/308040/
 * A Complete Guide To Learn Dagger 2 https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c
 * intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
 * критически важные вещи для Dagger https://blog.mindorks.com/android-dagger2-critical-things-to-know-before-you-implement-275663aecc3e
@@ -404,8 +408,24 @@
 * Dependency injection on Android: Dagger (Part 1) https://antonioleiva.com/dependency-injection-android-dagger-part-1/
 * Dagger: dependency injection on Android (Part 2) https://antonioleiva.com/dagger-android-part-2/
 * Dependency Injection in Android with Dagger 2 and Kotlin https://www.raywenderlich.com/171327/dependency-injection-android-dagger-2 
+* Dagger 2 Generated Code. https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b к вопросу как магия работает
+* Dagger 2 for Dummies in Kotlin (with 20 lines of code) https://medium.com/@elye.project/dagger-2-for-dummies-in-kotlin-with-one-page-simple-code-project-618a5f9f2fe8 - по сути просто пошаговае описание как Dagger использовать
+* Dagger 2 for Dummies in Kotlin — provides and module https://medium.com/@elye.project/dagger-2-for-dummies-in-kotlin-provides-and-module-b84dca1b0d03
+* Dagger 2 for Dummies in Kotlin — Qualifier https://medium.com/@elye.project/dagger-2-for-dummies-qualifier-5c7e78a4d3a6
+* World Shortest Dagger 2 Code? https://medium.com/@elye.project/world-shortest-dagger-2-code-f14b1b8d9e71
+* Dagger 2 for Android Beginners — Introduction https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-introduction-be6580cb3edb
+* Dagger 2 for Android Beginners — DI part I https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-di-part-i-f5cc4e5ad878
+* Dagger 2 for Android Beginners — DI part II https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-di-part-ii-bce68f463bfe
+* Dagger 2 for Android Beginners — Dagger 2 part I https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-dagger-2-part-i-f2de5564ab25
+* Dagger 2 for Android Beginners — Dagger 2 part II https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-dagger-2-part-ii-436c3e3aa15b
+* Dagger 2 for Android Beginners — Advanced part I https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-advanced-part-i-1e14fccf2cc8
+* Dagger 2 for Android Beginners — Advanced part II https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-advanced-part-ii-eb6f8d8a8926
+*
+
+
 
 ### Android/Various
+* Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
 * Шпаргалка или Must have для андроид разработчика https://habrahabr.ru/post/336956/
 * 50+ Ultimate Resources to Master Android Development https://blog.aritraroy.in/50-ultimate-resources-to-master-android-development-15165d6bc376
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
@@ -496,7 +516,13 @@
 * Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
 * Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
 * RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
-
+* Custom Fonts in Android Tutorial https://www.raywenderlich.com/175401/custom-downloadable-fonts-android  в смысле про официальную замену Calligraphy
+* Android background in a nutshell — Part 1 https://proandroiddev.com/android-background-in-a-nutshell-part-1-c29a5e0ed10e перевод https://habrahabr.ru/company/epam_systems/blog/348894/
+* Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15
+* Анимации в Android по полочкам (Часть 1. Базовые анимации) https://habrahabr.ru/post/347918/
+* Анимации в Android по полочкам (Часть 2. Комплексные анимации) https://habrahabr.ru/post/348336/
+* Анимации в Android по полочкам (Часть 3. «Низкоуровневые» анимации) https://habrahabr.ru/post/348664/
+* Adaptive UI Tutorial for Android with Kotlin https://www.raywenderlich.com/185396/adaptive-ui-tutorial-android-kotlin
 
 ### Firebase
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
@@ -560,6 +586,8 @@
 * Официальное описание https://developer.android.com/topic/instant-apps/index.html
 * From Westinghouse to Android Instant apps, a BuzzFeed Journey https://tech.buzzfeed.com/from-westinghouse-to-android-instant-apps-60fbfaca4ebe
 * Making the Domain Android App Instant http://tech.domain.com.au/2017/06/making-the-domain-android-app-instant-%E2%9A%A1
+* Туториал по созданию Instant app простого http://developine.com/building-and-using-google-play-android-instant-apps-tutorial/
+
 
 ### Debug/support tools
 * 30+ инструментов для профессиональной разработки приложений под Android https://habrahabr.ru/post/336020/
@@ -623,7 +651,17 @@
 * https://github.com/android/android-ktx https://android-developers.googleblog.com/2018/02/introducing-android-ktx-even-sweeter.html - Android Kotlin Extensions официальные
 * https://habrahabr.ru/company/funcorp/blog/349014/ Изучаем KTX для Android
 * Confluence Kotlin plugin для рендеринга https://github.com/JetBrains/kotlin-confluence-plugin
-
+* ActivityStarter https://github.com/MarcinMoskala/ActivityStarter удобный способ передачи аргументов активностям (и не только). Как она сделана https://medium.com/@marcinmoskala/way-to-activitystarter-5f9ea239faa8
+* KotlinAndroidViewBindings https://github.com/MarcinMoskala/KotlinAndroidViewBindings просто способ биндинга полей к значением layout	
+* Kotlin Academy https://blog.kotlin-academy.com/
+* Kotlin Native iOS Development using Multiplatform Project http://developine.com/kotlin-native-ios-development-multiplatform-project/ туториал как делать iOS-приложение
+* Effective architecture for Multiplatform native development in Kotlin https://blog.kotlin-academy.com/architecture-for-multiplatform-development-in-kotlin-cc770f4abdfd - по сути дополнение к его книге...в определенном смысле.
+* Lessons from my first multiplatform Kotlin project https://blog.kotlin-academy.com/lessons-from-my-first-multiplatform-kotlin-project-d4e311f15874 - по сути дополнение к его книге...в определенном смысле.
+* An Introduction to Kotlin Multiplatform Projects https://www.novoda.com/blog/introduction-to-kotlin-multiplatform/ 
+* Kotlin on iOS https://www.novoda.com/blog/kotlin-goes-ios/ 
+* Benefits of RxJava (example in Kotlin) https://medium.com/series/585f4571bb18 - infocards
+* RxJava Analogy with 3 lines of Kotlin code https://medium.com/@elye.project/rxjava-analogy-with-3-line-kotlin-codes-dd5b79cde4ce
+* Differentiating Thread and Coroutine (launch & runBlocking) in Kotlin https://medium.com/@elye.project/differentiating-thread-and-coroutine-launch-runblocking-in-kotlin-28219506c002
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -651,6 +689,7 @@
 * Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
 * Android Coroutine Recipes https://proandroiddev.com/android-coroutine-recipes-33467a4302e9
 * Simple asynchronous loading with Kotlin Coroutines https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46
+* Mastering Coroutines. Android. Unit Tests https://android.jlelse.eu/mastering-coroutines-android-unit-tests-8bc0d082bf15 Перевод Юнит тесты при использовании корутин в Android приложении https://habrahabr.ru/post/349228/
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -660,6 +699,7 @@
 * How I built my first Kotlin-VertX-Hibernate stack https://kotlin.link/articles/How-I-built-my-first-Kotlin-VertX-Hibernate-stack.html
 * Пишем простой RESTful сервис на kotlin и spring boot https://habrahabr.ru/post/274997/
 * Наипростейший RESTful сервис на Kotlin и Spring boot (https://habrahabr.ru/post/343364/
+* Ktor https://github.com/ktorio/ktor http://ktor.io/
 
 ### Java 
 #### Общее (TODO:остальные 'общие' ссылки сюда)
@@ -1191,6 +1231,7 @@ https://www.objc.io/issues/11-android/
 ## Кросс-платформенные средства разработки и так далее
 * Прототипирование мобильного приложения: от идеи до рабочего экрана https://habrahabr.ru/company/mobile_dimension/blog/327452/
 * Invisionapp https://www.invisionapp.com/
+* Codename one https://www.codenameone.com/index.html - Java/Kotlin-based. Сборка под все (в зависимости от лицензий)
 
 ### React / React Native / ReactVR / Redux
 * A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices. https://github.com/react-boilerplate/react-boilerplate
@@ -1226,6 +1267,7 @@ https://www.objc.io/issues/11-android/
 * 11 библиотек (наборов компонентов) для React, о которых стоит знать в 2018-м https://habrahabr.ru/company/ruvds/blog/346090/
 * Как использовать все возможности мобильной ОС в React Native https://habrahabr.ru/company/epam_systems/blog/347346/
 * Частые трудности работы с React.js https://habrahabr.ru/post/347458/
+* Kotlin/React https://github.com/jetbrains/create-react-kotlin-app	 и статьи вроде https://blog.kotlin-academy.com/multiplatform-native-development-in-kotlin-now-with-ios-a8546f436eec
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
@@ -1458,7 +1500,7 @@ https://www.objc.io/issues/11-android/
 * Bugsnaq - https://bugsnag.com/pricing/ - 250 errors/day/7day retention - free. а дальше от 29US$/месяц
 * Buddybuild - в том числе и ловля крешей с видеозаписью (а вообще это CI-система + аналог старого testflight)
 * Instabug https://try.instabug.com/wenderlich?utm_source=wenderlich&utm_medium=email&utm_campaign=newsletter1&utm_content=fixbugs
-
+* https://buglance.ru/ (описание с бизнес-стороны https://vc.ru/33295-taymlayn-buglance ) crowd-testing с оплатой по багам
 
 #### CI
 * BuddyBuild весьма платный. Ориентация похоже на распространение сборок тестерам а не CI
@@ -1508,6 +1550,7 @@ https://www.objc.io/issues/11-android/
 
 #### API Debugging 
 * Runscope https://www.runscope.com/pricing-and-plans
+** А для отладки/реверсинга - есть https://forum.xda-developers.com/xposed/modules/mod-runscopeeverything-1-0-t2725613 
 
 #### Разработка API
 * Swagger http://swagger.io/ - интеграцию с runscope да умеет

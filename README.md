@@ -163,8 +163,10 @@
 * Introduction to Android Testing – Part 3 https://riggaroo.co.za/introduction-android-testing-part3/ 
 * JaCoCo https://docs.gradle.org/current/userguide/jacoco_plugin.html
 * Измерение покрытия кода тестами в Android с помощью JaCoCo  https://habrahabr.ru/post/280374/
-* Также пример нормальных тестов не только для примитивных кусков кода  и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878
+* Также пример нормальных тестов не только для примитивных кусков кода  и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878 (+ https://www.packtpub.com/mapt/book/all_books/9781787123687/9/ch09lvl1sec83/marvel-gallery )
+* Еще описание тесание короткое https://www.packtpub.com/mapt/book/application_development/9781788472142/13
 * Android Testing with Kotlin https://fernandocejas.com/2017/02/03/android-testing-with-kotlin/
+* Описание Mockito-Kotlin https://github.com/nhaarman/mockito-kotlin/wiki
 ** Unit tests обычные
 ** Robolectric - integration tests
 ** Espresso - acceptance tests
@@ -191,15 +193,21 @@
 * Погружение в Robolectric https://habrahabr.ru/company/e-Legion/blog/320898/ зачем все же надо android-specific вещи тестировать и как (по сути - parceleable/strings/non-ui components?)
 * базовые вещи по Robolectric https://guides.codepath.com/android/unit-testing-with-robolectric
 * How to write Android unit tests using Robolectric https://android.jlelse.eu/how-to-write-android-unit-tests-using-robolectric-27341d530613
+* Robolectric, Unit testing framework for Android https://android.jlelse.eu/robolectric-unit-testing-framework-for-android-b78ebac0b411 - в том числе примеры когда Shadow/когда нет
 * Тесты многопоточного взаимодействия https://github.com/google/thread-weaver/wiki + есть простой пример в https://habrahabr.ru/post/347718/
 * Testing Android UI with Pleasure using espresso and nothing else  https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821
 * Robolectric / Kotlin 	http://www.prandroid.com/2017/09/robolectric-example-in-android.html 
 * Unit Testing with Robolectric https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric полезные советы
+* Using Robolectric for Android unit testing on the JVM - Tutorial http://www.vogella.com/tutorials/Robolectric/article.html
+* Introduction to Robolectric http://androidapprentice.com/2017/05/30/introduction-to-robolectric.html
+* Testing Fragments with Robolectric http://androidapprentice.com/2017/06/05/fragment-test.html
 
 
 #### Jenkins
 * Jenkins and Android https://jenkins.io/solutions/android/
 * Continuous Integration для Android с использованием Jenkins + Gradle https://habrahabr.ru/post/205308/
+* Как красиво lint / unit tests с jenkins настроить https://www.sromku.com/blog/build-android-jenkins-tests-lint
+
 
 #### Jenkins / Android Emulator issues
 * https://devmaze.wordpress.com/2011/12/12/starting-and-stopping-android-emulators/
@@ -490,6 +498,8 @@
 * Android Task and Back Stack Review https://blog.mindorks.com/android-task-and-back-stack-review-5017f2c18196
 * AndroidPub - интересные статьи https://android.jlelse.eu/
 * Easy Job Scheduling with Android-Job https://android.jlelse.eu/easy-job-scheduling-with-android-job-4a2c020b9742
+* Сама Android Job https://github.com/evernote/android-job - фреймворк для фоновой работы https://blog.evernote.com/tech/2015/10/26/unified-job-library-android/
+* Потенциальная замена - Job Queue https://github.com/yigit/android-priority-jobqueue
 * Dependency Injection, Annotations, and why Java is Better Than you Think it is https://www.objc.io/issues/11-android/dependency-injection-in-java/
 * Разработка менеджера паролей под Android https://habrahabr.ru/post/328708/
 * Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
@@ -625,7 +635,7 @@
 * Почему Kotlin - отстой https://habrahabr.ru/post/322256/
 * Kotlin для Android: Теперь официально https://habrahabr.ru/company/JetBrains/blog/329028/
 * Improve your tests with Kotlin in Android — (Pt.1) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-1-6d0b04017e80
-* Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd
+* Improve your tests with Kotlin in Android — (Pt.2) https://proandroiddev.com/improve-your-tests-with-kotlin-in-android-pt-2-f3594e5e7bfd (в том числе и зачем НА САМОМ ДЕЛЕ mockito-kotlin нужна - там удобно)
 * RxJava vs. Kotlin Coroutines, a quick look http://akarnokd.blogspot.com/2017/09/rxjava-vs-kotlin-coroutines-quick-look.html
 * Kotlin — combating non-null assertions (!!) https://medium.com/@igorwojda/kotlin-combating-non-null-assertions-5282d7b97205
 * KotterKnife - ButterKnife-style библиотека для Kotlin https://github.com/JakeWharton/kotterknife - хотя стоит убедится что android extensions , anko и своих удобны велосипедов мало
@@ -662,6 +672,10 @@
 * Benefits of RxJava (example in Kotlin) https://medium.com/series/585f4571bb18 - infocards
 * RxJava Analogy with 3 lines of Kotlin code https://medium.com/@elye.project/rxjava-analogy-with-3-line-kotlin-codes-dd5b79cde4ce
 * Differentiating Thread and Coroutine (launch & runBlocking) in Kotlin https://medium.com/@elye.project/differentiating-thread-and-coroutine-launch-runblocking-in-kotlin-28219506c002
+* Moshi with Retrofit in Kotlin https://proandroiddev.com/moshi-with-retrofit-in-kotlin-%EF%B8%8F-a69c2621708b
+* Зачем нужна Moshi вместо Gson https://www.reddit.com/r/androiddev/comments/684flw/why_use_moshi_over_gson/ + https://medium.com/square-corner-blog/moshi-another-json-processor-624f8741f703
+* Kotlin with Mockito http://www.baeldung.com/kotlin-mockito
+* Описание KotlinTest https://www.packtpub.com/mapt/book/application_development/9781787126367/11
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -714,6 +728,12 @@
 * Шпаргалки Java программиста 9: Java SE — Шпаргалка для собеседований и повторений https://habrahabr.ru/post/314386/
 * Шпаргалки Java программиста 10: Lombok https://habrahabr.ru/post/345520/
 * Вся серия Шпаргалки Java-программиста https://habrahabr.ru/users/vedenin1980/posts/
+
+#### Lobmok - выкидка бойлерплейта (data class Kotlin -:))
+* Проект Lombok, или Объявляем войну бойлерплейту https://habrahabr.ru/post/142356/
+* Lombok. Упрощение Java кода. https://urvanov.ru/2015/06/17/lombok-%D1%83%D0%BF%D1%80%D0%BE%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-java-%D0%BA%D0%BE%D0%B4%D0%B0/
+* Подключаем Lombok и выкидываем унылые геттеры / сеттеры в Java http://okiseleva.blogspot.com/2017/09/lombok-java.html
+* Lombok - Tutorial http://www.vogella.com/tutorials/Lombok/article.html
 
 #### как клонировать обьект если не хочется конструктор копирования и cloneable реализовывать 
 * http://stackoverflow.com/a/22546839/1063214 

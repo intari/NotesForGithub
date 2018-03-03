@@ -82,6 +82,8 @@
 * Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
 * Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
+* Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
+* RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 * Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
 
 
@@ -121,7 +123,8 @@
 * Reducing your networking footprint with OkHttp, Etags and If-Modified-Since https://android.jlelse.eu/reducing-your-networking-footprint-with-okhttp-etags-and-if-modified-since-b598b8dd81a1#.q7tyqszec
 * Enable Android Nougat ‘Charles’ing SSL network https://android.jlelse.eu/android-nougat-charlesing-ssl-network-efa0951e66de
 * Unit testing API requests on Android https://android.jlelse.eu/unit-testing-api-requests-on-android-5efc4efe18df
-* The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2
+* The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2 - тут у нас и устаревшие штуки и RxJava и Corroutines - и далеко не только в плане сети это важно
+
 
 #### Retrofit
 * Retrofit)[http://square.github.io/retrofit/
@@ -149,6 +152,7 @@
 * http://stablekernel.com/blog/continuous-delivery-android-part-1/
 * http://stablekernel.com/blog/continuous-delivery-android-part-2/
 * http://stablekernel.com/blog/unit-testing-continuous-delivery-for-android-part-3/
+* Книжка Вольфа Continouos Delivery. Практика непрерываных апдейтов!!!!
 
 ### Android Testing
 * The evolution journey of Android GUI testing Cucumber — Espresso — Page Object Pattern https://medium.com/@neoranga55/the-evolution-journey-of-android-gui-testing-f65005f7ced8
@@ -212,7 +216,8 @@
 #### Jenkins / Android Emulator issues
 * https://devmaze.wordpress.com/2011/12/12/starting-and-stopping-android-emulators/
 * http://blog.daanraman.com/coding/automatically-detect-if-the-android-emulator-is-running/
-* постаратся ЛЮБОЙ ценой использовать x86-64/x86 эмулятор. да, даже в VMWare ESXi. Да, это МОЖНО сделать. Если железо держит Nested Virtualization  https://forum.ivorde.com/kvm-nested-in-vmware-esxi-5-5-enable-guest-hypervisor-vmx-svm-flags-without-vsphere-web-client-t19773.html
+* постаратся ЛЮБОЙ ценой использовать x86-64/x86 эмулятор. да, даже в VMWare ESXi. Да, это МОЖНО сделать. Если железо держит Nested Virtualization  https://forum.ivorde.com/kvm-nested-in-vmware-esxi-5-5-enable-guest-hypervisor-vmx-svm-flags-without-vsphere-web-client-t19773.html http://www.vmgu.ru/news/vmware-vsphere-51-nested-vms-and-esxi-in-a-vm ghо gui https://communities.vmware.com/docs/DOC-8970 
+
 
 #### Genymotion 
 * Что с Play Services делать https://stackoverflow.com/questions/20121883/how-to-install-google-play-services-in-a-genymotion-vm-with-no-drag-and-drop-su
@@ -354,19 +359,22 @@
 * RxJava - Flowables - What, when and how to use it? http://www.aanandshekharroy.com/articles/2018-01/rxjava-flowables
 * RxJava — Schedulers — What, when and how to use it? https://android.jlelse.eu/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add
 * Error handling in RxJava/RxKotlin https://android.jlelse.eu/error-handling-in-rxjava-rxkotlin-e960300990e0
+* Handling search with RxJava2 and Kotlin https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
 * ну и обзорная статья от Luxoft по java.util.concurrent.* https://habrahabr.ru/company/luxoft/blog/157273/
 * нету dispatch_after - а смотрим https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executors.html - ScheduledExecutorService. ну и handler.postDelayed не отменяли
 * Instruments нет? ну хоть Method Tracing даже в Android Studio есть https://developer.android.com/studio/profile/am-methodtrace.html (есть и автономный)
+* The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2 - тут у нас и устаревшие штуки и RxJava и Corroutines - и далеко не только в плане сети это важно
+
 
 ### Android/GUI
 * Litho: A declarative UI framework for Android https://fblitho.com/ - между прочим умеет layout в фоне! 
 * Android ImageView ScaleType: A Visual Guide https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide 
 * Using lists in Android wth ListView - Tutorial by Lars Vogel http://vogella.com/tutorials/AndroidListView/article.html
 * Android Drawables - Tutorial by Lars Vogel http://www.vogella.com/tutorials/AndroidDrawables/article.html
-* остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
+* Остальные туториалы Lars Vogel пусть кое что и стартое http://www.vogella.com/tutorials/android.html
 * свой keyguard https://habrahabr.ru/post/220689/ + https://stackoverflow.com/questions/5829671/how-to-customize-androids-lockscreen
 * CannyViewAnimator: переключаем состояния красиво https://habrahabr.ru/company/livetyping/blog/309740/
 * валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
@@ -388,8 +396,6 @@
 * потенциальная трабла с MergeAdapter'ом от CommonsWare и его аналогами http://chalup.github.io/blog/2012/09/19/android-heterogeneous-adapters-gotcha/
 * автогенерация шорткатов для Android 7 https://github.com/MatthiasRobbers/shortbread
 * Material about https://github.com/jrvansuita/MaterialAbout
-* Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
-* Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
 * A utility library for Android to save objects in a Bundle without any boilerplate. https://github.com/evernote/android-state
 * Разбираемся с Conductor https://habrahabr.ru/post/329532/
 * Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
@@ -397,9 +403,24 @@
 * TextView и Spannable https://habrahabr.ru/company/tdb/blog/340232/
 * UI-пасьянс: делаем свой StackView в Android https://habrahabr.ru/company/efs/blog/340998/
 * Как Splash Screen на андроид делать правильно (и зачем он вообще нужен) https://habrahabr.ru/post/345380/
+* MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
+* Анимации в Android по полочкам (Часть 1. Базовые анимации) https://habrahabr.ru/post/347918/
+* Анимации в Android по полочкам (Часть 2. Комплексные анимации) https://habrahabr.ru/post/348336/
+* Анимации в Android по полочкам (Часть 3. «Низкоуровневые» анимации) https://habrahabr.ru/post/348664/
+
+#### Custom views
+* Building Android UIs with Custom Views от Pack Publishing
+* Как подружить CustomView и клавиатуру https://habrahabr.ru/company/ncloudtech/blog/320788/
+* Create a custom keyboard on android https://code.tutsplus.com/tutorials/create-a-custom-keyboard-on-android--cms-22615
+* Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
+* Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
+* Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
+* Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
+
 
 
 ### Android/Dagger 2 - Dependency Injection 
+* Dependency Injection - что и зачем https://habrahabr.ru/post/350036/
 * Introduction to Dagger 2, Using Dependency Injection in Android: Part 1 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-1-223289c2a01b
 * Introduction to Dagger 2, Using Dependency Injection in Android: Part 2 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-2-b55857911bcd
 * Dagger для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
@@ -410,7 +431,7 @@
 * Дружественное введение в Dagger 2. Часть 1 https://habrahabr.ru/post/307434/
 * Дружественное введение в Dagger 2. Часть 2 https://habrahabr.ru/post/308040/
 * A Complete Guide To Learn Dagger 2 https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c
-* intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
+* Intro to DI http://frogermcs.github.io/dependency-injection-with-dagger-2-introdution-to-di/
 * критически важные вещи для Dagger https://blog.mindorks.com/android-dagger2-critical-things-to-know-before-you-implement-275663aecc3e
 * Dagger 2.11 & Android https://habrahabr.ru/post/335940/
 * Dependency injection on Android: Dagger (Part 1) https://antonioleiva.com/dependency-injection-android-dagger-part-1/
@@ -433,14 +454,13 @@
 
 
 ### Android/Various
-* Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
 * Шпаргалка или Must have для андроид разработчика https://habrahabr.ru/post/336956/
 * 50+ Ultimate Resources to Master Android Development https://blog.aritraroy.in/50-ultimate-resources-to-master-android-development-15165d6bc376
 * Android for iOS developers https://www.objc.io/issues/11-android/ а также тех кому обзор например Notifications надо
 * Android Dev 101: Things every beginner should know https://www.whatsthatlambda.com/android/android-dev-101-things-every-beginner-must-know совсем базовые вещи
 * Что есть java.lang.Object http://habrahabr.ru/post/265373/
 * Kata: Robolectric Integration http://coreylatislaw.com/kata-robolectric-integration/
-* TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/
+* TDD vs BDD. В чем разница? http://dou.ua/forums/topic/8897/-  А также- книжкку Вольфа штудируем
 * Варианты сжатия текстур на Android https://habrahabr.ru/company/intel/blog/276089/
 * Кому жить, а кому умереть: приоритеты процессов в Android https://habrahabr.ru/post/276381/
 * Android runtime permissions. Почему, зачем и как (про 6.0) https://habrahabr.ru/post/278945/ 
@@ -455,7 +475,6 @@
 * landing pages http://www.applandr.com/
 * 3DO и Android NDK и как бы во что не вляпаться… https://habrahabr.ru/post/303888/
 * Deep Linking на Android https://developer.android.com/training/app-indexing/deep-linking.html
-* По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
 * CWAC-NetSecurity - порт Network Security Configuration из Android N https://commonsware.com/blog/2016/07/11/backporting-android-n-network-security-configuration.html (подразумевается использование OkHttp3)
 * Android Layouts - a new worlds - Google I/O 2016 https://www.youtube.com/watch?v=sO9aX87hq9c&ab_channel=AndroidDevelopers
 * Android application architecture: Get ready for the next billion! https://www.youtube.com/watch?v=70WqJxymPr8
@@ -463,7 +482,6 @@
 * Перехват вызовов функций нативных библиотек в Android приложениях https://habrahabr.ru/post/238619/
 * Android string.xml — несколько вещей, которые стоит помнить https://habrahabr.ru/post/307798/
 * Презентация на тему что есть Google Awareness API, нет это не далеко НЕ только геозоны https://speakerdeck.com/francois_blavoet/and-then-my-phone-became-smarter-a-journey-into-the-awareness-api
-* Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
 * Security issues with Android Accessibility https://medium.com/@vedprakashrout/android-accessibility-75fdc5810025#.fr5wfba6g
 * 5 steps to creating frustration-free Android test devices https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8 - речь не про эмуляторы если что
 * какие в идеале нужны тест-девайсы для андроид-разработчика https://m.signalvnoise.com/5-steps-to-creating-frustration-free-android-test-devices-9bb2750edd19#.xab2ojnt8
@@ -503,38 +521,61 @@
 * Dependency Injection, Annotations, and why Java is Better Than you Think it is https://www.objc.io/issues/11-android/dependency-injection-in-java/
 * Разработка менеджера паролей под Android https://habrahabr.ru/post/328708/
 * Identifying an Android Device – Available Identifiers http://handstandsam.com/2017/05/04/identifying-an-android-device/ все в одном месте
-* Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * ItemDecoration in Android. Part 1 : Avoid adding dividers to the view layouthttps://medium.com/proandroiddev/itemdecoration-in-android-e18a0692d848
 * Стоит ли усилий индексирование приложений для Google? http://firebase.apptractor.ru/stoit-li-usilij-indeksirovanie-prilozhenij-dlya-google/
 * «Фабричный метод» в разработке под Android. Лучший способ обработки пушей https://habrahabr.ru/post/332006/
 * Room: Хранение данных на Android для всех и каждого https://habrahabr.ru/post/336196/ 
 * Использование терминала при разработке под Андроид https://habrahabr.ru/post/336348/ 
-* MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
 * From design to Android, part 1 http://saulmm.github.io/from-design-to-android-part1
 * From design to Android, part 2 https://medium.com/@saulmm2/from-design-to-android-part-2-2a6c141547d9
 * Register: Better In App Billing Testing on Android https://open.nytimes.com/register-better-in-app-billing-testing-on-android-73af5fcc36dc
 * Разные редкие API Android вроде Text Services, Play Services Vision, TimingLogger https://blog.autsoft.hu/discovering-the-android-api-part-1/
-* Как подружить CustomView и клавиатуру https://habrahabr.ru/company/ncloudtech/blog/320788/
-* Create a custom keyboard on android https://code.tutsplus.com/tutorials/create-a-custom-keyboard-on-android--cms-22615
-* Android development: custom keyboard http://www.fampennings.nl/maarten/android/09keyboard/index.htm
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
-* Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
-* Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
-* Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
-* RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 * Custom Fonts in Android Tutorial https://www.raywenderlich.com/175401/custom-downloadable-fonts-android  в смысле про официальную замену Calligraphy
 * Android background in a nutshell — Part 1 https://proandroiddev.com/android-background-in-a-nutshell-part-1-c29a5e0ed10e перевод https://habrahabr.ru/company/epam_systems/blog/348894/
-* Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15
-* Анимации в Android по полочкам (Часть 1. Базовые анимации) https://habrahabr.ru/post/347918/
-* Анимации в Android по полочкам (Часть 2. Комплексные анимации) https://habrahabr.ru/post/348336/
-* Анимации в Android по полочкам (Часть 3. «Низкоуровневые» анимации) https://habrahabr.ru/post/348664/
+* Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15 перевод https://habrahabr.ru/company/jugru/blog/350094/
 * Adaptive UI Tutorial for Android with Kotlin https://www.raywenderlich.com/185396/adaptive-ui-tutorial-android-kotlin
+* Some asynchronous options on Android https://android.jlelse.eu/some-asynchronous-options-on-android-cb6b0c156c98 - threads, AsyncTasks, Services, Callbacks, Event Bus,Rx, Coroutines (см про сеть)
+* Android bridge for sending messages between Java and JavaScript in WebView. https://github.com/ImangazalievM/Scripto/
+
+
+### Архитектура / Навигация внутри приложения под Android
+* Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
+
+#### Moxy
+* Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
+
+#### Android Lifecycle Components
+* Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
+* Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
+
+
+#### Mosby
+* Авторы называют ее библиотекой а не framework'ом
+* Model-View-Presenter library for android http://hannesdorfmann.com/mosby/
+* https://github.com/sockeqwe/mosby
+* https://github.com/sockeqwe/mosby-conductor
+
+#### Square Flow
+* Flow Name UI states, navigate between them, remember where you've been. https://github.com/square/flow
+
+#### Conductor
+* A small, yet full-featured framework that allows building View-based Android applications https://github.com/bluelinelabs/conductor
+
+#### Cicerone
+* Требования к идеальной у них: не завязана на фрагменты, не framework, прямой доступ из presenter'а, не зависит от жизненного цикла
+* Cicerone — простая навигация в Андроид приложении https://habrahabr.ru/company/mobileup/blog/314838/ 
+* Github repo https://github.com/terrakok/Cicerone
+* Cicerone + Kotlin = ❤ https://proandroiddev.com/cicerone-kotlin-da5b2f49d759 
+* PDF 'Cicerone - навигация без боли и слез' https://assets.contentful.com/2grufn031spf/gvqZQu0qR2YqcEA8ckEA4/1df2068cd61c409ed12563fc65806574/Konstantin_Tskhovrebov_Cicerone_Android_Navigation__1_.pdf
+
 
 ### Firebase
+* По следам Google I/O 2016 — новый Firebase: интеграция с Android https://habrahabr.ru/company/google/blog/305308/
 * Running Android Tests on cloud devices using a Jenkins CI server (Firebase Test Lab — Amazon Device Farm — Genymotion Cloud) https://pamartinezandres.com/running-android-tests-on-cloud-devices-using-a-jenkins-ci-server-firebase-test-lab-amazon-device-b67cb4b16c40 
 * универсальный логин - и по номеру - https://firebase.google.com/docs/auth/android/phone-auth
 * Новое в Firebase 2017: Cloud Functions, Performance Monitoring http://firebase.apptractor.ru/firebase-na-i-o-2017-novye-vozmozhnosti/
@@ -676,6 +717,20 @@
 * Зачем нужна Moshi вместо Gson https://www.reddit.com/r/androiddev/comments/684flw/why_use_moshi_over_gson/ + https://medium.com/square-corner-blog/moshi-another-json-processor-624f8741f703
 * Kotlin with Mockito http://www.baeldung.com/kotlin-mockito
 * Описание KotlinTest https://www.packtpub.com/mapt/book/application_development/9781787126367/11
+* Simplify your Android code by delegating to sealed classes https://medium.com/halcyon-mobile/simplify-your-android-code-by-delegating-to-sealed-classes-99304c509321
+* How to Create a GraphQL API in Kotlin http://adavis.info/2018/02/graphql-api-in-kotlin.html - по сути как сделать сервер-с-БД отдающий GraphQL
+* The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2 - тут у нас и устаревшие штуки и RxJava и Corroutines - и далеко не только в плане сети это важно
+* Why Anko Layouts DSL is better than XML layouts  https://www.kotlindevelopment.com/why-anko-layouts-dsl-better-xml/
+* Android:Card View https://android.jlelse.eu/android-card-view-edb905e67cd6 - Простое и понятное введение в CardView
+* https://github.com/codepath/android_guides/wiki/Using-the-CardView
+* Learn Kotlin with Keddit https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664
+* Kotlin tips: Singleton, Utility Functions, group Object Initialization and more… https://medium.com/default-to-open/kotlin-tips-singleton-utility-functions-group-object-initialization-and-more-27cdd6f63a41
+* Advanced Kotlin tips: tail recursion, sealed classes, local, infix and inline functions and more… https://android.jlelse.eu/advanced-kotlin-tips-local-infix-and-inline-functions-tail-recursion-sealed-classes-and-more-2a53b00d5423
+* Mastering Kotlin standard functions: run, with, let, also and apply https://medium.com/@elye.project/mastering-kotlin-standard-functions-run-with-let-also-and-apply-9cd334b0ef84
+* Идиоматичный Kotlin, набор хороших практик https://habrahabr.ru/company/inforion/blog/328218/
+* Kotlin, компиляция в байткод и производительность (часть 1) https://habrahabr.ru/company/inforion/blog/330060/ 
+* Kotlin, компиляция в байткод и производительность (часть 2) https://habrahabr.ru/company/inforion/blog/330064/
+
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -787,11 +842,11 @@
 * Constraints layout the best layout ever! https://android.jlelse.eu/constraints-layout-best-layout-ever-230175272c0f краткое восторженное описание
 * CONSTRAINTLAYOUT – GUIDELINES, BARRIERS, CHAINS AND GROUPS https://riggaroo.co.za/constraintlayout-guidelines-barriers-chains-groups/
 * Guide to ConstraintLayout https://medium.com/@loutry/guide-to-constraintlayout-407cd87bc013
+* Анимация в семь строка кода (с ConstraintLayout) https://androiddev.apptractor.ru/animation-7/
 
-
-### вспомогательные средства отладки GUI (Android)
-* Facebook http://facebook.github.io/stetho/ 
-
+### Вспомогательные средства отладки GUI (Android)
+* Facebook Stetho http://facebook.github.io/stetho/ 
+* Rhino https://github.com/facebook/stetho/tree/master/stetho-js-rhino не забываем
 
 ### Picture-in-Picture
 Да, это есть на Android и давно было. И более общий функционал есть
@@ -818,7 +873,8 @@
 ## iOS/macOS
 
 ### iOS Общее
-
+* Что нужно знать для iOS-разработчика https://github.com/BohdanOrlov/iOS-Developer-Roadmap
+* The iOS Interview Guide от Alex Bush https://iosinterviewguide.com/
 * Сертификация в Apple Developer Center простым и понятным языком https://habrahabr.ru/post/280626/ для чайников или если последовательность забыта
 * Оформление как Российской организации (или ИП! так можно!) в Apple Developer Program https://habrahabr.ru/company/scorocode/blog/305990/
 * Использование NSOperation и NSOperationQueue в Swift http://habrahabr.ru/post/267843/ (перевод туториала Ray Wenderlich)
@@ -1506,6 +1562,9 @@ https://www.objc.io/issues/11-android/
 * https://medium.com/google-developer-experts/using-firebase-as-a-real-time-system-d360265aa678  Using Firebase as a Real Time System
 * rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
 * https://habrahabr.ru/company/theron/blog/303436/ Theron как замена(?) Firebase
+* https://www.ericdecanini.com/2017/12/30/integrate-firebase-android-app/ очень простой туториал как начать работать с Firebase
+* https://www.ericdecanini.com/2018/02/17/getting-started-firebase-cloud-storage-android/  ОЧЕНЬ простой туториал про Firebase Cloud Storage
+
 
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 

@@ -362,12 +362,12 @@
 * Handling search with RxJava2 and Kotlin https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4
 
 ### Многопоточность отдельно
-* с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ?
+* с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ? 
 * ну и обзорная статья от Luxoft по java.util.concurrent.* https://habrahabr.ru/company/luxoft/blog/157273/
 * нету dispatch_after - а смотрим https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executors.html - ScheduledExecutorService. ну и handler.postDelayed не отменяли
 * Instruments нет? ну хоть Method Tracing даже в Android Studio есть https://developer.android.com/studio/profile/am-methodtrace.html (есть и автономный)
 * The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2 - тут у нас и устаревшие штуки и RxJava и Corroutines - и далеко не только в плане сети это важно
-
+* про Coroutines также смотрим
 
 ### Android/GUI
 * Litho: A declarative UI framework for Android https://fblitho.com/ - между прочим умеет layout в фоне! 
@@ -416,7 +416,7 @@
 * Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
 * Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
 * Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
-
+*  
 
 
 ### Android/Dagger 2 - Dependency Injection 
@@ -489,8 +489,6 @@
 * RetroBase — аналог Retrofit для запросов к базам данных https://habrahabr.ru/post/311716/
 * Быстрая интеграция Google Chromecast в Android приложение https://habrahabr.ru/company/google/blog/310498/
 * автоматическая валидация https://github.com/ragunathjawahar/android-saripaar
-* подробное описание что есть Parceleable со ссылками https://guides.codepath.com/android/using-parcelable 
-* Parceleable vs Serializable http://www.developerphil.com/parcelable-vs-serializable/
 * генератор content provider'а https://github.com/BoD/android-contentprovider-generator
 * Q:Что делать если девайс с Android 6+ постоянно дисконнектит (кабеля менять не помогает)? A:Попробовать на устройстве включить режим НЕ 'Зарядка' а 'Передача файлов'. И НЕ подключать больше одного девайса за раз.
 * Q: нотификация кэширует старые данные ! A:http://stackoverflow.com/questions/3140072/android-keeps-caching-my-intents-extras-how-to-declare-a-pending-intent-that-ke 
@@ -546,6 +544,9 @@
 ### Архитектура / Навигация внутри приложения под Android
 * Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
 
+#### Базовые вещи в плане навигации 
+* FragNav: An Android library for managing multiple stacks of fragments https://github.com/ncapdevi/FragNav просто базовое управление стеками фрагментов
+
 #### Moxy
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
 
@@ -564,7 +565,7 @@
 * Flow Name UI states, navigate between them, remember where you've been. https://github.com/square/flow
 
 #### Conductor
-* A small, yet full-featured framework that allows building View-based Android applications https://github.com/bluelinelabs/conductor
+* A small, yet full-featured framework that allows building -based Android applications https://github.com/bluelinelabs/conductor
 
 #### Cicerone
 * Требования к идеальной у них: не завязана на фрагменты, не framework, прямой доступ из presenter'а, не зависит от жизненного цикла
@@ -583,13 +584,17 @@
 * Пара способов отправить уведомления на смартфон со своего сервера https://habrahabr.ru/post/345942/
 * Введение в Firebase: пишем простое социальное приложение на Swift (iOS) https://habrahabr.ru/post/277941/
 
-### Сохранение Instance state
+### Сохранение Instance state и вообще Serialization
+* подробное описание что есть Parceleable со ссылками https://guides.codepath.com/android/using-parcelable 
+* Parceleable vs Serializable http://www.developerphil.com/parcelable-vs-serializable/
 * Сохранение состояния фрагментов https://habrahabr.ru/post/280586/
 * Повороты экрана в Android без боли https://habrahabr.ru/post/328512/ rx2Java2 + databinding (угу и с сериализацией)
 * поддержка сохранения state при вращении http://trickyandroid.com/saving-android-view-state-correctly/ для свои контролов
 * Библиотека IcePick https://github.com/frankiesardo/icepick
 * Android State https://github.com/evernote/android-state fork icepick от Evernote с допфичами некоторыми
 * JSON-to-POJO http://www.jsonschema2pojo.org/ - там же и на gradle plugin ссылка
+* Проблема с автоконвертацией кода сохранения в Parceleable в Kotlin ( Unmarshalling unknown type code)  и как ее решать https://medium.com/@kirillsuslov/how-to-save-android-view-state-in-kotlin-9dbe96074d49
+
 
 ### Звук
 * Android и звук - как делать правильно https://habrahabr.ru/post/339416/
@@ -730,7 +735,7 @@
 * Идиоматичный Kotlin, набор хороших практик https://habrahabr.ru/company/inforion/blog/328218/
 * Kotlin, компиляция в байткод и производительность (часть 1) https://habrahabr.ru/company/inforion/blog/330060/ 
 * Kotlin, компиляция в байткод и производительность (часть 2) https://habrahabr.ru/company/inforion/blog/330064/
-
+* Kotlin vs Swift. Отличия важны https://habrahabr.ru/post/350746/
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -747,6 +752,7 @@
 * Kotlin serialization https://github.com/Kotlin/kotlinx.serialization
 * Kotlin serialization reddit post https://www.reddit.com/r/androiddev/comments/72p908/kotlin_serialization_libraryplugin_v01_prototype/
 * Обсуждение на форуме Kotlinlang https://discuss.kotlinlang.org/t/kotlin-serialization/2063/40?u=w3bshark
+* также см выше про сериализацию просто
 
 
 #### Kotlin Coroutines
@@ -754,11 +760,13 @@
 * Kotlin Coroutines https://github.com/Kotlin/kotlin-coroutines и см там ссылки
 * Kotlin Coroutines support library https://github.com/Kotlin/kotlinx.coroutines и там см ссылки
 * Guide to kotlinx.coroutines by example https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
-* Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md 
+* Coroutines UI https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md  (там же и про Android)
 * Coroutines RxJava2 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md + 
 * Android Coroutine Recipes https://proandroiddev.com/android-coroutine-recipes-33467a4302e9
 * Simple asynchronous loading with Kotlin Coroutines https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46
 * Mastering Coroutines. Android. Unit Tests https://android.jlelse.eu/mastering-coroutines-android-unit-tests-8bc0d082bf15 Перевод Юнит тесты при использовании корутин в Android приложении https://habrahabr.ru/post/349228/
+* Diving deep into Kotlin Coroutines https://www.kotlindevelopment.com/deep-dive-coroutines/ Или зачем они нужны с более менее внятными примерами
+* Kotlin parallel collections https://stackoverflow.com/questions/34697828/parallel-operations-on-kotlin-collections - и про Java 8 streams и про pmap
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -783,6 +791,7 @@
 * Шпаргалки Java программиста 9: Java SE — Шпаргалка для собеседований и повторений https://habrahabr.ru/post/314386/
 * Шпаргалки Java программиста 10: Lombok https://habrahabr.ru/post/345520/
 * Вся серия Шпаргалки Java-программиста https://habrahabr.ru/users/vedenin1980/posts/
+* Java Streams / Paralell Streams https://dzone.com/articles/whats-wrong-java-8-part-iii (это в тему Kotlin'а)
 
 #### Lobmok - выкидка бойлерплейта (data class Kotlin -:))
 * Проект Lombok, или Объявляем войну бойлерплейту https://habrahabr.ru/post/142356/
@@ -830,7 +839,11 @@
 * Как использовать, часть 2 https://blog.stylingandroid.com/percent-part-2/
 * Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
 
-#### Constraint layout
+
+#### Coordinator Layout
+* Овладение https://habrahabr.ru/post/270121/
+
+#### Constraint Layout
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
 * https://constraintlayout.github.io/ собрание описание что там и как
 * Овладение Coordinator Layout http://habrahabr.ru/post/270121/
@@ -1491,11 +1504,10 @@ https://www.objc.io/issues/11-android/
 * пишем приложения для ASP.NET vNext на Mac http://habrahabr.ru/post/243483/  
 
 ### Flask
-*  Мега-учебник Flask http://habrahabr.ru/post/193242/
+* Мега-учебник Flask http://habrahabr.ru/post/193242/
+* Мега-Учебник Flask ( издание 2018 ) https://habrahabr.ru/post/346306/
    
 ## Various (=растащить в будущем по разным местам)
-* Удачная модель ветвления для Git http://habrahabr.ru/post/106912/ - must read вообще то и в системах поддержано
-* Rebase Flow. Способ приготовления и его поддержка в GitHub, GitLab, BitBucket https://habrahabr.ru/company/at_consulting/blog/283326/
 * Wakatime http://wakatime.com и да - Chrome если надо  - поддерживается. XCode8 ТОЖЕ поддерживается. Пусть и грязным хаком но жить можно.
 * Rescuetime http://rescuetime.com 
 * badges for projects http://shields.io/
@@ -1513,10 +1525,7 @@ https://www.objc.io/issues/11-android/
 * эффективное использование github https://habrahabr.ru/company/2gis/blog/306166/ 
 * обход certificate pinning на Android https://habrahabr.ru/post/307774/
 * Как думать на SQL? https://habrahabr.ru/post/305926/
-* В чем должен разбираться Frontend-разработчик https://habrahabr.ru/post/306716/
-* Git Rebase: руководство по использованию https://habrahabr.ru/post/161009/
-* Git rebase «по кнопке» https://habrahabr.ru/company/badoo/blog/193258/
-* Чем опасен rebase, или как получилось, что 2*3=5 https://habrahabr.ru/post/179123/
+* В чем должен разбираться Frontend-разработчик https://habrahabr.ru/posаt/306716/
 * Crosswalk Project — замена Android WebView. Развитие проекта https://habrahabr.ru/post/308538/
 * helper https://github.com/adjust/AEPriceMatrix
 * AppStore Optimization https://habrahabr.ru/company/appodeal/blog/260179/
@@ -1525,6 +1534,15 @@ https://www.objc.io/issues/11-android/
 * отладка regexp'ов https://www.debuggex.com/
 * форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
 
+### Git 
+* Удачная модель ветвления для Git http://habrahabr.ru/post/106912/ - must read вообще то и в системах поддержано
+* Rebase Flow. Способ приготовления и его поддержка в GitHub, GitLab, BitBucket https://habrahabr.ru/company/at_consulting/blog/283326/
+* Git Rebase: руководство по использованию https://habrahabr.ru/post/161009/
+* Git rebase «по кнопке» https://habrahabr.ru/company/badoo/blog/193258/
+* Чем опасен rebase, или как получилось, что 2*3=5 https://habrahabr.ru/post/179123/
+* Git: советы новичкам – часть 1 https://habrahabr.ru/company/playrix/blog/345732/
+* Git: советы новичкам – часть 2 https://habrahabr.ru/company/playrix/blog/348864/
+* Git: советы новичкам – часть 3 https://habrahabr.ru/company/playrix/blog/350492/
 
 ### Xperia specific
 * Xperia Home Badge API https://developer.sony.com/2016/06/23/xperia-home-badge-api-now-publicly-available/ - 'номера' как на iOS  - в Xperia Home
@@ -1535,6 +1553,7 @@ https://www.objc.io/issues/11-android/
 #### Системы удаленного логгирования
 * Rollbar http://rollbar.com  По умолчанию просто последовательные логи. Умеет креши тоже. по умолчанию не делает группировку. dSYM'ы с пробелом в имени обрабатывает некорректно. Бесплатный план 5k событий в месяц. первый платный за 29 usd - 100k событий в месяц
 * Sentry http://getsentry.com  Умеет NSError, вроде не умеет Android. Не умеет последовательно список событий вроде бы. Креши не умеет но вроде делают. Группировка по умолчанию странная. бесплатный - 250 событий day, а затем - за 9 долларов план с 9 событий в минуту. Opensource. и можно поставить себе.
+* Вообще если нам надо КРЕШИ логгировать - Crashlytics
 
 #### Аналитика (все и под Android/iOS тоже живет)
 * Countly http://count.ly. есть cloud edition, есть opensource edition есть enterprise edition. красивые графики и все такое. APM - конфликтует с кучей всего 

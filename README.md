@@ -359,7 +359,9 @@
 * RxJava - Flowables - What, when and how to use it? http://www.aanandshekharroy.com/articles/2018-01/rxjava-flowables
 * RxJava — Schedulers — What, when and how to use it? https://android.jlelse.eu/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add
 * Error handling in RxJava/RxKotlin https://android.jlelse.eu/error-handling-in-rxjava-rxkotlin-e960300990e0
-* Handling search with RxJava2 and Kotlin https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4
+* Handling search with RxJava2 and Kotlin https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4 aka https://www.kotlindevelopment.com/handling-search-rxjava2-kotlin/#
+* Overriding RxAndroid Schedulers in RxJava 2 https://medium.com/@peter.tackage/overriding-rxandroid-schedulers-in-rxjava-2-5561b3d14212
+* SIMPLE BACKGROUND POLLING WITH RXJAVA http://blog.freeside.co/2015/01/29/simple-background-polling-with-rxjava/
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ? 
@@ -423,7 +425,6 @@
 * Dependency Injection - что и зачем https://habrahabr.ru/post/350036/
 * Introduction to Dagger 2, Using Dependency Injection in Android: Part 1 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-1-223289c2a01b
 * Introduction to Dagger 2, Using Dependency Injection in Android: Part 2 https://medium.com/mindorks/introduction-to-dagger-2-using-dependency-injection-in-android-part-2-b55857911bcd
-* Dagger для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
 * Dagger 2. Лечим зависимости по методике Google https://habrahabr.ru/company/dataart/blog/283018/
 * Inject everything — ViewHolder and Dagger 2  https://medium.com/@froger_mcs/inject-everything-viewholder-and-dagger-2-e1551a76a908#.xf1xdklnv
 * Dagger 2. Часть первая. Основы, создание графа зависимостей, Scopes https://habrahabr.ru/post/279125/
@@ -449,7 +450,8 @@
 * Dagger 2 for Android Beginners — Dagger 2 part II https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-dagger-2-part-ii-436c3e3aa15b
 * Dagger 2 for Android Beginners — Advanced part I https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-advanced-part-i-1e14fccf2cc8
 * Dagger 2 for Android Beginners — Advanced part II https://medium.com/@harivigneshjayapalan/dagger-2-for-android-beginners-advanced-part-ii-eb6f8d8a8926
-*
+* Переводы этой серии - начиная с - Dagger 2 для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
+
 
 
 
@@ -536,10 +538,12 @@
 * Custom Fonts in Android Tutorial https://www.raywenderlich.com/175401/custom-downloadable-fonts-android  в смысле про официальную замену Calligraphy
 * Android background in a nutshell — Part 1 https://proandroiddev.com/android-background-in-a-nutshell-part-1-c29a5e0ed10e перевод https://habrahabr.ru/company/epam_systems/blog/348894/
 * Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15 перевод https://habrahabr.ru/company/jugru/blog/350094/
+* Android background in a nutshell — Part III. Executors and EventBus. https://proandroiddev.com/android-background-in-a-nutshell-part-iii-executors-and-eventbus-43576bda47e9 перевод https://habrahabr.ru/company/epam_systems/blog/351166/
 * Adaptive UI Tutorial for Android with Kotlin https://www.raywenderlich.com/185396/adaptive-ui-tutorial-android-kotlin
 * Some asynchronous options on Android https://android.jlelse.eu/some-asynchronous-options-on-android-cb6b0c156c98 - threads, AsyncTasks, Services, Callbacks, Event Bus,Rx, Coroutines (см про сеть)
 * Android bridge for sending messages between Java and JavaScript in WebView. https://github.com/ImangazalievM/Scripto/
-
+* Android Tools Attributes — Hidden Gems of Android Studio https://android.jlelse.eu/tools-attributes-hidden-gems-of-android-studio-d7451b194e0b
+* Scroll your Bottom Navigation View away with 10 lines of code https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e
 
 ### Архитектура / Навигация внутри приложения под Android
 * Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
@@ -549,6 +553,7 @@
 
 #### Moxy
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
+* Большое интервью с Ханнесом Дорфманом, создателем фреймворка Mosby для Android https://habrahabr.ru/company/yandex/blog/301858/
 
 #### Android Lifecycle Components
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
@@ -595,6 +600,9 @@
 * JSON-to-POJO http://www.jsonschema2pojo.org/ - там же и на gradle plugin ссылка
 * Проблема с автоконвертацией кода сохранения в Parceleable в Kotlin ( Unmarshalling unknown type code)  и как ее решать https://medium.com/@kirillsuslov/how-to-save-android-view-state-in-kotlin-9dbe96074d49
 
+### Безопасность - разное
+* Как из приложения проверить что пароль юзера - скомпроментирован https://commonsware.com/blog/2018/02/28/help-users-not-get-pwned.html + https://gist.github.com/commonsguy/7ac7006e9a5e3ca0ab138e3da9f6c096
+
 
 ### Звук
 * Android и звук - как делать правильно https://habrahabr.ru/post/339416/
@@ -619,7 +627,7 @@
 * OpenGL ES 2.0 API Quick Reference Card https://www.khronos.org/opengles/sdk/docs/reference_cards/OpenGL-ES-2_0-Reference-card.pdf
 * OpenGL ES 3.0 API Quick Reference Card https://www.khronos.org/files/opengles3-quick-reference-card.pdf
 * А серьезно нужен именно 'голый' OpenGL? Возможно стоит LibGDX рассмотреть (она вполне просто интегрируется в 'обычное' андроид-приложение хотя вообще это для разработки игр библиотека)
-
+* A drop-in replacement for GLSurfaceView that can be used to record to an mp4 movie. https://github.com/UncorkedStudios/recordablesurfaceview
 
 ### Интересные примеры
 #### Building A Shazam Clone (Kotlin, TDD) by Elvis Chidera
@@ -628,6 +636,10 @@
 * Building A Shazam Clone Part 3 (Project Setup) https://android.jlelse.eu/building-a-shazam-clone-part-3-project-setup-building-android-apps-series-41ece86febef
 * Building A Shazam Clone Part 4 (TDD with Kotlin)  https://android.jlelse.eu/building-a-shazam-clone-part-4-tdd-with-kotlin-building-android-apps-series-7007ce4e1b77
 * Building A Shazam Clone Part 5 (Discover Song Feature) https://android.jlelse.eu/building-a-shazam-clone-part-5-discover-song-feature-building-android-apps-series-a70f7c3a9795
+
+#### Building a video player app in Android 
+* Building a video player app in Android (Part 1 / 5):With ExoPlayer, Playlists, MediaSession, Audio Focus, PIP https://medium.com/google-developers/building-a-video-player-app-in-android-part-1-5-d95770ef762d
+
 
 ### Time/Android
 * Адаптированный backport JSR-310 https://github.com/JakeWharton/ThreeTenABP
@@ -706,6 +718,7 @@
 * Parcelable in Kotlin? Here comes Parcelize - автоматическая поддержка Parceleable для data class https://proandroiddev.com/parcelable-in-kotlin-here-comes-parcelize-b998d5a5fcac
 * https://github.com/android/android-ktx https://android-developers.googleblog.com/2018/02/introducing-android-ktx-even-sweeter.html - Android Kotlin Extensions официальные
 * https://habrahabr.ru/company/funcorp/blog/349014/ Изучаем KTX для Android
+* https://medium.com/exploring-android/exploring-ktx-for-android-13a369795b51 Exploring KTX for Android
 * Confluence Kotlin plugin для рендеринга https://github.com/JetBrains/kotlin-confluence-plugin
 * ActivityStarter https://github.com/MarcinMoskala/ActivityStarter удобный способ передачи аргументов активностям (и не только). Как она сделана https://medium.com/@marcinmoskala/way-to-activitystarter-5f9ea239faa8
 * KotlinAndroidViewBindings https://github.com/MarcinMoskala/KotlinAndroidViewBindings просто способ биндинга полей к значением layout	
@@ -736,6 +749,8 @@
 * Kotlin, компиляция в байткод и производительность (часть 1) https://habrahabr.ru/company/inforion/blog/330060/ 
 * Kotlin, компиляция в байткод и производительность (часть 2) https://habrahabr.ru/company/inforion/blog/330064/
 * Kotlin vs Swift. Отличия важны https://habrahabr.ru/post/350746/
+* Converting JSON to Kotlin: Generating Kotlin data classes using Square's KotlinPoet https://fractalwrench.co.uk/posts/json-2-kotlin/ - и как библиотека сделана и как commandline app и как springboot-версию на Amazon AWS(!)
+
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -840,14 +855,21 @@
 * Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
 
 
-#### Coordinator Layout
+#### Coordinator Layout / Bottom Sheets,etc
+* Введение в новый CoordinatorLayout https://habrahabr.ru/post/265119/
 * Овладение https://habrahabr.ru/post/270121/
+* Mastering the Coordinator Layout http://saulmm.github.io/mastering-coordinator
+* Android: выдвигающийся экран снизу https://habrahabr.ru/post/309200/
+* Developing Android apps with bottom sheets https://www.androidauthority.com/bottom-sheets-707252/
+* Перехватываем всё с помощью CoordinatorLayout Behavior https://habrahabr.ru/post/277813/
+* Затемнение изображения в CollapsingToolbarLayout или Image Scrim https://habrahabr.ru/post/319088/
 
 #### Constraint Layout
 * ConstraintLayout 101 и новый редактор компоновок в Android Studio https://habrahabr.ru/company/livetyping/blog/302106/
 * https://constraintlayout.github.io/ собрание описание что там и как
 * Овладение Coordinator Layout http://habrahabr.ru/post/270121/
 * что есть Constraint Layout и зачем оно нужно - https://habrahabr.ru/company/livetyping/blog/302106/ если кратко - крутая штука
+* https://medium.com/@loutry/guide-to-constraintlayout-407cd87bc013 Guide to ConstraintLayout
 * https://blog.stylingandroid.com/constraintlayout-part-1/ + https://blog.stylingandroid.com/constraintlayout-part-2/ + https://blog.stylingandroid.com/constraintlayout-part-3/
 * ConstraintLayout barriers https://constraintlayout.com/basics/barriers.html
 * Android Studio 2.2 Preview - New UI Designer & Constraint Layout https://android-developers.blogspot.com/2016/05/android-studio-22-preview-new-ui.html
@@ -856,6 +878,7 @@
 * CONSTRAINTLAYOUT – GUIDELINES, BARRIERS, CHAINS AND GROUPS https://riggaroo.co.za/constraintlayout-guidelines-barriers-chains-groups/
 * Guide to ConstraintLayout https://medium.com/@loutry/guide-to-constraintlayout-407cd87bc013
 * Анимация в семь строка кода (с ConstraintLayout) https://androiddev.apptractor.ru/animation-7/
+* Работа с ConstraintLayout через XML-разметку https://habrahabr.ru/company/touchinstinct/blog/326814/
 
 ### Вспомогательные средства отладки GUI (Android)
 * Facebook Stetho http://facebook.github.io/stetho/ 
@@ -1309,6 +1332,7 @@ https://www.objc.io/issues/11-android/
 ### Полезные тулзы
 * FauxPas http://fauxpasapp.com/#highlights - Static Analyzer на стероидах и для всего приложения. Дорого.
 
+
 ## Системные дела
 * Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
 * ssh: Вытаскиваем для себя чужой порт из-за NAT https://habrahabr.ru/post/249515/
@@ -1321,6 +1345,10 @@ https://www.objc.io/issues/11-android/
 * Прототипирование мобильного приложения: от идеи до рабочего экрана https://habrahabr.ru/company/mobile_dimension/blog/327452/
 * Invisionapp https://www.invisionapp.com/
 * Codename one https://www.codenameone.com/index.html - Java/Kotlin-based. Сборка под все (в зависимости от лицензий)
+
+### Локализация
+* Обновление строк на лету в мобильных приложениях: часть 1 https://habrahabr.ru/company/badoo/blog/346458/
+* Обновление строк на лету в мобильных приложениях: часть 2 https://habrahabr.ru/company/badoo/blog/348350/
 
 ### React / React Native / ReactVR / Redux
 * A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices. https://github.com/react-boilerplate/react-boilerplate
@@ -1357,6 +1385,8 @@ https://www.objc.io/issues/11-android/
 * Как использовать все возможности мобильной ОС в React Native https://habrahabr.ru/company/epam_systems/blog/347346/
 * Частые трудности работы с React.js https://habrahabr.ru/post/347458/
 * Kotlin/React https://github.com/jetbrains/create-react-kotlin-app	 и статьи вроде https://blog.kotlin-academy.com/multiplatform-native-development-in-kotlin-now-with-ios-a8546f436eec
+
+
 
 ## NodeJS,etc
 * 12 простых начальных шагов разработки модуля для Node.js от Митцгола http://habrahabr.ru/post/262057/
@@ -1470,6 +1500,8 @@ https://www.objc.io/issues/11-android/
 * How to Create a Tower Defense Game in Unity – Part 2 https://www.raywenderlich.com/168078/create-tower-defense-game-unity-part-2
 * арт - халявный и дешевый для 2D https://www.gameartguppy.com/  (а вообще старые по TGE еще наборы)
 * Learn C++ by Creating Games with UE4. Есть на сайте PacktPub или в Google Play Books https://play.google.com/store/books/details/William_Sherif_Learning_C_by_Creating_Games_with_U?id=iq_NBgAAQBAJ
+* Развязываем игровой код с помощью паттерна Command, и дебажим, летая на машине времени https://habrahabr.ru/company/microsoft/blog/350630/
+* исходный код C#-части Unity3D https://habrahabr.ru/post/351978/
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL
@@ -1505,7 +1537,14 @@ https://www.objc.io/issues/11-android/
 
 ### Flask
 * Мега-учебник Flask http://habrahabr.ru/post/193242/
-* Мега-Учебник Flask ( издание 2018 ) https://habrahabr.ru/post/346306/
+* Мега-Учебник Flask (издание 2018) https://habrahabr.ru/post/346306/
+   
+### Spring 
+* Spring Building a RESTful Web Service https://spring.io/guides/gs/rest-service/
+* Deploying a Spring Boot Application on AWS Using AWS Elastic Beanstalk https://aws.amazon.com/ru/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/
+* Как писать на Spring в 2017 https://habrahabr.ru/post/333756/
+* Spring: your next Java microframework http://blog.alexnesterov.com/post/spring-your-next-microframework/
+   
    
 ## Various (=растащить в будущем по разным местам)
 * Wakatime http://wakatime.com и да - Chrome если надо  - поддерживается. XCode8 ТОЖЕ поддерживается. Пусть и грязным хаком но жить можно.

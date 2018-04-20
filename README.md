@@ -545,6 +545,12 @@
 * Android Tools Attributes — Hidden Gems of Android Studio https://android.jlelse.eu/tools-attributes-hidden-gems-of-android-studio-d7451b194e0b
 * Scroll your Bottom Navigation View away with 10 lines of code https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e
 
+### Шины сообщений
+* тут ссылки на Greenrobot EventBus / Otto
+* Как сделать примитивную шину сообщений на Kotlin + Rx https://android.jlelse.eu/super-simple-event-bus-with-rxjava-and-kotlin-f1f969b21003
+* Еще пример из той же серии https://blog.kaush.co/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/
+
+
 ### Архитектура / Навигация внутри приложения под Android
 * Архитектура Android-приложений… Правильный путь? https://habrahabr.ru/post/250659/ перевод Architecting Android...The clean way?
 

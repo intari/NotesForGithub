@@ -538,12 +538,22 @@
 * Custom Fonts in Android Tutorial https://www.raywenderlich.com/175401/custom-downloadable-fonts-android  в смысле про официальную замену Calligraphy
 * Android background in a nutshell — Part 1 https://proandroiddev.com/android-background-in-a-nutshell-part-1-c29a5e0ed10e перевод https://habrahabr.ru/company/epam_systems/blog/348894/
 * Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15 перевод https://habrahabr.ru/company/jugru/blog/350094/
-* Android background in a nutshell — Part III. Executors and EventBus. https://proandroiddev.com/android-background-in-a-nutshell-part-iii-executors-and-eventbus-43576bda47e9 перевод https://habrahabr.ru/company/epam_systems/blog/351166/
+* Android background in a nutshell — Part III. Executors and EventBus. https://proandroiddev.com/android-background-in-a-nutshell-part-iii-executors-and-eventbus-43576bda47e9 перевод https://habrahabr.ru/company/epam_systems/blog/351166/ другой перевод https://habr.com/company/jugru/blog/351166/
+* Руководство по фоновой работе в Android. Часть 4: RxJava https://proandroiddev.com/android-background-in-a-nutshell-part-4-rxjava-a41c16985d71 перевод https://habr.com/company/jugru/blog/353852/
 * Adaptive UI Tutorial for Android with Kotlin https://www.raywenderlich.com/185396/adaptive-ui-tutorial-android-kotlin
 * Some asynchronous options on Android https://android.jlelse.eu/some-asynchronous-options-on-android-cb6b0c156c98 - threads, AsyncTasks, Services, Callbacks, Event Bus,Rx, Coroutines (см про сеть)
 * Android bridge for sending messages between Java and JavaScript in WebView. https://github.com/ImangazalievM/Scripto/
 * Android Tools Attributes — Hidden Gems of Android Studio https://android.jlelse.eu/tools-attributes-hidden-gems-of-android-studio-d7451b194e0b
 * Scroll your Bottom Navigation View away with 10 lines of code https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e
+* Dynamically change bundled strings: How to Restring your app https://medium.com/@hamidgh/dynamically-change-bundled-strings-a24b97bfd306 (что-то мне от Badoo похожая статья вспоминается на хабре)
+* An introduction to java.time https://yawk.at/java.time/
+* How to perform Oauth in your Android app when relying upon Chrome Custom Tabs and an HTTPS redirect https://medium.com/@raveeshbhalla/how-to-perform-oauth-in-your-android-app-when-relying-upon-chrome-custom-tabs-and-an-https-redirect-fee6e251ab19
+* Goodreads OAuth in Android https://typefast.blog/goodreads-oauth-authentication-in-android/
+* Implement Custom SearchView https://typefast.blog/implement-custom-searchview/
+* ViroCore: SceneKit for Android developers https://blog.viromedia.com/virocore-scenekit-android-developers-java-arcore-b2f2548b5fa6
+* Drawing multiline text to Canvas on Android https://medium.com/over-engineering/drawing-multiline-text-to-canvas-on-android-9b98f0bfa16a
+* Создание анимаций переходов между Activity в Android https://habr.com/company/funcorp/blog/350662/
+* OSS Licenses - как показывать лицензии на opensource - стандартный вариант типа https://developers.google.com/android/guides/opensource#add_the_gradle_plugin
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -987,6 +997,7 @@
 * Hotswapping Core ML models on the iPhone https://blog.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone
 * Упрощение отладки БД в приложениях iOS https://github.com/y500/iOSDebugDatabase - по сути веб-интерфейс(!) для отладки
 * Знакомство с движком AVAudioEngine для работы со звуком на iOS https://habrahabr.ru/company/everydaytools/blog/345768/
+* libdispatch efficiency tips https://gist.github.com/tclementdev/6af616354912b0347cdf6db159c37057
 
 ### ARKit
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
@@ -1010,6 +1021,7 @@
 ### Swift
 * как сделать это в Swift https://thatthinginswift.com/ - много интересного
 * https://www.hackingwithswift.com/
+* https://www.whatsnewinswift.com/
 * dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
@@ -1035,6 +1047,7 @@
 * Open sourcing Swift code https://www.swiftbysundell.com/posts/open-sourcing-swift-code 
 * SwiftPlate: Easily generate cross platform Swift framework projects from the command line https://github.com/johnsundell/swiftplate
 * Building a better date/time library for Swift https://github.com/davedelong/Chronology
+* Swift tips and tricks https://github.com/JohnSundell/SwiftTips/blob/master/README.md
 
 ### ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/
@@ -1338,7 +1351,6 @@ https://www.objc.io/issues/11-android/
 ### Полезные тулзы
 * FauxPas http://fauxpasapp.com/#highlights - Static Analyzer на стероидах и для всего приложения. Дорого.
 
-
 ## Системные дела
 * Памятка пользователям SSH от Amarao http://habrahabr.ru/post/122445/
 * ssh: Вытаскиваем для себя чужой порт из-за NAT https://habrahabr.ru/post/249515/
@@ -1355,6 +1367,12 @@ https://www.objc.io/issues/11-android/
 ### Локализация
 * Обновление строк на лету в мобильных приложениях: часть 1 https://habrahabr.ru/company/badoo/blog/346458/
 * Обновление строк на лету в мобильных приложениях: часть 2 https://habrahabr.ru/company/badoo/blog/348350/
+* Dynamically change bundled strings:How to Restring your app  https://medium.com/@hamidgh/dynamically-change-bundled-strings-a24b97bfd306 + https://github.com/hamidness/restring
+
+### Геолокация 
+* Тестирование геолокации в Badoo: шишки, камни, костыли и селфи-палка https://habr.com/company/jugru/blog/354500/
+* Определение и анализ GPS ручками (в смысле не чипсетом) + куча интересных логов https://github.com/google/gps-measurement-tools (android-only)
+
 
 ### React / React Native / ReactVR / Redux
 * A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices. https://github.com/react-boilerplate/react-boilerplate
@@ -1579,6 +1597,8 @@ https://www.objc.io/issues/11-android/
 * отладка regexp'ов https://www.debuggex.com/
 * форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
 
+
+
 ### Git 
 * Удачная модель ветвления для Git http://habrahabr.ru/post/106912/ - must read вообще то и в системах поддержано
 * Rebase Flow. Способ приготовления и его поддержка в GitHub, GitLab, BitBucket https://habrahabr.ru/company/at_consulting/blog/283326/
@@ -1734,6 +1754,8 @@ https://www.objc.io/issues/11-android/
 
 ### Docker
 * Полное практическое руководство по Docker: с нуля до кластера на AWS https://habrahabr.ru/post/310460/
+* The Docker Book https://dockerbook.com/
+
 
 ###  Машинное обучение
 * Почему бы не взять 'Введение в машинное обучение с помощью Python: Руководство для специалистов по работе с данными' Мюллер & Гвидо ?

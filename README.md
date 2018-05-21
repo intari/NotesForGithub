@@ -1015,13 +1015,13 @@
 * In-App Purchases Tutorial: Getting Started https://www.raywenderlich.com/105365/in-app-purchases-tutorial-getting-started
 * IAP Helper https://github.com/saturngod/IAPHelper для обычных
 * MKStoreKit - странный он какой то
-* RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcone (из-за OpenSSL)
+* RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcode (из-за OpenSSL)
 
 
 ### Swift
-* как сделать это в Swift https://thatthinginswift.com/ - много интересного
+* Как сделать это в Swift https://thatthinginswift.com/ - много интересного
 * https://www.hackingwithswift.com/
-* https://www.whatsnewinswift.com/
+* What's new in Swift https://www.whatsnewinswift.com/
 * dispatch_async в Swift https://thatthinginswift.com/background-threads/ 
 * замена dispatch_async в Swift более короткая https://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/
 * почему компиляция Swift может тормозить https://habrahabr.ru/post/283106/  + https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/
@@ -1115,6 +1115,7 @@
 * https://github.com/SoySauceLab/CollectionKit - замена UICollectionView
 * In-app design review tool to inspect measurements, attributes, and animations https://github.com/willowtreeapps/Hyperion-iOS/ 
 * Построение анимаций https://habrahabr.ru/company/touchinstinct/blog/346538/ Kite compositor (и Lottie)
+* Типографика в iOS https://habr.com/company/oleg-bunin/blog/354184/
 
 ### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
@@ -1440,7 +1441,7 @@ https://www.objc.io/issues/11-android/
 * Что с Dashboard делать - а есть уже - parse server dashboard http://blog.parse.com/announcements/introducing-the-parse-server-dashboard/
 * https://www.raywenderlich.com/128313/parse-server-tutorial migration
 * Российская Scorocode https://habrahabr.ru/company/scorocode/blog/303954/ https://vc.ru/p/app-creation-time
-
+* noBackend, или Как выжить в эпоху толстеющих клиентов https://habr.com/company/oleg-bunin/blog/358502/ - про историю и PostgREST - но надо PgSQL учить.
 
 ### Parse Server Hosting 
 * https://www.nodechef.com/pricing - самый на мой взгляд нормальный пока

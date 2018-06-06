@@ -170,6 +170,9 @@
 * Также пример нормальных тестов не только для примитивных кусков кода  и КАК их делать - Android Developement with Kotlin by Marcin Moskala http://www.goodreads.com/book/show/36477878 (+ https://www.packtpub.com/mapt/book/all_books/9781787123687/9/ch09lvl1sec83/marvel-gallery )
 * Еще описание тесание короткое https://www.packtpub.com/mapt/book/application_development/9781788472142/13
 * Android Testing with Kotlin https://fernandocejas.com/2017/02/03/android-testing-with-kotlin/
+* DevOps на службе человека. Автоматизируем сборку, дистрибуцию и тестирование новых версий приложения https://xakep.ru/2017/02/17/devops-authomatization/
+* Visual Studio Mobile Center: деплоим мобильный софт с помощью devops-контейнера от Microsoft https://xakep.ru/2017/03/29/mobile-devops-vsmc/
+* 7 лучших ферм устройств для тестирования своих iOS- и Android-приложений https://xakep.ru/2017/06/19/mobile-testing/
 * Описание Mockito-Kotlin https://github.com/nhaarman/mockito-kotlin/wiki
 ** Unit tests обычные
 ** Robolectric - integration tests
@@ -845,6 +848,11 @@
 * про расширения AutoValue - например для Parceleable http://ryanharter.com/blog/2016/03/22/autovalue/
 * http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
 * http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
+
+### Code-generation - kotlin specific 
+* KotlinPoet https://github.com/square/kotlinpoet
+* Unleash the secret power of Kotlin Metadata https://speakerdeck.com/takhion/unleash-the-secret-power-of-kotlin-metadata
+* Exploring Moshi’s Kotlin Code Gen https://medium.com/@sweers/exploring-moshis-kotlin-code-gen-dec09d72de5e
 
 #### Расширения AutoValue
 * Parcel https://github.com/rharter/auto-value-parcel

@@ -365,6 +365,8 @@
 * Handling search with RxJava2 and Kotlin https://medium.com/we-are-makery/handling-search-with-rxjava2-and-kotlin-5ca91d0001a4 aka https://www.kotlindevelopment.com/handling-search-rxjava2-kotlin/#
 * Overriding RxAndroid Schedulers in RxJava 2 https://medium.com/@peter.tackage/overriding-rxandroid-schedulers-in-rxjava-2-5561b3d14212
 * SIMPLE BACKGROUND POLLING WITH RXJAVA http://blog.freeside.co/2015/01/29/simple-background-polling-with-rxjava/
+* Отработка смены связности с интернетом (для разных пониманий связности) https://github.com/pwittchen/ReactiveNetwork 
+
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ? 
@@ -543,6 +545,7 @@
 * Android Background in a nutshell. Part II — Loaders. https://proandroiddev.com/android-background-in-a-nutshell-part-ii-loaders-f763f70fdd15 перевод https://habrahabr.ru/company/jugru/blog/350094/
 * Android background in a nutshell — Part III. Executors and EventBus. https://proandroiddev.com/android-background-in-a-nutshell-part-iii-executors-and-eventbus-43576bda47e9 перевод https://habrahabr.ru/company/epam_systems/blog/351166/ другой перевод https://habr.com/company/jugru/blog/351166/
 * Руководство по фоновой работе в Android. Часть 4: RxJava https://proandroiddev.com/android-background-in-a-nutshell-part-4-rxjava-a41c16985d71 перевод https://habr.com/company/jugru/blog/353852/
+* Руководство по фоновой работе в Android. Часть 5: Корутины в Котлине https://proandroiddev.com/android-background-in-a-nutshell-part-v-kotlin-coroutines-f1bde21875f6 перевод  https://habr.com/company/jugru/blog/415335/
 * Adaptive UI Tutorial for Android with Kotlin https://www.raywenderlich.com/185396/adaptive-ui-tutorial-android-kotlin
 * Some asynchronous options on Android https://android.jlelse.eu/some-asynchronous-options-on-android-cb6b0c156c98 - threads, AsyncTasks, Services, Callbacks, Event Bus,Rx, Coroutines (см про сеть)
 * Android bridge for sending messages between Java and JavaScript in WebView. https://github.com/ImangazalievM/Scripto/
@@ -557,6 +560,8 @@
 * Drawing multiline text to Canvas on Android https://medium.com/over-engineering/drawing-multiline-text-to-canvas-on-android-9b98f0bfa16a
 * Создание анимаций переходов между Activity в Android https://habr.com/company/funcorp/blog/350662/
 * OSS Licenses - как показывать лицензии на opensource - стандартный вариант типа https://developers.google.com/android/guides/opensource#add_the_gradle_plugin
+* Collection of stock apps and mechanisms, which might affect background tasks and scheduled alarms. https://github.com/dirkam/backgroundable-android
+* Механизм для автоматизации показа различных View типа: ContentView, LoadingView, NoInternetView, EmptyContentView, ErrorView (RxJava+Kotlin) https://habr.com/company/e-legion/blog/414773/ 
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -658,6 +663,15 @@
 
 #### Building a video player app in Android 
 * Building a video player app in Android (Part 1 / 5):With ExoPlayer, Playlists, MediaSession, Audio Focus, PIP https://medium.com/google-developers/building-a-video-player-app-in-android-part-1-5-d95770ef762d
+
+### JWT - про JWT Web Tokens в том числе 
+* https://habr.com/company/2gis/blog/351860/
+* https://habr.com/company/dataart/blog/311376/
+* декодировка токена https://jwt.io/ / http://s3.amazonaws.com/www.jsonwebtoken.io/index.html
+* https://github.com/jwtk/jjwt
+* JWT Handbook https://auth0.com/resources/ebooks/jwt-handbook/
+* Как реализовать (не рекомендуемый) вариант "да мне только посмотреть и ключа у меня - нету" - https://github.com/jwtk/jjwt/issues/205 или (более корректный вариант) - https://github.com/jwtk/jjwt/issues/135
+* А еще можно прямо https://github.com/auth0/JWTDecode.Android использовать
 
 
 ### Time/Android
@@ -826,6 +840,8 @@
 * Шпаргалки Java программиста 10: Lombok https://habrahabr.ru/post/345520/
 * Вся серия Шпаргалки Java-программиста https://habrahabr.ru/users/vedenin1980/posts/
 * Java Streams / Paralell Streams https://dzone.com/articles/whats-wrong-java-8-part-iii (это в тему Kotlin'а)
+* Arrays, Collections: Алгоритмический минимум https://habr.com/post/344288/
+
 
 #### Lobmok - выкидка бойлерплейта (data class Kotlin -:))
 * Проект Lombok, или Объявляем войну бойлерплейту https://habrahabr.ru/post/142356/
@@ -865,12 +881,12 @@
 * как руками и зачем - https://mydailyjava.blogspot.com/2013/12/sunmiscunsafe.html
 
 
-### Support library
+### Android Support library
 * Bottom Navigation View https://medium.com/@hitherejoe/exploring-the-android-design-support-library-bottom-navigation-drawer-548de699e8e0#.8u3gimabh
 * Introduction to Android Bottom Navigation View  https://overrideandroid.blogspot.com/2017/03/introduction-to-android-bottom.html
 * Шаблон Navigation Drawer Activity http://developer.alexanderklimov.ru/android/navigation_drawer_activity.php Описание использования Navigation view для этих целей
 
-#### Percent support library
+#### Android Percent support library
 да, теперь она официально устарела
 * Percent based layout https://plus.google.com/+AndroidDevelopers/posts/C8oaLunpEEj
 * Официальное описание https://developer.android.com/tools/support-library/features.html?linkId=16439958#percent
@@ -879,7 +895,7 @@
 * Использование библиотеки Android support percent на примере PercentRelativeLayout https://habrahabr.ru/post/308152/
 
 
-#### Coordinator Layout / Bottom Sheets,etc
+#### Android Coordinator Layout / Bottom Sheets,etc
 * Введение в новый CoordinatorLayout https://habrahabr.ru/post/265119/
 * Овладение https://habrahabr.ru/post/270121/
 * Mastering the Coordinator Layout http://saulmm.github.io/mastering-coordinator
@@ -903,6 +919,7 @@
 * Guide to ConstraintLayout https://medium.com/@loutry/guide-to-constraintlayout-407cd87bc013
 * Анимация в семь строка кода (с ConstraintLayout) https://androiddev.apptractor.ru/animation-7/
 * Работа с ConstraintLayout через XML-разметку https://habrahabr.ru/company/touchinstinct/blog/326814/
+* MaterialDesign за 15 минут: проверяем на что способен ConstraintLayout https://xakep.ru/2016/11/02/constraintlayout/
 
 ### Вспомогательные средства отладки GUI (Android)
 * Facebook Stetho http://facebook.github.io/stetho/ 
@@ -1124,6 +1141,8 @@
 * In-app design review tool to inspect measurements, attributes, and animations https://github.com/willowtreeapps/Hyperion-iOS/ 
 * Построение анимаций https://habrahabr.ru/company/touchinstinct/blog/346538/ Kite compositor (и Lottie)
 * Типографика в iOS https://habr.com/company/oleg-bunin/blog/354184/
+* Declarative building and fast rendering attributed string library https://github.com/GitHawkApp/StyledTextKit StyledTextKit is a declarative attributed string library for fast rendering and easy string building. It serves as a simple replacement to NSAttributedString and UILabel for background-thread sizing and bitmap caching.
+* Adaptivity is an app for developers and designers to visualize how iOS's Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad Slide Over/Split View and Dynamic Type size changes.  https://hacknicity.com/adaptivity/userguide
 
 ### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
@@ -1571,6 +1590,7 @@ https://www.objc.io/issues/11-android/
 ### Flask
 * Мега-учебник Flask http://habrahabr.ru/post/193242/
 * Мега-Учебник Flask (издание 2018) https://habrahabr.ru/post/346306/
+* epub версия + куча видео по этому мега-учебнику  - https://courses.miguelgrinberg.com/ 33 USD
    
 ### Spring 
 * Spring Building a RESTful Web Service https://spring.io/guides/gs/rest-service/

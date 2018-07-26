@@ -366,6 +366,7 @@
 * Overriding RxAndroid Schedulers in RxJava 2 https://medium.com/@peter.tackage/overriding-rxandroid-schedulers-in-rxjava-2-5561b3d14212
 * SIMPLE BACKGROUND POLLING WITH RXJAVA http://blog.freeside.co/2015/01/29/simple-background-polling-with-rxjava/
 * Отработка смены связности с интернетом (для разных пониманий связности) https://github.com/pwittchen/ReactiveNetwork 
+* RxJava Backpressure and why should you care? https://proandroiddev.com/rxjava-backpressure-and-why-you-should-care-369c5242c9e6
 
 
 ### Многопоточность отдельно
@@ -562,6 +563,7 @@
 * OSS Licenses - как показывать лицензии на opensource - стандартный вариант типа https://developers.google.com/android/guides/opensource#add_the_gradle_plugin
 * Collection of stock apps and mechanisms, which might affect background tasks and scheduled alarms. https://github.com/dirkam/backgroundable-android
 * Механизм для автоматизации показа различных View типа: ContentView, LoadingView, NoInternetView, EmptyContentView, ErrorView (RxJava+Kotlin) https://habr.com/company/e-legion/blog/414773/ 
+* Mastering Android Context https://medium.freecodecamp.org/mastering-android-context-7055c8478a22
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -920,6 +922,7 @@
 * Анимация в семь строка кода (с ConstraintLayout) https://androiddev.apptractor.ru/animation-7/
 * Работа с ConstraintLayout через XML-разметку https://habrahabr.ru/company/touchinstinct/blog/326814/
 * MaterialDesign за 15 минут: проверяем на что способен ConstraintLayout https://xakep.ru/2016/11/02/constraintlayout/
+* Creating Animations With MotionLayout for Android https://code.tutsplus.com/tutorials/creating-animations-with-motionlayout-for-android--cms-31497
 
 ### Вспомогательные средства отладки GUI (Android)
 * Facebook Stetho http://facebook.github.io/stetho/ 
@@ -1554,6 +1557,9 @@ https://www.objc.io/issues/11-android/
 * Learn C++ by Creating Games with UE4. Есть на сайте PacktPub или в Google Play Books https://play.google.com/store/books/details/William_Sherif_Learning_C_by_Creating_Games_with_U?id=iq_NBgAAQBAJ
 * Развязываем игровой код с помощью паттерна Command, и дебажим, летая на машине времени https://habrahabr.ru/company/microsoft/blog/350630/
 * исходный код C#-части Unity3D https://habrahabr.ru/post/351978/
+* Пишем плагин для Unity правильно. Часть 1: iOS https://habr.com/company/pixonic/blog/353088/
+* Пишем плагин для Unity правильно. Часть 2: Android https://habr.com/company/pixonic/blog/353444/
+
 
 ## Code generation
 * http://habrahabr.ru/post/262711/быстрая и удобная генерация IL - как генерировать и ошибки решать (хочу на Java так!) и про обертку над ILGenerator. альтернатива - https://github.com/ElemarJR/FluentIL
@@ -1666,18 +1672,32 @@ https://www.objc.io/issues/11-android/
 * как настраивать мобильную аналитику http://gopractice.ru/mobile_analytics_implementation/
 
 ##### Firebase
-это такой BaaS от гугла - там много что - и креши и testlab и аналог parse (без cloud clode)...
+это такой BaaS от гугла - там много что - и креши и testlab и аналог parse (без cloud code) и аналог iCloud...
+* The Definitive Guide to Firebase: Build Android Apps on Google's Mobile Platform
 * https://habrahabr.ru/company/google/blog/305308/
 * https://habrahabr.ru/post/277941/
 * https://habrahabr.ru/company/google/blog/305308/ По следам Google I/O 2016 — новый Firebase: интеграция с Android
 * https://habrahabr.ru/post/302002/ Push уведомления в Android с помощью Firebase Cloud Messaging для начинающих 
 * https://habrahabr.ru/post/303514/ Нюансы Firebase messaging для начинающих
 * https://medium.com/google-developer-experts/using-firebase-as-a-real-time-system-d360265aa678  Using Firebase as a Real Time System
-* rx2Firebase https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf
+* https://proandroiddev.com/rx2firebase-firebase-rxjava-android-bde8158fb4cf rx2Firebase
 * https://habrahabr.ru/company/theron/blog/303436/ Theron как замена(?) Firebase
 * https://www.ericdecanini.com/2017/12/30/integrate-firebase-android-app/ очень простой туториал как начать работать с Firebase
 * https://www.ericdecanini.com/2018/02/17/getting-started-firebase-cloud-storage-android/  ОЧЕНЬ простой туториал про Firebase Cloud Storage
+* https://blog.feathersjs.com/using-feathersjs-as-an-open-source-alternative-to-firebase-b5d93c200cee?gi=24edc2a3247e Feather JS как альтернатива Firebase - угу БД только
+* https://firebase.google.com/support/ Firebase Support
+* https://cloud.google.com/support/?options=premium-support Google Cloud Platform support
 
+###### Firebase - заморочки с биллингом и почему НЕ стоит использовать Firebase
+* https://startupsventurecapital.com/firebase-costs-increased-by-7-000-81dc0a27271d Firebase Costs Increased by 7,000%! (с REST API есть заморочки)
+* https://medium.com/icelytics/firebase-database-mysterious-billing-6d06f3fe4d2e Firebase Database — how to survive billing issues
+* https://medium.com/@pomodorotimer/ah-crap-my-focus-timer-reborn-https-play-google-com-store-apps-details-id-net-hubalek-android-5337fc7cec5 (в комменте) мониторилка usage 
+* https://www.quora.com/When-building-an-app-is-it-worth-using-Firebase-as-a-backend-or-will-it-become-more-expensive-and-unmanageable-when-and-if-you-grow
+* https://crisp.chat/blog/why-you-should-never-use-firebase-realtime-database/ Reasons Not To Use Firebase
+* https://news.ycombinator.com/item?id=14356409 A startup’s Firebase bill suddenly increased from $25 to $1750 per month
+* https://medium.com/icelytics/firebase-database-mysterious-billing-6d06f3fe4d2e Firebase Database — how to survive billing issues
+* https://itnext.io/lessons-from-a-long-week-with-firebase-b433ce8ee49e Lessons from a small Firebase project.
+* https://habr.com/post/417377/ Почему не следует пользоваться Google Cloud
 
 ##### откуда ставили приложение 
 * https://www.appsflyer.com/ - сразу хотят данные карты а то активация может долго. 

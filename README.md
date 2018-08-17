@@ -923,10 +923,17 @@
 * Работа с ConstraintLayout через XML-разметку https://habrahabr.ru/company/touchinstinct/blog/326814/
 * MaterialDesign за 15 минут: проверяем на что способен ConstraintLayout https://xakep.ru/2016/11/02/constraintlayout/
 * Creating Animations With MotionLayout for Android https://code.tutsplus.com/tutorials/creating-animations-with-motionlayout-for-android--cms-31497
+* http://constraintlayout.com/ же!
+* https://android.jlelse.eu/whats-new-in-constraint-layout-1-1-0-acfe30cfc7be What’s new in constraint layout 1.1.0
+* Что нового в ConstraintLayout 1.1 https://habr.com/post/419017/
+* Introducing Constraint Layout 1.1 https://medium.com/google-developers/introducing-constraint-layout-1-1-d07fc02406bc 
+
+
 
 ### Вспомогательные средства отладки GUI (Android)
 * Facebook Stetho http://facebook.github.io/stetho/ 
 * Rhino https://github.com/facebook/stetho/tree/master/stetho-js-rhino не забываем
+* FB Sonar / Clipper https://fbflipper.com/ - развитие Stetho + даже модификации layout умеет
 
 ### Picture-in-Picture
 Да, это есть на Android и давно было. И более общий функционал есть
@@ -1146,6 +1153,8 @@
 * Типографика в iOS https://habr.com/company/oleg-bunin/blog/354184/
 * Declarative building and fast rendering attributed string library https://github.com/GitHawkApp/StyledTextKit StyledTextKit is a declarative attributed string library for fast rendering and easy string building. It serves as a simple replacement to NSAttributedString and UILabel for background-thread sizing and bitmap caching.
 * Adaptivity is an app for developers and designers to visualize how iOS's Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad Slide Over/Split View and Dynamic Type size changes.  https://hacknicity.com/adaptivity/userguide
+* "типа свайп-и-pager как на Android" https://github.com/xmartlabs/XLPagerTabStrip
+* Локализация приложений в iOS. Часть 1. Что мы имеем? https://habr.com/post/419077/ описание базовых вещей
 
 ### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/

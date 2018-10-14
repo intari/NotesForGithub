@@ -45,6 +45,9 @@
 * Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 20 USD / полгода за подписку. Тем более что там добавления есть - например отдельная книга по Android architecture compontents...
 * Полезные книги для начинающего и не очень Android-разработчика https://habrahabr.ru/post/346412/
 
+### Общее
+* Патчим AndroidX https://habr.com/company/tinkoff/blog/418723/ - как при желании свою версию библиотек AndroidX собрать.
+
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
 * https://blog.stylingandroid.com/data-binding-part-1/
@@ -124,7 +127,7 @@
 * Enable Android Nougat ‘Charles’ing SSL network https://android.jlelse.eu/android-nougat-charlesing-ssl-network-efa0951e66de
 * Unit testing API requests on Android https://android.jlelse.eu/unit-testing-api-requests-on-android-5efc4efe18df
 * The Evolution of Android Network Access https://medium.com/@elye.project/the-evolution-of-android-network-access-1e199fc6e9a2 - тут у нас и устаревшие штуки и RxJava и Corroutines - и далеко не только в плане сети это важно
-
+* Mock your datas for Okhttp and Retrofit in json format in just a few moves  https://github.com/mirrajabi/okhttp-json-mock
 
 #### Retrofit
 * Retrofit)[http://square.github.io/retrofit/
@@ -367,7 +370,8 @@
 * SIMPLE BACKGROUND POLLING WITH RXJAVA http://blog.freeside.co/2015/01/29/simple-background-polling-with-rxjava/
 * Отработка смены связности с интернетом (для разных пониманий связности) https://github.com/pwittchen/ReactiveNetwork 
 * RxJava Backpressure and why should you care? https://proandroiddev.com/rxjava-backpressure-and-why-you-should-care-369c5242c9e6
-
+* Server-Sent Events client for Android and Java applications https://github.com/EnricSala/RxSSE
+* This one is  an Android library to get contacts using RxJava2 based on original RxContacts library. http://mirrajabi.ir/post/13/rxcontacts-2 / https://github.com/mirrajabi/rx-contacts2
 
 ### Многопоточность отдельно
 * с потоками проблемы? а стандартный туториал про Thread Poll прочитан https://developer.android.com/training/multiple-threads/index.html ? 
@@ -409,12 +413,18 @@
 * Scalpel https://github.com/JakeWharton/scalpel по сути типа-аналог Reveal для Android
 * ScalingLayout - красивая layout с разверткой https://github.com/iammert/ScalingLayout
 * TextView и Spannable https://habrahabr.ru/company/tdb/blog/340232/
+* Style your text with Snippety https://medium.com/fueled-android/style-your-text-using-snippety-9d205eb02fde - удобный интерфейс для SpannableString - в этом же стиле - https://github.com/binaryfork/Spanny
+* Kotlin wrapper around SpannableStringBuilder to bring modern API https://github.com/2dxgujun/Kpan modern у них - c DSL
 * UI-пасьянс: делаем свой StackView в Android https://habrahabr.ru/company/efs/blog/340998/
 * Как Splash Screen на андроид делать правильно (и зачем он вообще нужен) https://habrahabr.ru/post/345380/
 * MapMe - адаптер для карт в стиле RecylerView https://medium.com/default-to-open/mapme-the-android-maps-adapter-bfca21713772
 * Анимации в Android по полочкам (Часть 1. Базовые анимации) https://habrahabr.ru/post/347918/
 * Анимации в Android по полочкам (Часть 2. Комплексные анимации) https://habrahabr.ru/post/348336/
 * Анимации в Android по полочкам (Часть 3. «Низкоуровневые» анимации) https://habrahabr.ru/post/348664/
+* Нарезка картинок нормальная https://github.com/asystat/Final-Android-Resizer
+* Замена LinkMovementMethod https://github.com/saket/Better-Link-Movement-Method - замена LinkMovementMethod
+* https://github.com/florent37/ViewTooltip  - A fluent tooltip for Android
+
 
 #### Custom views
 * Building Android UIs with Custom Views от Pack Publishing
@@ -564,6 +574,8 @@
 * Collection of stock apps and mechanisms, which might affect background tasks and scheduled alarms. https://github.com/dirkam/backgroundable-android
 * Механизм для автоматизации показа различных View типа: ContentView, LoadingView, NoInternetView, EmptyContentView, ErrorView (RxJava+Kotlin) https://habr.com/company/e-legion/blog/414773/ 
 * Mastering Android Context https://medium.freecodecamp.org/mastering-android-context-7055c8478a22
+* An annotation processor that reads files at compile time https://github.com/anthonycr/Mezzanine
+* Как Paging Library использовать https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists (а вообще у Murphy описано)
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -703,6 +715,7 @@
 * Flowup  https://flowup.io/ анализ performance metrics,etc - платное и по сети (iOS/Android)
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
+* Final Android Resizer https://github.com/asystat/Final-Android-Resizer - resizer картинок под разные разрешения нормальный (и не-квадратных тоже - Asset Gener)
 
 
 #### Stetho от Facebook
@@ -817,6 +830,8 @@
 * Mastering Coroutines. Android. Unit Tests https://android.jlelse.eu/mastering-coroutines-android-unit-tests-8bc0d082bf15 Перевод Юнит тесты при использовании корутин в Android приложении https://habrahabr.ru/post/349228/
 * Diving deep into Kotlin Coroutines https://www.kotlindevelopment.com/deep-dive-coroutines/ Или зачем они нужны с более менее внятными примерами
 * Kotlin parallel collections https://stackoverflow.com/questions/34697828/parallel-operations-on-kotlin-collections - и про Java 8 streams и про pmap
+* A Retrofit 2 CallAdapter.Factory for Kotlin coroutine's Deferred. https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter 
+* Oversimplified network call using Retrofit, LiveData, Kotlin Coroutines and DSL https://proandroiddev.com/oversimplified-network-call-using-retrofit-livedata-kotlin-coroutines-and-dsl-512d08eadc16 
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -827,6 +842,7 @@
 * Пишем простой RESTful сервис на kotlin и spring boot https://habrahabr.ru/post/274997/
 * Наипростейший RESTful сервис на Kotlin и Spring boot (https://habrahabr.ru/post/343364/
 * Ktor https://github.com/ktorio/ktor http://ktor.io/
+* Одностраничный сайт на Kotlin и SpringBoot без использования JSP https://habr.com/post/422083/
 
 ### Java 
 #### Общее (TODO:остальные 'общие' ссылки сюда)

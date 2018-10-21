@@ -576,6 +576,10 @@
 * Mastering Android Context https://medium.freecodecamp.org/mastering-android-context-7055c8478a22
 * An annotation processor that reads files at compile time https://github.com/anthonycr/Mezzanine
 * Как Paging Library использовать https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists (а вообще у Murphy описано)
+* Exploring Paging Library from Jetpack https://proandroiddev.com/exploring-paging-library-from-jetpack-c661c7399662 - включая примеры с Rx а не только LiveData
+* Exoplayr2 + Picture-in-picture https://medium.com/s23nyc-tech/drop-in-android-video-exoplayer2-with-picture-in-picture-e2d4f8c1eb30
+* Шифрованные push'и https://github.com/google/capillary 
+* Как поддерживать (в том числе) Free-form mode на Chrome OS https://proandroiddev.com/all-the-things-were-doing-wrong-but-take-for-granted-a-retrospective-glance-at-android-ad7e942d09cf 
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto

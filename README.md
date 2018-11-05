@@ -802,6 +802,8 @@
 * Kotlin, компиляция в байткод и производительность (часть 2) https://habrahabr.ru/company/inforion/blog/330064/
 * Kotlin vs Swift. Отличия важны https://habrahabr.ru/post/350746/
 * Converting JSON to Kotlin: Generating Kotlin data classes using Square's KotlinPoet https://fractalwrench.co.uk/posts/json-2-kotlin/ - и как библиотека сделана и как commandline app и как springboot-версию на Amazon AWS(!)
+* Strongly typed SQL in Kotlin https://github.com/x2bool/kuery 
+* Set of extensions for Kotlin that provides Discrete math functionalities https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit
 
 
 ### Kodein (замена Dagger 2)
@@ -1103,6 +1105,7 @@
 * SwiftPlate: Easily generate cross platform Swift framework projects from the command line https://github.com/johnsundell/swiftplate
 * Building a better date/time library for Swift https://github.com/davedelong/Chronology
 * Swift tips and tricks https://github.com/JohnSundell/SwiftTips/blob/master/README.md
+* CodyFire https://habr.com/post/427937/ - Codable-обертка для Alamofire на стероидах. Как обычно в iOS - сделано красиво.
 
 ### ReactiveCocoa/rXXX
 * RxSwift в действии — пишем реактивное приложение https://habrahabr.ru/post/276971/

@@ -580,6 +580,10 @@
 * Exoplayr2 + Picture-in-picture https://medium.com/s23nyc-tech/drop-in-android-video-exoplayer2-with-picture-in-picture-e2d4f8c1eb30
 * Шифрованные push'и https://github.com/google/capillary 
 * Как поддерживать (в том числе) Free-form mode на Chrome OS https://proandroiddev.com/all-the-things-were-doing-wrong-but-take-for-granted-a-retrospective-glance-at-android-ad7e942d09cf 
+* Introducing Hijckr: Android XML Tags router https://medium.com/justinangel-com/introducing-hijckr-android-xml-tags-router-866d2c7d856 
+* Кэшируем пагинацию в Android https://habr.com/post/431212/
+* Как ШТАТНЫМ образом и высоту клавиатуры узнавать и нотификации получать - https://habr.com/company/redmadrobot/blog/426617/ про WindowInsets 
+
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -838,6 +842,8 @@
 * Kotlin parallel collections https://stackoverflow.com/questions/34697828/parallel-operations-on-kotlin-collections - и про Java 8 streams и про pmap
 * A Retrofit 2 CallAdapter.Factory for Kotlin coroutine's Deferred. https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter 
 * Oversimplified network call using Retrofit, LiveData, Kotlin Coroutines and DSL https://proandroiddev.com/oversimplified-network-call-using-retrofit-livedata-kotlin-coroutines-and-dsl-512d08eadc16 
+* Async Operations with Kotlin Coroutines — Part 1 https://proandroiddev.com/async-operations-with-kotlin-coroutines-part-1-c51cc581ad33
+* Part 2 — Coroutine Cancellation and Structured Concurrency https://proandroiddev.com/part-2-coroutine-cancellation-and-structured-concurrency-2dbc6583c07d 
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -1798,6 +1804,8 @@ https://www.objc.io/issues/11-android/
 
 #### Разработка API
 * Swagger http://swagger.io/ - интеграцию с runscope да умеет
+* Генерация парсеров JSON по примеру JSON https://app.quicktype.io/ (расширение к XCode https://itunes.apple.com/ru/app/paste-json-as-code-quicktype/id1330801220?mt=12  )
+
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

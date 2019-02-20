@@ -88,7 +88,7 @@
 * Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
 * RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 * Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
-
+* RecyclerView на максималках: разбор библиотек https://habr.com/company/redmadrobot/blog/428525/ 
 
 ### Android Architecture Components
 * Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
@@ -423,7 +423,9 @@
 * Анимации в Android по полочкам (Часть 3. «Низкоуровневые» анимации) https://habrahabr.ru/post/348664/
 * Нарезка картинок нормальная https://github.com/asystat/Final-Android-Resizer
 * Замена LinkMovementMethod https://github.com/saket/Better-Link-Movement-Method - замена LinkMovementMethod
-* https://github.com/florent37/ViewTooltip  - A fluent tooltip for Android
+* A fluent tooltip for Android https://github.com/florent37/ViewTooltip  - 
+* Segmented Contol на andrid  - https://github.com/ceryle/RadioRealButton (если надо более iOS-like - https://github.com/ceryle/UIAlertAction )
+* Как правильно показать диалог на Android https://habr.com/ru/company/mobileup/blog/440284/
 
 
 #### Custom views
@@ -583,7 +585,7 @@
 * Introducing Hijckr: Android XML Tags router https://medium.com/justinangel-com/introducing-hijckr-android-xml-tags-router-866d2c7d856 
 * Кэшируем пагинацию в Android https://habr.com/post/431212/
 * Как ШТАТНЫМ образом и высоту клавиатуры узнавать и нотификации получать - https://habr.com/company/redmadrobot/blog/426617/ про WindowInsets 
-
+* Android Pie and the Future of Dependency Injection https://medium.com/default-to-open/android-pie-and-the-future-of-dependency-injection-2fdbc65cb79b про AppComponentFactory в Android 9
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -650,16 +652,17 @@
 * Как из приложения проверить что пароль юзера - скомпроментирован https://commonsware.com/blog/2018/02/28/help-users-not-get-pwned.html + https://gist.github.com/commonsguy/7ac7006e9a5e3ca0ab138e3da9f6c096
 
 
-### Звук
+### Звук (iOS/Android)
 * Android и звук - как делать правильно https://habrahabr.ru/post/339416/
 * Еще на тему - почему звук с Exoplayer надо https://medium.com/uptech-team/audio-not-playing-in-android-cde9a0fdfafd#.jw8uo4qld
 * Как ExoPlayer со Stetho подружить https://medium.com/google-exoplayer/enabling-stetho-on-exoplayer-2-demo-application-126807a37cb3#.1s4y7q5p1
 * аудиорекордер с паузой https://github.com/lassana/continuous-audiorecorder
+* AudioKit и синтезирование звука в iOS/OSX https://habr.com/ru/company/funcorp/blog/440226/ (оригинал - https://www.raywenderlich.com/835-audiokit-tutorial-getting-started )
+
 
 #### Аудиовидео плееры / Android
 * https://google.github.io/ExoPlayer/ но смотрим https://habrahabr.ru/post/307232/про проблему с игрой нескольких потоков например
 * https://github.com/Bilibili/ijkplayer
-
 
 
 ### OpenGL ES и прочая 3D-графика
@@ -766,6 +769,7 @@
 * Function references in Kotlin: use functions as lambdas everywhere https://antonioleiva.com/function-references-kotlin/ 
 * Kotlin:Contexts & SharedPreferences https://blog.stylingandroid.com/kotlin-contexts-sharedpreferences
 * Arrow - functional programming in Kotlin http://arrow-kt.io/
+* Функциональная обработка ошибок в Kotlin с помощью Arrow https://habr.com/ru/post/435254/ 
 * Kapsule - минималистичная замена Kodein'у https://blog.gouline.net/kapsule-minimalist-dependency-injection-for-kotlin-ed3e344d60ed
 * KTX - расширения для LibGDX https://github.com/libktx/ktx
 * What's new - автоматический показ что нового при обновлении https://github.com/TonnyL/WhatsNew
@@ -808,7 +812,7 @@
 * Converting JSON to Kotlin: Generating Kotlin data classes using Square's KotlinPoet https://fractalwrench.co.uk/posts/json-2-kotlin/ - и как библиотека сделана и как commandline app и как springboot-версию на Amazon AWS(!)
 * Strongly typed SQL in Kotlin https://github.com/x2bool/kuery 
 * Set of extensions for Kotlin that provides Discrete math functionalities https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit
-
+* Kotlin Coroutines patterns & anti-patterns https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e 
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -826,7 +830,7 @@
 * Kotlin serialization reddit post https://www.reddit.com/r/androiddev/comments/72p908/kotlin_serialization_libraryplugin_v01_prototype/
 * Обсуждение на форуме Kotlinlang https://discuss.kotlinlang.org/t/kotlin-serialization/2063/40?u=w3bshark
 * также см выше про сериализацию просто
-
+* Сериализация Kotlin с помощью Kotlinx.Serialization https://habr.com/ru/post/437726/ - оригинал https://proandroiddev.com/kotlinx-serialization-83815cc1c57b
 
 #### Kotlin Coroutines
 * https://kotlinlang.org/docs/reference/coroutines.html
@@ -844,6 +848,8 @@
 * Oversimplified network call using Retrofit, LiveData, Kotlin Coroutines and DSL https://proandroiddev.com/oversimplified-network-call-using-retrofit-livedata-kotlin-coroutines-and-dsl-512d08eadc16 
 * Async Operations with Kotlin Coroutines — Part 1 https://proandroiddev.com/async-operations-with-kotlin-coroutines-part-1-c51cc581ad33
 * Part 2 — Coroutine Cancellation and Structured Concurrency https://proandroiddev.com/part-2-coroutine-cancellation-and-structured-concurrency-2dbc6583c07d 
+* Android networking with coroutines and Retrofit https://medium.com/exploring-android/android-networking-with-coroutines-and-retrofit-a2f20dd40a83 
+
 
 #### Kotlin Android Various
 * Tricks With Kotlin And Architecture Components https://blog.stylingandroid.com/midipad-tricks-with-kotlin-and-architecture-components/
@@ -895,7 +901,7 @@
 * http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
 * http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
 
-### Code-generation - kotlin specific 
+### Code-generation - Kotlin specific 
 * KotlinPoet https://github.com/square/kotlinpoet
 * Unleash the secret power of Kotlin Metadata https://speakerdeck.com/takhion/unleash-the-secret-power-of-kotlin-metadata
 * Exploring Moshi’s Kotlin Code Gen https://medium.com/@sweers/exploring-moshis-kotlin-code-gen-dec09d72de5e
@@ -1061,6 +1067,8 @@
 * Упрощение отладки БД в приложениях iOS https://github.com/y500/iOSDebugDatabase - по сути веб-интерфейс(!) для отладки
 * Знакомство с движком AVAudioEngine для работы со звуком на iOS https://habrahabr.ru/company/everydaytools/blog/345768/
 * libdispatch efficiency tips https://gist.github.com/tclementdev/6af616354912b0347cdf6db159c37057
+* Почему NSURLSession лучше, чем NSURLConnection https://habr.com/ru/post/209736/
+*
 
 ### ARKit
 * Тестируем возможности ARKit. Создаем игру с дополненной реальностью https://habrahabr.ru/company/touchinstinct/blog/331078/
@@ -1184,6 +1192,7 @@
 * Adaptivity is an app for developers and designers to visualize how iOS's Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad Slide Over/Split View and Dynamic Type size changes.  https://hacknicity.com/adaptivity/userguide
 * "типа свайп-и-pager как на Android" https://github.com/xmartlabs/XLPagerTabStrip
 * Локализация приложений в iOS. Часть 1. Что мы имеем? https://habr.com/post/419077/ описание базовых вещей
+* Еще по локализации - описание R.Swift (по сути 'ресурсы-из-Anroid'(без динамической подстройки)) https://habr.com/ru/company/tinkoff/blog/431148/
 
 ### Блоки (Если лень книжку почитать, все ОЧЕНЬ старое)
 * О блоках и их использовании в Objective-C часть 1-ая https://habrahabr.ru/post/119877/
@@ -1770,8 +1779,11 @@ https://www.objc.io/issues/11-android/
 * (накрылся) Rollout https://rollout.io/ пока только iOS, поддержка Swift - минимальна. Минимальный hotpatching iOS-приложений даже в AppStore. В основном по сути защита от ситуаций "ой а оно внезапно падает на девайсах X а апдейт Apple долго аппрувит" но вообще можно все что угодно на JS цеплять к вызовам методов, например аналитику. Можно использовать как удобную систему удаленной конфигурации. Бесплатно если не использовать их javascript-based патчи.
 
 #### Видеозапись
-* Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - 1k сессий в месяц. первый платный за 119 usd в месяц - 10к сессий. http://seductive-mobile.com/playbook/testfairy-visual-beta-testing-service-overview/ . Может не поймать логи за момент непосредственно перед крешем.
-* UXCam https://uxcam.com/ video recording,heatmaps,etc
+* Testfairy цены https://app.testfairy.com/account/action/create-bug видеозапись действий приложения, NSLog'ов, сетевых запросов. заменой старому TestFlight тоже обещают что может. бесплатный план - без видео, и цены теперь тоже 'get quote'. Может не поймать логи за момент непосредственно перед крешем.
+* UXCam https://uxcam.com/ video recording,heatmaps,etc - мобильные И Web. Нестабильность на тестах(проверить в деталях). Цены по крайней мере в явном виде указаны. Есть бесплатный план.
+* Appsee https://appsee.com - куча интеграций (с AppsFlyer/Crashlytics/Google Analytics например), видеозаписи,etc. Функционал побогаче UXCam. История с Burger King. Цены - contact us. Есть бесплатный план.
+
+
 
 #### On-device cloud testing
 * Bitbar http://bitbar.com/testing/pricing/public-cloud/ - минимальный Solo plan for Indie Developers - 99 USD/month. 10 hours of device time. JIRA integration НЕТ (это на следующем)
@@ -1804,8 +1816,7 @@ https://www.objc.io/issues/11-android/
 
 #### Разработка API
 * Swagger http://swagger.io/ - интеграцию с runscope да умеет
-* Генерация парсеров JSON по примеру JSON https://app.quicktype.io/ (расширение к XCode https://itunes.apple.com/ru/app/paste-json-as-code-quicktype/id1330801220?mt=12  )
-
+* Генерация парсеров JSON по примеру JSON https://app.quicktype.io/ (расширение к XCode https://itunes.apple.com/ru/app/paste-json-as-code-quicktype/id1330801220?mt=12  ) , описание http://blog.quicktype.io/first-look/ - и да  Java/Kotlin оно умеет
 
 ### Вспомогательные средства для создания мессенджеров
 * https://layer.com/features

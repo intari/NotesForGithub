@@ -60,6 +60,8 @@
 * Android Data Binding: Let’s Flip This Thing - Get That User Input Back Into The Application https://medium.com/google-developers/android-data-binding-lets-flip-this-thing-dc17792d6c24
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 * Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
+* Android Data Binding Library — From Observable Fields to LiveData in two steps https://medium.com/androiddevelopers/android-data-binding-library-from-observable-fields-to-livedata-in-two-steps-690a384218f2
+
 
 #### Data-binding & RecyclerView/ListView 
 * https://github.com/evant/binding-collection-adapter 
@@ -424,9 +426,10 @@
 * Нарезка картинок нормальная https://github.com/asystat/Final-Android-Resizer
 * Замена LinkMovementMethod https://github.com/saket/Better-Link-Movement-Method - замена LinkMovementMethod
 * A fluent tooltip for Android https://github.com/florent37/ViewTooltip  - 
-* Segmented Contol на andrid  - https://github.com/ceryle/RadioRealButton (если надо более iOS-like - https://github.com/ceryle/UIAlertAction )
+* Segmented Contol на Android  - https://github.com/ceryle/RadioRealButton (если надо более iOS-like - https://github.com/ceryle/UIAlertAction )
 * Как правильно показать диалог на Android https://habr.com/ru/company/mobileup/blog/440284/
-
+* Эволюция планировщиков задач https://habr.com/ru/company/funcorp/blog/434680/ 
+* Генерация классов для новых экранов если у нас MVP/etc по шаблонам https://proandroiddev.com/how-i-automated-creating-files-for-a-new-screen-with-my-own-android-studio-plugin-5d54b14ba6fa
 
 #### Custom views
 * Building Android UIs with Custom Views от Pack Publishing
@@ -471,7 +474,10 @@
 * Переводы этой серии - начиная с - Dagger 2 для начинающих Android-разработчиков https://habrahabr.ru/post/343248/ (там серия статей и ссылки между ними)
 
 
-
+### Realm
+* Take Realm to the next level with Kotlin https://antonioleiva.com/kotlin-realm-extensions/ про Kotlin Realm Extensions
+* https://habr.com/ru/post/328418/  статья по realm - в заметки для git и в jira!
+* https://habr.com/ru/company/fairbear/blog/326152/ как подружится с realm
 
 ### Android/Various
 * Шпаргалка или Must have для андроид разработчика https://habrahabr.ru/post/336956/
@@ -586,6 +592,8 @@
 * Кэшируем пагинацию в Android https://habr.com/post/431212/
 * Как ШТАТНЫМ образом и высоту клавиатуры узнавать и нотификации получать - https://habr.com/company/redmadrobot/blog/426617/ про WindowInsets 
 * Android Pie and the Future of Dependency Injection https://medium.com/default-to-open/android-pie-and-the-future-of-dependency-injection-2fdbc65cb79b про AppComponentFactory в Android 9
+* Biometric Prompt Compat https://medium.com/@natiginfo/fingerprint-authentication-using-biometricprompt-compat-1466365b4795 - стандартный диалог авторизации через отпечаток/что-там на системе - с поддержкой старых версий!
+* 5 steps to implement Biometric authentication in Android https://proandroiddev.com/5-steps-to-implement-biometric-authentication-in-android-dbeb825aeee8 - как без Biometric Prompt Compat
 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -813,6 +821,8 @@
 * Strongly typed SQL in Kotlin https://github.com/x2bool/kuery 
 * Set of extensions for Kotlin that provides Discrete math functionalities https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit
 * Kotlin Coroutines patterns & anti-patterns https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e 
+* Reaktive — мультиплатформенная библиотека для реактивного Kotlin https://habr.com/ru/company/badoo/blog/447424/ - то чем ДОЛЖЕН был быть RxKotlin
+
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 
@@ -834,6 +844,7 @@
 
 #### Kotlin Coroutines
 * https://kotlinlang.org/docs/reference/coroutines.html
+* Kotlin Coroutines by Tutorials от Raywenderlich https://store.raywenderlich.com/products/kotlin-coroutines-by-tutorials
 * Kotlin Coroutines https://github.com/Kotlin/kotlin-coroutines и см там ссылки
 * Kotlin Coroutines support library https://github.com/Kotlin/kotlinx.coroutines и там см ссылки
 * Guide to kotlinx.coroutines by example https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
@@ -849,6 +860,12 @@
 * Async Operations with Kotlin Coroutines — Part 1 https://proandroiddev.com/async-operations-with-kotlin-coroutines-part-1-c51cc581ad33
 * Part 2 — Coroutine Cancellation and Structured Concurrency https://proandroiddev.com/part-2-coroutine-cancellation-and-structured-concurrency-2dbc6583c07d 
 * Android networking with coroutines and Retrofit https://medium.com/exploring-android/android-networking-with-coroutines-and-retrofit-a2f20dd40a83 
+* Опыт применения Coroutines и Retrofit2 https://habr.com/ru/post/445242/ 
+* Корутины в Kotlin https://habr.com/ru/company/alfa/blog/336228/ правда старая
+
+####  Arrow
+* Как писать полиморфические программы c помощью Arrow https://habr.com/ru/post/447234/
+* Функциональная обработка ошибок в Kotlin с помощью Arrow https://habr.com/ru/post/435254/ - то что можно сразу использовать и без мозголомства
 
 
 #### Kotlin Android Various
@@ -1087,7 +1104,7 @@
 * IAP Helper https://github.com/saturngod/IAPHelper для обычных
 * MKStoreKit - странный он какой то
 * RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcode (из-за OpenSSL)
-
+* Автоматизация подписок iOS/Android  https://www.revenuecat.com/ - до 10k MTR/месяц - бесплатно. Но многих интеграций нет
 
 ### Swift
 * Как сделать это в Swift https://thatthinginswift.com/ - много интересного

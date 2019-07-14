@@ -61,6 +61,7 @@
 * Android Data Binding: Inverse Functions - Converting Both Ways https://medium.com/google-developers/android-data-binding-inverse-functions-95aab4b11873
 * Как сделать 2-way data binding  для spinner работающий https://stackoverflow.com/questions/39042222/spinner-2-way-databinding
 * Android Data Binding Library — From Observable Fields to LiveData in two steps https://medium.com/androiddevelopers/android-data-binding-library-from-observable-fields-to-livedata-in-two-steps-690a384218f2
+* Kotlin Databind library https://github.com/paulocns/kdb   + https://proandroiddev.com/kotlin-databind-kdb-a97507f4fd1c
 
 
 #### Data-binding & RecyclerView/ListView 

@@ -47,6 +47,10 @@
 
 ### Общее
 * Патчим AndroidX https://habr.com/company/tinkoff/blog/418723/ - как при желании свою версию библиотек AndroidX собрать.
+* Feature Flags: https://featureflags.io/mobile-feature-flags/  + есть крутая https://launchdarkly.com/  -  весьма платная + простенькая https://github.com/s0h4m/toggle
+* AndroidX versions https://developer.android.com/jetpack/androidx/versions
+* https://github.com/vishna/watchservice-ktx Kotlin API wrapper for Java's WatchService powered with Channels and Coroutines. a.k.a. KWatchChannel
+
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -99,6 +103,7 @@
 
 ### Annotations - начало
 * Creating Custom Annotations in Android https://medium.freecodecamp.com/creating-custom-annotations-in-android-a855c5b43ed9#.xa5qvc9zs
+* Lottie - библиотека для анимаций - https://medium.com/comparethemarket/lottie-on-android-part-1-the-basics-aabc7f072fa0? и дальшше
 
 ### (Custom) Annotation processors
 * Annotation Processor to create arguments for android fragments without using reflections http://hannesdorfmann.com/android/fragmentargs/

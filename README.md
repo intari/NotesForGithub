@@ -50,7 +50,8 @@
 * Feature Flags: https://featureflags.io/mobile-feature-flags/  + есть крутая https://launchdarkly.com/  -  весьма платная + простенькая https://github.com/s0h4m/toggle
 * AndroidX versions https://developer.android.com/jetpack/androidx/versions
 * https://github.com/vishna/watchservice-ktx Kotlin API wrapper for Java's WatchService powered with Channels and Coroutines. a.k.a. KWatchChannel
-
+* fix git leaks https://github.com/kootenpv/gittyleaks
+* Как грузить web content БЕЗ WebView https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started (ну правда для Chromium тоже есть встраиваемый жестко аналог)
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -96,6 +97,8 @@
 * RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 * Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
 * RecyclerView на максималках: разбор библиотек https://habr.com/company/redmadrobot/blog/428525/ 
+* RecyclerView за одну секунду http://www.ernegonzal.com/1-sec-to-write-a-recyclerviewadapter/ - шаблон
+
 
 ### Android Architecture Components
 * Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
@@ -436,6 +439,7 @@
 * Как правильно показать диалог на Android https://habr.com/ru/company/mobileup/blog/440284/
 * Эволюция планировщиков задач https://habr.com/ru/company/funcorp/blog/434680/ 
 * Генерация классов для новых экранов если у нас MVP/etc по шаблонам https://proandroiddev.com/how-i-automated-creating-files-for-a-new-screen-with-my-own-android-studio-plugin-5d54b14ba6fa
+* Как корректно делать edge-to-edge интерфейс https://habr.com/ru/company/surfstudio/blog/464373/ (в смысле с Window Insets работать)
 
 #### Custom views
 * Building Android UIs with Custom Views от Pack Publishing
@@ -445,7 +449,7 @@
 * Become an Android Painter - как custom view делать https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4
 * Learn to create a Thermometer Application for Android https://android.jlelse.eu/learn-to-create-a-thermometer-application-for-android-295d6611b4f9 упор скорее на пример custom view
 * Пример Custom View, расширящего Linear Layout https://android.jlelse.eu/how-to-make-a-custom-view-60ecd28e92ca
-*  
+
 
 
 ### Android/Dagger 2 - Dependency Injection 

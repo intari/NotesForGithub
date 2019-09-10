@@ -402,7 +402,7 @@
 * CannyViewAnimator: переключаем состояния красиво https://habrahabr.ru/company/livetyping/blog/309740/
 * валидация текста в edittext руками https://stackoverflow.com/questions/2763022/android-how-can-i-validate-edittext-input/11838715#11838715
 * проверка видимости приложения - правильное решение (а не дергать ActivityManager) - https://stackoverflow.com/posts/5862048/revisions + https://stackoverflow.com/questions/3667022/checking-if-an-android-application-is-running-in-the-background/13809991#13809991 но читаем примечание про configChanges. Более детальная реализация https://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html
-* аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player
+* аналог XCDYouTubeKit...смотрим https://github.com/Glitchbone/CordovaYoutubeVideoPlayer  https://code.google.com/archive/p/android-youtube-player - а еще смотрим NewPipe - но там GPLv3 вроде
 * панель как у Spirit Stream / Apple Music / Google Music https://github.com/umano/AndroidSlidingUpPanel
 * Особенности мультиоконного режима на Android-планшетах https://habrahabr.ru/company/livetyping/blog/315938/ - а вообще - Busy Coder's смотрим
 * Автоматизированное тестирование базовой доступности интерфейсов Android-приложений https://habrahabr.ru/post/280222/

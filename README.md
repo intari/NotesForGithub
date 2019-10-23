@@ -1115,6 +1115,7 @@
 * MKStoreKit - странный он какой то
 * RMStore https://github.com/robotmedia/RMStore - просто и удобно. недостаток - если надо reciept verification то придется отключать поддержку Bitcode (из-за OpenSSL)
 * Автоматизация подписок iOS/Android  https://www.revenuecat.com/ - до 10k MTR/месяц - бесплатно. Но многих интеграций нет
+* Еще одна автоматизация - iOS only https://habr.com/ru/company/apphud/blog/472188/ + https://apphud.com/pricing - до 10k MTR/месяц  - бесплатно. + куча разных интеграций.
 
 ### Swift
 * Как сделать это в Swift https://thatthinginswift.com/ - много интересного

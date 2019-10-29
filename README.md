@@ -927,6 +927,8 @@
 * про расширения AutoValue - например для Parceleable http://ryanharter.com/blog/2016/03/22/autovalue/
 * http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
 * http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
+* Трансформация кода в Android https://habr.com/ru/post/469237/
+* Трансформация кода в Android 2. Анализ AST https://habr.com/ru/post/470209/
 
 ### Code-generation - Kotlin specific 
 * KotlinPoet https://github.com/square/kotlinpoet

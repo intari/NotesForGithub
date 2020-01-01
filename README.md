@@ -92,7 +92,6 @@
 * Shimmer RecyclerView https://github.com/sharish/ShimmerRecyclerView с мерцанием для показа загрузки
 * Fast scrolling in recycler view https://android.jlelse.eu/fast-scrolling-with-recyclerview-2b89d4574688
 * вообще либы смотрим http://guides.codepath.com/android/Must-Have-Libraries#recyclerview - там дофига и больше
-* Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 * Головная боль от RecyclerView.Adapter — выход есть https://habrahabr.ru/company/google/blog/345172/ 
 * RecyclerView Animations – Add & Remove Items https://blog.stylingandroid.com/recyclerview-animations-add-remove-items/ 
 * Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
@@ -102,6 +101,12 @@
 
 ### Android Architecture Components
 * Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
+* Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
+* Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
+* Android LiveData with example https://codinginfinite.com/android-livedata-example/  - LiveData/ViewModel суперпростой пример
+* Организация простой архитектуры в андроид-приложении со связкой ViewModel+LiveData, Retrofit+Coroutines https://habr.com/ru/post/475598/
+* Using Retrofit with LiveData https://medium.com/@pivincii/using-retrofit-with-livedata-5c5a49544ba3  пример сразу с обертками Retrofit'а - правда стиль вставки примеров н-да
+* Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
 
 
 ### Annotations - начало
@@ -595,7 +600,7 @@
 * An annotation processor that reads files at compile time https://github.com/anthonycr/Mezzanine
 * Как Paging Library использовать https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists (а вообще у Murphy описано)
 * Exploring Paging Library from Jetpack https://proandroiddev.com/exploring-paging-library-from-jetpack-c661c7399662 - включая примеры с Rx а не только LiveData
-* Exoplayr2 + Picture-in-picture https://medium.com/s23nyc-tech/drop-in-android-video-exoplayer2-with-picture-in-picture-e2d4f8c1eb30
+* Exoplayer2 + Picture-in-picture https://medium.com/s23nyc-tech/drop-in-android-video-exoplayer2-with-picture-in-picture-e2d4f8c1eb30
 * Шифрованные push'и https://github.com/google/capillary 
 * Как поддерживать (в том числе) Free-form mode на Chrome OS https://proandroiddev.com/all-the-things-were-doing-wrong-but-take-for-granted-a-retrospective-glance-at-android-ad7e942d09cf 
 * Introducing Hijckr: Android XML Tags router https://medium.com/justinangel-com/introducing-hijckr-android-xml-tags-router-866d2c7d856 
@@ -604,7 +609,12 @@
 * Android Pie and the Future of Dependency Injection https://medium.com/default-to-open/android-pie-and-the-future-of-dependency-injection-2fdbc65cb79b про AppComponentFactory в Android 9
 * Biometric Prompt Compat https://medium.com/@natiginfo/fingerprint-authentication-using-biometricprompt-compat-1466365b4795 - стандартный диалог авторизации через отпечаток/что-там на системе - с поддержкой старых версий!
 * 5 steps to implement Biometric authentication in Android https://proandroiddev.com/5-steps-to-implement-biometric-authentication-in-android-dbeb825aeee8 - как без Biometric Prompt Compat
-
+* Android 10 Dark Theme: Getting Started https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started*
+* Unleash the secret power of Kotlin Metadata https://speakerdeck.com/takhion/unleash-the-secret-power-of-kotlin-metadata
+* Towards a micro-service mindset https://proandroiddev.com/moving-towards-a-micro-service-mindset-on-android-910de7e4f0c2
+* Navigation in Modular Applications with Deep Linking https://blog.usejournal.com/navigation-in-modular-applications-with-deep-linking-6a599c11e487
+* Instagram Lazy Module Loader https://github.com/Instagram/ig-lazy-module-loader
+ 
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
 * Как сделать примитивную шину сообщений на Kotlin + Rx https://android.jlelse.eu/super-simple-event-bus-with-rxjava-and-kotlin-f1f969b21003
@@ -620,10 +630,6 @@
 #### Moxy
 * Moxy - MVP на стероидах https://habrahabr.ru/company/redmadrobot/blog/305798/ + ссылки там
 * Большое интервью с Ханнесом Дорфманом, создателем фреймворка Mosby для Android https://habrahabr.ru/company/yandex/blog/301858/
-
-#### Android Lifecycle Components
-* Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
-* Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
 
 
 #### Mosby
@@ -872,6 +878,8 @@
 * Android networking with coroutines and Retrofit https://medium.com/exploring-android/android-networking-with-coroutines-and-retrofit-a2f20dd40a83 
 * Опыт применения Coroutines и Retrofit2 https://habr.com/ru/post/445242/ 
 * Корутины в Kotlin https://habr.com/ru/company/alfa/blog/336228/ правда старая
+* Работа с сетью в Android с использованием корутин и Retrofit https://habr.com/ru/post/428994/
+* Improving app network architecture with retrofit and kotlin coroutine call adapter https://codinginfinite.com/kotlin-coroutine-call-adapter-retrofit/   (с логикой обработки ошибок, LiveData, ViewModel)
 
 ####  Arrow
 * Как писать полиморфические программы c помощью Arrow https://habr.com/ru/post/447234/
@@ -888,6 +896,8 @@
 * Наипростейший RESTful сервис на Kotlin и Spring boot (https://habrahabr.ru/post/343364/
 * Ktor https://github.com/ktorio/ktor http://ktor.io/
 * Одностраничный сайт на Kotlin и SpringBoot без использования JSP https://habr.com/post/422083/
+* Ktor for fast server prototyping https://blog.kotlin-academy.com/ktor-for-fast-server-prototyping-6e7c6d2ec296
+
 
 ### Java 
 #### Общее (TODO:остальные 'общие' ссылки сюда)
@@ -927,7 +937,7 @@
 * про расширения AutoValue - например для Parceleable http://ryanharter.com/blog/2016/03/22/autovalue/
 * http://ryanharter.com/blog/2016/04/08/autovalue-deep-dive/
 * http://ryanharter.com/blog/2016/05/16/autovalue-extensions/
-* Трансформация кода в Android https://habr.com/ru/post/469237/
+* Трансформация кода в Android https://habr.com/ru/post/469237/ - на примере как сделать state saver для активностей 
 * Трансформация кода в Android 2. Анализ AST https://habr.com/ru/post/470209/
 
 ### Code-generation - Kotlin specific 
@@ -1636,6 +1646,8 @@ https://www.objc.io/issues/11-android/
 * исходный код C#-части Unity3D https://habrahabr.ru/post/351978/
 * Пишем плагин для Unity правильно. Часть 1: iOS https://habr.com/company/pixonic/blog/353088/
 * Пишем плагин для Unity правильно. Часть 2: Android https://habr.com/company/pixonic/blog/353444/
+* Расширяем возможности UObject в Unreal Engine 4 https://habr.com/ru/company/pixonic/blog/475622/
+
 
 
 ## Code generation
@@ -1708,7 +1720,6 @@ https://www.objc.io/issues/11-android/
 * Google Cloud Vision API‎. Будущее Computer Vision as a service настало?  https://habrahabr.ru/post/312714/
 * отладка regexp'ов https://www.debuggex.com/
 * форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
-
 
 
 ### Git 
@@ -1909,6 +1920,8 @@ https://www.objc.io/issues/11-android/
 * TensorFlow (GPU) Setup for Developers https://hackernoon.com/tensorflow-gpu-setup-for-developers-7371ec0f04de
 * Базовые принципы машинного обучения на примере линейной регрессии https://habrahabr.ru/company/ods/blog/322076/ и вообще блог этих товарищей интересный
 * Глубокое обучение от piter.com https://habrahabr.ru/company/piter/blog/346358/ (или на piter.com или в Play Books
+* Neural Networks and Deep Learning http://neuralnetworksanddeeplearning.com/index.html  интерактивная книжка по нейронкам - static версии нет и видимо не надо (перевод начала - посмотреть - https://habr.com/ru/post/456738/ )
+
 
 ### Scikit,etc 
 * как узнать год выпуска песни по набору характеристик https://habrahabr.ru/post/264193/

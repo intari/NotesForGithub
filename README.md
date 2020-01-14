@@ -609,7 +609,7 @@
 * Android Pie and the Future of Dependency Injection https://medium.com/default-to-open/android-pie-and-the-future-of-dependency-injection-2fdbc65cb79b про AppComponentFactory в Android 9
 * Biometric Prompt Compat https://medium.com/@natiginfo/fingerprint-authentication-using-biometricprompt-compat-1466365b4795 - стандартный диалог авторизации через отпечаток/что-там на системе - с поддержкой старых версий!
 * 5 steps to implement Biometric authentication in Android https://proandroiddev.com/5-steps-to-implement-biometric-authentication-in-android-dbeb825aeee8 - как без Biometric Prompt Compat
-* Android 10 Dark Theme: Getting Started https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started*
+* Android 10 Dark Theme: Getting Started https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started 
 * Unleash the secret power of Kotlin Metadata https://speakerdeck.com/takhion/unleash-the-secret-power-of-kotlin-metadata
 * Towards a micro-service mindset https://proandroiddev.com/moving-towards-a-micro-service-mindset-on-android-910de7e4f0c2
 * Navigation in Modular Applications with Deep Linking https://blog.usejournal.com/navigation-in-modular-applications-with-deep-linking-6a599c11e487
@@ -751,6 +751,7 @@
 * Полезные плагины к Android Studio https://habrahabr.ru/post/336436/
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Final Android Resizer https://github.com/asystat/Final-Android-Resizer - resizer картинок под разные разрешения нормальный (и не-квадратных тоже - Asset Gener)
+* Android boilerplate generator https://medium.com/atomic-robot/one-simple-trick-that-will-save-you-hours-when-developing-android-apps-6902c3aef226
 
 
 #### Stetho от Facebook

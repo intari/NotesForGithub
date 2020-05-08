@@ -5,6 +5,8 @@
 * http://ru.cppreference.com/ - перевод частичный описаний новых стандартов
 * The C++ Standard Library: A Tutorial and Reference by Nicolai M. Josuttis - описание стандартной библиотеки. Вторая редакция (2012 года) - C++11. Есть например в Google Play Books https://play.google.com/store/books/details/Nicolai_M_Josuttis_The_C_Standard_Library?id=9DEJKhasp7gC
 * The C++ Programming Language by Bjarne Stroustrup описание языка эталонное. 4-я редакция (2013 года) есть  например в Google Play Books https://play.google.com/store/books/details/Bjarne_Stroustrup_The_C_Programming_Language?id=PSUNAAAAQBAJ
+### C/C++ разное
+* https://github.com/flexferrum/autoprogrammer кодогенерация для  С++ также см https://habr.com/ru/post/491426/
 
 
 ## Общее
@@ -42,7 +44,7 @@
 
 ## Android 
 
-* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 20 USD / полгода за подписку. Тем более что там добавления есть - например отдельная книга по Android architecture compontents...
+* Вообще Busy Coder's читаем сначала по всем пунктам. Эта книга стоит своих 20 USD / полгода за подписку. Тем более что там добавления есть - например отдельная книга по Android architecture compontents... 
 * Полезные книги для начинающего и не очень Android-разработчика https://habrahabr.ru/post/346412/
 
 ### Общее
@@ -265,6 +267,8 @@
 * Интеграции... http://blog.circleci.com/flowdock-integration/
 * Gamification https://getbadges.io/integration/circle
 
+### Github Actions
+* Поднимаем CI на github для Android за день https://habr.com/ru/post/488134 (с firebase test lab)
 
 
 ### JIRA Clients
@@ -445,6 +449,8 @@
 * Эволюция планировщиков задач https://habr.com/ru/company/funcorp/blog/434680/ 
 * Генерация классов для новых экранов если у нас MVP/etc по шаблонам https://proandroiddev.com/how-i-automated-creating-files-for-a-new-screen-with-my-own-android-studio-plugin-5d54b14ba6fa
 * Как корректно делать edge-to-edge интерфейс https://habr.com/ru/company/surfstudio/blog/464373/ (в смысле с Window Insets работать)
+* как стили view менять https://medium.com/better-programming/dynamically-change-android-views-style-56b18e59b33b (по сути реклама библиотеки от airbnb)
+
 
 #### Custom views
 * Building Android UIs with Custom Views от Pack Publishing
@@ -614,6 +620,8 @@
 * Towards a micro-service mindset https://proandroiddev.com/moving-towards-a-micro-service-mindset-on-android-910de7e4f0c2
 * Navigation in Modular Applications with Deep Linking https://blog.usejournal.com/navigation-in-modular-applications-with-deep-linking-6a599c11e487
 * Instagram Lazy Module Loader https://github.com/Instagram/ig-lazy-module-loader
+* NTP - Kronos - вводная и iOS https://eng.lyft.com/freezing-time-6ebe8ffe3321
+* NTP - Kronos-Android от Lyft https://eng.lyft.com/kronos-android-easy-ntp-d44fd6ece9c5  
  
 ### Шины сообщений
 * тут ссылки на Greenrobot EventBus / Otto
@@ -754,12 +762,13 @@
 * Android boilerplate generator https://medium.com/atomic-robot/one-simple-trick-that-will-save-you-hours-when-developing-android-apps-6902c3aef226
 
 
-#### Stetho от Facebook
+#### Stetho/Flipper от Facebook
 * Stetho от Facebook http://facebook.github.io/stetho/
 * Stetho: A new debugging platform for Android https://code.facebook.com/posts/393927910787513/stetho-a-new-debugging-platform-for-android/
 * Debugging with Stetho https://guides.codepath.com/android/Debugging-with-Stetho
 * Debugging Android Using Facebook Stetho Library - как Picasso с ним подружить https://robusttechhouse.com/debugging-android-using-facebook-stetho-library/
 * Как Network Inspection из Stetho с Volley подружить http://ligol.github.io/blog/2015/05/05/discovering-and-using-stetho-with-some-network-library/
+* Improving App Debugging With Flipper http://michaelevans.org/blog/2020/03/10/improving-app-debugging-with-flipper/*
 
 
 ### Kotlin
@@ -915,6 +924,7 @@
 * Вся серия Шпаргалки Java-программиста https://habrahabr.ru/users/vedenin1980/posts/
 * Java Streams / Paralell Streams https://dzone.com/articles/whats-wrong-java-8-part-iii (это в тему Kotlin'а)
 * Arrays, Collections: Алгоритмический минимум https://habr.com/post/344288/
+* быстрые библиотеки сериализации в java https://habr.com/ru/company/sberbank/blog/488612/ и выбор - https://github.com/odnoklassniki/one-nio/wiki/Serialization-FAQ
 
 
 #### Lobmok - выкидка бойлерплейта (data class Kotlin -:))
@@ -1670,7 +1680,7 @@ https://www.objc.io/issues/11-android/
 * вообще по Postgres читаем например https://habrahabr.ru/users/rdruzyagin/topics/  
 * Работа с геолокациями в режиме highload https://habrahabr.ru/post/228023/
 * Аудит таблиц с пространственными объектами в PostGIS/PostgreSQL https://habrahabr.ru/post/137161/
-
+* Блог автора SQL Performance Explained https://use-the-index-luke.com/ 
   
 ## Web Dev  
 
@@ -1721,6 +1731,7 @@ https://www.objc.io/issues/11-android/
 * Google Cloud Vision API‎. Будущее Computer Vision as a service настало?  https://habrahabr.ru/post/312714/
 * отладка regexp'ов https://www.debuggex.com/
 * форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
+* Essential Books - https://www.programming-books.io/ можно сказать - нормальная версия той серии Erica Sadun но по всем -  пример - https://www.programming-books.io/essential/ios/rounded-corners-18ca9958b0774773950c667e370ccced  точнее https://www.programming-books.io/essential/ios/getting-started-with-ios-a5af1143929b47c99f11f0339ebc9527
 
 
 ### Git 
@@ -1732,6 +1743,7 @@ https://www.objc.io/issues/11-android/
 * Git: советы новичкам – часть 1 https://habrahabr.ru/company/playrix/blog/345732/
 * Git: советы новичкам – часть 2 https://habrahabr.ru/company/playrix/blog/348864/
 * Git: советы новичкам – часть 3 https://habrahabr.ru/company/playrix/blog/350492/
+* ПШЕ AndroidStudio или как использовать VCS Tools по полной https://habr.com/ru/post/499070/
 
 ### Xperia specific
 * Xperia Home Badge API https://developer.sony.com/2016/06/23/xperia-home-badge-api-now-publicly-available/ - 'номера' как на iOS  - в Xperia Home
@@ -1763,6 +1775,7 @@ https://www.objc.io/issues/11-android/
 ##### Firebase
 это такой BaaS от гугла - там много что - и креши и testlab и аналог parse (без cloud code) и аналог iCloud...
 * The Definitive Guide to Firebase: Build Android Apps on Google's Mobile Platform
+* Также см Saving Data on Android - там и Cloud FireStore и сравнения
 * https://habrahabr.ru/company/google/blog/305308/
 * https://habrahabr.ru/post/277941/
 * https://habrahabr.ru/company/google/blog/305308/ По следам Google I/O 2016 — новый Firebase: интеграция с Android

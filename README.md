@@ -13,6 +13,7 @@
 * Дизайн для пальцев, касаний и людей https://habrahabr.ru/company/nixsolutions/blog/333818/
 * Покойся с миром, REST. Долгих лет жизни GraphQL https://habrahabr.ru/post/334182/ - вообще про GraphQL (для Android) у Mark L. Murphy в Warescription есть книга новая
 * GraphQL — новый взгляд на API. Ч.1 https://habrahabr.ru/post/343872/
+* Backend-Driven UI с помощью виджетов https://habr.com/ru/company/surfstudio/blog/498664/ 
 
 ## Универсальные полезные библиотеки
 * MuPDF - PDF / EPUB / FB2 рендер. Portable. примеры Windows/iOS/Android. AGPL либо комерческая лицензия https://mupdf.com/
@@ -48,9 +49,7 @@
 * Полезные книги для начинающего и не очень Android-разработчика https://habrahabr.ru/post/346412/
 
 ### Общее
-* Патчим AndroidX https://habr.com/company/tinkoff/blog/418723/ - как при желании свою версию библиотек AndroidX собрать.
 * Feature Flags: https://featureflags.io/mobile-feature-flags/  + есть крутая https://launchdarkly.com/  -  весьма платная + простенькая https://github.com/s0h4m/toggle
-* AndroidX versions https://developer.android.com/jetpack/androidx/versions
 * https://github.com/vishna/watchservice-ktx Kotlin API wrapper for Java's WatchService powered with Channels and Coroutines. a.k.a. KWatchChannel
 * fix git leaks https://github.com/kootenpv/gittyleaks
 * Как грузить web content БЕЗ WebView https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started (ну правда для Chromium тоже есть встраиваемый жестко аналог)
@@ -101,9 +100,12 @@
 * Custom attributes using BindingAdapters in Kotlin https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259
 * RecyclerView на максималках: разбор библиотек https://habr.com/company/redmadrobot/blog/428525/ 
 * RecyclerView за одну секунду http://www.ernegonzal.com/1-sec-to-write-a-recyclerviewadapter/ - шаблон
+* RxJava meets Android Data Binding https://medium.com/tangoagency/rxjava-meets-android-data-binding-4ca5e1144107#.bbjnffvk5
+* RecyclerView 2020: a modern way of dealing with lists in Android using DataBinding — Part 1 https://medium.com/@fraggjkee/recyclerview-2020-a-modern-way-of-dealing-with-lists-in-android-using-databinding-d97abf5fb55f
+* RecyclerView 2020: a modern way of dealing with lists in Android using DataBinding — Part 2 https://medium.com/@fraggjkee/recyclerview-2020-a-modern-way-of-dealing-with-lists-in-android-using-databinding-part-2-df69f0a741f8
 
 
-### Android Architecture Components
+### Android Architecture Components / AndroidX
 * Android Architecture Components. Часть 1. Введение https://habrahabr.ru/post/332562/
 * Разбираемся с новыми архитектурными компонентами в Android https://habrahabr.ru/company/google/blog/330208/
 * Architecture Components: Lifecycle https://blog.stylingandroid.com/architecture-components-lifecycle/
@@ -111,6 +113,8 @@
 * Организация простой архитектуры в андроид-приложении со связкой ViewModel+LiveData, Retrofit+Coroutines https://habr.com/ru/post/475598/
 * Using Retrofit with LiveData https://medium.com/@pivincii/using-retrofit-with-livedata-5c5a49544ba3  пример сразу с обертками Retrofit'а - правда стиль вставки примеров н-да
 * Android Architecture Components в связке с Data Binding https://habrahabr.ru/company/touchinstinct/blog/330830/
+* Патчим AndroidX https://habr.com/company/tinkoff/blog/418723/ - как при желании свою версию библиотек AndroidX собрать.
+* AndroidX versions https://developer.android.com/jetpack/androidx/versions
 
 
 ### Annotations - начало
@@ -343,7 +347,6 @@
 * A reactive extension to generate URL previews. https://github.com/Schinizer/RxUnfurl
 * Несколько примеров практического использования RxJava https://habrahabr.ru/post/309154/
 * Converting callback async calls to RxJava https://medium.com/we-are-yammer/converting-callback-async-calls-to-rxjava-ebc68bde5831#.ius5ub5ns
-* RxJava meets Android Data Binding https://medium.com/tangoagency/rxjava-meets-android-data-binding-4ca5e1144107#.bbjnffvk5
 * Android animations powered by RxJava https://pspdfkit.com/blog/2016/android-animations-powered-by-rx-java/
 * Укрощаем асинхронные процессы в Android с RxJava. Опыт Яндекса https://habrahabr.ru/company/yandex/blog/311084/
 * также смотри в 'Кюветах' ниже 
@@ -457,6 +460,7 @@
 * Генерация классов для новых экранов если у нас MVP/etc по шаблонам https://proandroiddev.com/how-i-automated-creating-files-for-a-new-screen-with-my-own-android-studio-plugin-5d54b14ba6fa
 * Как корректно делать edge-to-edge интерфейс https://habr.com/ru/company/surfstudio/blog/464373/ (в смысле с Window Insets работать)
 * как стили view менять https://medium.com/better-programming/dynamically-change-android-views-style-56b18e59b33b (по сути реклама библиотеки от airbnb)
+* targetFragment & FragmentResultOwner https://medium.com/better-programming/a-new-way-to-pass-data-between-fragments-a5d32acc34e7
 
 
 #### Custom views
@@ -584,7 +588,7 @@
 * Разные редкие API Android вроде Text Services, Play Services Vision, TimingLogger https://blog.autsoft.hu/discovering-the-android-api-part-1/
 * Phone number verification без кучи permissions https://android-developers.googleblog.com/2017/10/effective-phone-number-verification.html
 * Android Search Functionality Using SearchView & Room http://www.zoftino.com/android-search-functionality-using-searchview-and-room
-* A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
+
 * Упрощение отладки БД в приложениях Android https://github.com/amitshekhariitbhu/Android-Debug-Database - по сути веб-интерфейс(!) для отладки
 * Советы по созданию современного Android-приложения. Лекция Яндекса https://habrahabr.ru/company/yandex/blog/344898/
 * Custom Fonts in Android Tutorial https://www.raywenderlich.com/175401/custom-downloadable-fonts-android  в смысле про официальную замену Calligraphy
@@ -767,6 +771,23 @@
 * Android Studio Plugins List (побольше но комментво меньше) https://github.com/balsikandar/Android-Studio-Plugins
 * Final Android Resizer https://github.com/asystat/Final-Android-Resizer - resizer картинок под разные разрешения нормальный (и не-квадратных тоже - Asset Gener)
 * Android boilerplate generator https://medium.com/atomic-robot/one-simple-trick-that-will-save-you-hours-when-developing-android-apps-6902c3aef226
+* 20 Android Dev Tools You’ve Probably Never Heard Of https://medium.com/better-programming/20-android-dev-tools-youve-probably-never-heard-of-c6cc08b4e543
+* Anbox in Docker https://github.com/aind-containers/aind#faq https://github.com/aind-containers/aind
+* Booster is a really interesting tool. It’s an easy-to-use, lightweight, powerful, and extensible quality optimisation toolkit designed especially for mobile applications. The primary goal is to solve quality problems with the increase of app complexity, such as performance, stability, and package size.
+* Scabbard is a tool to visualise and understand your Dagger 2 dependency graph. https://github.com/arunkumar9t2/scabbard
+* https://github.com/plnice/can-i-drop-jetifier
+* ADB Event Mirror lets you mirror the touch/key/button events of one device to one or more other devices in real time. https://github.com/JakeWharton/adb-event-mirror/
+* Android Emulator Container Scripts is a set of minimal scripts to run the emulator in a container for various systems, such as Docker, for external consumption. The scripts are compatible with both Python version 2 and 3. The repo is pretty popular, and it will be helpful if you want to run many emulators on remote machines. https://github.com/google/android-emulator-container-scripts
+* https://github.com/JustinAngel/Hijckr “Hijckr interfers with Android’s layout inflation and redirects named elements to other classes.”
+* https://github.com/MatrixDev/Roomigrant Roomigrant is a helper library to automatically generate Android Room library migrations using compile-time code generation. It uses scheme files generated by the Room library and generates migrations base on the difference between them. This means that Room schema generation must be enabled in build.gradle file, which is described well in README.
+* https://github.com/wajahatkarim3/RoomExplorer When we have migrated our database to Room, we can check this database in a viewer. RoomExplorer allows you to view all your table data in tabular format, insert rows to tables, update, delete rows, drop and delete tables, etc.
+* https://github.com/runningcode/gradle-doctor Gradle Doctor is a Gradle build scan plugin which contains configurable warnings for build speed problems, measures time spent in Dagger annotation processors, ensures JAVA_HOME is set and matches IDE's JAVA_HOME, easily disables test caching, fails build when empty src directories are found (because empty src directories cause cache misses), and much more.
+* GloballyDynamic is a “set of tools geared towards making Dynamic Delivery universally available, regardless of underlying App Store / distribution platform, while also providing a single unified Android client API and a streamlined developer experience.” https://github.com/jeppeman/GloballyDynamic
+* https://github.com/JakeWharton/wormhole Wormhole is “a time-traveling bytecode rewriter which adds future APIs to android.jar which can be desugared to all API levels by D8 and R8.”
+
+
+
+
 
 
 #### Stetho/Flipper от Facebook
@@ -855,6 +876,7 @@
 * Set of extensions for Kotlin that provides Discrete math functionalities https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit
 * Kotlin Coroutines patterns & anti-patterns https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e 
 * Reaktive — мультиплатформенная библиотека для реактивного Kotlin https://habr.com/ru/company/badoo/blog/447424/ - то чем ДОЛЖЕН был быть RxKotlin
+* https://habr.com/ru/company/funcorp/blog/500980/ подход rx-везде
 
 ## Dagger 2
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
@@ -1748,6 +1770,7 @@ https://www.objc.io/issues/11-android/
 * отладка regexp'ов https://www.debuggex.com/
 * форматированный режим записи regexp'ов https://habrahabr.ru/company/infopulse/blog/227529/#comment_7719389
 * Essential Books - https://www.programming-books.io/ можно сказать - нормальная версия той серии Erica Sadun но по всем -  пример - https://www.programming-books.io/essential/ios/rounded-corners-18ca9958b0774773950c667e370ccced  точнее https://www.programming-books.io/essential/ios/getting-started-with-ios-a5af1143929b47c99f11f0339ebc9527
+* авторизация более менее универсальная https://www.keycloak.org/ +  https://github.com/playa-ru/keycloak-russian-providers (ссылка с https://habr.com/ru/company/ruvds/blog/507404/ )
 
 
 ### Git 

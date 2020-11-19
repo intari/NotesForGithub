@@ -318,6 +318,7 @@
 * Howdy RxJava. https://medium.com/fuzz/howdy-rxjava-8f40fef88181#.q1uxtz8gd
 * также см про rxSwift/ReactiveCocoa про iOS
 * лекции от e-Legion по rx и в комментах описания и ссылки на ролики как и зачем вообще придумали rx https://habrahabr.ru/company/e-Legion/blog/272459/
+* Codepath RxJava https://guides.codepath.com/android/RxJava очередной обзор
 * Notes on Reactive Programming Part I: The Reactive Landscape https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape
 * Notes on Reactive Programming Part II: Writing Some Code https://spring.io/blog/2016/06/13/notes-on-reactive-programming-part-ii-writing-some-code
 * Реактивный двигатель для вашего Android-приложения https://www.youtube.com/watch?v=Eatfi4am0HU&feature=youtu.be&ab_channel=Mobius
@@ -928,6 +929,9 @@
 * Корутины в Kotlin https://habr.com/ru/company/alfa/blog/336228/ правда старая
 * Работа с сетью в Android с использованием корутин и Retrofit https://habr.com/ru/post/428994/
 * Improving app network architecture with retrofit and kotlin coroutine call adapter https://codinginfinite.com/kotlin-coroutine-call-adapter-retrofit/   (с логикой обработки ошибок, LiveData, ViewModel)
+
+#### Kotlin flow
+* https://developer.android.com/kotlin/flow для начала
 
 ####  Arrow
 * Как писать полиморфические программы c помощью Arrow https://habr.com/ru/post/447234/

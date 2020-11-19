@@ -138,6 +138,11 @@
 * How Butterknife actually works http://lgvalle.xyz/2015/05/04/butterknife/
 * Knork: простейшая альтернатива ButterKnife в 160 строк кода http://habrahabr.ru/post/230857/
 
+### Jetpack Compose
+* https://jetpackcompose.app/faq
+* https://speakerdeck.com/vinaygaba/360-andev-2020-learning-jetpack-compose-by-example
+
+
 ### Other debugging tools
 * LeakCanary: Detect all memory leaks! https://corner.squareup.com/2015/05/leak-canary.html  https://github.com/square/leakcanary
 * TinyDancer - FPS measurement library https://github.com/brianPlummer/TinyDancer

@@ -865,6 +865,12 @@
 * Kodein — интересная альтернатива Dagger 2 для внедрения зависимостей в Kotlin https://habrahabr.ru/company/sberbank/blog/347208/
 * From Dagger2 to Kodein: A small experiment https://medium.com/@AllanHasegawa/from-dagger2-to-kodein-a-small-experiment-9800f8959eb4
 
+## Hilt (дополнение-замена Dagger 2, вообще - часть jetpack)
+* Dependency Injection on Android with Hilt - Jetpack’s recommended library for DI  https://medium.com/androiddevelopers/dependency-injection-on-android-with-hilt-67b6031e62d
+* Exploring Dagger-Hilt and what’s main differences from Dagger-Android https://proandroiddev.com/exploring-dagger-hilt-and-whats-main-differences-with-dagger-android-c8c54cd92f18
+* Hilt еще один DI? https://habr.com/ru/post/514786/
+
+
 ### Kotlin Links collections
 * https://kotlin.link/
 * https://github.com/KotlinBy/awesome-kotlin (+ https://github.com/MarcinMoskala/awesome-kotlin )

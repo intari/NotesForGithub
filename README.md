@@ -856,6 +856,9 @@
 * Kotlin Coroutines patterns & anti-patterns https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e 
 * Reaktive — мультиплатформенная библиотека для реактивного Kotlin https://habr.com/ru/company/badoo/blog/447424/ - то чем ДОЛЖЕН был быть RxKotlin
 
+## Dagger 2
+* A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
+* Dagger navigation support in Android Studio https://medium.com/androiddevelopers/dagger-navigation-support-in-android-studio-49aa5d149ec9 
 
 ### Kodein (замена Dagger 2)
 * Официальная документация https://salomonbrys.github.io/Kodein/ 

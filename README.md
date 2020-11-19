@@ -73,6 +73,7 @@
 
 
 #### Data-binding & RecyclerView/ListView 
+* Using data binding in Android - Tutorial https://www.vogella.com/tutorials/AndroidDatabinding/article.html 
 * https://github.com/evant/binding-collection-adapter 
 * https://github.com/radzio/android-data-binding-recyclerview
 * Android Data Binding in RecyclerView http://habrahabr.ru/company/dataart/blog/267735/

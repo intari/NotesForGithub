@@ -54,6 +54,7 @@
 * https://github.com/vishna/watchservice-ktx Kotlin API wrapper for Java's WatchService powered with Channels and Coroutines. a.k.a. KWatchChannel
 * fix git leaks https://github.com/kootenpv/gittyleaks
 * Как грузить web content БЕЗ WebView https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started (ну правда для Chromium тоже есть встраиваемый жестко аналог)
+* Turn Google Spreadsheet to JSON endpoint. [For Android and JVM]. https://github.com/theapache64/retrosheet
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html

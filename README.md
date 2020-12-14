@@ -42,6 +42,10 @@
 * Pusblish android library using jitpack https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0#.76v0ny234
 * Publishing Java / android / kotlin libraries on Jitpack https://medium.com/@erluxman/publishing-java-android-kotlin-libraries-on-jitpack-b33d0d26dc8a
 * Developing Android Studio plugins with Gradle https://medium.com/groupon-eng/developing-android-studio-plugins-with-gradle-7597d8825d76
+* Gradle Doctor - оптимизацииhttps://runningcode.github.io/gradle-doctor/
+* распределение сборки - https://www.reddit.com/r/androiddev/comments/jscz0m/how_to_run_android_studio_on_any_device_with/ + https://github.com/Adambl4/mirakle ну и   https://github.com/buildfoundation/mainframer
+* https://proandroiddev.com/git-repos-as-gradle-dependencies-6c5dee58ba0b
+
 
 ## Android 
 
@@ -54,6 +58,7 @@
 * fix git leaks https://github.com/kootenpv/gittyleaks
 * Как грузить web content БЕЗ WebView https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started (ну правда для Chromium тоже есть встраиваемый жестко аналог)
 * Turn Google Spreadsheet to JSON endpoint. [For Android and JVM]. https://github.com/theapache64/retrosheet
+* Paris - Paris lets you define and apply styles programmatically to Android views, including custom attributes. https://github.com/airbnb/paris
 
 ### Data binding
 * Official Guide https://developer.android.com/tools/data-binding/guide.html
@@ -134,6 +139,7 @@
 * SDK Manager plugin - autodownload SDK components https://github.com/JakeWharton/sdk-manager-plugin
 * Telecine - screen recording for Android https://github.com/JakeWharton/Telecine + https://play.google.com/store/apps/details?id=com.jakewharton.telecine
 * Scalpel - A surgical debugging tool to uncover the layers under your app. https://github.com/JakeWharton/scalpel  - mini-Reveal for Android?
+### Remote Logging with Timber + Firebase Realtime database https://proandroiddev.com/remote-logging-with-timber-and-firebase-realtime-database-a9dfbe66284c
 
 
 #### Butterknife
@@ -298,6 +304,8 @@
 * А если Android 6.0 не волнует а вот Accessibility Service - волнует https://stackoverflow.com/questions/33918528/android-5-0-getrunningtasks-is-deprecated 
 
 
+### разные сторы
+* доставка Feature Modules через Huawei/Amazon,etc https://github.com/jeppeman/GloballyDynamic
 
 ### Android bootstrapers
 #### Android Bootstrap
@@ -878,6 +886,9 @@
 * Kotlin Coroutines patterns & anti-patterns https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e 
 * Reaktive — мультиплатформенная библиотека для реактивного Kotlin https://habr.com/ru/company/badoo/blog/447424/ - то чем ДОЛЖЕН был быть RxKotlin
 * https://habr.com/ru/company/funcorp/blog/500980/ подход rx-везде
+* Kotlin DSL for runtime permissions https://android.jlelse.eu/kotlin-dsl-for-runtime-permissions-ba04dbe0de2c
+* RxJava to Coroutines: end-to-end feature migration
+https://proandroiddev.com/rxjava-coroutines-fbb8931897c8
 
 ## Dagger 2
 * A Dagger-powered Plugin System https://medium.com/@sweers/catching-up-on-catchup-a-dagger-powered-plugin-system-d238a99f819e
